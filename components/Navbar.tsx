@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-              SIPER LOGISTICS
+              SPIDER LOGISTICS
             </div>
           </Link>
 

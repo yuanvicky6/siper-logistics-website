@@ -203,7 +203,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-              Why Choose Siper Logistics?
+              Why Choose Spider Logistics?
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               We go beyond shipping to provide complete logistics solutions

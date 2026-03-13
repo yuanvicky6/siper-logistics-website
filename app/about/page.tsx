@@ -227,7 +227,7 @@ export default function AboutPage() {
             Ready to Work With Us?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join thousands of satisfied clients who trust Siper Logistics for their shipping needs
+            Join thousands of satisfied clients who trust Spider Logistics for their shipping needs
           </p>
           <a href="/contact">
             <button className="bg-white text-blue-900 px-10 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
