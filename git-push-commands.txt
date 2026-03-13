@@ -1,0 +1,130 @@
+# Git 推送命令列表
+
+请按照以下步骤，在 Git Bash 中逐行执行命令：
+
+---
+
+## 步骤 1: 进入项目目录
+```bash
+cd /c/Users/HUAWEI/WorkBuddy/20260313155948
+```
+
+---
+
+## 步骤 2: 配置 Git 用户信息
+```bash
+git config --global user.name "yuanvicky6"
+git config --global user.email "yuanvicky6@gmail.com"
+```
+
+---
+
+## 步骤 3: 初始化 Git 仓库
+```bash
+git init
+```
+
+---
+
+## 步骤 4: 添加所有文件
+```bash
+git add .
+```
+
+---
+
+## 步骤 5: 提交代码
+```bash
+git commit -m "Initial commit: Shenzhen Spider Logistics website"
+```
+
+---
+
+## 步骤 6: 连接到 GitHub 仓库
+```bash
+git remote add origin https://github.com/yuanvicky6/siper-logistics-website.git
+```
+
+---
+
+## 步骤 7: 设置主分支并推送
+```bash
+git branch -M main
+git push -u origin main
+```
+
+---
+
+## ⚠️ 重要提示
+
+如果 git push 时提示需要身份验证：
+
+### 方法 A: 使用 Personal Access Token（推荐）
+
+1. 访问 https://github.com/settings/tokens
+2. 点击 "Generate new token (classic)"
+3. 填写 Token description: "Git Push"
+4. 勾选 `repo` 权限
+5. 点击 "Generate token"
+6. 复制生成的 token（只显示一次，请妥善保存）
+7. 推送时：
+   - Username: 输入您的 GitHub 用户名
+   - Password: 粘贴 token（不是您的 GitHub 密码）
+
+### 方法 B: 使用 GitHub 凭据管理器
+
+1. 安装 Git Credential Manager
+2. 推送时会弹出浏览器登录窗口
+3. 在浏览器中登录 GitHub
+4. 授权后自动完成推送
+
+---
+
+## 执行方法
+
+1. 按 `Win + R` 键
+2. 输入 `git bash` 并回车
+3. 在 Git Bash 窗口中，逐行复制粘贴上面的命令
+4. 每次执行完一个命令后，按回车键继续下一个命令
+
+---
+
+## 预期输出
+
+### git init 成功后：
+```
+Initialized empty Git repository in C:/Users/HUAWEI/WorkBuddy/20260313155948/.git/
+```
+
+### git add . 成功后：
+没有输出，这是正常的
+
+### git commit 成功后：
+```
+[main (root-commit) xxxxxxx] Initial commit: Shenzhen Spider Logistics website
+ XXX files changed, XXX insertions(+)
+```
+
+### git push 成功后：
+```
+Enumerating objects: XXX, done.
+Counting objects: 100% (XXX/XXX), done.
+...
+To https://github.com/yuanvicky6/siper-logistics-website.git
+ * [new branch]      main -> main
+```
+
+---
+
+## 验证推送成功
+
+推送成功后，访问以下地址查看代码：
+https://github.com/yuanvicky6/siper-logistics-website
+
+如果能看到项目文件，说明推送成功！
+
+---
+
+## 下一步
+
+推送成功后，按照 QUICK_DEPLOY_GUIDE.md 继续部署到 Vercel。

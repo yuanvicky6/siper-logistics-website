@@ -1,0 +1,182 @@
+===========================================================
+     手动推送代码到 GitHub - 详细指南
+===========================================================
+
+由于 Git Bash 无法打开，请使用以下方法之一：
+
+------------------------------------------------------------
+方法 1: 使用桌面快捷方式（最简单）
+------------------------------------------------------------
+
+✅ 我已经在您的桌面创建了 "推送到GitHub.bat" 文件
+
+步骤：
+1. 最小化所有窗口，查看桌面
+2. 找到 "推送到GitHub.bat" 文件
+3. 双击运行它
+4. 按照屏幕提示操作
+
+------------------------------------------------------------
+方法 2: 使用命令提示符（CMD）
+------------------------------------------------------------
+
+步骤：
+
+1. 按 Win + R 键
+2. 输入 "cmd" 并回车
+
+3. 在黑色命令提示符窗口中，逐行复制粘贴以下命令：
+
+命令 1（进入目录）:
+    cd /d C:\Users\HUAWEI\WorkBuddy\20260313155948
+
+命令 2（检查状态）:
+    "C:\Program Files\Git\bin\git.exe" status
+
+命令 3（推送代码）:
+    "C:\Program Files\Git\bin\git.exe" push -u origin main
+
+4. 按回车执行推送命令
+
+5. 如果提示身份验证：
+   Username: yuanvicky6
+   Password: 粘贴 Personal Access Token
+
+------------------------------------------------------------
+方法 3: 使用 PowerShell
+------------------------------------------------------------
+
+步骤：
+
+1. 按 Win + R 键
+2. 输入 "powershell" 并回车
+
+3. 在蓝色窗口中，执行以下命令：
+
+命令 1:
+    cd C:\Users\HUAWEI\WorkBuddy\20260313155948
+
+命令 2:
+    & "C:\Program Files\Git\bin\git.exe" push -u origin main
+
+4. 按回车执行推送
+
+5. 如果提示身份验证：
+   Username: yuanvicky6
+   Password: 粘贴 Personal Access Token
+
+------------------------------------------------------------
+如何获取 Personal Access Token（必须）
+------------------------------------------------------------
+
+重要：GitHub 现在使用 Token 而不是密码进行身份验证
+
+步骤：
+
+1. 打开浏览器，访问: https://github.com/login
+   登录您的账号（yuanvicky6@gmail.com）
+
+2. 访问: https://github.com/settings/tokens
+
+3. 点击 "Generate new token (classic)" 按钮
+
+4. 填写信息：
+   - Note: Git Push（或任何描述）
+   - Expiration: No expiration（永不过期）
+   - Select scopes: 勾选 repo ✅
+
+5. 点击 "Generate token" 按钮
+
+6. ⚠️ 立即复制生成的 token
+   （只显示一次，关闭后无法再次查看）
+
+7. Token 格式类似: ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+8. 使用此 token 作为密码
+
+------------------------------------------------------------
+推送时注意事项
+-----------------------------------------------------------
+
+当执行 git push 命令后：
+
+1. 提示 "Username for 'https://github.com'":
+   输入: yuanvicky6
+
+2. 提示 "Password for 'https://yuanvicky6@github.com'":
+   粘贴: 您的 Personal Access Token
+
+   ⚠️ 注意：
+   - 输入密码时不会显示任何字符
+   - 直接粘贴 token 后按回车
+   - 不要使用您的 GitHub 密码
+
+------------------------------------------------------------
+验证推送成功
+-----------------------------------------------------------
+
+推送成功后，您应该看到类似的输出：
+
+    Enumerating objects: XXX, done.
+    Counting objects: 100% (XXX/XXX), done.
+    Delta compression using up to X threads
+    Compressing objects: 100% (XX/XX), done.
+    Writing objects: 100% (XX/XX), XX MiB | X MiB/s, done.
+    Total XX (delta X), reused 0 (delta 0)
+    To https://github.com/yuanvicky6/siper-logistics-website.git
+     * [new branch]      main -> main
+
+然后访问以下地址验证：
+    https://github.com/yuanvicky6/siper-logistics-website
+
+您应该能看到所有项目文件！
+
+-----------------------------------------------------------
+如果推送失败
+-----------------------------------------------------------
+
+常见错误和解决方法：
+
+错误 1: "remote: Repository not found"
+解决: 确保已经在 GitHub 创建了仓库 siper-logistics-website
+
+错误 2: "Authentication failed"
+解决: 使用 Personal Access Token 而不是密码
+
+错误 3: "Connection refused"
+解决: 检查网络连接，或使用代理
+
+错误 4: "error: failed to push some refs"
+解决: 先执行 git pull，然后再推送
+
+-----------------------------------------------------------
+推送成功后的下一步
+-----------------------------------------------------------
+
+推送成功后，继续以下步骤：
+
+1. 部署到 Vercel
+   - 访问: https://vercel.com
+   - 使用 GitHub 登录
+   - 导入项目并部署
+
+2. 绑定域名
+   - 在 Vercel 添加域名: siperlogisticsinc.cn
+   - 配置 DNS 记录
+
+3. Google 收录
+   - 提交到 Google Search Console
+
+详细步骤请查看 QUICK_DEPLOY_GUIDE.md
+
+-----------------------------------------------------------
+需要帮助？
+-----------------------------------------------------------
+
+如果遇到问题：
+1. 查看错误消息
+2. 检查网络连接
+3. 确认 GitHub 仓库已创建
+4. 确认使用的是 Token 而不是密码
+
+===========================================================
