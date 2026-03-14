@@ -61,15 +61,32 @@ function PostEditor() {
       alert('Please select an image file (JPG, PNG, GIF, WebP)')
       return
     }
-    if (file.size > 2 * 1024 * 1024) {
-      alert('Image size must be under 2MB. Please compress the image first.')
+    if (file.size > 5 * 1024 * 1024) {
+      alert('Image size must be under 5MB.')
       return
     }
     setImageUploading(true)
     const reader = new FileReader()
     reader.onload = (ev) => {
-      setForm(prev => ({ ...prev, coverImage: ev.target?.result as string }))
-      setImageUploading(false)
+      const img = new window.Image()
+      img.onload = () => {
+        // 压缩：最大宽度 900px，质量 0.75
+        const MAX = 900
+        let { width, height } = img
+        if (width > MAX) {
+          height = Math.round((height * MAX) / width)
+          width = MAX
+        }
+        const canvas = document.createElement('canvas')
+        canvas.width = width
+        canvas.height = height
+        const ctx = canvas.getContext('2d')!
+        ctx.drawImage(img, 0, 0, width, height)
+        const compressed = canvas.toDataURL('image/jpeg', 0.75)
+        setForm(prev => ({ ...prev, coverImage: compressed }))
+        setImageUploading(false)
+      }
+      img.src = ev.target?.result as string
     }
     reader.readAsDataURL(file)
   }
@@ -83,36 +100,43 @@ function PostEditor() {
   }
 
   const handleSave = () => {
-    if (!form.title || !form.slug || !form.content) return
+    if (!form.title || !form.slug || !form.content) {
+      alert('Please fill in Title, Slug, and Content before saving.')
+      return
+    }
     setSaving(true)
 
-    const stored = localStorage.getItem('admin_posts')
-    const customPosts: BlogPost[] = stored ? JSON.parse(stored) : []
+    try {
+      const stored = localStorage.getItem('admin_posts')
+      const customPosts: BlogPost[] = stored ? JSON.parse(stored) : []
 
-    const newPost: BlogPost = {
-      ...form,
-    }
+      const newPost: BlogPost = { ...form }
 
-    let updated: BlogPost[]
-    if (isEdit) {
-      updated = customPosts.map(p => p.slug === editSlug ? newPost : p)
-      // 如果是内置文章，加入 custom list
-      if (!customPosts.find(p => p.slug === editSlug)) {
+      let updated: BlogPost[]
+      if (isEdit) {
+        updated = customPosts.map(p => p.slug === editSlug ? newPost : p)
+        if (!customPosts.find(p => p.slug === editSlug)) {
+          updated = [newPost, ...customPosts]
+        }
+      } else {
         updated = [newPost, ...customPosts]
       }
-    } else {
-      updated = [newPost, ...customPosts]
-    }
 
-    localStorage.setItem('admin_posts', JSON.stringify(updated))
+      localStorage.setItem('admin_posts', JSON.stringify(updated))
 
-    setTimeout(() => {
-      setSaving(false)
-      setSaved(true)
       setTimeout(() => {
-        router.push('/admin/dashboard')
-      }, 800)
-    }, 600)
+        setSaving(false)
+        setSaved(true)
+        setTimeout(() => {
+          router.push('/admin/dashboard')
+        }, 800)
+      }, 600)
+    } catch (err) {
+      setSaving(false)
+      console.error('Save failed:', err)
+      // 可能是 localStorage 存满了（图片太大）
+      alert('Save failed: storage is full. Try removing the cover image or using a smaller image (under 500KB).')
+    }
   }
 
   return (
@@ -162,7 +186,7 @@ function PostEditor() {
             <div className="bg-white rounded-2xl shadow-sm p-6">
               <div className="flex items-center justify-between mb-3">
                 <label className="block text-sm font-semibold text-gray-700">Cover Image</label>
-                <span className="text-xs text-gray-400">JPG / PNG / WebP · Max 2MB</span>
+                <span className="text-xs text-gray-400">JPG / PNG / WebP · Max 5MB (auto-compressed)</span>
               </div>
 
               {/* Preview */}
