@@ -58,35 +58,19 @@ function PostEditor() {
     const file = e.target.files?.[0]
     if (!file) return
     if (!file.type.startsWith('image/')) {
-      alert('Please select an image file (JPG, PNG, GIF, WebP)')
-      return
-    }
-    if (file.size > 5 * 1024 * 1024) {
-      alert('Image size must be under 5MB.')
+      alert('Please select an image file (JPG, PNG, WebP)')
       return
     }
     setImageUploading(true)
     const reader = new FileReader()
     reader.onload = (ev) => {
-      const img = new window.Image()
-      img.onload = () => {
-        // 压缩：最大宽度 900px，质量 0.75
-        const MAX = 900
-        let { width, height } = img
-        if (width > MAX) {
-          height = Math.round((height * MAX) / width)
-          width = MAX
-        }
-        const canvas = document.createElement('canvas')
-        canvas.width = width
-        canvas.height = height
-        const ctx = canvas.getContext('2d')!
-        ctx.drawImage(img, 0, 0, width, height)
-        const compressed = canvas.toDataURL('image/jpeg', 0.75)
-        setForm(prev => ({ ...prev, coverImage: compressed }))
-        setImageUploading(false)
-      }
-      img.src = ev.target?.result as string
+      const result = ev.target?.result as string
+      setForm(prev => ({ ...prev, coverImage: result }))
+      setImageUploading(false)
+    }
+    reader.onerror = () => {
+      alert('Failed to read image file. Please try again.')
+      setImageUploading(false)
     }
     reader.readAsDataURL(file)
   }
