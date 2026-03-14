@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { BLOG_POSTS, BlogPost } from '@/config/blog-posts'
@@ -13,6 +13,7 @@ function PostEditor() {
   const searchParams = useSearchParams()
   const editSlug = searchParams.get('slug')
   const isEdit = !!editSlug
+  const fileInputRef = useRef<HTMLInputElement>(null)
 
   const [form, setForm] = useState({
     title: '',
@@ -22,9 +23,11 @@ function PostEditor() {
     category: 'Shipping Guide',
     readTime: '5 min read',
     date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
+    coverImage: '',
   })
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
+  const [imageUploading, setImageUploading] = useState(false)
 
   useEffect(() => {
     if (localStorage.getItem('admin_logged_in') !== 'true') {
@@ -45,10 +48,31 @@ function PostEditor() {
           category: found.category,
           readTime: found.readTime,
           date: found.date,
+          coverImage: found.coverImage || '',
         })
       }
     }
   }, [isEdit, editSlug, router])
+
+  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (!file) return
+    if (!file.type.startsWith('image/')) {
+      alert('Please select an image file (JPG, PNG, GIF, WebP)')
+      return
+    }
+    if (file.size > 2 * 1024 * 1024) {
+      alert('Image size must be under 2MB. Please compress the image first.')
+      return
+    }
+    setImageUploading(true)
+    const reader = new FileReader()
+    reader.onload = (ev) => {
+      setForm(prev => ({ ...prev, coverImage: ev.target?.result as string }))
+      setImageUploading(false)
+    }
+    reader.readAsDataURL(file)
+  }
 
   const handleTitleChange = (title: string) => {
     setForm(prev => ({
@@ -67,7 +91,6 @@ function PostEditor() {
 
     const newPost: BlogPost = {
       ...form,
-      coverImage: '',
     }
 
     let updated: BlogPost[]
@@ -135,6 +158,69 @@ function PostEditor() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Editor */}
           <div className="lg:col-span-2 space-y-6">
+          {/* Cover Image */}
+            <div className="bg-white rounded-2xl shadow-sm p-6">
+              <div className="flex items-center justify-between mb-3">
+                <label className="block text-sm font-semibold text-gray-700">Cover Image</label>
+                <span className="text-xs text-gray-400">JPG / PNG / WebP · Max 2MB</span>
+              </div>
+
+              {/* Preview */}
+              {form.coverImage ? (
+                <div className="relative rounded-xl overflow-hidden mb-3 bg-gray-100" style={{ height: '180px' }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={form.coverImage}
+                    alt="Cover preview"
+                    className="w-full h-full object-cover"
+                  />
+                  <button
+                    onClick={() => setForm(prev => ({ ...prev, coverImage: '' }))}
+                    className="absolute top-2 right-2 bg-black bg-opacity-50 hover:bg-opacity-75 text-white rounded-full w-7 h-7 flex items-center justify-center transition-colors"
+                    title="Remove image"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              ) : (
+                <div
+                  onClick={() => fileInputRef.current?.click()}
+                  className="border-2 border-dashed border-gray-200 rounded-xl h-40 flex flex-col items-center justify-center cursor-pointer hover:border-blue-400 hover:bg-blue-50 transition-colors mb-3 group"
+                >
+                  {imageUploading ? (
+                    <div className="text-gray-400 text-sm">Uploading...</div>
+                  ) : (
+                    <>
+                      <svg className="w-10 h-10 text-gray-300 group-hover:text-blue-400 mb-2 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                      <span className="text-sm text-gray-400 group-hover:text-blue-500">Click to upload cover image</span>
+                      <span className="text-xs text-gray-300 mt-1">Recommended: 1200 × 630 px</span>
+                    </>
+                  )}
+                </div>
+              )}
+
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/*"
+                onChange={handleImageUpload}
+                className="hidden"
+              />
+
+              {!form.coverImage && (
+                <button
+                  onClick={() => fileInputRef.current?.click()}
+                  className="w-full border border-gray-200 text-gray-600 hover:bg-gray-50 rounded-xl py-2 text-sm font-medium transition-colors"
+                >
+                  Choose File
+                </button>
+              )}
+            </div>
+
             {/* Title */}
             <div className="bg-white rounded-2xl shadow-sm p-6">
               <label className="block text-sm font-semibold text-gray-700 mb-2">Article Title *</label>

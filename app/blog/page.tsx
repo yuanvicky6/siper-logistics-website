@@ -52,12 +52,17 @@ export default function BlogPage() {
         <div className="mb-16">
           <h2 className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-6">Featured Article</h2>
           <Link href={`/blog/${featured.slug}`} className="group block">
-            <div className="bg-gradient-to-br from-blue-50 to-white border border-blue-100 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-              <div className="bg-gradient-to-r from-blue-800 to-blue-600 h-48 flex items-center justify-center">
-                <svg className="w-20 h-20 text-blue-200 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                </svg>
-              </div>
+              <div className="bg-gradient-to-br from-blue-50 to-white border border-blue-100 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+              {featured.coverImage ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={featured.coverImage} alt={featured.title} className="w-full h-48 object-cover" />
+                ) : (
+                  <div className="bg-gradient-to-r from-blue-800 to-blue-600 h-48 flex items-center justify-center">
+                    <svg className="w-20 h-20 text-blue-200 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                    </svg>
+                  </div>
+                )}
               <div className="p-8">
                 <div className="flex items-center gap-3 mb-4">
                   <span className={`text-xs font-semibold px-3 py-1 rounded-full ${categoryColors[featured.category] ?? 'bg-gray-100 text-gray-600'}`}>
@@ -91,11 +96,16 @@ export default function BlogPage() {
               {rest.map((post) => (
                 <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">
                   <div className="bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
-                    <div className="bg-gradient-to-r from-blue-700 to-blue-500 h-36 flex items-center justify-center flex-shrink-0">
-                      <svg className="w-14 h-14 text-blue-200 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                      </svg>
-                    </div>
+                    {post.coverImage ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={post.coverImage} alt={post.title} className="w-full h-36 object-cover flex-shrink-0" />
+                    ) : (
+                      <div className="bg-gradient-to-r from-blue-700 to-blue-500 h-36 flex items-center justify-center flex-shrink-0">
+                        <svg className="w-14 h-14 text-blue-200 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                      </div>
+                    )}
                     <div className="p-6 flex flex-col flex-1">
                       <div className="flex items-center gap-3 mb-3">
                         <span className={`text-xs font-semibold px-3 py-1 rounded-full ${categoryColors[post.category] ?? 'bg-gray-100 text-gray-600'}`}>

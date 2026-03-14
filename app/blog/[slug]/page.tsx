@@ -131,6 +131,15 @@ export default function BlogPostPage() {
 
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+
+        {/* Cover Image */}
+        {post.coverImage && (
+          <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={post.coverImage} alt={post.title} className="w-full object-cover max-h-96" />
+          </div>
+        )}
+
         <div className="prose prose-lg max-w-none">
           {renderContent(post.content)}
         </div>
