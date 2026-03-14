@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Spider Logistics', url: 'https://spiderlogisticsinc.cn' }],
   creator: 'Spider Logistics',
   publisher: 'Shenzhen Spider Logistics Technology Co., Ltd.',
+  verification: {
+    google: 'ynuzyxKkJqazVuqSvSggaX83QDevIFjpw2YSqlw6m3E',
+  },
   robots: {
     index: true,
     follow: true,
