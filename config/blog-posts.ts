@@ -11,6 +11,88 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'dhl-ups-fedex-fuel-surcharge-increase-2026',
+    title: 'DHL, UPS & FedEx Fuel Surcharge Increase — March 2026 Update',
+    excerpt: 'All three major carriers have raised fuel surcharges significantly in March 2026, with UPS and FedEx reaching 33.25% for the week of March 7–14. Here\'s what shippers need to know and how to manage the impact.',
+    date: 'March 14, 2026',
+    category: 'Industry Insights',
+    readTime: '5 min read',
+    coverImage: '',
+    content: `
+International shippers are facing higher costs in March 2026 as DHL, UPS, and FedEx have all raised their fuel surcharges — in some cases hitting multi-year highs. Here is a complete breakdown and what you should do about it.
+
+## Why Are Fuel Surcharges Rising?
+
+Fuel surcharges are not fixed fees — they float up and down based on published fuel price indices. UPS and FedEx update their rates every week based on the U.S. Gulf Coast (USGC) jet fuel and diesel prices. DHL updates monthly.
+
+In early 2026, two factors have driven surcharges sharply higher:
+
+**1. Geopolitical disruption in the Middle East**
+The ongoing conflict in Iran has caused widespread closure of Middle Eastern airspace. Airlines and cargo carriers are being forced to reroute flights over longer distances, burning significantly more fuel per shipment.
+
+**2. Structural surcharge table changes**
+UPS revised its fuel surcharge calculation table in March 2026. Even at the same raw fuel price, the new table produces higher surcharge percentages — meaning shippers pay more regardless of whether the pump price actually went up.
+
+## Current Fuel Surcharge Rates (March 2026)
+
+Here is a snapshot of the latest published rates:
+
+| Carrier | Service Type | Rate (week of Mar 7–14) |
+|---|---|---|
+| FedEx | International Export | 33.25% |
+| UPS | International Export | 33.25% |
+| DHL | International (monthly) | 30.50% |
+| FedEx | Ground (domestic) | ~25% |
+| UPS | Ground (domestic) | ~25.5% |
+
+For context, the international air export surcharges for UPS and FedEx climbed from around 26% in the first week of March to 33.25% by the second week — a jump of over 7 percentage points in a single week.
+
+## Additional Middle East Surcharges
+
+On top of the standard fuel surcharge, both carriers have introduced temporary regional surcharges for shipments involving the Middle East:
+
+- **UPS**: A peak surcharge of **$0.64 per lb** on select express services between the USA and 15 Middle Eastern countries, effective March 2026.
+- **FedEx**: A demand surcharge of **$0.50 per lb (export)** and **$0.70 per lb (import)** for shipments between the USA and dozens of countries across the Middle East, South Asia, and Africa. Surcharges for Israel have been raised further to **$1.50 per lb**.
+
+These charges are applied on top of the standard fuel surcharge and are subject to change based on the evolving situation.
+
+## How Fuel Surcharges Are Calculated
+
+Understanding how these fees work can help you estimate your costs more accurately.
+
+Fuel surcharges are typically applied as a **percentage of the base transportation rate**. For example:
+
+- Base freight charge: $100
+- Fuel surcharge at 33%: $33
+- Total freight cost: $133
+
+On high-volume or heavyweight shipments, this adds up quickly. A shipment with a $500 base rate now carries an additional $165 in fuel surcharge alone.
+
+## What Shippers Should Do
+
+**1. Audit your shipping invoices immediately**
+Fuel surcharges are often buried in the fees section. Review your recent invoices to understand what percentage you are actually paying and compare against published tables.
+
+**2. Consolidate shipments**
+Every shipment is subject to the fuel surcharge. Consolidating multiple smaller orders into fewer, larger shipments reduces the number of times the surcharge is applied.
+
+**3. Consider sea freight for non-urgent cargo**
+Ocean freight fuel surcharges (BAF — Bunker Adjustment Factor) are generally much lower than air express surcharges. If your goods are not time-sensitive, sea freight can save 60–80% on freight costs even after accounting for longer transit times.
+
+**4. Renegotiate with your carrier or forwarder**
+If you have sufficient shipping volume, it may be worth contacting your account manager to negotiate a customized fuel surcharge cap or a fixed-rate contract. Freight forwarders like Spider Logistics often have access to preferential rate structures not available to direct shippers.
+
+**5. Review your pricing to customers**
+If you are an e-commerce seller or distributor, now is the time to review whether your shipping costs to end customers adequately reflect the new surcharge levels.
+
+## Spider Logistics Can Help
+
+At Spider Logistics, we monitor carrier surcharge updates weekly and work with our clients to find the most cost-effective routing for every shipment. Whether you are shipping small parcels, consolidated air cargo, or full container loads by sea, we can help you navigate these cost increases.
+
+Contact us for a free freight assessment and updated rate comparison.
+    `.trim(),
+  },
+  {
     slug: 'china-to-usa-shipping-guide',
     title: 'Complete Guide to Shipping from China to the USA in 2025',
     excerpt: 'Everything you need to know about shipping freight from China to the United States — modes, costs, timelines, and customs tips.',

@@ -1,0 +1,23 @@
+{
+  "name": "tang-heroes-video",
+  "version": "1.0.0",
+  "description": "唐朝英雄视频 - 捂着门牙说历史",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "@remotion/transitions": "^4.0.0",
+    "msedge-tts": "^2.0.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}

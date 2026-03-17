@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>捂着门牙说历史·唐朝超级英雄团！</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&display=swap');
+
+  :root {
+    --gold: #FFD700;
+    --red: #FF4757;
+    --blue: #5352ED;
+    --green: #2ED573;
+    --purple: #A29BFE;
+    --orange: #FFA502;
+    --pink: #FF6B9D;
+    --teal: #00CEC9;
+    --bg: #FFF9E6;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+    background: var(--bg);
+    overflow-x: hidden;
+  }
+
+  /* ===== HERO SCREEN ===== */
+  #hero-screen {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 50%, #4ECDC4 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .star-bg {
+    position: absolute; inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .star-bg::before, .star-bg::after {
+    content: '⭐';
+    position: absolute;
+    font-size: 3rem;
+    animation: float 6s ease-in-out infinite;
+  }
+  .star-bg::before { top: 10%; left: 5%; animation-delay: 0s; }
+  .star-bg::after { top: 20%; right: 8%; animation-delay: 3s; }
+
+  @keyframes float {
+    0%,100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(15deg); }
+  }
+  @keyframes bounce {
+    0%,100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  @keyframes pulse-glow {
+    0%,100% { box-shadow: 0 0 20px rgba(255,215,0,0.5); }
+    50% { box-shadow: 0 0 50px rgba(255,215,0,1), 0 0 80px rgba(255,100,0,0.5); }
+  }
+  @keyframes slide-in-left {
+    from { transform: translateX(-80px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  @keyframes slide-in-right {
+    from { transform: translateX(80px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  @keyframes pop-in {
+    0% { transform: scale(0) rotate(-10deg); opacity: 0; }
+    70% { transform: scale(1.15) rotate(3deg); }
+    100% { transform: scale(1) rotate(0deg); opacity: 1; }
+  }
+  @keyframes shake {
+    0%,100% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+  }
+  @keyframes rainbow {
+    0% { color: #FF4757; }
+    16% { color: #FFA502; }
+    33% { color: #FFD700; }
+    50% { color: #2ED573; }
+    66% { color: #1E90FF; }
+    83% { color: #A29BFE; }
+    100% { color: #FF4757; }
+  }
+
+  .hero-title {
+    font-size: clamp(2.2rem, 7vw, 5rem);
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 4px 4px 0 #c0392b, 6px 6px 0 rgba(0,0,0,0.15);
+    line-height: 1.2;
+    animation: pop-in 0.8s ease forwards;
+    margin-bottom: 0.5rem;
+  }
+  .hero-subtitle {
+    font-size: clamp(1rem, 3vw, 1.6rem);
+    color: #fff;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+    animation: pop-in 0.8s ease 0.3s both forwards;
+    margin-bottom: 2rem;
+  }
+  .hero-emoji-row {
+    font-size: 3rem;
+    animation: bounce 2s ease-in-out infinite;
+    margin-bottom: 2rem;
+  }
+  .start-btn {
+    background: linear-gradient(135deg, #FF4757, #FF6B9D);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 18px 50px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 8px 30px rgba(255,71,87,0.4), 0 4px 0 #c0392b;
+    transition: transform 0.1s, box-shadow 0.1s;
+    animation: pulse-glow 2s ease-in-out infinite;
+    letter-spacing: 2px;
+  }
+  .start-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(255,71,87,0.5), 0 4px 0 #c0392b; }
+  .start-btn:active { transform: translateY(2px); box-shadow: 0 4px 15px rgba(255,71,87,0.4), 0 2px 0 #c0392b; }
+
+  .floating-icons {
+    position: absolute;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    top: 0; left: 0;
+  }
+  .fi {
+    position: absolute;
+    font-size: 2.5rem;
+    animation: float 4s ease-in-out infinite;
+  }
+
+  /* ===== MAIN APP ===== */
+  #app { display: none; }
+
+  .app-header {
+    background: linear-gradient(135deg, #c0392b, #e74c3c);
+    color: #fff;
+    padding: 20px 30px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  .app-header h1 {
+    font-size: clamp(1.3rem, 4vw, 2rem);
+    font-weight: 900;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+  }
+  .progress-bar-wrap {
+    background: rgba(255,255,255,0.3);
+    border-radius: 50px;
+    height: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #FFD700, #FFA502);
+    border-radius: 50px;
+    transition: width 0.5s ease;
+    width: 0%;
+  }
+  .progress-text { font-size: 0.85rem; margin-top: 4px; opacity: 0.9; }
+
+  /* ===== CHARACTER GRID ===== */
+  .char-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .char-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #eee;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    position: relative;
+    overflow: hidden;
+    animation: pop-in 0.5s ease both;
+  }
+  .char-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  }
+  .char-card.unlocked { border-color: var(--gold); }
+  .char-card.locked { filter: grayscale(0.6) opacity(0.7); cursor: not-allowed; }
+  .char-card::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .char-card:hover::before { opacity: 1; }
+
+  .char-avatar {
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8rem;
+    margin: 0 auto 12px;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    animation: bounce 2.5s ease-in-out infinite;
+  }
+  .char-name {
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #2d3436;
+    margin-bottom: 4px;
+  }
+  .char-title {
+    font-size: 0.75rem;
+    color: #636e72;
+    background: #f0f0f0;
+    padding: 2px 8px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  .char-stars {
+    color: #FFD700;
+    font-size: 1rem;
+  }
+  .lock-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: rgba(255,255,255,0.5);
+  }
+
+  /* ===== DETAIL MODAL ===== */
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  .modal-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .modal-box {
+    background: #fff;
+    border-radius: 30px;
+    max-width: 620px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.3);
+    transform: scale(0.7);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+  }
+  .modal-overlay.active .modal-box { transform: scale(1); }
+
+  .modal-header {
+    padding: 30px 30px 20px;
+    text-align: center;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+  }
+  .modal-close {
+    position: absolute;
+    top: 15px; right: 20px;
+    background: rgba(255,255,255,0.3);
+    border: none;
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+  }
+  .modal-close:hover { transform: rotate(90deg) scale(1.1); background: rgba(255,255,255,0.5); }
+
+  .modal-avatar {
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 4.5rem;
+    margin: 0 auto 15px;
+    border: 5px solid rgba(255,255,255,0.6);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    animation: bounce 2s ease-in-out infinite;
+  }
+  .modal-name {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+  }
+  .modal-slogan {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.9);
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  .modal-body { padding: 25px 30px 30px; }
+
+  .info-tags {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .tag {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    padding: 5px 14px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .tag.red { background: linear-gradient(135deg, #FF4757, #c0392b); }
+  .tag.green { background: linear-gradient(135deg, #2ED573, #27ae60); }
+  .tag.orange { background: linear-gradient(135deg, #FFA502, #e67e22); }
+  .tag.teal { background: linear-gradient(135deg, #00CEC9, #0984e3); }
+  .tag.pink { background: linear-gradient(135deg, #FF6B9D, #e84393); }
+
+  .story-section {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .story-title {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #2d3436;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .story-text {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.8;
+  }
+  .story-text strong { color: #e74c3c; }
+
+  .fun-facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .fact-card {
+    background: #fff;
+    border: 2px solid #f0f0f0;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .fact-card:hover { transform: scale(1.03); }
+  .fact-icon { font-size: 1.8rem; margin-bottom: 5px; }
+  .fact-label { font-size: 0.7rem; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+  .fact-value { font-size: 0.9rem; font-weight: 700; color: #2d3436; margin-top: 2px; }
+
+  .superpower-box {
+    background: linear-gradient(135deg, #FFD700, #FFA502);
+    border-radius: 20px;
+    padding: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .superpower-title { font-size: 0.85rem; font-weight: 700; color: rgba(0,0,0,0.6); margin-bottom: 8px; }
+  .superpower-name { font-size: 1.2rem; font-weight: 900; color: #fff; text-shadow: 1px 1px 0 rgba(0,0,0,0.2); }
+
+  .quote-box {
+    background: #2d3436;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .quote-box::before {
+    content: '"';
+    font-size: 5rem;
+    color: rgba(255,255,255,0.1);
+    position: absolute;
+    top: -10px; left: 15px;
+    line-height: 1;
+    font-family: serif;
+  }
+  .quote-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    position: relative;
+    z-index: 1;
+  }
+  .quote-source { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 8px; text-align: right; }
+
+  .know-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #FF4757, #c0392b);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #922b21;
+    transition: transform 0.1s, box-shadow 0.1s;
+    letter-spacing: 1px;
+  }
+  .know-btn:hover { transform: translateY(-2px); box-shadow: 0 7px 0 #922b21; }
+  .know-btn:active { transform: translateY(3px); box-shadow: 0 2px 0 #922b21; }
+
+  /* ===== CELEBRATION ===== */
+  .confetti-wrap {
+    position: fixed; inset: 0;
+    pointer-events: none;
+    z-index: 999;
+  }
+  .confetti-piece {
+    position: absolute;
+    width: 12px; height: 12px;
+    top: -20px;
+    border-radius: 2px;
+    animation: confetti-fall 2.5s ease-in forwards;
+  }
+  @keyframes confetti-fall {
+    0% { transform: translateY(-20px) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+  }
+
+  /* ===== BOTTOM BAR ===== */
+  .bottom-bar {
+    background: linear-gradient(135deg, #2d3436, #636e72);
+    color: #fff;
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .bottom-bar p { font-size: 0.85rem; opacity: 0.7; }
+  .achievement-bar {
+    background: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    border-top: 3px solid #FFD700;
+  }
+  .achievement-title { font-size: 0.85rem; color: #888; margin-bottom: 8px; }
+  .achievement-badges { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .badge {
+    background: linear-gradient(135deg, #FFD700, #FFA502);
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    opacity: 0.3;
+    transition: opacity 0.5s, transform 0.3s;
+  }
+  .badge.earned { opacity: 1; animation: pop-in 0.4s ease; }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 600px) {
+    .char-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; padding: 20px; }
+    .fun-facts { grid-template-columns: 1fr 1fr; }
+    .modal-body { padding: 20px; }
+  }
+
+  .section-label {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #2d3436;
+    padding: 20px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .section-label::before, .section-label::after {
+    content: '';
+    flex: 1;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #FFD700, transparent);
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HERO SCREEN ===== -->
+<div id="hero-screen">
+  <div class="star-bg"></div>
+  <div class="floating-icons">
+    <span class="fi" style="top:8%;left:10%;animation-delay:0s">👑</span>
+    <span class="fi" style="top:15%;right:12%;animation-delay:1s">⚔️</span>
+    <span class="fi" style="top:70%;left:6%;animation-delay:2s">📜</span>
+    <span class="fi" style="top:75%;right:9%;animation-delay:0.5s">🏯</span>
+    <span class="fi" style="top:40%;left:3%;animation-delay:1.5s">🐉</span>
+    <span class="fi" style="top:50%;right:4%;animation-delay:2.5s">🎭</span>
+    <span class="fi" style="top:88%;left:25%;animation-delay:3s">🌸</span>
+    <span class="fi" style="top:85%;right:22%;animation-delay:1.2s">🎵</span>
+  </div>
+  <div style="position:relative;z-index:1;padding:20px;">
+    <div class="hero-emoji-row">🐲 大唐超级英雄团 🐲</div>
+    <div class="hero-title">捂着门牙<br>说历史·唐朝</div>
+    <div class="hero-subtitle">✨ 认识那些超酷的唐朝大人物 ✨</div>
+    <button class="start-btn" onclick="startApp()">🚀 出发啦！</button>
+    <p style="color:rgba(255,255,255,0.8);margin-top:16px;font-size:0.9rem;">共 10 位大人物在等你发现 👇</p>
+  </div>
+</div>
+
+<!-- ===== MAIN APP ===== -->
+<div id="app">
+  <div class="app-header">
+    <h1>🏯 捂着门牙说历史 · 唐朝英雄团 🏯</h1>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div class="progress-text" id="progressText">已解锁 0 / 10 位英雄</div>
+  </div>
+
+  <div class="section-label">🌟 点击英雄卡片，开始探险！🌟</div>
+
+  <div class="char-grid" id="charGrid"></div>
+
+  <div class="achievement-bar">
+    <div class="achievement-title">🏅 成就徽章</div>
+    <div class="achievement-badges" id="badges">
+      <div class="badge" id="badge-1">🌟 初识大唐</div>
+      <div class="badge" id="badge-3">🔥 历史达人</div>
+      <div class="badge" id="badge-5">⚔️ 唐朝小卫士</div>
+      <div class="badge" id="badge-8">📜 博学小侠客</div>
+      <div class="badge" id="badge-10">👑 大唐知识王</div>
+    </div>
+  </div>
+
+  <div class="bottom-bar">
+    <p>📚 改编自《捂着门牙学历史》系列 · 让历史变有趣！</p>
+  </div>
+</div>
+
+<!-- ===== MODAL ===== -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal-box" id="modalBox">
+    <div class="modal-header" id="modalHeader">
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+      <div class="modal-avatar" id="modalAvatar"></div>
+      <div class="modal-name" id="modalName"></div>
+      <div class="modal-slogan" id="modalSlogan"></div>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<!-- ===== CONFETTI ===== -->
+<div class="confetti-wrap" id="confettiWrap"></div>
+
+<script>
+const CHARACTERS = [
+  {
+    id: 1,
+    name: "李渊",
+    emoji: "🧔",
+    title: "唐朝创始人",
+    color: ["#c0392b","#e74c3c"],
+    slogan: "我在乱世中建立了大唐！",
+    stars: 4,
+    tags: [{t:"开国皇帝",c:"red"},{t:"政治家",c:"orange"},{t:"草根逆袭",c:"green"}],
+    facts: [
+      {icon:"📅",label:"在位时间",value:"618 - 626年"},
+      {icon:"🏠",label:"都城",value:"长安"},
+      {icon:"👑",label:"庙号",value:"唐高祖"},
+      {icon:"⚡",label:"绝技",value:"乱世建国"}
+    ],
+    story: `你知道李渊是怎么建立唐朝的吗？他原本是隋朝的一个地方官，看着天下大乱、各地起义，觉得<strong>是时候出手了</strong>！他带着儿子李世民，从太原起兵，一路打到了长安。618年，李渊正式称帝，大唐开国！<br><br>不过，他后来被自己厉害的儿子李世民"请"到了退休生活，这就是历史上著名的<strong>玄武门之变</strong>。虽然有点伤心，但李渊爷爷创立唐朝的功劳可不能忘！`,
+    superpower: "🌊 乱世造浪 · 建国开基",
+    quote: "好风凭借力，送我上青云。——大唐王朝从这里起航！",
+    quoteSource: "历史评语"
+  },
+  {
+    id: 2,
+    name: "李世民",
+    emoji: "⚔️",
+    title: "千古明君",
+    color: ["#2c3e50","#3498db"],
+    slogan: "贞观之治，朕说了算！",
+    stars: 5,
+    tags: [{t:"唐太宗",c:"red"},{t:"军事天才",c:"orange"},{t:"明君代表",c:"teal"},{t:"书法家",c:"green"}],
+    facts: [
+      {icon:"📅",label:"在位时间",value:"626 - 649年"},
+      {icon:"🏆",label:"盛世名称",value:"贞观之治"},
+      {icon:"📖",label:"年号",value:"贞观"},
+      {icon:"⚡",label:"绝技",value:"听劝治国"}
+    ],
+    story: `李世民是历史上最牛的皇帝之一！他从小就跟着爸爸打仗，<strong>骑马射箭样样精通</strong>，打败了无数敌人。当皇帝后，他特别喜欢听大臣们的意见，甚至允许大臣"怼"自己！<br><br>他的大臣魏征就经常当面批评他，别人劝他把魏征赶走，他反而说：<strong>"魏征是我的镜子，让我看到自己的错误！"</strong> 在他的带领下，唐朝超级繁荣，老百姓安居乐业，这段时期叫做"贞观之治"！`,
+    superpower: "👂 从谏如流 · 文治武功",
+    quote: "以铜为镜，可以正衣冠；以人为镜，可以明得失。",
+    quoteSource: "——李世民名言"
+  },
+  {
+    id: 3,
+    name: "武则天",
+    emoji: "👸",
+    title: "中国唯一女皇",
+    color: ["#8e44ad","#9b59b6"],
+    slogan: "谁说女生不能当皇帝？",
+    stars: 5,
+    tags: [{t:"女皇帝",c:"pink"},{t:"政治家",c:"purple"},{t:"巾帼英雄",c:"red"}],
+    facts: [
+      {icon:"📅",label:"称帝时间",value:"690 - 705年"},
+      {icon:"🏛️",label:"国号",value:"武周"},
+      {icon:"👑",label:"称号",value:"则天大圣皇帝"},
+      {icon:"⚡",label:"绝技",value:"破格用人"}
+    ],
+    story: `武则天是中国历史上<strong>唯一一位正式称帝的女皇帝</strong>，超级厉害！她从14岁进宫，一步一步凭借智慧和才干，最终登上皇位，创立了"武周"王朝。<br><br>她当皇帝后，特别重视有才能的人，不管你是贵族还是普通人，只要有本事都能当官。她扩大了科举考试，让更多普通家庭的孩子有机会当官。她掌权超过半个世纪，把大唐治理得相当繁荣！`,
+    superpower: "💪 铁腕治国 · 女中豪杰",
+    quote: "我本是女儿身，却有男儿志！历史由我来书写！",
+    quoteSource: "——武则天精神"
+  },
+  {
+    id: 4,
+    name: "玄奘",
+    emoji: "🧘",
+    title: "西天取经第一人",
+    color: ["#27ae60","#2ecc71"],
+    slogan: "万里取经，我最坚定！",
+    stars: 5,
+    tags: [{t:"高僧大德",c:"green"},{t:"翻译家",c:"teal"},{t:"探险家",c:"orange"},{t:"西游原型",c:"purple"}],
+    facts: [
+      {icon:"🗺️",label:"取经距离",value:"约5万里"},
+      {icon:"⏰",label:"往返时长",value:"近20年"},
+      {icon:"📚",label:"翻译经书",value:"75部"},
+      {icon:"⚡",label:"绝技",value:"坚持到底"}
+    ],
+    story: `玄奘就是《西游记》里唐僧的原型！不过现实中的他没有孙悟空保护，<strong>全靠自己一个人！</strong> 他从长安出发，翻越沙漠、越过雪山，走了几万里路，去印度学习佛法取经。<br><br>路上遇到了沙尘暴、迷路、强盗，还差点渴死在沙漠里，但他<strong>从来没有放弃</strong>！最终他带回了600多部经书，翻译成中文，对中国文化影响深远。他的精神告诉我们：只要不放弃，就没有到不了的远方！`,
+    superpower: "🎯 矢志不渝 · 求知若渴",
+    quote: "宁可就西而死，岂能东归而生！",
+    quoteSource: "——玄奘誓言"
+  },
+  {
+    id: 5,
+    name: "李白",
+    emoji: "🌙",
+    title: "诗仙",
+    color: ["#2980b9","#3498db"],
+    slogan: "斗酒诗百篇，我叫诗仙！",
+    stars: 5,
+    tags: [{t:"诗仙",c:"teal"},{t:"豪放派",c:"blue"},{t:"旅行达人",c:"green"},{t:"剑客",c:"orange"}],
+    facts: [
+      {icon:"📝",label:"存世诗歌",value:"900多首"},
+      {icon:"🍷",label:"人生爱好",value:"喝酒+写诗"},
+      {icon:"🗺️",label:"足迹",value:"游遍大半中国"},
+      {icon:"⚡",label:"绝技",value:"下笔如神"}
+    ],
+    story: `李白是唐朝最著名的诗人，被称为<strong>"诗仙"</strong>！他的诗超级豪气，比如"飞流直下三千尺，疑是银河落九天"，读了让人感觉自己也能飞上天！<br><br>李白特别爱喝酒，喝了酒写出来的诗更厉害。他一生游遍了大半个中国，到处看美景，把所有感受都写进诗里。他还会耍剑！是个文武双全的大侠客。他一生写了900多首诗，每一首都超好读！`,
+    superpower: "✨ 诗若天马 · 豪气冲天",
+    quote: "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+    quoteSource: "——李白《静夜思》"
+  },
+  {
+    id: 6,
+    name: "杜甫",
+    emoji: "📜",
+    title: "诗圣",
+    color: ["#d35400","#e67e22"],
+    slogan: "忧国忧民，诗圣当之！",
+    stars: 5,
+    tags: [{t:"诗圣",c:"orange"},{t:"现实主义",c:"red"},{t:"悲天悯人",c:"teal"}],
+    facts: [
+      {icon:"📝",label:"存世诗歌",value:"1400多首"},
+      {icon:"💭",label:"诗风",value:"沉郁顿挫"},
+      {icon:"❤️",label:"最爱",value:"关心百姓疾苦"},
+      {icon:"⚡",label:"绝技",value:"字字见真情"}
+    ],
+    story: `杜甫被称为<strong>"诗圣"</strong>，和李白是好朋友，但两人的风格完全不同。李白写"飞流直下三千尺"，杜甫则写老百姓的苦日子。他亲眼看到了安史之乱，看到无数老百姓流离失所，心里特别难受。<br><br>他写的"朱门酒肉臭，路有冻死骨"，就是描写富人大吃大喝、穷人却冻死街头的残酷现实。杜甫用诗歌记录历史，被称为<strong>"诗史"</strong>，是中国文学的宝贵财富！`,
+    superpower: "💖 悲天悯人 · 诗史传世",
+    quote: "烽火连三月，家书抵万金。",
+    quoteSource: "——杜甫《春望》"
+  },
+  {
+    id: 7,
+    name: "魏征",
+    emoji: "🗡️",
+    title: "最强谏臣",
+    color: ["#16a085","#1abc9c"],
+    slogan: "说实话是我的使命！",
+    stars: 4,
+    tags: [{t:"谏臣第一",c:"teal"},{t:"政治家",c:"green"},{t:"胆识过人",c:"orange"}],
+    facts: [
+      {icon:"📋",label:"进谏次数",value:"200多次"},
+      {icon:"🏛️",label:"职位",value:"谏议大夫"},
+      {icon:"💬",label:"特点",value:"当面直言"},
+      {icon:"⚡",label:"绝技",value:"据理力争"}
+    ],
+    story: `魏征是唐朝历史上最敢说真话的大臣！他曾经在李世民面前<strong>200多次</strong>提意见，而且说的都是皇帝不喜欢听的话。换做别的皇帝，他早就掉脑袋了！<br><br>但李世民就是喜欢他，说他是自己的"一面镜子"。魏征去世后，李世民非常伤心，说："我失去了一面镜子！"魏征告诉我们：真正的勇气不是打打杀杀，而是<strong>敢于说出真相！</strong>`,
+    superpower: "🪞 忠言直谏 · 敢于直言",
+    quote: "居安思危，戒奢以俭。",
+    quoteSource: "——魏征《谏太宗十思疏》"
+  },
+  {
+    id: 8,
+    name: "王维",
+    emoji: "🎨",
+    title: "诗画双绝",
+    color: ["#8e44ad","#a29bfe"],
+    slogan: "我的诗就是一幅画！",
+    stars: 4,
+    tags: [{t:"诗佛",c:"purple"},{t:"画家",c:"pink"},{t:"音乐家",c:"teal"},{t:"全能天才",c:"orange"}],
+    facts: [
+      {icon:"🎭",label:"才能",value:"诗书画乐四绝"},
+      {icon:"🌳",label:"晚年居所",value:"辋川别墅"},
+      {icon:"🧘",label:"信仰",value:"虔诚佛教徒"},
+      {icon:"⚡",label:"绝技",value:"诗中有画"}
+    ],
+    story: `王维被称为<strong>"诗佛"</strong>，是唐朝最全能的艺术家！他不但诗写得极好，还会作画、弹琴、唱歌。苏轼曾评价他："味摩诘之诗，诗中有画；观摩诘之画，画中有诗。"<br><br>王维特别喜欢大自然，写了很多描写山水风景的诗，读起来像在看一幅画。他晚年在辋川过着悠闲的田园生活，每天看山看水、写诗作画，活出了很多人梦想中的生活！`,
+    superpower: "🖼️ 诗中有画 · 画中有诗",
+    quote: "大漠孤烟直，长河落日圆。",
+    quoteSource: "——王维《使至塞上》"
+  },
+  {
+    id: 9,
+    name: "鉴真",
+    emoji: "⛵",
+    title: "东渡日本第一人",
+    color: ["#c0392b","#e74c3c"],
+    slogan: "六次东渡，我就是不放弃！",
+    stars: 5,
+    tags: [{t:"高僧",c:"green"},{t:"传播文化",c:"teal"},{t:"坚韧不拔",c:"orange"},{t:"中日友好",c:"red"}],
+    facts: [
+      {icon:"🚢",label:"东渡次数",value:"6次尝试"},
+      {icon:"👁️",label:"特殊经历",value:"双目失明"},
+      {icon:"🗾",label:"目的地",value:"日本"},
+      {icon:"⚡",label:"绝技",value:"越挫越勇"}
+    ],
+    story: `鉴真是唐朝著名的高僧，他有个超级伟大的梦想：<strong>去日本传播佛法和中华文化</strong>。但是，他一共去了6次才成功！前5次出发都遇到风暴、官府阻拦等各种困难，其中一次还因为遇到风浪导致双眼失明！<br><br>即使双目失明，他也没有放弃！第6次终于成功抵达日本，那时他已经66岁了。鉴真在日本传授了佛法、医学、建筑、书法等各种知识，成为了日本人非常尊敬的"文化使者"！`,
+    superpower: "⚓ 越挫越勇 · 文化使者",
+    quote: "山川异域，风月同天，寄诸佛子，共结来缘。",
+    quoteSource: "——东渡日本的精神"
+  },
+  {
+    id: 10,
+    name: "李龟年",
+    emoji: "🎵",
+    title: "盛唐第一音乐家",
+    color: ["#FF6B9D","#e84393"],
+    slogan: "音乐能让时间停下来！",
+    stars: 4,
+    tags: [{t:"宫廷乐师",c:"pink"},{t:"作曲家",c:"purple"},{t:"歌唱家",c:"teal"},{t:"盛唐符号",c:"orange"}],
+    facts: [
+      {icon:"🎸",label:"才能",value:"乐器·作曲·歌唱"},
+      {icon:"👑",label:"服务过",value:"唐玄宗皇帝"},
+      {icon:"👫",label:"诗人朋友",value:"杜甫、王维"},
+      {icon:"⚡",label:"绝技",value:"闻声落泪"}
+    ],
+    story: `李龟年是唐朝最著名的音乐家，在唐玄宗时代是宫廷里最受宠的乐师。他的演奏和歌声能让人感动得流下眼泪，<strong>整个长安城都为他疯狂！</strong><br><br>他和杜甫是好朋友。安史之乱后，国家乱了，李龟年流落到南方。多年后，杜甫在街上偶然见到他，写下了著名的诗："岐王宅里寻常见，崔九堂前几度闻。正是江南好风景，落花时节又逢君。"短短28个字，道尽了盛唐的兴衰！`,
+    superpower: "🎶 天籁之声 · 盛世见证者",
+    quote: "岐王宅里寻常见，崔九堂前几度闻。落花时节又逢君。",
+    quoteSource: "——杜甫赠李龟年"
+  }
+];
+
+let unlockedCount = 0;
+
+function startApp() {
+  document.getElementById('hero-screen').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+  renderGrid();
+}
+
+function renderGrid() {
+  const grid = document.getElementById('charGrid');
+  grid.innerHTML = '';
+  CHARACTERS.forEach((c, i) => {
+    const card = document.createElement('div');
+    card.className = 'char-card';
+    card.style.animationDelay = (i * 0.07) + 's';
+    card.innerHTML = `
+      <div class="char-avatar" style="background:linear-gradient(135deg,${c.color[0]},${c.color[1]})">
+        ${c.emoji}
+      </div>
+      <div class="char-name">${c.name}</div>
+      <div class="char-title">${c.title}</div>
+      <div class="char-stars">${'⭐'.repeat(c.stars)}</div>
+    `;
+    card.onclick = () => openModal(c, card);
+    grid.appendChild(card);
+  });
+}
+
+function openModal(c, cardEl) {
+  // Mark unlocked
+  if (!cardEl.classList.contains('unlocked')) {
+    cardEl.classList.add('unlocked');
+    unlockedCount++;
+    updateProgress();
+    setTimeout(() => triggerConfetti(), 200);
+    checkAchievements();
+  }
+
+  const overlay = document.getElementById('modalOverlay');
+  const header = document.getElementById('modalHeader');
+  const avatar = document.getElementById('modalAvatar');
+  const name = document.getElementById('modalName');
+  const slogan = document.getElementById('modalSlogan');
+  const body = document.getElementById('modalBody');
+
+  header.style.background = `linear-gradient(135deg,${c.color[0]},${c.color[1]})`;
+  avatar.textContent = c.emoji;
+  avatar.style.background = `linear-gradient(135deg,${c.color[1]},${c.color[0]})`;
+  name.textContent = c.name;
+  slogan.textContent = c.slogan;
+
+  const tagsHTML = c.tags.map(t => `<span class="tag ${t.c}">${t.t}</span>`).join('');
+  const factsHTML = c.facts.map(f => `
+    <div class="fact-card">
+      <div class="fact-icon">${f.icon}</div>
+      <div class="fact-label">${f.label}</div>
+      <div class="fact-value">${f.value}</div>
+    </div>
+  `).join('');
+
+  body.innerHTML = `
+    <div class="info-tags">${tagsHTML}</div>
+    <div class="fun-facts">${factsHTML}</div>
+    <div class="story-section">
+      <div class="story-title">📖 超趣故事时间</div>
+      <div class="story-text">${c.story}</div>
+    </div>
+    <div class="superpower-box">
+      <div class="superpower-title">🦸 专属必杀技</div>
+      <div class="superpower-name">${c.superpower}</div>
+    </div>
+    <div class="quote-box">
+      <div class="quote-text">${c.quote}</div>
+      <div class="quote-source">${c.quoteSource}</div>
+    </div>
+    <button class="know-btn" onclick="closeModalDirect()">✅ 我认识他/她了！下一个！</button>
+  `;
+
+  overlay.classList.add('active');
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('modalOverlay')) {
+    closeModalDirect();
+  }
+}
+function closeModalDirect() {
+  document.getElementById('modalOverlay').classList.remove('active');
+}
+
+function updateProgress() {
+  const pct = (unlockedCount / CHARACTERS.length) * 100;
+  document.getElementById('progressBar').style.width = pct + '%';
+  document.getElementById('progressText').textContent = `已解锁 ${unlockedCount} / ${CHARACTERS.length} 位英雄`;
+}
+
+function checkAchievements() {
+  const thresholds = {1:'badge-1', 3:'badge-3', 5:'badge-5', 8:'badge-8', 10:'badge-10'};
+  if (thresholds[unlockedCount]) {
+    const el = document.getElementById(thresholds[unlockedCount]);
+    if (el) el.classList.add('earned');
+  }
+}
+
+function triggerConfetti() {
+  const wrap = document.getElementById('confettiWrap');
+  const colors = ['#FF4757','#FFD700','#2ED573','#5352ED','#FF6B9D','#FFA502'];
+  const shapes = ['■','▲','●','◆','★'];
+  for (let i = 0; i < 40; i++) {
+    const piece = document.createElement('div');
+    piece.className = 'confetti-piece';
+    piece.style.left = Math.random() * 100 + 'vw';
+    piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+    piece.style.animationDuration = (1.5 + Math.random() * 1.5) + 's';
+    piece.style.animationDelay = Math.random() * 0.5 + 's';
+    piece.style.width = (8 + Math.random() * 12) + 'px';
+    piece.style.height = (8 + Math.random() * 12) + 'px';
+    piece.style.borderRadius = Math.random() > 0.5 ? '50%' : '0';
+    wrap.appendChild(piece);
+    setTimeout(() => piece.remove(), 3000);
+  }
+}
+</script>
+</body>
+</html>
