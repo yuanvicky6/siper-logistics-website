@@ -11,6 +11,105 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'china-israel-shipping-update-march-2026',
+    title: 'March 2026 Shipping Update: From China to Israel',
+    excerpt: 'Air and sea freight rates, transit times, and the latest market trends for the China–Israel trade lane — including the impact of route diversions and airspace restrictions.',
+    date: 'March 20, 2026',
+    category: 'Shipping Guide',
+    readTime: '5 min read',
+    coverImage: '',
+    content: `
+The China–Israel trade lane has undergone significant changes in March 2026. Ongoing geopolitical tensions in the Middle East have forced major adjustments to both air and sea routes, affecting transit times and freight rates. Here is everything you need to know about shipping from China to Israel this month.
+
+## Current Sea Freight Rates: China to Israel (March 2026)
+
+Sea freight remains the backbone of China–Israel trade, with approximately 98% of Israel's imports transported by sea. However, the current situation has dramatically changed the landscape:
+
+| Mode | Rate (USD) | Transit Time | Key Notes |
+|---|---|---|---|
+| LCL (per CBM) | $59 | 40–44 days | To Ashdod Port |
+| FCL – 20ft container | $2,428 – $2,967 | 40–44 days | To Ashdod Port |
+| FCL – 40ft container | $3,854 – $4,710 | 40–44 days | To Ashdod Port |
+
+**Key observations for March 2026:**
+- FCL rates have increased significantly — up 28–38% compared to February 2026
+- LCL rates have actually decreased by 9% compared to last month
+- Transit times have extended to 40–44 days due to Cape of Good Hope rerouting
+
+## Why Are Transit Times Longer?
+
+The major factor affecting sea freight is the **Hormuz Strait disruption**. Vessels that previously transited through the Strait of Hormuz — the world's busiest oil chokepoint — now have to reroute around the Cape of Good Hope in South Africa. This adds approximately 10–14 days to the journey and significantly increases fuel consumption, which carriers have passed on through higher freight rates.
+
+## Current Air Freight Rates: China to Israel (March 2026)
+
+Air freight from China to Israel remains fast but faces its own challenges:
+
+| Service Type | Rate (USD) | Transit Time | Notes |
+|---|---|---|---|
+| Air freight (≥1,000 kg) | $4.48 / kg | 3–4 days | To Tel Aviv (TLV) |
+| Express courier | $11.20 / kg | 3–5 days | Door-to-door |
+
+**Good news for air freight:** Rates have actually dropped 36% compared to February 2026, making air cargo more competitive than it was last month.
+
+**However, there is a catch:** Air space restrictions over the Middle East have limited cargo capacity. Carriers are operating fewer flights, and available space is in high demand. Booking early is strongly recommended.
+
+## Main Ports in Israel
+
+**Ashdod Port** — Israel's largest cargo terminal, handling the majority of container traffic from China. Located south of Tel Aviv on the Mediterranean coast.
+
+**Haifa Port** — Israel's northern port, serving as an alternative gateway and offering shorter delivery times for cargo destined for northern Israel.
+
+**Eilat Port** — Located at the southern tip of Israel near the Red Sea, this port is less commonly used for China trade but serves as a backup option.
+
+## Key Ports in China
+
+Major departure ports for China to Israel include **Shanghai**, **Shenzhen**, and **Guangzhou (Nansha)**. Shanghai offers the most carrier options and direct connections, while Shenzhen is preferred for cargo originating from the Pearl River Delta manufacturing hub.
+
+## Customs Clearance in Israel
+
+Israel has relatively streamlined customs procedures, but proper documentation is essential:
+
+**Required documents:**
+- Commercial invoice (accurate description and value)
+- Packing list
+- Bill of Lading (B/L)
+- Certificate of Origin
+- Import license (if required for specific goods)
+
+**Import duties:**
+- VAT: 17% on CIF value
+- Customs duty: Varies by HS code (typically 0–12%)
+- Security levy: Additional charges may apply
+
+**Practical tip:** Working with an experienced customs broker in Israel is highly recommended, especially for the first few shipments. Israeli customs can be thorough, and having a local partner ensures smooth clearance.
+
+## Market Outlook: What to Expect in Coming Months
+
+**April 2026 outlook:**
+- Sea freight rates are expected to remain elevated due to continued route diversions
+- LCL space may tighten as more shippers opt for consolidation to manage costs
+- Air freight capacity constraints are likely to persist, so advance booking is essential
+
+**Cost-saving strategies:**
+- Consider sea freight for non-urgent shipments — the cost difference is substantial
+- If air freight is necessary, book 7–10 days in advance to secure space
+- Consolidate LCL shipments to reduce per-unit costs
+- Ensure accurate HS codes and documentation to avoid customs delays
+
+## Spider Logistics: Your China–Israel Shipping Partner
+
+Spider Logistics has extensive experience on the China–Israel trade lane. We offer:
+
+- Weekly LCL consolidations from Shanghai, Shenzhen, and Guangzhou to Ashdod
+- FCL bookings on major carriers with flexible routing options
+- Air freight solutions through major airlines and express carriers
+- End-to-end customs clearance support at origin and destination
+- Real-time tracking and dedicated customer support
+
+Contact us today for a competitive quote tailored to your cargo requirements.
+    `.trim(),
+  },
+  {
     slug: 'china-bangladesh-shipping-update-march-2026',
     title: 'March 2026 Shipping Update: From China to Bangladesh',
     excerpt: 'Freight rates, transit times, customs tips, and what shippers need to know as post-Ramadan demand surges in Bangladesh — a complete March 2026 update for the China–Bangladesh trade lane.',
