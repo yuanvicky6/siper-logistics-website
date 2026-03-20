@@ -11,6 +11,123 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'china-bangladesh-shipping-update-march-2026',
+    title: 'March 2026 Shipping Update: From China to Bangladesh',
+    excerpt: 'Freight rates, transit times, customs tips, and what shippers need to know as post-Ramadan demand surges in Bangladesh — a complete March 2026 update for the China–Bangladesh trade lane.',
+    date: 'March 14, 2026',
+    category: 'Shipping Guide',
+    readTime: '6 min read',
+    coverImage: '',
+    content: `
+The China–Bangladesh trade lane remains one of the most active corridors in South Asia. Bangladesh is the world's second-largest garment exporter, and its manufacturers depend heavily on raw materials, machinery, and consumer goods shipped from China. As of March 2026, the route is experiencing renewed pressure from geopolitical disruptions, fuel surcharge hikes, and a powerful seasonal demand surge following Ramadan. Here is everything you need to know.
+
+## Current Shipping Rates: China to Bangladesh (March 2026)
+
+Freight rates on this lane have shifted noticeably compared to late 2025. Below is a snapshot of current market rates:
+
+| Mode | Rate | Transit Time |
+|---|---|---|
+| FCL – 20ft container | $1,377 – $1,683 | 10–15 days |
+| FCL – 40ft container | $1,688 – $2,063 | 10–15 days |
+| LCL (sea freight) | $6.60 / CBM | 11–19 days |
+| Air freight (≥1,000 kg) | $6.60 / kg | 3–4 days |
+| Express courier | $7.20 / kg | 3–5 days |
+
+**Key rate drivers in March 2026:**
+- The ongoing Hormuz Strait disruption has pushed carriers to reroute vessels around the Cape of Good Hope, adding 5–8 days to transit times for some routing options and increasing per-voyage fuel costs.
+- Emergency surcharges are being applied by multiple carriers on top of standard ocean freight rates.
+- Demand for LCL space has tightened significantly as smaller importers rush to stock up before and after Ramadan.
+
+## Main Ports and Routing
+
+**Departure ports from China:**
+- **Shenzhen / Yantian** — Preferred for South China manufacturers; strong weekly sailings to Chittagong
+- **Shanghai** — Best connectivity and largest carrier options
+- **Guangzhou (Nansha)** — Competitive for Pearl River Delta cargo
+
+**Arrival ports in Bangladesh:**
+- **Chittagong (Port of Chattogram)** — Handles over 90% of Bangladesh's total import and export volume; all major carriers call here
+- **Mongla Port** — Serves the southwestern region; useful for importers near Khulna and Dhaka's western industrial zones
+
+Typical sea freight transit from Shenzhen to Chittagong is **12–16 days** on direct services; **18–22 days** on services with a transshipment in Singapore, Colombo, or Port Klang.
+
+## Air Freight: When It Makes Sense
+
+Air freight from China to Dhaka Hazrat Shahjalal International Airport (DAC) runs **3–4 days**. It is the right call for:
+
+- Time-sensitive garment accessories (zippers, buttons, labels) needed to meet export production deadlines
+- High-value electronics or machinery spare parts
+- Small urgent orders where the cost premium is justified by avoiding line stoppages
+
+At $6.60–$7.20 per kg, air freight is roughly 8–10× more expensive per unit weight than ocean LCL. Use it selectively.
+
+## Customs Clearance in Bangladesh
+
+Bangladesh's customs process has modernized but still requires careful documentation. Key points for March 2026:
+
+**Essential documents:**
+- Commercial invoice (accurate description and value — under-invoicing is increasingly flagged)
+- Packing list
+- Bill of Lading or Airway Bill
+- Certificate of Origin (Form D under SAFTA, or standard CO)
+- LC (Letter of Credit) or TT payment confirmation
+
+**Import duties and VAT:**
+- VAT on imports: **15% of CIF value** (fixed)
+- Customs duty varies by HS code: **5%–25%** (e.g., textiles ~15%, plastics ~25%)
+- Supplementary duty may apply on select goods
+
+**Practical tip:** Working with a licensed C&F (Clearing & Forwarding) agent at Chittagong Port is strongly recommended. The port operates 24/7 but physical clearance can take 3–7 days depending on document accuracy and inspection status.
+
+## Post-Ramadan Demand Surge: What to Expect
+
+Ramadan 2026 runs through late March, with Eid al-Fitr falling around **March 30–31, 2026**. This creates a predictable and powerful freight demand cycle that every China–Bangladesh shipper should plan around.
+
+**During Ramadan (now):**
+Logistics activity is slightly reduced inside Bangladesh. Port working hours may be shortened on some days, customs staffing is thinner, and inland delivery times stretch out. Importers focused on food, retail, and garment accessories have been building up inventory for weeks.
+
+**Immediately post-Ramadan (April 2026):**
+The reopening of full commercial activity after Eid triggers a sharp rebound. Factories restart at full capacity, retailers replenish depleted stock, and buyers who paused decisions during the holiday rush to place orders. This typically causes:
+
+- **Freight booking surges** in early-to-mid April as production resumes and new purchase orders are confirmed
+- **LCL space tightening** — small-to-medium importers compete for consolidated slots, pushing up LCL rates by 10–20% compared to the Ramadan period
+- **Longer inland transit times** inside Bangladesh as road freight congestion picks up around Dhaka and Chittagong simultaneously
+
+**April–May 2026 outlook:**
+Bangladesh's garment export season for summer orders typically peaks in May–June, meaning factories will be aggressively importing fabric, accessories, and packaging materials from China throughout April. Combined with the post-Ramadan restocking effect, April is shaping up to be a high-demand month on this lane.
+
+**Recommended action for shippers:**
+- Book sea freight space for April departures **now** — carriers are already reporting tighter availability
+- If you have orders confirmed post-Eid, instruct your supplier to ship within the first 10 days of April to avoid the mid-month congestion peak
+- Consider moving urgent or high-margin goods by air in the first two weeks of April, then shifting to ocean for the bulk of the volume
+
+## Tips for Shipping from China to Bangladesh in 2026
+
+**1. Choose FCL when your volume exceeds 15 CBM**
+At current LCL rates, a 20ft FCL becomes more economical once you hit 14–16 CBM. With rate volatility in March–April, locking in an FCL provides both cost certainty and priority loading.
+
+**2. Verify your HS codes before shipment**
+Bangladesh Customs has been increasing scrutiny on mis-declared goods. Incorrect HS codes lead to delays, re-inspection fees, and potential penalties. Verify with your C&F agent before the shipment departs China.
+
+**3. Open an LC early if required**
+Bangladesh's central bank (Bangladesh Bank) still requires Letters of Credit for many import categories. LC opening can take 5–10 business days at local banks. Factor this into your lead time, especially during the post-Ramadan bank rush in April.
+
+**4. Use door-to-door service for smaller importers**
+If you are importing less than 5 CBM regularly, a door-to-door consolidated service from a freight forwarder handles China pickup, ocean freight, Chittagong customs clearance, and inland delivery to your warehouse in one package — often cheaper and simpler than managing each step separately.
+
+## Spider Logistics: Your Partner on the China–Bangladesh Lane
+
+Spider Logistics is a Shenzhen-based freight forwarder with direct experience on the China–Bangladesh corridor. We provide:
+
+- Weekly LCL consolidations from Shenzhen, Shanghai, and Guangzhou to Chittagong
+- FCL bookings on major carriers (Evergreen, CMA CGM, ONE, Hapag-Lloyd)
+- Air freight via Biman, Emirates SkyCargo, and Qatar Airways Cargo
+- End-to-end customs support at both origin and destination
+
+Contact us today for a March–April rate quote tailored to your cargo.
+    `.trim(),
+  },
+  {
     slug: 'dhl-ups-fedex-fuel-surcharge-increase-2026',
     title: 'DHL, UPS & FedEx Fuel Surcharge Increase — March 2026 Update',
     excerpt: 'All three major carriers have raised fuel surcharges significantly in March 2026, with UPS and FedEx reaching 33.25% for the week of March 7–14. Here\'s what shippers need to know and how to manage the impact.',
