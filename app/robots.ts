@@ -10,6 +10,5 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: 'https://spiderlogisticsinc.cn/sitemap.xml',
-    host: 'https://spiderlogisticsinc.cn',
   }
 }
