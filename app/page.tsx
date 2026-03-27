@@ -250,18 +250,85 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Latest Blog Posts - SEO Internal Linking */}
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+              Shipping News & Guides
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Latest updates on <strong>freight rates</strong>, <strong>shipping routes</strong>, and <strong>logistics tips</strong> from China
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: 'China to Bangladesh Shipping Update',
+                excerpt: 'Latest air and sea freight rates, Guangzhou and Hong Kong flight options, and post-Ramadan logistics trends.',
+                slug: 'china-bangladesh-shipping-update-march-2026',
+                date: 'March 27, 2026'
+              },
+              {
+                title: 'China to Israel Shipping Update',
+                excerpt: 'Air and sea freight rates, transit times, and market trends for the China–Israel trade lane.',
+                slug: 'china-israel-shipping-update-march-2026',
+                date: 'March 20, 2026'
+              },
+              {
+                title: 'DHL, UPS, FedEx Fuel Surcharge Increase',
+                excerpt: 'Understanding the latest fuel surcharge changes and how they affect your shipping costs.',
+                slug: 'dhl-ups-fedex-fuel-surcharge-increase-2026',
+                date: 'March 14, 2026'
+              }
+            ].map((post, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+              >
+                <div className="p-6">
+                  <div className="text-sm text-blue-600 font-semibold mb-2">{post.date}</div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">
+                    <Link href={`/blog/${post.slug}`} className="hover:text-blue-600 transition-colors">
+                      {post.title}
+                    </Link>
+                  </h3>
+                  <p className="text-gray-600 mb-4">{post.excerpt}</p>
+                  <Link href={`/blog/${post.slug}`} className="text-blue-600 font-semibold hover:text-blue-800 transition-colors">
+                    Read More →
+                  </Link>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Link href="/blog">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+                View All Articles
+              </button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-blue-600 to-blue-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
-            Ready to Ship?
+            Ready to Ship from China?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Get a free quote today and discover how we can optimize your logistics
+            Get a free quote today for <strong>air freight</strong> or <strong>sea freight</strong> from China to Bangladesh, Israel, Africa, and worldwide
           </p>
           <Link href="/contact">
             <button className="bg-white text-blue-900 px-10 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
-              Get Started Now
+              Get Free Quote
             </button>
           </Link>
         </div>

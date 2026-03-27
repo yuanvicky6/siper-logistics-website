@@ -34,14 +34,14 @@ export default function BlogPage() {
     <div className="min-h-screen bg-white">
       <Navbar />
 
-      {/* Hero */}
+      {/* Hero - SEO Optimized */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            Spider Logistics Blog
+            China Freight & Shipping News
           </h1>
           <p className="text-xl text-blue-200 max-w-2xl mx-auto">
-            Industry insights, shipping guides, and expert tips to help your business move smarter.
+            Expert <strong>shipping guides</strong>, <strong>freight rate updates</strong>, and logistics insights for <strong>China to Bangladesh</strong>, <strong>Israel</strong>, and worldwide destinations.
           </p>
         </div>
       </section>
