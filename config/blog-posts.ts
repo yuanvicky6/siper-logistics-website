@@ -116,7 +116,7 @@ Contact us today for a competitive quote tailored to your cargo requirements.
     date: 'March 27, 2026',
     category: 'Shipping Guide',
     readTime: '7 min read',
-    coverImage: '/images/warehouse-storage.jpg',
+    coverImage: '/warehouse-storage.jpg',
     content: `
 The China–Bangladesh trade lane remains one of the most active corridors in South Asia. Bangladesh is the world's second-largest garment exporter, and its manufacturers depend heavily on raw materials, machinery, and consumer goods shipped from China. As of March 2026, the route is experiencing significant price volatility driven by geopolitical disruptions, fuel surcharge hikes, and post-Ramadan demand surge. Here is the most current market intelligence.
 

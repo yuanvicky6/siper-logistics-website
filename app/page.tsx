@@ -29,8 +29,8 @@ export default function Home() {
               {CONTACT_INFO.company.name}
             </h1>
             <p className="text-xl sm:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Specializing in air and sea freight from China to Bangladesh, Israel, Africa, and beyond.
-              Delivering excellence, connecting the world since {CONTACT_INFO.company.foundedYear}.
+              Professional <strong>China freight forwarder</strong> specializing in <strong>air freight</strong> and <strong>sea freight</strong> from China to Bangladesh, Israel, Africa, Middle East. 
+              Competitive <strong>FCL/LCL shipping</strong> rates with expert <strong>customs clearance</strong> services. Delivering excellence since {CONTACT_INFO.company.foundedYear}.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -77,10 +77,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-              Our Core Services
+              Professional Freight Forwarding Services from China
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Comprehensive logistics solutions tailored to your business needs
+              Comprehensive <strong>air and sea freight</strong> solutions for shipping from China to Bangladesh, Israel, Africa, Middle East. Expert <strong>customs clearance</strong> and <strong>door-to-door delivery</strong>.
             </p>
           </div>
 
@@ -88,20 +88,20 @@ export default function Home() {
             {[
               {
                 icon: '✈️',
-                title: 'Air Freight',
-                description: 'Fast and reliable air cargo services with global coverage. Perfect for time-sensitive shipments.',
+                title: 'Air Freight from China',
+                description: 'Fast and reliable air cargo services from China to Bangladesh, Israel, Africa with global coverage. Perfect for time-sensitive shipments.',
                 features: ['Express Delivery', 'Door-to-Door Service', 'Real-time Tracking']
               },
               {
                 icon: '🚢',
-                title: 'Sea Freight',
-                description: 'Cost-effective ocean freight solutions for large volume shipments. FCL and LCL options available.',
+                title: 'Sea Freight FCL/LCL',
+                description: 'Cost-effective ocean freight solutions from China for large volume shipments. FCL and LCL options available to Bangladesh, Israel, Africa.',
                 features: ['FCL & LCL', 'Port-to-Port', 'Flexible Schedules']
               },
               {
                 icon: '📦',
-                title: 'Customs Clearance',
-                description: 'Expert customs brokerage services ensuring smooth and compliant international trade.',
+                title: 'China Customs Clearance',
+                description: 'Expert customs brokerage services ensuring smooth and compliant international trade from China to Bangladesh, Israel, Africa.',
                 features: ['Documentation', 'Compliance', 'Fast Clearance']
               }
             ].map((service, index) => (
@@ -203,10 +203,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-              Why Choose Spider Logistics?
+              Why Choose Spider Logistics China Freight Forwarder?
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              We go beyond shipping to provide complete logistics solutions
+              Professional <strong>China logistics company</strong> providing complete <strong>freight forwarding</strong> solutions with competitive rates and reliable service
             </p>
           </div>
 
