@@ -11,6 +11,133 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'canton-fair-139-shipping-guide-april-2026',
+    title: '139th Canton Fair 2026: What Buyers Need to Know About Shipping After the Fair',
+    excerpt: 'The 139th Canton Fair is wrapping up Phase 2 (April 23–27) with record overseas attendance. If you\'ve placed orders at the fair, here\'s your complete logistics guide — shipping timelines, freight options, customs tips, and how Spider Logistics can help move your goods.',
+    date: 'April 29, 2026',
+    category: 'Industry Insights',
+    readTime: '6 min read',
+    coverImage: '',
+    content: `
+The **139th China Import and Export Fair (Canton Fair)** is in full swing. Phase 2 just wrapped on April 27, and Phase 3 opens May 1–5. With over **300,000 overseas buyers** attending across all three phases — a new record — the post-fair logistics rush is already building. If you've placed orders at the fair or are planning to, this guide covers everything you need to know about getting your goods home efficiently.
+
+## Canton Fair 2026: By the Numbers
+
+| Phase | Dates | Main Product Categories |
+|---|---|---|
+| Phase 1 | April 15–19 | Electronics, machinery, hardware, building materials, chemicals |
+| Phase 2 | April 23–27 | Consumer goods, gifts, home décor, toys, holiday products |
+| Phase 3 | May 1–5 | Textiles, garments, footwear, office supplies, medical devices |
+
+**Key stats from the 139th Canton Fair:**
+- Exhibition area: over **1,550,000 sqm** across 3 halls
+- Exhibitors: **32,000+** companies from across China
+- Overseas buyers registered: **300,000+** from 220+ countries and regions
+- Most represented regions: Southeast Asia, Middle East, Africa, South Asia, Latin America
+
+## Post-Fair Shipping: Your Timeline Starts Now
+
+Once you've placed purchase orders at the Canton Fair, the clock starts. Here's a realistic production and shipping timeline:
+
+| Stage | Typical Duration | Notes |
+|---|---|---|
+| Factory production | 15–45 days | Depends on product complexity and order size |
+| Quality inspection | 2–5 days | Schedule with your QC agent before goods leave factory |
+| Booking & documentation | 3–7 days | Freight forwarder secures space and prepares B/L, invoice, packing list |
+| Sea freight transit (to most destinations) | 10–35 days | Varies by destination: Bangladesh 10–15 days, Europe 25–35 days |
+| Air freight transit | 3–5 days | Suitable for urgent or small shipments |
+| Customs clearance at destination | 2–7 days | Depends on documentation accuracy and destination country |
+
+**Practical advice:** For buyers at Phase 2 and Phase 3, your goods likely won't be ready to ship until mid-to-late May at the earliest. Book your freight forwarder now so space is secured when your cargo is ready.
+
+## Shipping Options from Guangzhou After the Canton Fair
+
+Most Canton Fair exhibitors are based in Guangdong Province — giving you direct access to **Guangzhou Nansha Port**, one of China's fastest-growing container terminals.
+
+### Sea Freight (FCL & LCL)
+
+**Full Container Load (FCL)** — best for large orders:
+- 20-foot container: fits approximately 25–28 CBM of general cargo
+- 40-foot container: fits approximately 55–58 CBM
+- Current FCL rates from Guangzhou (April 2026): $900–$2,500 depending on destination
+
+**Less than Container Load (LCL)** — best for small-to-medium orders:
+- Pay only for the space you use (priced per CBM)
+- Ideal for orders under 15 CBM
+- Spider Logistics offers **weekly LCL consolidations** from Guangzhou to major destinations
+
+**Current LCL rates from Guangzhou (April 2026):**
+
+| Destination | Rate (per CBM) | Transit Time |
+|---|---|---|
+| Bangladesh (Chittagong) | $8–$12 | 12–18 days |
+| Israel (Ashdod) | $45–$65 | 40–45 days |
+| South Africa (Durban) | $30–$45 | 25–30 days |
+| Australia (Sydney/Melbourne) | $35–$50 | 18–22 days |
+| UK (Felixstowe) | $40–$55 | 28–32 days |
+
+### Air Freight
+
+For time-sensitive goods — especially garment accessories, electronics samples, or urgent restocks — air freight from Guangzhou Baiyun International Airport (CAN) offers fast, reliable service to most destinations worldwide.
+
+**Current air freight rates from Guangzhou (April 2026):**
+- Most Asian destinations: **$3.50–$6.00 per kg**
+- Middle East / Africa: **$5.00–$8.00 per kg**
+- Europe / Australia: **$6.00–$9.00 per kg**
+
+**Tip:** For shipments under 500 kg that are time-critical, air freight is often more cost-effective when you factor in inventory carrying costs and lost sales from stock-outs.
+
+## Common Shipping Challenges After the Canton Fair
+
+**1. Multiple suppliers, scattered shipments**
+Many buyers source from 5–15 different factories across Guangdong. Managing separate shipments from each factory is costly and complicated.
+
+✅ **Solution:** Use a Guangzhou consolidation warehouse. Spider Logistics collects goods from multiple suppliers, inspects them, and consolidates into a single FCL or LCL shipment — saving significantly on freight costs.
+
+**2. Rushed documentation**
+Post-fair orders often come with tight production deadlines. Incomplete or inaccurate shipping documents (wrong HS codes, mismatched invoice values) cause customs delays at destination.
+
+✅ **Solution:** Work with your freight forwarder early to prepare a documentation checklist for each supplier. Having standardized packing list and invoice templates avoids last-minute scrambles.
+
+**3. Cargo readiness uncertainty**
+Factories sometimes miss committed production dates, especially after the Golden Week (May 1–5) holiday. This can cause you to miss your booked vessel.
+
+✅ **Solution:** Build a 5–7 day buffer into your production schedule, and have your freight forwarder on standby to rebook quickly if needed.
+
+**4. Customs compliance at destination**
+Some product categories sourced at the Canton Fair — toys, electronics, food contact materials, textiles — require specific certifications or labeling for import into Europe, the US, or Middle Eastern markets.
+
+✅ **Solution:** Verify compliance requirements with your freight forwarder *before* placing the order, not after goods are ready to ship.
+
+## Why Guangzhou Is the Ideal Logistics Base for Canton Fair Buyers
+
+Guangzhou sits at the heart of China's manufacturing powerhouse — the Pearl River Delta. Within a 150 km radius of the Canton Fair Complex, you have access to:
+
+- **Guangzhou Nansha Port** — deep-water terminal with weekly sailings to 200+ global ports
+- **Guangzhou Baiyun International Airport** — major cargo hub with connections to all continents
+- **Shenzhen Yantian Port** — just 1.5 hours away, offering additional carrier options
+- **Hong Kong** — 2 hours from Guangzhou, with premium cargo facilities and more airline options
+
+This concentration of infrastructure is unmatched anywhere in the world.
+
+## Spider Logistics: Your Canton Fair Logistics Partner
+
+Spider Logistics is based in Guangzhou and specializes in moving goods from Chinese manufacturers to destinations across Asia, Africa, the Middle East, and beyond. We offer:
+
+- **Supplier collection service** — we pick up from multiple factories and consolidate at our Guangzhou warehouse
+- **Pre-shipment quality inspection** — catch problems before goods leave China
+- **LCL consolidation** — weekly sailings from Guangzhou to Bangladesh, Israel, South Africa, Australia, and more
+- **FCL bookings** on major carriers: COSCO, Evergreen, CMA CGM, MSC, Hapag-Lloyd
+- **Air freight** via Guangzhou and Hong Kong airports
+- **Full customs documentation** support at origin and destination
+- **Door-to-door service** for buyers who want a hands-off shipping experience
+
+**Contact us now** with your Canton Fair order list and we'll provide a competitive freight quote — including consolidation from multiple suppliers — within 24 hours.
+
+*Phase 3 of the 139th Canton Fair runs May 1–5. The 140th Canton Fair will open in October 2026.*
+    `.trim(),
+  },
+  {
     slug: 'global-freight-market-update-april-2026',
     title: 'April 2026 Global Freight Market Update: Rates, Tariffs & What Shippers Must Know',
     excerpt: 'Hormuz disruption continues to push sea freight costs higher, US tariffs on China goods rise to 15%, and air cargo rates on China–USA lanes drop 16% this week. Full April 2026 market intelligence for importers and exporters.',

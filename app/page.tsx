@@ -265,6 +265,12 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                title: '139th Canton Fair 2026: Shipping Guide for Buyers',
+                excerpt: 'Phase 2 just wrapped with record overseas attendance. If you\'ve placed orders at the Canton Fair, here\'s your complete logistics guide — timelines, freight options, and consolidation tips.',
+                slug: 'canton-fair-139-shipping-guide-april-2026',
+                date: 'April 29, 2026'
+              },
+              {
                 title: 'April 2026 Global Freight Market Update',
                 excerpt: 'Hormuz disruption pushes Europe rates up 54%, US tariffs rise to 15% on China goods, and China–USA air cargo drops 16%. Full market intelligence inside.',
                 slug: 'global-freight-market-update-april-2026',
@@ -275,12 +281,6 @@ export default function Home() {
                 excerpt: 'Latest air and sea freight rates, Guangzhou and Hong Kong flight options, and post-Ramadan logistics trends.',
                 slug: 'china-bangladesh-shipping-update-march-2026',
                 date: 'March 27, 2026'
-              },
-              {
-                title: 'China to Israel Shipping Update',
-                excerpt: 'Air and sea freight rates, transit times, and market trends for the China–Israel trade lane.',
-                slug: 'china-israel-shipping-update-march-2026',
-                date: 'March 20, 2026'
               }
             ].map((post, index) => (
               <motion.div
