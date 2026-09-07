@@ -85,7 +85,7 @@ export default function RootLayout({
       name: 'Shenzhen Spider Logistics Technology Co., Ltd.',
       alternateName: ['Spider Logistics', 'Spider Logistics China'],
       url: 'https://spiderlogisticsinc.cn',
-      logo: 'https://spiderlogisticsinc.cn/favicon.ico',
+      logo: 'https://spiderlogisticsinc.cn/icon.png',
       description: 'Professional international freight forwarding company specializing in air and sea freight from China to Bangladesh, Israel, Africa, Middle East and worldwide.',
       foundingDate: '2010',
       telephone: '+86-13651459671',
@@ -123,6 +123,20 @@ export default function RootLayout({
         '@type': 'GeoCoordinates',
         latitude: '22.5431',
         longitude: '114.0579'
+      }
+    },
+    // Website Schema
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      '@id': 'https://spiderlogisticsinc.cn/#website',
+      url: 'https://spiderlogisticsinc.cn',
+      name: 'Spider Logistics',
+      alternateName: 'Spider Logistics - China Freight Forwarder',
+      description: 'International freight forwarding from China — air freight, sea freight (FCL & LCL), customs clearance to Bangladesh, Israel, Africa, Middle East and worldwide.',
+      inLanguage: 'en',
+      publisher: {
+        '@id': 'https://spiderlogisticsinc.cn/#organization'
       }
     },
     // Local Business Schema
