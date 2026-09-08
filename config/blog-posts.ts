@@ -11,6 +11,87 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'global-freight-market-update-sep-8-2026',
+    title: 'SCFI Rallies for Sixth Week to Two-Year High: Chittagong Congestion and Golden Week Blank Sailings Test Asia Exporters',
+    excerpt: 'The Shanghai Containerized Freight Index climbed 2.29% on September 4 to 3,590.05 points — its highest level since mid-July 2024 — as trans-Pacific rates keep climbing while Europe softens. Meanwhile a transport strike has pushed Chittagong import containers to 38,159 TEU, above yard capacity, and Maersk, MSC and Hapag-Lloyd published their Golden Week blank-sailing programs.',
+    date: 'September 8, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `
+The container shipping market has entered the most polarized stretch of 2026. The Shanghai Containerized Freight Index (SCFI) climbed for a sixth consecutive week on September 4 to **3,590.05 points**, the highest reading since mid-July 2024, yet the strength sits on the trans-Pacific and intra-Asia lanes while Europe-bound rates keep sliding. Beneath the headlines, three operational stories will shape September for China shippers: transport-strike congestion at Chittagong, Golden Week blank-sailing programs from Maersk, MSC and Hapag-Lloyd, and fresh attacks near the Strait of Hormuz. This briefing serves importers and exporters moving cargo to Bangladesh, Israel, Africa and the Middle East.
+
+## Market Snapshot: SCFI Extends Its Rally to Six Weeks
+
+Shanghai Shipping Exchange data released September 4 shows the SCFI composite up **80.52 points week on week (+2.29%)** at **3,590.05 points** — the sixth straight weekly gain and the strongest level in more than two years. The main lane movements:
+
+| Trade Lane (Far East →) | Spot Rate | Weekly Change |
+|---|---|---|
+| US West Coast | $7,242 / FEU | **+4.35%** (+$302) |
+| US East Coast | $10,324 / FEU | **+2.77%** (+$278) |
+| Europe (base ports) | $2,643 / TEU | -2.69% |
+| Mediterranean | $3,442 / TEU | -3.23% |
+| Southeast Asia | $893 / TEU | **+12%** (+$97) |
+
+The Drewry assessment of September 3 holds its World Container Index steady at **$4,465 per 40 ft container**, with Shanghai to Los Angeles up 5% to **$7,185** and Shanghai to New York up 3% to **$9,587**, while Shanghai to Rotterdam and Shanghai to Genoa fell 5% and 10%. Two indices, one story: American demand keeps absorbing capacity; Europe does not. Drivers behind the US rally: factories rushing shipments before the October 1–8 Golden Week holiday, lingering typhoon congestion at East China ports, six blank sailings announced for the week ahead on the trans-Pacific (double the prior week, per Drewry capacity data), and Panama Canal restrictions capping transits at **34 per day in early September**, falling to 32 later in the month, with Neo-Panamax slots limited to nine daily. Market quotes for the first half of September put the US West Coast at **$7,500–$7,700 per FEU** and the US East Coast near **$11,000 per FEU**.
+
+## Southeast Asia Jumps 12% as Feeder Space Tightens
+
+The SCFI Southeast Asia component jumped **12% week on week to $893 per TEU**, the largest increase of any lane in the index. Port congestion across East and Southeast Asia has slowed vessel turnarounds, shrinking effective feeder capacity. Because most cargo to Bangladesh, Africa and the Middle East connects through hubs such as Singapore, Port Klang and Colombo, tighter feeder space means later cut-offs and higher connecting costs. Book feeder space as early as you would book a mainline sailing.
+
+## Global Port Congestion Hits a Record High
+
+Linerlytica now estimates blocked capacity at ports worldwide at **more than 4.3 million TEU**, an all-time high, with northern Asia the largest single congestion cluster. Chinese ports are still clearing the backlog left by Typhoon Saudel and earlier storms, and schedule reliability across alliances remains fragile — a fact worth remembering before relying on a single sailing for a deadline shipment.
+
+## Chittagong Congestion: A Fresh Shock on the China–Bangladesh Lane
+
+The most urgent development for Bangladesh-bound cargo comes from the destination side. The Daily Star reports (September 5) that an unannounced transport strike, tied to student protests over road safety, pulled most truck and prime-mover capacity out of Chittagong Port and cut the delivery of import containers to a trickle. Key figures:
+
+- Import-laden containers reached **38,159 TEU**, above the yard capacity of **37,620 TEU**
+- Only **361 TEU** was delivered in the 24 hours to 8 a.m. Monday, versus **3,739 TEU** during the same window a day earlier
+- About **7,100 TEU** bound for private inland container depots sat stranded at port yards with no dedicated storage space
+
+The Bangladesh Shipping Agents Association warned that the congestion hampers yard handling and risks delaying berthing for vessels at the outer anchorage. The Bangladesh Garment Manufacturers and Exporters Association fears export boxes will miss connecting mother vessels at Singapore or Colombo, which could push buyers to demand discounts — or force exporters into costlier air freight. Port authorities have since met users and the situation is gradually improving. Even so, expect **multi-day delivery delays and elevated demurrage risk** at Chittagong through mid-September. Confirm the free-time allowance at destination for FCL shipments, and use air freight to Dhaka for urgent or high-value cargo.
+
+## Golden Week Blank Sailings: The Exact Programs Are Out
+
+Carriers have published concrete Golden Week capacity programs. The highlights from Maersk, MSC and Hapag-Lloyd:
+
+- **Maersk:** AE15 (Qingdao, September 28), AE12 (Ningbo, October 8) and AE1 (Shanghai, October 10) on Asia–Europe, plus TP8 and TP12 voyages on the trans-Pacific (Busan and Ningbo, October 9)
+- **MSC:** JADE (Week 39), SWAN and BRITANNIA (Week 40) and LION (Week 41) on Asia–Europe and Asia–Mediterranean, plus ORIENT (Week 40) and PEARL (Week 41) on Asia–US West Coast — six voyages in total
+- **Hapag-Lloyd:** NE2 (Shanghai, October 10), SE3 (Qingdao, September 28) and SE1 (Ningbo, October 8), plus US services WC2, US2 and AA7 between October 1 and October 10
+
+All three lines say they will cover the gaps with alternative services and extra port calls, and customers can keep booking as usual. The practical effect: fewer choices and tighter space windows from **September 28 to October 12**. Shippers to Bangladesh and Africa, who often depend on transshipment via Singapore or Colombo, should confirm the connecting voyage rather than assuming the mainline sailing is enough.
+
+## Strait of Hormuz: New Incidents Keep the Middle East Premium Alive
+
+For cargo to Israel and the Middle East, the risk picture has not improved. The United Kingdom Maritime Trade Operations (UKMTO) issued advisory 124 on September 1 after a tanker was struck by **three missiles about 17 nautical miles east of Khasab, Oman** while transiting the Strait of Hormuz; no injuries were reported. A separate UKMTO advisory the same day reported an incident involving a tanker and armed forces in the Indian Ocean. Regional reports also describe the interception of a Saudi-operated very large crude carrier in the southern strait on September 1, following Iranian Revolutionary Guard statements about a vessel that struck a mine on August 31 — a claim United States Central Command said it could not confirm.
+
+War-risk premiums continue to underpin pricing on Middle East and Red Sea routings. Israel-bound cargo can move either via the Suez Canal (faster, with a premium) or around the Cape of Good Hope (slower, longer). Verify the routing of your booking twice: at booking, and again 48 hours before departure, because carriers can change routings quickly when risk levels shift.
+
+## What Shippers Should Do This Week
+
+1. **China–Bangladesh:** add three to five days of buffer on top of normal Chittagong transit; confirm destination free time and ICD trucking before sailing; use air freight to Dhaka for urgent goods.
+2. **Golden Week cargo:** book China departures before **September 25** if cargo must sail before the holiday; expect the tightest windows between September 28 and October 12.
+3. **Israel and the Middle East:** request both Suez and Cape routings, compare total landed cost, and reconfirm routing shortly before departure.
+4. **Africa:** if cargo moves via Singapore or Colombo, confirm the connecting vessel, not just the first-leg sailing.
+5. **Rates:** quote validity of two to three weeks is now standard on volatile lanes; lock in confirmed space rather than chasing the cheapest headline rate.
+
+## How Spider Logistics Can Help
+
+- Weekly LCL consolidations from Guangzhou, Shenzhen and Shanghai to Bangladesh, Israel, Africa and the Middle East
+- FCL bookings with confirmed space on major carriers through the Golden Week window
+- Suez and Cape routing options quoted side by side for Israel-bound cargo
+- Air freight via Guangzhou and Hong Kong for time-critical shipments, including Dhaka and Tel Aviv
+- Destination-side support at Chittagong, including demurrage and detention monitoring
+- Full customs documentation support for China export and destination clearance
+
+Contact Spider Logistics today for a fresh September quote — and a Golden Week shipping plan before capacity tightens.
+
+**Tags:** Freight Market Update 2026 | SCFI | Container Shipping Rates | Chittagong Port | Golden Week Blank Sailings | China to Bangladesh | Strait of Hormuz
+    `.trim(),
+  },
+  {
     slug: 'global-freight-market-update-september-2026',
     title: 'September 2026 Global Freight Market Update: US East Coast Rates Near Record, Europe Eases Ahead of Golden Week',
     excerpt: 'A sharply divided freight market: Far East–US East Coast spot rates hit $10,910 per FEU — just 14% below the Covid-19 record — while Asia–Europe rates fall for a third month. Typhoon congestion in China, the gradual return of the Suez Canal, and Golden Week blank sailings explained.',
