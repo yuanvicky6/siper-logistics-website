@@ -11,6 +11,72 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'red-sea-suez-return-sep-9-2026',
+    title: 'Carriers Begin a Cautious Return to the Red Sea: Suez Pilot Sailings, Steady Middle East Rates and a Recovering Chittagong',
+    excerpt: 'MSC, Maersk, CMA CGM, Hapag-Lloyd and COSCO have all moved at least one service back through Suez, with about 19% of Asia-Europe capacity already off the Cape route. Middle East rates hold near USD 6,135 per TEU while Chittagong congestion eases after the strike-driven peak of last week. What China shippers should watch before Golden Week.',
+    date: 'September 9, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The container shipping industry reached a pivot point this week: after nearly three years of Cape of Good Hope diversions, the largest carriers have begun switching selected sailings back through the Suez Canal and the Red Sea. MSC confirmed a limited, staged return, joining Maersk, CMA CGM, Hapag-Lloyd and COSCO Shipping, which had all tested the corridor earlier. Linerlytica estimates that about **19% of Asia-Europe capacity** has already shifted off the Cape route, yet no line has committed to a full recovery — every return is a pilot, and every pilot can be reversed if security deteriorates. For China shippers moving cargo to Bangladesh, Israel, Africa and the Middle East, the stakes are real: shorter voyages add capacity at a moment when Asian port congestion still absorbs over **4.3 million TEU**.
+
+## Market Snapshot: A Measured Return, Not a Full Recovery
+
+No carrier has announced a blanket return. The pattern is deliberately cautious — named sailings restored to the Suez routing, with plans to revert to the Cape at short notice:
+
+- **MSC** will restore **5 voyages across 4 east-west service strings** to the Suez and Red Sea route, keeping an emergency plan to withdraw if risks rise.
+- **Maersk** recorded about **10 trans-Suez sailings in one week** (Linerlytica), after the 19,076 TEU Mathilde Maersk and 17,480 TEU Bangkok Maersk made southbound transits on August 22.
+- **CMA CGM** leads with roughly **15 Suez transits**; the Suez Canal Authority counts **199 CMA CGM passages since the start of 2026**, or 25.2 million tonnes of net tonnage.
+- **Hapag-Lloyd**, once the most reluctant major line, sent the 14,993 TEU AL JMELIYAH through Suez on the Asia–Mediterranean SE1/AE12 loop.
+- **COSCO Shipping** has restored limited Asia–Mediterranean and Middle East services, assessing every voyage on its own risk profile.
+
+The Cape diversion absorbs an estimated **5% to 7% of global capacity** (1.7 to 2.4 million TEU), and Maersk is still scrambling for tonnage. A Suez routing cuts the voyage by up to **14 days each way**, releasing effective capacity without a single new vessel.
+
+## Trade Lane Rates: Transpacific Firm, Europe Soft, Middle East Steady
+
+| Benchmark (period) | Reading | Weekly Move |
+|---|---|---|
+| SCFI composite (Sep 4) | 3,590.05 points | **+2.29%** |
+| SCFI Far East → Middle East | USD 6,135 / TEU | broadly flat |
+| Drewry WCI composite (Sep 3) | USD 4,465 / 40 ft | flat |
+| Drewry Shanghai → Rotterdam | USD 4,092 / 40 ft | -5% |
+| NYSHEX Asia → North Europe | USD 4,058.96 | about -4.1% |
+| Freightos Baltic Index (global) | USD 3,520 | -2% |
+
+The SCFI Far East–Middle East reading holds near **USD 6,135 per TEU** (Sinolink Securities research). Forwarders report healthy demand and workable space on Middle East sailings, with carriers actively soliciting cargo — unlike the trans-Pacific scramble. If Suez pilots become routine, extra effective capacity will pressure Asia–Europe spot rates first, while Middle East and Red Sea trades gain from shorter transits and new direct loops.
+
+## Chittagong: From Strike Shock to Measured Recovery
+
+Conditions in Bangladesh improved faster than feared. Kuehne+Nagel seaexplorer data (September 8) puts the 7-day average vessel wait at Chittagong at about **1.14 days**, yard utilisation near **70%** — a clear recovery from the early-September transport strike, when import containers peaked at **38,159 TEU** against a yard capacity of **37,620 TEU** and daily deliveries collapsed to **361 TEU** (The Daily Star, September 5).
+
+Structural relief is coming (The Business Standard, September 7): the **Laldia Container Terminal** broke ground on August 30 under an APM Terminals concession, targeting operations in 2030; talks with **DP World** to run the New Mooring Terminal are at the final stage; and the JICA-assisted **Matarbari deep-sea port** will add about 1 million TEU at a 16-metre draft, with progress near 15%. Near term, expect residual demurrage risk for a week or two while the backlog unwinds. Confirm the free-time allowance, and keep air freight as a fallback for urgent Dhaka cargo.
+
+## Israel and the Middle East: Routing Options Multiply
+
+Two items matter for Israel-bound cargo. The Israeli government postponed a decision on the sale of **ZIM to Hapag-Lloyd by 30 days**, asking the buyer and fund FIMI to revise their offer (Linerlytica, Week 36). And every new Suez pilot sailing improves routing via Mediterranean transshipment hubs, cutting Asia–Israel transit versus the Cape by up to two weeks. Compare the direct and Cape routings before each booking — a given voyage can switch corridors with little notice. Confirm the service and promised transit in writing.
+
+## Key Events: Congestion Is Still the Hidden Hand
+
+- Linerlytica counts **over 4.3 million TEU** waiting at ports worldwide, above the pandemic peak of about 4.0 million, with waits up to **12 days at Shanghai and Ningbo**.
+- Sea-Intelligence puts **6.6% of the global fleet** effectively offline (about 2.3 million TEU); July schedule reliability fell **6.1 points to 56.4%**, the steepest monthly drop since January 2021. Shanghai reliability is **21%**, Ningbo **34.6%**.
+- A Dutch port strike is delaying Rotterdam, while South China and Southeast Asian hubs absorb the ripple effects.
+- Carrier EBIT margins averaged **10.4% in the second quarter** (from 4.8% in the first) and may exceed 25% in the third (Linerlytica).
+
+The backlog should keep vessels full even through Golden Week (from October 1), cushioning the seasonal rate dip — but blank sailings will bite harder when they arrive.
+
+## What Shippers Should Do
+
+1. **Book October cargo before mid-September.** Golden Week factory closures run October 1 to 8; rollover risk spikes when everyone ships in the same fortnight.
+2. **Ask for the routing on every quote.** Transit can differ by up to 14 days between a Cape voyage and a Suez voyage on the same string; get the promise in writing.
+3. **Watch the Chittagong recovery.** Waiting times have normalised, but demurrage exposure remains while about 7,100 TEU of private-ICD containers clear the yards.
+4. **Use the Middle East window.** Space is available and rates are flat near USD 6,135 per TEU; expect looser capacity and softer spots toward year end if Suez normalisation accelerates.
+5. **Review fuel exposure.** Brent near **USD 98 per barrel** keeps bunker costs and surcharges high; allow for a possible BAF adjustment in September quotes.
+
+Spider Logistics confirms the current routing, rate and free-time position for each destination before you book — China to Bangladesh, Israel, the Middle East and Africa, by sea or air, with customs clearance and door delivery included.
+
+**Tags:** Red Sea | Suez Canal | Container Shipping Rates | Middle East Freight | China to Bangladesh | Chittagong Port | Israel Shipping | Industry Insights`.trim(),
+  },
+  {
     slug: 'global-freight-market-update-sep-8-2026',
     title: 'SCFI Rallies for Sixth Week to Two-Year High: Chittagong Congestion and Golden Week Blank Sailings Test Asia Exporters',
     excerpt: 'The Shanghai Containerized Freight Index climbed 2.29% on September 4 to 3,590.05 points — its highest level since mid-July 2024 — as trans-Pacific rates keep climbing while Europe softens. Meanwhile a transport strike has pushed Chittagong import containers to 38,159 TEU, above yard capacity, and Maersk, MSC and Hapag-Lloyd published their Golden Week blank-sailing programs.',
