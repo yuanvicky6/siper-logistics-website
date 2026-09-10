@@ -11,6 +11,73 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'chittagong-port-tariff-hike-sep-10-2026',
+    title: 'Chittagong Port Raises Fees 41 Percent in First Tariff Overhaul for Almost 40 Years: Cost Impact on China-Bangladesh Cargo and the Golden Week Capacity Squeeze',
+    excerpt: 'The Chittagong Port Authority has gazetted an average 41 percent service charge increase effective September 15, the first major tariff revision since the 1980s. Meanwhile Drewry WCI holds at USD 4,465 per 40 ft, carriers deepen Golden Week blank sailings and COSCO launches direct China-Jeddah services. What China shippers should do this week.',
+    date: 'September 10, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The biggest logistics story for China-Bangladesh cargo this week is not a rate move but a cost move: the Chittagong Port Authority (CPA) has officially gazetted an average **41 percent increase in port service charges**, effective **Monday, September 15** — the first major tariff revision in nearly four decades. Signed by port chairman Rear Admiral SM Moniruzzaman and published on September 6, the revised fee schedule touches almost every step of vessel and cargo handling, and it will flow directly into landed costs for importers and into the quoted door-to-door rates for Bangladesh-bound shipments from China. At the same time, the wider market is entering the pre-Golden Week squeeze, with carriers cutting sailings on the transpacific while Asia-Europe space loosens. Here is what the numbers say and how shippers should respond.
+
+## Market Snapshot: Two Markets, One Index
+
+The composite indices tell a story of divergence by trade lane — transpacific firm, Asia-Europe soft, Middle East steady:
+
+| Benchmark (period) | Reading | Weekly Move |
+|---|---|---|
+| Drewry WCI composite (Sep 3) | USD 4,465 / 40 ft | flat |
+| SCFI composite (Sep 4) | 3,590.05 points | **+2.29%** (6th weekly gain) |
+| SCFI Far East → US West Coast | USD 7,242 / FEU | **+4.4%** |
+| SCFI Far East → US East Coast | USD 10,324 / FEU | **+2.8%** |
+| SCFI Far East → North Europe | USD 2,643 / TEU | -2.7% |
+| SCFI Far East → Mediterranean | USD 3,442 / TEU | -3.2% |
+| SCFI Far East → Persian Gulf (Dubai) | USD 6,135 / TEU | broadly flat |
+
+On the Drewry reading, Shanghai to Los Angeles rose **5% to USD 7,185 per 40 ft** and Shanghai to New York climbed **3% to USD 9,587**, while Shanghai to Genoa fell **10% to USD 4,368** and Shanghai to Rotterdam dropped **5% to USD 4,092**. Drewry also reports its Intra-Asia Container Index up **9% to USD 1,312 per FEU**, a fifth straight weekly gain, driven by Middle East tensions and weather-related congestion. For China shippers the practical read: space on US-bound sailings is tightening fast, Europe and the Mediterranean are getting cheaper, and Middle East rates remain workable near USD 6,135 per TEU.
+
+## Chittagong: A 41 Percent Fee Increase from September 15
+
+The CPA says the overhaul is needed to cover years of rising fuel, maintenance and operating costs, and to benchmark against regional ports. The scale of the revision is unusual — key items include:
+
+- **Vessel working charge:** USD 306 per gross tonne per entry into the port area, with a 25 percent surcharge for dangerous goods vessels and 50 percent for dead ships or lighterage.
+- **Pilotage:** a minimum of **USD 800 per ship movement**, rising to USD 8.00 per gross tonne for vessels above 10,000 GT, plus a 25 percent night-navigation surcharge and USD 80 for berth shifting.
+- **Tug assistance:** from **USD 615 per movement** for small vessels inside the Karnaphuli River up to **USD 6,830** for the largest tonnage outside the river limits.
+- **Container handling:** **USD 20.80 to 35.10 per loaded container** depending on size, with water supply and waste-handling fees also revised.
+
+Industry reaction has been sharp. The Bangladesh Freight Forwarders Association warns the hike lands on top of already volatile global shipping costs and is asking for phased implementation or relief for smaller firms. Operationally, though, the port itself is running smoothly again: Kuehne+Nagel seaexplorer data (September 8) shows the 7-day average vessel wait at Chittagong at about **1.14 days** with yard utilisation near **70%**, a full recovery from the early-September transport strike. Colombo, the main transshipment hub for Bangladesh feeders, shows a **2.33 day** average wait.
+
+There is context beyond the fee table: at the Belt and Road Initiative Summit in Hong Kong on September 9, the Bangladesh commerce minister confirmed that relations with China now include **17 signed agreements**, covering the modernisation of Mongla Port and a **Chinese economic and industrial zone in Chattogram** (Bangladesh Sangbad Sangstha). Trade infrastructure investment is accelerating even as user charges rise.
+
+## Golden Week Capacity Cuts Are Locked In
+
+With the October 1 to 8 factory shutdown approaching, carriers are publishing blank sailings rather than carrying half-full vessels:
+
+- **Transpacific:** Drewry counts **six blank sailings announced for next week, double the two this week** — a deliberate tightening that should keep US-bound rates firm into early October.
+- **Asia-Europe:** blank sailings drop **from four to one**, returning capacity to a lane where demand is softening; Drewry expects a modest further decline.
+- **Maersk** has already blanked voyage 637W/642E on its AE15 Asia-Europe service (first load port Qingdao, ETD September 7), and trade reports expect more cancellations on both trades as Golden Week programmes are finalised around **September 15**.
+- **Panama Canal:** daily transits are limited to **34 in early September, stepping down to 32** later in the month, with Neo-Panamax slots capped at **9 per day** — a persistent constraint for US East Coast and Latin American routings.
+- **Weather:** Typhoon Saudel disrupted several Chinese ports during the reporting week, and Linerlytica still counts **over 4.3 million TEU** waiting at ports worldwide, above the pandemic peak.
+
+For Bangladesh, Israel and Africa-bound cargo the Golden Week effect is more about schedule compression than headline rates: fewer feeder connections, tighter LCL consolidation windows and higher rollover risk in the last fortnight of September.
+
+## Middle East: New Direct Services via a Reopening Suez
+
+Capacity on Middle East trades is set to grow. Sogese September market reporting notes that **COSCO and OOCL launched a direct China-Jeddah service** linking Shanghai, Ningbo and Nansha with the main Red Sea gateway of Saudi Arabia, alongside a separate **seven-vessel Asia-Red Sea loop** running via Singapore and the Suez Canal. Every additional Suez transit shortens voyages and adds effective capacity on Gulf and Red Sea strings — good news for shippers who saw Middle East spot rates hold stubbornly near USD 6,135 per TEU through the peak. Expect looser conditions on Gulf sailings toward the fourth quarter if the Suez normalisation continues.
+
+## What Shippers Should Do
+
+1. **Budget for the Chittagong fee increase now.** From September 15, local port charges add materially to import and export costs; ask your forwarder for an updated all-in door-to-door quote that reflects the new CPA schedule rather than absorbing surprises at destination.
+2. **Book Golden Week departures before mid-September.** Carriers finalise October programmes around September 15; late bookings face rollovers as blank sailings multiply.
+3. **Split urgent from non-urgent cargo.** Use air freight or premium sea-air for time-critical Dhaka and Tel Aviv shipments during the closure window, and let bulk orders ride the post-holiday vessels.
+4. **Lock Middle East rates while space is open.** With direct China-Jeddah loops launching and rates flat near USD 6,135 per TEU, fixed-rate DDP quotes protect the budget into Q4.
+5. **Confirm free time at Chittagong.** Even with congestion resolved, the new tariff penalises overstays steeply — up to 900 percent on berth occupation beyond 36 hours — so align pickup schedules with your consignee in advance.
+
+Spider Logistics monitors CPA tariff changes, blank-sailing programmes and lane-level rates every week and confirms the current cost position for each destination before you book — China to Bangladesh, Israel, the Middle East and Africa, by sea or air, with customs clearance and door delivery included.
+
+**Tags:** Chittagong Port | Port Tariff | Bangladesh Shipping | Container Shipping Rates | Golden Week | Middle East Freight | China to Bangladesh | Industry Insights`.trim(),
+  },
+  {
     slug: 'red-sea-suez-return-sep-9-2026',
     title: 'Carriers Begin a Cautious Return to the Red Sea: Suez Pilot Sailings, Steady Middle East Rates and a Recovering Chittagong',
     excerpt: 'MSC, Maersk, CMA CGM, Hapag-Lloyd and COSCO have all moved at least one service back through Suez, with about 19% of Asia-Europe capacity already off the Cape route. Middle East rates hold near USD 6,135 per TEU while Chittagong congestion eases after the strike-driven peak of last week. What China shippers should watch before Golden Week.',
