@@ -11,6 +11,64 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'hormuz-escalation-golden-week-blank-sailings-sep-11-2026',
+    title: 'Hormuz Escalation Meets Golden Week Blank Sailings: WCI Steady at USD 4,476 as Risk Premiums Climb on Middle East Trades',
+    excerpt: 'United States forces sank five Iranian tankers on September 9 and Iran retaliated against ten commercial vessels near the Strait of Hormuz, pushing Brent above USD 102. Drewry WCI holds at USD 4,476 per 40 ft while carriers blank more than 18 sailings before Golden Week and Panama cuts transits to 32 per day. What China shippers should do now.',
+    date: 'September 11, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The risk map for global shipping darkened sharply this week, just as the Golden Week capacity cuts arrived. On September 9, United States forces sank five Iranian government tankers in the Gulf of Oman near Kharg Island under a tanker-for-tanker policy, and Iran retaliated with attacks on ten commercial vessels around the Strait of Hormuz — the largest single-day attack on shipping since the conflict began six months ago (Hellenic Shipping News, Reuters). Brent crude broke above **USD 102 per barrel** in trading on September 11, war-risk premiums climbed again, and visible transits through the strait collapsed to single digits per day. Against that backdrop the Drewry World Container Index held steady for a second straight week at **USD 4,476 per 40 ft** (September 10), while carriers locked in more than 18 blank sailings ahead of the October 1-8 Golden Week factory closure. Here is what the data says and how shippers moving cargo from China to Bangladesh, Israel, Africa and the Middle East should respond.
+
+## Market Snapshot: Rates Flat, Risk Rising
+
+Spot indices barely moved even as geopolitics deteriorated — the divergence between freight prices and freight risk is the defining feature of this week:
+
+| Benchmark (period) | Reading | Weekly Move |
+|---|---|---|
+| Drewry WCI composite (Sep 10) | USD 4,476 / 40 ft | flat (2nd straight week) |
+| Drewry Shanghai → Los Angeles | USD 7,352 / 40 ft | **+2%** |
+| Drewry Shanghai → New York | USD 9,726 / 40 ft | **+1%** |
+| Drewry Shanghai → Rotterdam | USD 3,997 / 40 ft | -2% |
+| Drewry Shanghai → Genoa | USD 4,216 / 40 ft | -3% |
+| SCFI composite (Sep 4) | 3,590.05 points | **+2.3%** (6th weekly gain) |
+| SCFI Far East → Middle East | USD 6,135 / TEU | broadly flat |
+
+The transpacific keeps firming on Golden Week capacity cuts — Drewry counts **eight blank sailings announced for next week, up from seven** — while Asia-Europe drifts lower as the selective Suez return restores effective capacity; Drewry expects just three blank sailings on that lane next week, up from one. One quieter positive: congestion at Shanghai improved from **94 hours of average berth wait in Week 35 to 64 hours in Week 36** (Drewry), even though waits of 7 to 11 days persist at some Shanghai terminals and Linerlytica still counts over **4.3 million TEU** of capacity stuck at ports worldwide, above the pandemic peak.
+
+## Hormuz: The Most Expensive Waterway in the World
+
+The numbers around the strait are stark. Commodity shipping data provider Kpler counted only **six commodity vessels transiting on September 8**, down from nine the day before and against a ten-day average of roughly twelve; before the conflict began in late February, about 178 ships passed through daily. London marine insurers including Marsh and WTW confirm that war-risk premiums for Hormuz transits now run at **up to 6 percent of hull value — USD 6 million on a USD 100 million tanker** — versus less than 0.1 percent before the fighting started, and cargo war-risk cover has reached 5 to 6 percent of cargo value on Gulf routings. Kuwait has started ship-to-ship transfers outside the strait to keep crude moving, and the IRGC has declared a maritime restriction zone extending from Chabahar through the Gulf of Oman into the Arabian Sea.
+
+For container shipping the direct hit is limited — most Asia-Gulf container loops call at Jebel Ali and Gulf ports outside the immediate exchange zone — but the knock-on effects are real: bunker costs are surging with Brent near USD 102 and WTI near USD 96, and carriers are pushing the increase into surcharges. **ONE** has announced a peak season surcharge on Far East to US West Coast cargo of **USD 1,450 per 20 ft and USD 2,000 per 40 ft effective September 11**; **MSC** follows on Far East to US East Coast with USD 149/297 from September 12; and **Maersk** has filed a USD 8,000 per container surcharge on Middle East to US West Coast traffic from September 21.
+
+## Golden Week: More Than 18 Sailings Already Blanked
+
+With the October 1-8 factory shutdown approaching, Maersk, Hapag-Lloyd and MSC have together withdrawn **at least 18 sailings** between late September and mid-October:
+
+- **Maersk:** AE15 Asia-Europe westbound (Qingdao ETD September 28), AE12 (Ningbo October 8) and AE1 (Shanghai October 10), plus transpacific voyages TP8 640E to the US West Coast (Busan October 9) and TP12 641E to the US East Coast (Ningbo October 9).
+- **Hapag-Lloyd:** six more strings cut — WC2 to the US West Coast (Shanghai October 10), AA7 to the US East Coast (Ningbo October 1), US2 (Ningbo October 7), NE2 to North Europe (Shanghai October 10), SE3 to the Mediterranean (Qingdao September 28) and SE1 (Ningbo October 8).
+- **MSC:** the Orient and Pearl transpacific loops plus four Asia-Europe services — Jade, Swan, Britannia and Lion.
+
+Carriers say alternative voyages will preserve coverage, but history says rollover risk spikes in the last fortnight of September. Bangladesh, Israel and Africa-bound cargo feels this as compressed feeder connections, tighter LCL consolidation windows and longer waits at Colombo, Singapore and Port Said transshipment hubs.
+
+## Panama Cuts Transits Again as Asia Congestion Eases Slowly
+
+The Panama Canal Authority is reducing daily transits from **34 to 32 from September 15**, keeping Neo-Panamax slots at just 9 per day, although a planned draft reduction for Neopanamax vessels has been postponed. There is also a policy deadline to watch: the United States Trade Representative port fee on China-built vessels calling at US ports takes effect on **October 14**, with charges up to USD 1.5 million per call, while China has applied its own special port dues since April — a cost layer that will increasingly shape transpacific service networks and rates into the fourth quarter. On the Africa side, **CMA CGM** has introduced a EUR 100 per TEU congestion surcharge at Tema in Ghana plus a EUR 100 (USD 115) reefer peak season surcharge on West Africa — an early signal that end-October programme changes are being priced in there too.
+
+## What Shippers Should Do
+
+1. **Book Golden Week departures this week.** With 18-plus sailings already blanked and October programmes finalising around mid-September, late bookings face rollovers and forced upgrades to premium space.
+2. **Expect surcharges on Gulf and Red Sea routings.** Rising bunkers and war-risk exposure will surface as BAF, WRS and ERS line items; ask for fixed-rate DDP quotes that lock the all-in number before surcharges accumulate.
+3. **Confirm the surcharge picture for Israel cargo.** Pre-Rosh Hashanah demand tightens space to Ashdod and Haifa in August and September; verify whether WRS or ERS applies on the routing you book and allow 1 to 2 buffer days at transshipment hubs.
+4. **Price West Africa with the Tema surcharge included.** Congestion fees of EUR 100 per TEU change the landed cost on smaller consignments materially; consolidate into full containers where possible.
+5. **Watch October 14 for US-bound cargo.** The USTR port fee on China-built vessels will reshape US service strings; if you ship via US hubs, review routings and rate validity now rather than at renewal.
+
+Spider Logistics tracks war-risk zones, blank-sailing programmes and lane-level rates daily and confirms the all-in cost for each destination before you book — China to Bangladesh, Israel, the Middle East and Africa, by sea or air, with customs clearance and door delivery included.
+
+**Tags:** Strait of Hormuz | Golden Week | Blank Sailings | Drewry WCI | Container Shipping Rates | Panama Canal | China to Bangladesh | Middle East Freight | Industry Insights`.trim(),
+  },
+  {
     slug: 'chittagong-port-tariff-hike-sep-10-2026',
     title: 'Chittagong Port Raises Fees 41 Percent in First Tariff Overhaul for Almost 40 Years: Cost Impact on China-Bangladesh Cargo and the Golden Week Capacity Squeeze',
     excerpt: 'The Chittagong Port Authority has gazetted an average 41 percent service charge increase effective September 15, the first major tariff revision since the 1980s. Meanwhile Drewry WCI holds at USD 4,465 per 40 ft, carriers deepen Golden Week blank sailings and COSCO launches direct China-Jeddah services. What China shippers should do this week.',
