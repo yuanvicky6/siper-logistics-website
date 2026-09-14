@@ -11,6 +11,86 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'pre-golden-week-squeeze-red-sea-africa-surcharges-sep-14-2026',
+    title: 'Pre-Golden Week Squeeze: SCFI Posts Seventh Straight Gain as Red Sea Chokepoints Tighten and Africa Surcharges Bite',
+    excerpt: 'The Shanghai Containerized Freight Index rose 2 percent to 3,662.18 on September 11, a seventh consecutive weekly gain, while the Drewry World Container Index held at USD 4,476 per 40 ft. Houthi forces completed their takeover of the Yemeni Red Sea coast, Saudi Arabia shut its main East-West pipeline, and Durban congestion surcharges take effect September 15. Here is what China shippers moving cargo to Bangladesh, Israel, Africa and the Middle East should do before Golden Week.',
+    date: 'September 14, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The final stretch before Golden Week has become the most operationally demanding fortnight of 2026 for China exporters. The Shanghai Containerized Freight Index rose for a seventh consecutive week to **3,662.18 points** on September 11, up 2 percent, while the Drewry World Container Index held flat at **USD 4,476 per 40 ft** for a second week. Behind those headlines, three forces converged within days. Iran-aligned Houthi forces completed their takeover of the Yemeni Red Sea coast on September 11, capturing the strait islands flanking Bab el-Mandeb. Saudi Arabia temporarily shut its 1,200-kilometre East-West pipeline after a drone attack, removing 4 to 5 million barrels per day of bypass capacity. And carriers began blanking sailings in earnest: Drewry counts **79 cancelled voyages across weeks 38 to 42** out of 721 planned departures, an 11 percent capacity cut concentrated on the transpacific. For shippers moving cargo from China to Bangladesh, Israel, Africa and the Middle East, the question is no longer where rates settle, but whether space can be held at all.
+
+## Market Snapshot: Indices Firm Into the Holiday Window
+
+| Benchmark (period) | Reading | Weekly Move |
+|---|---|---|
+| SCFI composite (Sep 11) | 3,662.18 points | **+2.0%**, 7th straight gain |
+| CCFI composite (Sep 11) | 1,862.18 points | +1.4% |
+| Drewry WCI composite (Sep 10) | USD 4,476 / 40 ft | flat, 2nd week, +119% year on year |
+| Drewry Intra-Asia Index | USD 1,323 / FEU | **+1%**, 3rd straight record |
+| Brent crude (Sep 11 close) | USD 104.61 / bbl | **+8%** weekly |
+
+Drewry reports **eight blanked sailings next week on the transpacific, up from seven**, and three on Asia-Europe, up from one. US West Coast forwarders describe an extended peak season that began earlier than usual, with pricing likely to stay elevated through September.
+
+## Trade Lane Rates: Where the Pressure Sits
+
+| Trade Lane (source, Sep 10-11) | Rate | Weekly Move |
+|---|---|---|
+| Shanghai to Los Angeles (WCI) | USD 7,352 / 40 ft | +2% |
+| Shanghai to New York (WCI) | USD 9,726 / 40 ft | +1% |
+| Far East to US West Coast (SCFI) | USD 7,339 / FEU | +1.3% |
+| Far East to US East Coast (SCFI) | USD 10,479 / FEU | +1.5% |
+| Shanghai to Rotterdam (WCI) | USD 3,997 / 40 ft | -2%, below USD 4,000 |
+| Shanghai to Genoa (WCI) | USD 4,216 / 40 ft | -3% |
+| Far East to Mediterranean (SCFI) | USD 3,299 / TEU | -4.2% |
+| Far East to Persian Gulf (SCFI) | USD 6,311 / TEU | **+2.9%** |
+| Shanghai to Singapore (IACI) | USD 1,779 / FEU | -7% |
+| Shanghai to Tanjung Pelepas (IACI) | USD 1,806 / FEU | **+6%** |
+
+Two readings matter. The Gulf lane at **USD 6,311 per TEU** reversed its correction and is climbing again on war-risk pricing rather than cargo demand. Intra-Asia splits are widening too, with Singapore down 7 percent while Tanjung Pelepas rises 6 percent, so lanes must be compared port by port. CCFGroup benchmarks put Ningbo to Chattogram near **USD 4,200 per 40HQ** and Ningbo to Karachi near USD 3,300 per 40HQ.
+
+## Two Chokepoints, One Week
+
+| Event | Detail | Source |
+|---|---|---|
+| Houthi takeover of Yemen Red Sea coast | Mocha captured Sep 10, Perim and Mayyun islands by Sep 11 | Reuters / AFP |
+| Bab el-Mandeb traffic | 26 commodity vessels transited Sep 10 vs 10-day average of 27 | Kpler via Reuters |
+| Hormuz transits | Only 7 vessels crossed Sep 10 vs pre-war daily average near 125 | Reuters |
+| Saudi East-West pipeline | Temporarily shut after drone attack; normally 4-5 million bpd | Africa Ports / Reuters |
+| War-risk insurance | 0.5 to 1.0 percent of hull value per Red Sea transit | Marine market |
+| Tanker earnings | Clarksons VLCC TCE about USD 440,000 per day, a record | Clarksons |
+
+The consequence is a repriced route rather than a closed one. About 19 percent of Asia-Europe capacity has resumed Suez routing, and Maersk, MSC and CMA CGM continue selective returns, each vessel switching back from the Cape shortening its voyage by 7 to 10 days and releasing latent capacity. Against that, Houthi control of Perim gives observation and firing positions directly alongside both navigable channels. Treat any fixed transit-time commitment on Red Sea routings as provisional.
+
+## Africa Focus: Durban Surcharges From September 15
+
+| Carrier | Charge | Level | Effective |
+|---|---|---|---|
+| Hapag-Lloyd | Congestion Surcharge to Durban | USD 225 / 20 ft, USD 450 / 40 ft | Sep 15, 2026 |
+| Maersk | Congestion Fee to Durban | USD 250 / TEU, USD 500 / FEU | Sep 15, Vietnam Sep 18, Korea Oct 3 |
+
+Transnet lifted the force majeure at Durban Container Terminal Pier 1 on September 7, but terminals handled 11,215 TEU a day, down from 11,577, and rail moves out of Durban fell 30 percent week on week to 1,064 containers. Delays at the DGT terminal have run as high as 20 days, and some carriers are switching loads to Tanjung Pelepas transshipment. Confirm vessel ETA and destination pickup appointments before booking, and budget for storage and detention exposure.
+
+## Bangladesh: Fee Increases Meet Equipment Shortages
+
+Bangladesh-bound cargo faces a double hit. The Chittagong Port Authority revision averaging **41 percent** takes effect September 15, the first major overhaul of port charges in nearly four decades, adding to landed costs from pilotage to container handling. Equipment, not berths, is the binding constraint: Chittagong runs normally with a 7-day average vessel wait of about 1.14 days and yard utilisation near 70 percent, but Colombo transshipment hubs and South Asian empty container pools are strained as manufacturers diversify sourcing away from China. The port is efficient; the box is scarce.
+
+## Air Freight: The Transpacific Premium Widens
+
+Air capacity out of Asia is tightening into peak season with a clear two-market split. The Freightos Air Index shows China to Europe near **USD 4.60 per kilogram** against transpacific rates near **USD 6.30 per kilogram**, a gap driven by AI hardware and semiconductor demand on the US lane. Transpacific air rates are up roughly 30 percent while China-Europe has risen about 12 percent, dampened by the European Union removal of the low-value customs exemption; Hong Kong to Europe outbound tonnage has fallen 33 percent year on year. East China spot benchmarks put China to US West Coast near USD 5.80 to 6.20 per kilogram. On supply, flydubai adds three Boeing 737-800 freighters from October 1 under a wet lease based at Al Maktoum International, adding about 23,000 kilograms of main-deck payload per flight.
+
+## What Shippers Should Do Before Golden Week
+
+1. **Book early and confirm vessel assignment.** A low quotation is not confirmed space; insist on a named vessel and voyage.
+2. **Break out surcharges on Africa and Middle East quotes.** Separate ocean freight, congestion charges, war-risk and bunker components so one line item cannot hide a double-digit move.
+3. **Treat Red Sea transit times as estimates** while the Bab el-Mandeb picture stays unresolved.
+4. **Pull Bangladesh shipments forward** to gate cargo in before the September 15 fee increase.
+5. **Reserve air capacity now** for urgent cargo, and expect split shipments on peak departures.
+6. **Plan for bunched October arrivals.** Berth waits at Shanghai and Ningbo have run as long as 12 days, so consignees should prepare warehouse and haulage capacity.
+
+The fundamentals support firm rates into early October. The bigger risk for China exporters this cycle is execution: equipment, space and terminal throughput rather than headline pricing.`,
+  },
+  {
     slug: 'hormuz-escalation-golden-week-blank-sailings-sep-11-2026',
     title: 'Hormuz Escalation Meets Golden Week Blank Sailings: WCI Steady at USD 4,476 as Risk Premiums Climb on Middle East Trades',
     excerpt: 'United States forces sank five Iranian tankers on September 9 and Iran retaliated against ten commercial vessels near the Strait of Hormuz, pushing Brent above USD 102. Drewry WCI holds at USD 4,476 per 40 ft while carriers blank more than 18 sailings before Golden Week and Panama cuts transits to 32 per day. What China shippers should do now.',
