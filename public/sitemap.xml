@@ -7,7 +7,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://spiderlogisticsinc.cn</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -44,12 +44,19 @@
   <!-- Blog Index -->
   <url>
     <loc>https://spiderlogisticsinc.cn/blog</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog Posts -->
+  <url>
+    <loc>https://spiderlogisticsinc.cn/blog/suez-return-cape-diversions-two-year-low-sep-15-2026</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <url>
     <loc>https://spiderlogisticsinc.cn/blog/pre-golden-week-squeeze-red-sea-africa-surcharges-sep-14-2026</loc>
     <lastmod>2026-09-14</lastmod>

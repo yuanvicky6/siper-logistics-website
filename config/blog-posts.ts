@@ -11,6 +11,113 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'suez-return-cape-diversions-two-year-low-sep-15-2026',
+    title: 'Suez Return Goes Mainstream: COSCO and OOCL Join From September 15 as Cape Diversions Fall to a Two-Year Low',
+    excerpt: 'COSCO and OOCL begin eastbound Suez Canal transits on September 15, joining CMA CGM, Maersk and Hapag-Lloyd, while capacity still diverted around the Cape of Good Hope falls to 4.6 percent of the global fleet, a two-year low. Asia-Europe rates slide toward USD 3,480 per 40 ft as transpacific holds and congestion shifts downstream to South Asia and the Indian subcontinent. What China shippers moving to Bangladesh, Israel, Africa and the Middle East should do now.',
+    date: 'September 15, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `September 15, 2026 is a pivot day for the Red Sea routing debate. COSCO and its subsidiary OOCL begin eastbound Suez Canal transits on their jointly operated Europe and Mediterranean to Asia services, joining CMA CGM, Maersk and Hapag-Lloyd, and leaving only Evergreen and the three Premier Alliance carriers ONE, HMM and Yang Ming outside the return. Linerlytica puts the capacity still diverted around the Cape of Good Hope at a two-year low of **4.6 percent of the global fleet**. The picture on the ground has not improved: Houthi forces captured the Port of Mokha and consolidated positions along the Yemeni Red Sea coast, and a Gulf state meeting with Iran over the Strait of Hormuz was postponed. Carriers are returning anyway, because the cost of avoiding the corridor now exceeds the risk of using it. For shippers moving cargo from China to Bangladesh, Israel, Africa and the Middle East, the result is a market split three ways: a firm transpacific, a softening Asia-Europe, and a tightening South Asia space picture as congestion moves downstream from Chinese ports.
+
+## Market Snapshot: Indices Diverge by Corridor
+
+| Benchmark (period) | Reading | Move |
+|---|---|---|
+| SCFI composite (Sep 11) | 3,662.18 points | **+2.01%**, seventh straight gain |
+| SCFIS Europe settlement (Sep 14) | 2,908.30 points | +0.9% |
+| Drewry WCI composite (Sep 10) | USD 4,476 / 40 ft | flat, second week |
+| Brent crude | USD 104.32 / bbl | elevated |
+
+The SCFI rose for a seventh consecutive week, but the internal composition matters more than the headline: Far East to North Europe fell 6.64 percent and the Mediterranean leg dropped 4.93 percent, while the transpacific lanes added 1.34 and 1.5 percent. China export indices are now led entirely by the transpacific.
+
+## Trade Lane Rates: One Market, Two Directions
+
+| Trade Lane (source, Sep 10-11) | Rate | Weekly Move |
+|---|---|---|
+| Shanghai to Los Angeles (Drewry WCI) | USD 7,352 / 40 ft | +2% |
+| Shanghai to New York (Drewry WCI) | USD 9,726 / 40 ft | +1% |
+| Shanghai to Rotterdam (Drewry WCI) | USD 3,997 / 40 ft | -2%, below USD 4,000 |
+| Shanghai to Genoa (Drewry WCI) | USD 4,216 / 40 ft | -3% |
+| Far East to North Europe (SCFI) | USD 3,938 / FEU | -6.64% |
+
+Drewry counts eight blanked transpacific sailings for the coming week, up from seven, and three on Asia-Europe, up from one. Transpacific capacity discipline is holding rates; the Suez return is releasing effective capacity into Europe and pushing prices down.
+
+## The Suez Return Timeline: Who Is Back and Who Is Not
+
+COSCO and OOCL confirmed five services on their jointly operated Europe, Mediterranean and Asia network will start eastbound Suez transits:
+
+| Date | Service String | Lead Vessel |
+|---|---|---|
+| Sep 15 | AEU3 / LL2 / FAL2 / NE3 | OOCL PORTUGAL |
+| Sep 16 | AEU7 / LL3 / FAL7 / NE7 | COSCO SPAIN |
+| Sep 16 | AEM1 / WM1 / MEX2 / MD2 | COSCO SHIPPING TAURUS |
+| Sep 20 | AEM6 / AAS / PHOEX / BEX2 | COSCO SHIPPING KILIMANJARO |
+| Sep 28 | AEU1 / LL1 / FAL5 / NE1 | OOCL DENMARK |
+
+They join Maersk and Hapag-Lloyd, which have expanded trans-Suez routing in both directions to six services; Hapag-Lloyd estimated the AE19 switch alone saves about four weeks against the Cape of Good Hope. Evergreen and the Premier Alliance carriers remain the only major operators that have not returned.
+
+| Traffic Metric (Sep 7-13, 2026) | Reading |
+|---|---|
+| Suez transits expected Sep 13-20 | 27 crossings, Maersk 10, CMA CGM 8 |
+| Bab el-Mandeb crossings | 256, up 3.2% week on week |
+| Vessels above 18,000 TEU at Bab el-Mandeb | 44 year to date, versus 1 in 2025 |
+| Cape-diverted fleet capacity | 4.6% of global fleet, a two-year low |
+
+Traffic dipped to 24 crossings on the Friday after the Houthi capture of Mokha, then recovered to 43 on Sunday, and Sea-Intelligence estimates 19 percent of Asia-Europe volumes are now back through the Red Sea via three of the four major alliances.
+
+## Rate Impact: The Asia-Europe Slide Accelerates
+
+The most immediate commercial effect is on Asia-Europe pricing. Carriers have cut late-September offers to about USD 3,700 to 3,800 per 40 ft, with volume-committed rates down to USD 3,500 to 3,600, and week 38 market averages sit near **USD 3,480 per 40 ft** against USD 4,150 at the end of August, far below the 2,908.30 print on the lagging SCFIS Europe settlement index.
+
+Supply is being pulled in two directions. Shorter Suez voyages release effective capacity without new tonnage entering service, and deliveries remain below 100,000 TEU per month. But congestion absorbs ships: Linerlytica counts 4.3 million TEU waiting at ports, above the 4.0 million TEU pandemic peak.
+
+## Bangladesh and South Asia: Congestion Moves Downstream
+
+The operational squeeze has migrated away from China. Linerlytica notes that while congestion at Chinese and European ports eases after typhoon disruption and dock strikes, delays have ratcheted up congestion at downstream ports, especially in Southeast Asia and the Indian subcontinent. Reported berth waits are about 24 hours at Mundra, where terminal utilisation exceeds 77 percent, near 48 hours at Nhava Sheva, and 48 to 72 hours at Colombo, the main transshipment hub for Bangladesh feeder traffic.
+
+Chittagong itself is running cleanly: Portcast puts the median vessel wait at 0.12 days for September 6 to 12, down about 45 percent week on week. The friction there is commercial. Berth operators at the General Cargo Berth filed an application with the Chittagong Port Authority on September 14 seeking a reallocation of vessels, after Fazlisons reported that GCB Berth No. 9 handled 437,596 boxes against a target of 721,356 over 47 months, a shortfall of **39.4 percent**. Bangladesh throughput across GCB, NCT and CCT reached 3,531,118 TEU in fiscal 2025-26. For Bangladesh-bound shippers the exposure is equipment and transshipment connection quality, not berth waiting.
+
+## Africa: Durban Remains the Weak Link
+
+| Durban Gateway Terminal Metric | Reading |
+|---|---|
+| Average daily throughput, last 4 weeks | 3,672 TEU/day, -30.5% against 5,286 TEU/day |
+| Average anchorage wait, Aug 14 to Sep 10 | 212 hours, about 9 days |
+| Vessels at anchorage, Sep 7 to 10 | 10 falling to 5 |
+| Reefer stack occupancy, Sep 9 to 10 | 106% falling to 102% |
+
+Durban has not resolved. Throughput over the four weeks to September 10 ran 30.5 percent below the preceding four-month average, and waterside operations sit near 63 percent of the prior-year level. Reefer occupancy above 100 percent forces carriers to divert temperature-sensitive cargo, rail evacuation remains far below the level needed to clear the backlog, and about 11,550 containers have already been rerouted. The pressure is spilling into Cape Town, where berth availability has been hit by vessels bypassing Durban and the Cape Chamber of Commerce reports anchorage waits of up to 23 days. Pier 1 is running at about 97 percent of plan with a 51-hour average wait, which is why carriers divert there. In West Africa, reported berth waits range from 48 hours at Dakar to more than 24 days at Conakry.
+
+## Israel and the Middle East: Stable Ports, Unstable Water
+
+Israeli ports remain among the least congested in the region: Portcast records a median vessel wait of 0.21 days at Haifa for September 6 to 12, with Ashdod in similar territory. Israel handled about 24.3 million tonnes of cargo in the first five months of 2026.
+
+The risk sits in the approaches, not the terminals. Brent held at USD 104.32, keeping bunker costs roughly 60 percent above pre-war levels, and the postponement of the Gulf state meeting with Iran leaves the Strait of Hormuz without a diplomatic track. War-risk premiums on Hormuz transits remain near the highs set earlier this month. For Israel-bound cargo the routing question is genuinely open: carriers returning to Suez offer 7 to 14 days of transit saving depending on service and direction, but each return is provisional and can be reversed.
+
+## Air Freight: Peak Season With an AI Driver
+
+Freightos reports Far East air rates at about **USD 6.30 per kilogram** to the United States and **USD 4.88 per kilogram** to Europe, both up roughly 5 percent in a week. The lanes are driven by different cargo: transpacific volumes are up more than 9 percent year on year on AI hardware and data centre components from Southeast Asia, while the China to Europe lane stays dampened by the European Union removal of the low-value customs exemption, which cut Hong Kong to Europe outbound tonnage 33 percent year on year. Asia export capacity is expected to tighten in the second half of September.
+
+## Key Events to Watch
+
+| Event | Detail | Source |
+|---|---|---|
+| COSCO and OOCL Suez return | Five services from September 15 to 28 | Linerlytica, WWD |
+| CMA CGM surcharges | USD 4,000 / 40 ft Far East to US West Coast from October 1 | The Loadstar |
+| Gulf state meeting with Iran | Postponed, no new date announced | WWD |
+
+## What Shippers Should Do
+
+1. **Split your sourcing strategy by corridor.** Asia-Europe pricing is the softest in months, so push for longer FAK validity and firm rollover protection. Transpacific space is the scarce commodity, so book before the September 30 cut-off.
+2. **Do not assume South Asia space follows Asia-Europe.** Equipment pools at Colombo, Nhava Sheva and Mundra are the binding constraint, and the transshipment leg is where Bangladesh and Africa cargo is most exposed.
+3. **Confirm the routing on every booking.** A Suez routing and a Cape routing differ by 7 to 14 days on the same lane, so insist on a named vessel and service string, not just a rate quotation.
+4. **Treat the Suez return as reversible.** Carriers have reversed before. Build a two-week buffer into transit commitments on Red Sea services and keep alternative routings priced.
+5. **Move temperature-sensitive Africa cargo early and reserve air capacity now.** Reefer occupancy above 100 percent at Durban means plug availability, not only berth availability, is the risk.
+
+The defining feature of this market is fragmentation. Global indices describe an average that no individual shipper actually experiences. For China exporters moving to Bangladesh, Israel, Africa and the Middle East, the decisive variables this week are equipment, service string and the length of the transshipment connection, not the headline index.`,
+  },
+  {
     slug: 'pre-golden-week-squeeze-red-sea-africa-surcharges-sep-14-2026',
     title: 'Pre-Golden Week Squeeze: SCFI Posts Seventh Straight Gain as Red Sea Chokepoints Tighten and Africa Surcharges Bite',
     excerpt: 'The Shanghai Containerized Freight Index rose 2 percent to 3,662.18 on September 11, a seventh consecutive weekly gain, while the Drewry World Container Index held at USD 4,476 per 40 ft. Houthi forces completed their takeover of the Yemeni Red Sea coast, Saudi Arabia shut its main East-West pipeline, and Durban congestion surcharges take effect September 15. Here is what China shippers moving cargo to Bangladesh, Israel, Africa and the Middle East should do before Golden Week.',
