@@ -11,6 +11,99 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'golden-week-blank-sailings-jump-56-percent-sep-16-2026',
+    title: 'Golden Week Blank Sailings Jump 56 Percent in a Week as Carriers Add More Suez Services',
+    excerpt: 'Drewry reports announced blank sailings on the main east-west trades jumped nearly 56 percent in a single week, from 39 to 70 voyages, with 79 of 721 departures cancelled between September 14 and October 18. Maersk and Hapag-Lloyd add four more Asia-Mediterranean-Europe services to Suez even as Houthi forces tighten control of Bab el-Mandeb. Transpacific rates firm, Asia-Europe softens, and Bangladesh inland diesel shortages plus new Africa surcharges decide whether cargo arrives on time.',
+    date: 'September 16, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The pre-Golden Week capacity squeeze is now moving faster than the rate indices. Drewry reported on September 14 that announced blank sailings on the main east-west trades surged nearly **56 percent in a single week**, from 39 to 70 voyages across weeks 38 to 41, and that **79 of 721 scheduled departures** between September 14 and October 18 will not sail, an 11 percent cut of which 52 percent falls on eastbound transpacific services. Carriers are pulling supply at the same time as they push tonnage back through the Red Sea: Maersk confirmed on September 14 that it and Gemini Cooperation partner Hapag-Lloyd will return four additional Asia-Mediterranean-Europe services to the Suez route. They are reopening a corridor that the Houthis tightened militarily only days earlier, absorbing that risk through schedule volatility rather than security. For China exporters moving cargo to Bangladesh, Israel, Africa and the Middle East, the consequence is a market where headline indices look calm while space, cut-offs and destination handling decide whether cargo arrives on time.
+
+## Market Snapshot: Index Headlines Hide a Two-Speed Market
+
+| Benchmark (as dated) | Reading | Move |
+|---|---|---|
+| SCFI composite (Sep 11) | 3,662.18 points | **+2.0 percent**, seventh straight gain |
+| CCFI composite (Sep 11) | 1,862.18 points | +1.4 percent |
+| Ningbo NCFI (Sep 11) | 2,582.64 points | -0.3 percent |
+| Freightos FBX Global (Sep 15) | USD 3,499 / FEU | -1 percent, after -2 percent the prior week |
+| Drewry WCI composite (Sep 10) | USD 4,476 / 40 ft | flat, second consecutive week |
+
+Five benchmarks, five different directions: the Shanghai indices rose, the Ningbo index slipped, the Freightos global benchmark fell and the Drewry composite did not move at all. The increase is concentrated in the transpacific while the decline is concentrated in Europe. The NYSHEX Freight Index makes the split explicit: Asia to United States West Coast rose **3.53 percent to 6,585.56**, Asia to United States East Coast jumped **8.55 percent to 8,753.37**, and Asia to North Europe fell **3.78 percent to 3,905.52**.
+
+## Trade Lane Rates: Where Chinese Export Cargo Actually Sits
+
+| Trade Lane (source, Sep 10 to 11) | Rate | Weekly Move |
+|---|---|---|
+| Shanghai to Los Angeles (Drewry WCI) | USD 7,352 / 40 ft | +2 percent |
+| Shanghai to New York (Drewry WCI) | USD 9,726 / 40 ft | +1 percent |
+| Shanghai to Rotterdam (Drewry WCI) | USD 3,997 / 40 ft | -2 percent |
+| Far East to Persian Gulf and Dubai (SCFI) | USD 6,311 / TEU | **+2.9 percent** |
+| Far East to Southeast Asia and Singapore (SCFI) | USD 1,010 / TEU | **+13.1 percent** |
+| CCFI South Africa index (Sep 11) | 1,430.44 points | -0.6 percent |
+| CCFI East and West Africa index (Sep 11) | 1,134.88 points | -2.8 percent |
+
+Two readings matter most for our lanes. The Persian Gulf lane at **USD 6,311 per TEU** is the only Middle East benchmark still rising, because the Strait of Hormuz remains effectively closed to mainstream liner traffic and Gulf cargo is moving by transhipment and landbridge through Salalah, Khor Fakkan, Fujairah, Sharjah and Jeddah rather than on direct calls. The Southeast Asia lane above USD 1,000 for the first time reflects the ocean leg carrying much of the feeder volume into Chittagong. The Africa indices softened 0.6 and 2.8 percent, so the base rate on those lanes is not the problem; the surcharges layered on top are.
+
+## Golden Week Blank Sailings: 79 Cancelled Voyages in Five Weeks
+
+The composition of the cut is unusual. In a normal pre-holiday period carriers blank sailings to protect rates on the weakest lane. This year the deepest cuts are on the strongest market: eastbound transpacific services account for 52 percent of the 79 announced cancellations. Capacity for the coming week is down to eight blanked transpacific sailings from seven.
+
+The drivers have not changed. Global port congestion absorbs roughly 4 million TEU of effective capacity, with the worst delays in Asia: seven to ten days at Shanghai, ten at Ningbo-Zhoushan and three to five at Yantian. When schedule reliability falls, the same nominal capacity moves less cargo, which is why carriers can blank sailings and still hold rates.
+
+## The Red Sea Paradox: Services Return as the Chokepoint Tightens
+
+Maersk and Hapag-Lloyd now run six services on the Suez routing in both directions. The four additions announced on September 14 followed the capture of the port of Mokha and an island inside the Bab el-Mandeb strait by Houthi forces, and the group has said it does not intend to close Bab el-Mandeb or disrupt general commercial navigation. Saudi Crown Prince Mohammed bin Salman and Egyptian President Abdel Fattah Al-Sisi met in Cairo on September 15 and jointly called for freedom and security of maritime navigation through both Hormuz and Bab el-Mandeb.
+
+| Bab el-Mandeb Metric | Reading |
+|---|---|
+| Commodity vessels crossing, Sep 13 | 28 |
+| Commodity vessels crossing, Sep 14 | **21** |
+| Daily crossings before the war began in February 2026 | about 50 |
+| Suez Canal revenue versus the level before 2023 | about half |
+
+The traffic numbers explain why carriers are hedging rather than committing. Crossings at Bab el-Mandeb fell to 21 on Monday from 28 the prior day, against roughly 50 per day before the war, and Suez Canal revenue for Egypt sits at about half of the pre-2023 level. Sea-Intelligence described the switch to Suez routing as a Sword of Damocles hanging over the head of shipping should the Houthis resume attacks on commercial vessels. Fuel adds a second layer of volatility: Brent closed above USD 105 on September 14, tanker charter rates above USD 500,000 per day remain the truest gauge of Hormuz dislocation, and the average diesel price in the United States hit a record USD 6.27 per gallon on September 15.
+
+## Bangladesh: The Friction Moves From Berth to Inland
+
+Chittagong is not the constraint. The binding problems are fuel and documentation. A diesel supply crisis has paralysed inland cargo transport out of Chattogram port: lighter vessels that unload import cargo from mother ships at the outer anchorage and Kutubdia are receiving only about **10 percent** of the roughly 350,000 litres of diesel needed daily to dispatch 70 to 80 lighters, and the Bangladesh Water Transport Coordination Cell has warned the finance minister of a potential shutdown of the entire unloading process. More than 1,400 lighter vessels are affected, loaded lighters are waiting six to eight extra days to depart, and about **80 mother vessels** are stranded in the Bay of Bengal awaiting discharge.
+
+Customs documentation is the second drag. A Chattogram Customs House review of ASYCUDA World data found that even consignments qualifying for the green channel under the Authorised Economic Operator programme take an average of **271 hours, more than 11 days**, from submission of the Import General Manifest to final release, with a further 89 hours after duty payment. Customs assessment itself is fast: 76 percent of assessments complete within one day. The delay is created by late Bills of Entry and slow duty payment.
+
+## Africa and the Middle East: Surcharges, Depots and Bunkers
+
+| Date | Charge | Amount |
+|---|---|---|
+| Sep 11, until further notice | Maersk Durban Cato Ridge drop-off fee suspended | ZAR 4,200 / 20 ft and ZAR 4,500 / 40 ft dry, reduced to zero |
+| Sep 17 | CMA CGM China to Durban surcharge | USD 100 / TEU |
+| Sep 16, Durban bunker indications | VLSFO and marine gasoil | USD 1,080 / mt and USD 2,400 / mt |
+| Sep 10, single session | Durban VLSFO, LSMGO and HSFO | up USD 15, USD 36 and USD 18 per mt |
+
+The Maersk suspension is the more informative signal. Carriers rarely switch off a depot charge; the company attributed it directly to ongoing congestion and reduced depot storage capacity across parts of the Durban network. When drop-off fees are waived because depots are full, the equipment cycle is the bottleneck, and the effect for South Africa-bound shippers is a longer and less predictable return loop for empty containers. On bunkers, Durban marine gasoil rose more than twice as fast as very-low-sulphur fuel oil on September 10, widening the distillate premium. Because Cape routing adds roughly 10 to 14 days to an Asia-Europe voyage, every dollar per tonne lands on a longer burn.
+
+For Israel, portside conditions remain the calmest in the region: Portcast records a median vessel waiting time of 0.21 days at Haifa for week 36, in the low congestion category, with Ashdod in similar territory. The risk for Israel-bound cargo is in the approach and the routing assumption, not the terminal.
+
+## Three More Planning Variables
+
+**Panama Canal.** The Panama Canal Authority has postponed a scheduled draft reduction due on October 1 and will keep the existing 14.63 metre tropical freshwater limit in place, removing one near-term constraint for Asia to United States Gulf and East Coast cargo.
+
+**United States demand.** United States containerized imports rose 3.8 percent month on month to **2,603,709 TEU** in August, the third-highest monthly total on record, according to Descartes Datamyne. Delays increased across the ten largest gateways, with average delay up 1.5 days at both Houston and Seattle and 1.3 days at Savannah.
+
+**Air cargo capacity.** Amazon temporarily suspended business with 21 Air after a Boeing 767-300 converted freighter operated by the carrier overran a runway at Miami on September 6 with fatalities and injuries. For high-frequency e-commerce shippers the lesson is to ask providers to name backup airlines and alternate transfer points before peak season, not after a disruption.
+
+## What Shippers Should Do
+
+1. **Lock space before the September 30 cut-off.** With 79 blanked voyages already announced and 52 percent of them on the transpacific, the risk in the final week of September is not price, it is rollover.
+2. **Ask which routing your quote assumes.** A Suez service and a Cape service differ by 7 to 14 days on the same lane, and the four newly returned Gemini services can be reversed. Insist on a named vessel and service string in writing.
+3. **Separate base freight from surcharges on Africa lanes.** The CCFI Africa indices are down 0.6 and 2.8 percent, yet the China to Durban surcharge starts September 17 and Durban bunker grades moved sharply.
+4. **Budget 10 to 12 extra days for Bangladesh inland delivery.** With only about 10 percent of marine diesel demand being met at Chattogram, the risk sits between the terminal gate and the factory. Confirm the consignee has inland fuel and transport arranged before cargo sails.
+5. **Submit Bills of Entry early and pay duties immediately.** The 271-hour average for green-channel release at Chattogram is largely self-inflicted, and documentation discipline is worth more than rate negotiation on that lane.
+6. **Book Israel and Middle East cargo on direct calls where available.** Persian Gulf rates are the only Middle East benchmark still climbing at USD 6,311 per TEU, and Gulf cargo moving by landbridge through Salalah, Khor Fakkan and Jeddah carries extra handling risk on top of the rate.
+
+The defining feature of this market remains fragmentation. Global indices describe an average that no individual shipper actually experiences. This week the decisive variables for China exporters are capacity cut-off discipline, confirmed routing, and destination-side execution in Bangladesh and Africa, not the direction of the composite index.`,
+  },
+  {
     slug: 'suez-return-cape-diversions-two-year-low-sep-15-2026',
     title: 'Suez Return Goes Mainstream: COSCO and OOCL Join From September 15 as Cape Diversions Fall to a Two-Year Low',
     excerpt: 'COSCO and OOCL begin eastbound Suez Canal transits on September 15, joining CMA CGM, Maersk and Hapag-Lloyd, while capacity still diverted around the Cape of Good Hope falls to 4.6 percent of the global fleet, a two-year low. Asia-Europe rates slide toward USD 3,480 per 40 ft as transpacific holds and congestion shifts downstream to South Asia and the Indian subcontinent. What China shippers moving to Bangladesh, Israel, Africa and the Middle East should do now.',
