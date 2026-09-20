@@ -11,6 +11,66 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'global-freight-market-update-sep-20-2026',
+    title: 'WCI Climbs to 4,500 as the Golden Week Rush Splits the Market: Transpacific Up, Asia-Europe Down, Red Sea Risk Back',
+    excerpt: 'The Drewry World Container Index rose 1 percent to 4,500 USD per FEU in the week of September 17, with Shanghai to Los Angeles up 5 percent and Shanghai to New York up 7 percent ahead of Golden Week, while Shanghai to Rotterdam slid 9 percent. Maersk and Hapag-Lloyd expand their Suez return even as Houthi control of Bab el-Mandeb deepens, Kpler records only 24 commodity transits per day, and Durban Pier 2 waiting times exceed 13 days. Chittagong delivers a productivity milestone at Patenga.',
+    date: 'September 20, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The container market has split into two trades moving in opposite directions, and the latest Drewry data makes the divide impossible to miss. In the week of September 17 the World Container Index rose **1 percent to USD 4,500 per 40 ft container**, its first composite gain in several weeks, but the increase came entirely from the transpacific, where pre-Golden Week cargo rushed into a shrinking sailing schedule. Asia-Europe went the other way, with Rotterdam falling 9 percent in a single week as Suez services return and demand stays soft. At the same time the security picture around Bab el-Mandeb hardened just as major carriers expanded their Red Sea operations, and congestion data from DHL showed Durban, Mombasa and Manila still deep in the red. For China exporters shipping to Bangladesh, Israel, Africa and the Middle East, the message of this week is that headline rates no longer describe your shipment: the lane, the cut-off and the destination terminal do.
+
+## Market Snapshot: One Index, Two Directions
+
+| Trade Lane (Drewry WCI, week of Sep 17) | Rate | Weekly Move |
+|---|---|---|
+| Composite index | USD 4,500 / 40 ft | **+1 percent** |
+| Shanghai to Los Angeles | USD 7,712 / 40 ft | **+5 percent** |
+| Shanghai to New York | USD 10,394 / 40 ft | **+7 percent** |
+| Shanghai to Genoa | USD 4,016 / 40 ft | -5 percent |
+| Shanghai to Rotterdam | USD 3,626 / 40 ft | **-9 percent** |
+
+The composite has been stuck near 4,476 for two weeks, so the 1 percent gain looks small, but the spread between lanes is the widest in weeks. Westbound transpacific rates are now above their early-September levels while Rotterdam has broken below 3,700 for the first time since summer. Shippers quoting contracts this week should treat the two trades as separate markets rather than reading one number.
+
+## Transpacific: Nine Blank Sailings and a 10,000 Dollar Surcharge
+
+Carriers are managing transpacific capacity hard into the Golden Week break. Drewry counted **nine blank sailings announced for next week, up from eight this week**, and expects transpacific rates to edge higher as factory-gate cargo competes for the remaining slots before the October 1-7 holiday closes Chinese plants.
+
+The surcharge cycle is escalating alongside. CMA CGM has announced peak season surcharges effective October 1 of **USD 4,000 per 40 ft from the Far East and the Indian Subcontinent to the US West Coast, and USD 10,000 per 40 ft from the Indian Subcontinent to the US East Coast**. Even shippers not directly touched by those lanes should note the signal: carriers are willing to price aggressively where space is tightest, and South Asia transhipment cargo bound for the Americas sits inside that footprint.
+
+Congestion is doing part of the work. Average vessel waiting time at Shanghai rose from **65 hours in week 36 to 78 hours in week 37**, and Linerlytica estimates more than **4.3 million TEU of capacity, about 12.6 percent of the global fleet of 34.4 million TEU, is waiting to berth** worldwide. Sea-Intelligence calculates that schedule delays now absorb around **5 percent of effective ocean capacity, against a 2011-2019 norm of 2.2 percent**, the equivalent of roughly 1.7 million TEU stuck in queue. Nominal fleet size is not the constraint; usable capacity is.
+
+## Asia-Europe: The Floor Slips as Suez Services Return
+
+Asia-Europe tells the opposite story. Rotterdam dropped **9 percent to USD 3,626 per 40 ft** and Genoa fell 5 percent to USD 4,016, even though Drewry counted four blank sailings announced on the trade for next week, up from just one this week. The pressure is structural: every additional loop restored through the Suez Canal adds effective capacity on a lane where demand is weakening, and forwarders report FAK validity periods now capped before Golden Week, a classic sign that the pricing round is over until after the holiday. Drewry expects further modest declines, and the risk is that restoring more Red Sea services accelerates the slide.
+
+## Red Sea: A Wider Suez Return Meets a Harder Bab el-Mandeb
+
+| Bab el-Mandeb Metric (Kpler, week to Sep 19) | Reading |
+|---|---|
+| Commodity tanker transits per day, past week | **24**, vs 31 average since January |
+| Laden vessels carrying Saudi products out of the Red Sea, past 7 days | **5**, vs 11 in the week of July 24 |
+| Crude exports via the strait since Sep 11 | about 3.4 million bpd, vs 4.4 million average |
+| EU Operation Aspides merchant vessels protected to date | more than 720 |
+
+Maersk and Hapag-Lloyd continue to expand their Suez return, with four more container services switched from the Cape of Good Hope to the Red Sea corridor despite the deteriorating security backdrop. Houthi forces captured the port of Mocha on September 10 and Perim Island, which sits directly inside the strait, on September 11, giving them control of the eastern shore of the waterway. The group says navigation faces no threat except for Saudi-linked vessels, and Kpler data shows traffic lower but not stopped. Still, Saudi exports through the strait have run at under a third of the yearly average since early August, three pumping stations on the Saudi East-West pipeline were damaged in a recent drone attack, and Italy announced on September 18 that it will escort its own merchant shipping independently of EU coordination. Carriers are effectively pricing schedule risk into a corridor they are simultaneously re-opening, which is why Asia-Europe spot rates keep sliding while nobody is willing to declare the route safe.
+
+## Congestion Watch: Durban, Mombasa and Manila Still in the Red
+
+The DHL Ocean Freight Port Situation Update released September 18 shows a deeply uneven destination picture. Durban remains the worst-hit gateway on our lanes, with **DBN Pier 2 terminal waiting times above 13 days**, and Mombasa is seeing berthing delays of **7 to 10 days**. In South Asia, Mundra is running more than 5 days behind on equipment shortages. On the China side, both Waigaoqiao and Yangshan in Shanghai sit in the red with delays beyond 5 days, Ningbo and Manila are at 2 to 5 days with heavy berth congestion, and in the Gulf, Jebel Ali and Dammam face road and rail constraints. Northern Europe adds a wildcard: strikes in Rotterdam and Hamburg continue to disrupt terminal operations and inland transport. Cargo bound for Durban or Mombasa this month should carry at least one extra week of buffer on every quoted transit time.
+
+## Bangladesh: A Productivity Milestone at Patenga
+
+There is genuinely good news out of Chittagong. Red Sea Gateway Terminal Bangladesh set a new productivity record at the Patenga Container Terminal on September 10, handling a peak of **58 container moves, or 82 TEU, per hour** on the CMA CGM vessel MV Wanen, nearly **double the port average of about 30 moves per hour**, and the first gearless vessel worked at the terminal using its newly commissioned ship-to-shore cranes. Faster turnaround at PCT reduces vessel-related costs and improves jetty utilisation on a trade where feeder connections from Singapore and Port Klang set the rhythm. For shippers moving China to Chittagong cargo, indicative full-container levels remain in the USD 2,100 to 2,700 range per box on published market guides, and the berth-side improvement is one more reason transit reliability on the lane is better than the regional headlines suggest.
+
+## What Shippers Should Do This Week
+
+First, book transpacific and South Asia-connected cargo now. Golden Week cut-offs are tightening, nine transpacific sailings disappear next week, and CMA CGM surcharges arrive October 1. Second, treat Asia-Europe differently: there is no panic to book, but confirm FAK validity windows before the holiday and watch how many more services shift to Suez. Third, protect Africa and Middle East destinations with buffer time, because Durban and Mombasa delays are measured in days-to-weeks, not hours. Fourth, keep Red Sea contingency plans alive: the Suez return is real, but Bab el-Mandeb security can change the calculus within days, as Italy decided this week.
+
+Spider Logistics arranges ocean and air freight, customs clearance and door-to-door delivery from all major Chinese gateways to Chittagong, Haifa, Mombasa, Durban, the Gulf and beyond. Contact us for a route-specific quotation that reflects this week, not last month.
+`,
+  },
+  {
     slug: 'golden-week-blank-sailings-jump-56-percent-sep-16-2026',
     title: 'Golden Week Blank Sailings Jump 56 Percent in a Week as Carriers Add More Suez Services',
     excerpt: 'Drewry reports announced blank sailings on the main east-west trades jumped nearly 56 percent in a single week, from 39 to 70 voyages, with 79 of 721 departures cancelled between September 14 and October 18. Maersk and Hapag-Lloyd add four more Asia-Mediterranean-Europe services to Suez even as Houthi forces tighten control of Bab el-Mandeb. Transpacific rates firm, Asia-Europe softens, and Bangladesh inland diesel shortages plus new Africa surcharges decide whether cargo arrives on time.',
