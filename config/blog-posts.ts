@@ -11,6 +11,87 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'suez-return-reaches-scale-sep-21-2026',
+    title: 'The Suez Return Reaches Scale: Asia-Europe Rates Slide as the Transpacific Extends an Eight-Week Run',
+    excerpt: 'The Shanghai Containerized Freight Index rose 0.7 percent to 3,687.83 points for an eighth straight weekly gain while Shanghai to Rotterdam fell 9 percent and Asia-Mediterranean spot pricing dropped 12 percent, as Sea-Intelligence confirms about 27 percent of Asia-Europe capacity has returned to the Red Sea. Durban waterside throughput jumps 35 percent to 4,742 TEU per day, Chittagong faces a protest calendar from September 22 to October 5 over the DP World terminal plan, and the Gulf meeting with Iran is postponed.',
+    date: 'September 21, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The container market closed the third week of September with the Shanghai Containerized Freight Index up for an **eighth consecutive week** and the Drewry World Container Index up 1 percent, yet nearly all of the strength sat on one side of the world. North America cargo kept pulling capacity toward the Pacific, while Asia-Europe rates fell hard as restored Suez services added effective capacity to a lane where demand is already soft. The same week produced the clearest evidence yet that the Red Sea return is now large enough to reprice a trade on its own, a measurable recovery at Durban, and a fresh labour flashpoint at Chittagong that matters far more to China-to-Bangladesh shippers than berth waiting time. For exporters moving cargo to Bangladesh, Israel, Africa and the Middle East, this is a market split by corridor, and the correct reading of it depends entirely on which corridor carries your cargo.
+
+## Market Snapshot: SCFI Extends the Streak to Eight Weeks
+
+| Benchmark (as dated) | Reading | Move |
+|---|---|---|
+| SCFI composite (Sep 18) | 3,687.83 points | **+0.7 percent**, eighth straight gain |
+| Drewry WCI composite (Sep 17) | USD 4,500 / 40 ft | **+1 percent** |
+| Xeneta China to US East Coast | USD 10,948 / FEU | more than triple the level of late February |
+| Brent crude | USD 103.37 / barrel | elevated on Gulf supply risk |
+| Baltic Dry Index | 3,370 points | Capesize under pressure, smaller sizes firm |
+
+The Shanghai index added **25.65 points** in the week to September 18, its **eighth consecutive weekly advance**. Read the components and the reason becomes obvious: North America and intra-Asia carried the headline while Europe and the Mediterranean dragged against it. Xeneta puts China to United States East Coast spot pricing at **USD 10,948 per FEU**, more than **three times** the level recorded before the February escalation in the Gulf and still about **952 USD, or 8 percent, below the January 2022 record of USD 11,900**. Freightos adds a service-quality dimension that rates alone hide: in August only **6 percent of vessels on the Asia-Europe trade arrived within 24 hours of their published schedule**, and delayed vessels arrived on average more than **eight days late**. High prices and unreliable schedules are arriving together, the combination that forces shippers to hold more inventory than they planned.
+
+## Trade Lane Rates: Two Trades, Opposite Directions
+
+| Trade Lane (source, Sep 17 to 19) | Rate | Weekly Move |
+|---|---|---|
+| Shanghai to Los Angeles (Drewry WCI) | USD 7,712 / 40 ft | **+5 percent** |
+| Shanghai to New York (Drewry WCI) | USD 10,394 / 40 ft | **+7 percent** |
+| Shanghai to Genoa (Drewry WCI) | USD 4,016 / 40 ft | -5 percent |
+| Shanghai to Rotterdam (Drewry WCI) | USD 3,626 / 40 ft | **-9 percent** |
+| Asia to Mediterranean (market spot) | about USD 4,200 / FEU | **-12 percent** |
+| Asia to North Europe (market spot) | about USD 4,300 / FEU | -3 percent |
+| Forwarder indications, US West Coast (Sep 18 to 30) | USD 6,200 to 8,300 / 40 ft | wide spread |
+| Forwarder indications, Europe (Sep 18 to 30) | USD 3,500 to 4,200 / 40 ft | soft |
+
+The spread inside a single trade is now as wide as the spread between trades. Published forwarder indications for September 18 to 30 put the US West Coast at **USD 6,200 to 8,300 per 40 ft container** and Europe at **USD 3,500 to 4,200**, while the benchmark indices for the same lanes print materially higher. The gap reflects contract, FAK and volume-committed cargo priced on the same vessel, so a rate comparison between two shippers on one lane can be deeply misleading. Drewry has now logged **seven consecutive weeks** of divergence between the transpacific and Asia-Europe, the longest streak of the year.
+
+## The Suez Return Is Now Large Enough to Move Rates
+
+The most important number of the week is not a rate. Sea-Intelligence estimates that about **27 percent of Asia-Europe container capacity, counting both directions, has returned to the Red Sea corridor in September**, a shift from near zero at the start of 2026. The restoration is sharply uneven by sub-trade: roughly **35 percent of Asia-Mediterranean headhaul capacity and 50 to 60 percent of backhaul capacity** now transit Suez, against only **6 percent of Asia-North Europe headhaul capacity**. That asymmetry explains why Asia-Mediterranean spot pricing fell **12 percent in a week to about USD 4,200 per FEU**, while Asia-North Europe eased only 3 percent. Daily pricing on both lanes has since drifted toward **USD 3,800 per FEU**, and Asia-Mediterranean rates are down roughly **USD 3,000 per FEU from the July peak**, against a USD 2,000 fall on Asia-North Europe.
+
+Canal authority data confirms the trend from the other side. Container ship net tonnage through the Suez Canal reached **72.1 million tonnes in the first eight months of 2026, up 54.2 percent** from 46.7 million tonnes in the same period a year earlier. As a symbolic marker, the 24,188 TEU vessel OOCL Portugal transited southbound from Belgium toward China on the NEU2 service, the first COSCO Group-linked service to resume a southbound Suez transit since the security crisis began. Maersk and Hapag-Lloyd have added AE5, AE11, AE12 and ME2 to the Suez routing on top of AE15 and AE19, widening their Red Sea footprint in both directions.
+
+Two caveats belong in every quotation. First, the economic case is real: DHL estimates that the Suez routing saves about **two weeks of transit time and roughly 30 percent of fuel consumption** against the Cape of Good Hope alternative, which is why carriers keep shifting loops back. Second, the restoration is reversible. Sea-Intelligence suggests that as much as **2 million TEU** could follow into the Middle East trade lane if conditions stabilise, but the same Houthi consolidation at Bab el-Mandeb that preceded this return can just as easily reverse it. A Suez service and a Cape service on the same lane differ by seven to fourteen days, so the routing assumption behind a quotation now matters more commercially than the rate itself.
+
+## Africa: The Durban Recovery Becomes Measurable
+
+| Durban Gateway Terminal (BUSA / SAAFF) | Reading |
+|---|---|
+| Waterside throughput, week to Sep 17 | **4,742 TEU per day, up 35 percent**, about 85 percent of target |
+| Anchorage queue, Sep 14 to 17 | 6 vessels rising to 9, then easing to 7 |
+| Stack occupancy | 63.3 percent easing to **58.0 percent** |
+| Gate activity | 2,351 moves per day versus 2,847 before the crisis |
+| Rail evacuation | about 233 containers per day versus 477 before the crisis |
+| Throughput versus the four-month average | still about **30.5 percent below** |
+
+Durban produced its first genuinely encouraging data in weeks. Waterside performance at the Durban Gateway Terminal rose **35 percent to 4,742 TEU per day**, the strongest weekly result since early August and about **85 percent of the estimated target**, while yard inventories fell sharply and stack occupancy eased from 63.3 to 58.0 percent. Published anchorage waiting time stands at about **11 days**, although berth operators say the real figure can be double that on some services, and the terminal still runs roughly **30.5 percent below** its four-month average. Rail evacuation, at about 233 containers per day against 477 before the crisis, remains the weakest link, so inland delivery across the Gauteng corridor is now governed by rail and road capacity rather than vessel waiting time.
+
+Transnet reported group revenue up **7.1 percent to R88.6 billion** and a return to a **R4.6 billion profit** from a R1.9 billion loss, with rail volumes of **167.9 million tonnes** against a target of 180 million and theft and vandalism losses approaching R2 billion. Container throughput in August fell to **382,755 TEU, down 7 percent month on month and 7 percent year on year**, although volumes remain up 4.9 percent for the year to date. For South Africa-bound cargo the implication has not changed: budget buffer time, confirm terminal acceptance before dispatch, and treat any quoted 30-day transit as a planning estimate rather than a commitment.
+
+## Bangladesh: The Next Disruption Risk Is Labour, Not Berths
+
+Chittagong berth performance is not the problem. Portcast records a median vessel waiting time of **0.12 days for the period of September 13 to 19**, well inside the low-congestion band. The risk this month sits onshore, in a dispute over the planned transfer of the New Mooring Container Terminal (NCT) to DP World. NCT handled roughly **44 percent of all containers moving through Chittagong in 2025**, and it generated about **Tk 4,500 crore in revenue and Tk 2,500 crore in net profit in fiscal 2025-26**, contributing approximately Tk 650 crore each in corporate tax and VAT.
+
+Worker organisations have now published a protest calendar rather than a single demonstration. A coalition of port unions gave the government a two-day ultimatum on September 19 to halt the leasing process, and announced a human chain from Nimtala Bishwa Road to the port one-stop service centre at 3 pm on **September 22**, followed by a procession on **September 27**. A separate port protection committee met at the Chittagong Press Club on **September 20** to widen support for an all-day sit-in outside the port authority headquarters on **October 5**, and participants warned that a blockade or strike could follow if the government does not publish the full economic case for the transaction.
+
+For China-to-Bangladesh shippers the exposure is concentrated after discharge, not before. Gate movement, feeder connection and inland trucking out of Chattogram can all be affected by a port-wide stoppage, so booking cut-off discipline and consignee-side readiness matter more than the base rate on this lane this month. Confirm that the consignee has a named clearing agent, that duty payment can be made on time, and that inland transport is arranged before the vessel berths. On a lane where berth waiting is measured in hours, documentation and labour actions are the variables that actually delay cargo.
+
+## Middle East and Israel: Calm Terminals, Uncertain Approaches
+
+The diplomatic track at Hormuz stalled again. A meeting of Gulf states with Iran, due to be hosted by Oman, was postponed at the request of Saudi Arabia, which has absorbed a new round of missile and drone attacks from Yemen. Shipping data reflects the caution: S&P Global reported a marked decline in large crude tanker transits at Bab el-Mandeb as of September 17, and Brent held at USD 103.37 per barrel, keeping bunker costs materially above pre-conflict levels.
+
+Israeli terminals remain the calmest part of the region. Portcast records a median vessel waiting time of **0.21 days at Haifa for week 36**, with Ashdod in similar territory, and Israel moved about 24.3 million tonnes of cargo in the first five months of 2026. The commercial question for Israel-bound cargo is routing rather than congestion: a Suez service and a Cape service differ by seven to fourteen days on the same lane, and each restored service remains provisional. Insist on a named vessel and service string in writing rather than accepting a rate that leaves the routing entirely to the carrier.
+
+## What Shippers Should Do This Week
+
+First, separate the two trades in your planning. Transpacific space is the scarce commodity into the September 30 cut-off, while Asia-Europe pricing is the softest it has been in months, so push for longer FAK validity and firm rollover protection there. Second, ask every carrier and forwarder which routing the quotation assumes, and get the service string in writing: the Suez return is now large enough to move a rate by itself, and it can reverse within days. Third, budget extra days on South Africa-bound cargo, because rail evacuation at Durban runs at half of its pre-crisis level and inland delivery is where the delay lands. Fourth, diarise the Chittagong protest calendar for September 22, September 27 and October 5, and make sure your Bangladesh consignees have clearing agents and inland capacity booked. Fifth, keep Red Sea contingency routings priced and current. The market has rewarded flexibility all year, and this week is no different.
+
+Spider Logistics arranges ocean and air freight, customs clearance and door-to-door delivery from all major Chinese gateways to Chittagong, Haifa, Durban, the Gulf and beyond. Contact us for a route-specific quotation that reflects this week, not last month.
+`,
+  },
+  {
     slug: 'global-freight-market-update-sep-20-2026',
     title: 'WCI Climbs to 4,500 as the Golden Week Rush Splits the Market: Transpacific Up, Asia-Europe Down, Red Sea Risk Back',
     excerpt: 'The Drewry World Container Index rose 1 percent to 4,500 USD per FEU in the week of September 17, with Shanghai to Los Angeles up 5 percent and Shanghai to New York up 7 percent ahead of Golden Week, while Shanghai to Rotterdam slid 9 percent. Maersk and Hapag-Lloyd expand their Suez return even as Houthi control of Bab el-Mandeb deepens, Kpler records only 24 commodity transits per day, and Durban Pier 2 waiting times exceed 13 days. Chittagong delivers a productivity milestone at Patenga.',
