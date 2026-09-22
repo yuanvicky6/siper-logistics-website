@@ -11,6 +11,101 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'eu-ics2-no-mrn-no-load-deadline-sep-22-2026',
+    title: 'No MRN, No Load: The September 30 EU Customs Deadline Arrives as Asia-Europe Rates Slide 10 Percent',
+    excerpt: 'From September 30, Maersk will refuse to load any European Union bound or transit cargo that does not hold a valid Movement Reference Number, a hard documentation rule that lands in the same week the Shanghai settlement index for Europe fell 10.2 percent to 2,610.55 points. Drewry WCI holds at 4,500 USD per FEU with Shanghai to New York at 10,394 and Rotterdam at 3,626, Xeneta puts the Far East to US East Coast at 11,259 USD, carriers have scheduled about 1.5 million TEU of Asia-North Europe capacity around Golden Week, and UKMTO recorded two tanker incidents at Hormuz on September 21.',
+    date: 'September 22, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Two forces now govern European import cargo from China, and only one of them is a price. Freight rates continue to split along geographic lines, with the transpacific near record levels while Asia-Europe falls, but the European Union is simultaneously turning a customs rule into a hard loading restriction that no rate or contract can work around. From **September 30**, Maersk will refuse to load cargo moving to or transiting the European Union unless it holds a valid Movement Reference Number. Documentation accuracy has become the most commercially valuable cargo attribute of the quarter, and this week needs two plans: one for space and price, one for data.
+
+## Market Snapshot: A Flat Composite Over a Deep Split
+
+| Benchmark (as dated) | Reading | Move |
+|---|---|---|
+| SCFIS, Europe lane (Sep 21) | 2,610.55 points | **down 10.2 percent** |
+| Drewry WCI composite (Sep 17) | USD 4,500 / 40 ft | plus 1 percent |
+| Xeneta, Far East to US East Coast (Sep 17) | USD 11,259 / FEU | **up 325 percent since Feb 28** |
+| Xeneta, Far East to US West Coast (Sep 17) | USD 7,960 / FEU | up 324 percent since Feb 28 |
+| Brent crude | about USD 103 / barrel | elevated on Gulf supply risk |
+
+The Shanghai Shipping Exchange settlement index for Europe printed **2,610.55 points on September 21, a fall of 10.2 percent**. That measure prices forward contracts rather than current spot, so it lags and smooths the market, but the Drewry spot picture points the same way on the same lane. The conclusion is not that Europe demand collapsed, but that restored Suez routings have added effective capacity to a trade where demand was never the problem. The transpacific is meanwhile trading near crisis-era extremes, which is why the composite index can look calm while its two largest components move violently in opposite directions.
+
+## Trade Lane Rates: Records on One Side, Discounts on the Other
+
+| Trade Lane (source, Sep 17 to 21) | Rate | Move |
+|---|---|---|
+| Shanghai to New York (Drewry WCI) | USD 10,394 / 40 ft | **plus 7 percent**, first print above 10,000 since July 2022 |
+| Shanghai to Los Angeles (Drewry WCI) | USD 7,712 / 40 ft | plus 5 percent |
+| Shanghai to Rotterdam (Drewry WCI) | USD 3,626 / 40 ft | **minus 9 percent** |
+| Shanghai to Genoa (Drewry WCI) | USD 4,016 / 40 ft | minus 5 percent |
+| Far East to US East Coast (Xeneta) | USD 11,259 / FEU | 11.2 percent below the January 2022 peak |
+| Far East to US West Coast (Xeneta) | USD 7,960 / FEU | 17.9 percent below the February 2022 peak |
+
+Xeneta records the Far East to United States East Coast lane **up 325 percent since February 28**, the day before the Hormuz escalation, leaving it just **11.2 percent below the all-time high of USD 12,683 set in January 2022**, while the West Coast lane sits **17.9 percent below its February 2022 peak** of USD 9,699. Xeneta chief analyst Peter Sand has said that if a record is broken it is most likely to happen on the East Coast trade. Two methodological warnings belong here: the two index providers use different methods and their figures should never be combined, and rates on the same vessel can differ by more than USD 1,000 per box between a contract shipper and a spot booking.
+
+Carriers are adding capacity where the money is, with offered capacity on the Far East to United States East Coast trade **6 to 7 percent higher in September than in August**. The orderbook is the opposite story for later years, with Maersk at **35 percent** of its existing fleet, MSC and CMA CGM at **39 percent** each and COSCO at **52 percent**, but that tonnage arrives in 2027 and beyond. Today is the peak of Pacific pricing power, and Sand expects conditions to shift within two to three weeks.
+
+## The September 30 Deadline: No MRN, No Load
+
+The Maersk customer advisory is blunt. For vessels arriving at the applicable first load port **on or after September 30, 2026**, cargo requiring an ICS2 Entry Summary Declaration must hold a valid Movement Reference Number before it can be confirmed for loading. If a valid MRN has not been obtained **at least 24 hours before vessel arrival** at the compliance load port, the cargo will be excluded from the load list and may be rolled to a subsequent vessel. Any rejected customs filing must be corrected and accepted before the cargo is compliant. There is no exemption and no waiver process.
+
+The MRN is an **18-digit identifier** generated by the European Union customs system when an Entry Summary Declaration is accepted. Without it, the carrier cannot show customs that safety and security data for the cargo has been filed, so the cargo does not load. Enforcement is layered: a Do Not Load instruction can be issued at the origin port, cargo that reaches the European Union without a valid filing faces detention, administrative penalties run to **EUR 5,000 per shipment**, and repeat offenders are entered on a customs high-risk list that raises inspection rates on all later European cargo.
+
+Three dates explain the timing. ICS2 has covered **all transport modes since June 1, 2026**, when the final ICS1 transitional exemptions were retired; from **September 1, 2026**, Amazon requires non-European Union sellers shipping into European fulfilment centres to attach a valid MRN to each shipment; and carriers beyond Maersk are moving the same way, with Hapag-Lloyd and CMA CGM already running comparable load-verification mechanisms. The collision of dates is what matters: this deadline lands one day before the Golden Week cut-off, so the shipments that most need smooth documentation are competing for the last sailings before the holiday.
+
+## Where Declarations Fail: Five Fields That Decide Loading
+
+| Data field | Requirement | Typical failure |
+|---|---|---|
+| HS code | valid six-digit code matching the actual commodity, checked against WCO HS 2022 | four-digit codes, or codes that do not describe the goods |
+| Cargo description | the actual commodity named in the first two lines of the description | generic terms such as Accessories, Apparel or Electronics |
+| EORI | valid and active EORI of the next filing party, capital letters, no spaces | missing digits, lower case, punctuation errors |
+| Buyer, seller and House B/L | each party in separate structured fields | addresses without street, city, region or postal code |
+| Customer segment | explicit statement of BCO or freight forwarder | a missing segment blocks the correct filing flow |
+
+Maersk reports that a significant share of shipping instructions currently fails validation, producing manifest rejections and schedule delays. The most consequential failures are also the easiest to fix: a description such as Accessories or Apparel is no longer accepted, and the declaration must name the commodity, its material, specification and intended use. Mixed-commodity containers, which is most consolidated LCL and multi-SKU e-commerce cargo, must be declared **line by line** rather than under one blanket description. The consequence is a shift in who owns the risk. Under a DDP or door-to-door arrangement the party that files the data carries the rollover risk, and a rolled container in the pre-holiday window loses two to three weeks rather than two to three days. File the shipping instruction earlier than the carrier deadline, not at it, because the 24-hour rule is measured against vessel arrival at the load port while Shanghai and Ningbo berthing delays are currently running above five days.
+
+## Golden Week: Record Paper Capacity, Less Real Choice
+
+Carriers have scheduled about **1.5 million TEU of Asia-North Europe capacity** around the holiday, **27 percent above last year** and **60 percent above the pre-pandemic average** for the same weeks. Sea-Intelligence data suggests the underlying discipline does not match, since only **3.7 percent of planned Asia-North Europe capacity has been withdrawn**, against **9.7 percent last year** and **14.3 percent before the pandemic**. Matching last year would require cancelling roughly six more sailings covering more than **100,000 TEU**.
+
+Paper capacity is not guaranteed space. Asian port congestion and typhoon disruption displace sailings into adjacent weeks, so a schedule can look full while the vessel is late. Global schedule reliability stood at **56.4 percent in July with delayed vessels averaging 6.06 days**, and an earlier Sea-Intelligence estimate put capacity absorbed by persistent delay at about **1.7 million TEU**, all of which returns to the market at once when ports clear. Carriers have already announced **79 cancelled sailings across the five weeks** around the holiday, with transpacific blankings rising to **nine next week from eight** and Asia-Europe rising to four from one.
+
+## Africa: Durban Is Clearing the Queue, Not Yet the Backlog
+
+The Durban Gateway Terminal anchorage queue moved from **six vessels on September 14 and 15 to nine on September 16, then back to seven on September 17**, while the outside queue for the wider port rose from **23 to 25 during the week**. On the morning of September 16 there were **11 container vessels at anchorage, nine of them waiting for DGT**. Berth performance is stronger than the queue suggests: Pier 1 met its target volume with only **three of seven cranes** available, and Transnet Port Terminals lifted the Force Majeure declaration at Pier 1 on **September 9**.
+
+Elsewhere the recovery is uneven but real. The Durban Multi-Purpose Terminal lifted volumes **38 percent to 164 percent of target**, Cape Town Container Terminal raised waterside volumes **55 percent to 102 percent of target** despite weather delays, and Ngqura handled **151 percent of target**. Richards Bay coal throughput rose **21 percent week on week to almost 180,000 tonnes a day**, servicing 27 trains daily against a target of 22.
+
+One number argues for caution. DHL Global Forwarding still lists **Durban Pier 2 waiting times above 13 days** and Mombasa at 7 to 10 days in its September port update, while terminal data shows a seven-vessel anchorage queue. Both can be correct: a queue count measures ships, whereas a forwarder advisory measures the berth window a specific service can obtain. Plan against the advisory and treat terminal improvements as upside. Month-level data is sobering too, with system throughput of **382,755 TEU in August, down 7 percent month on month and 7 percent year on year**, though still up **4.9 percent for the year to date**. For context, the share of global container capacity still diverting around the Cape of Good Hope has fallen to **4.6 percent, a two-year low**, with Red Sea routing assessed at about **27 percent normalised** in September.
+
+## Bangladesh and Israel: Terminal Performance Versus Paperwork
+
+Chittagong is now a documentation market rather than a congestion market. Portcast records a median vessel waiting time of **0.12 days for September 13 to 19**, and Chittagong Port Authority data for the first seven months of 2026 shows **2.144 million TEU handled, up from 2.041 million a year earlier**, with container vessel waiting time down to **1.23 days from 4.08 days in 2025**, a reduction of nearly 70 percent.
+
+The number that should interest consignees is not the berth queue. **Import container dwell time is effectively unchanged at 9.51 days against 9.56 days last year**, so almost all of the operational gain has been captured on the water side and none of it on land. Pre-clearance, duty readiness and inland transport booked before berthing decide delivery dates on this lane, not the base rate or the transit time quoted at origin. The port itself is performing commercially, with revenue of **Tk 3,947.69 crore for January to June, up 33.92 percent**.
+
+Israeli gateways remain operational rather than congested. Maersk **reinstated Ashdod in its SLB service rotation on September 3**, ending a suspension, and Ashdod Port Company reported second-quarter revenue of about **EUR 94.2 million, up 12 percent**. For Israel bound cargo the variable is the routing assumption behind the rate, since a Suez service and a Cape service on the same lane differ by seven to fourteen days. Confirm the service string in writing on every booking.
+
+## Middle East: Two Incidents in One Day at Hormuz
+
+The United Kingdom Maritime Trade Operations reported on **September 21** that a tanker on an inbound transit through the Strait of Hormuz was struck by an unknown projectile, leaving **two crew members with minor injuries**, with the vessel continuing under its own power. Later the same day the agency reported a second incident in which an **outbound LPG tanker** was hit by debris from unknown projectiles, with all crew safe. The first came **three days after** a separate tanker was struck in the strait, causing a fire onboard. For container cargo the significance is indirect but real: crude has held near **USD 103 per barrel**, keeping bunker costs and fuel surcharges elevated, and war risk premiums remain the largest line item that can appear between quotation and invoice. Price the risk explicitly and hold a contingency routing that has already been quoted, not merely discussed.
+
+## What Shippers Should Do This Week
+
+**First, treat September 30 as already here.** Book MRN production now, with six-digit HS codes validated against WCO HS 2022, a live EORI for the next filing party, and commodity descriptions that actually name the goods.
+
+**Second, ask which routing the quotation assumes.** On Asia-Europe the Suez return has repriced a trade on its own and can reverse within days, while on the transpacific the constraint is space rather than price.
+
+**Third, lock space before the cut-off and expect rollovers.** With 79 cancelled sailings around the holiday and reliability near 56 percent, a firm booking is worth more than a marginally lower rate.
+
+**Fourth, on Africa, plan against the forwarder advisory rather than the terminal queue**, and **on Bangladesh, stop optimising transit time and start optimising clearance**, because 9.51 days of import dwell at Chittagong happens after the ship has arrived.
+
+Spider Logistics arranges ocean and air freight, customs clearance including ICS2 and ENS filing review, and door-to-door delivery from all major Chinese gateways to Europe, Chittagong, Haifa, Ashdod, Durban, the Gulf and beyond. Contact us for a route-specific quotation and a documentation check before your next booking.`,
+  },
+  {
     slug: 'suez-return-reaches-scale-sep-21-2026',
     title: 'The Suez Return Reaches Scale: Asia-Europe Rates Slide as the Transpacific Extends an Eight-Week Run',
     excerpt: 'The Shanghai Containerized Freight Index rose 0.7 percent to 3,687.83 points for an eighth straight weekly gain while Shanghai to Rotterdam fell 9 percent and Asia-Mediterranean spot pricing dropped 12 percent, as Sea-Intelligence confirms about 27 percent of Asia-Europe capacity has returned to the Red Sea. Durban waterside throughput jumps 35 percent to 4,742 TEU per day, Chittagong faces a protest calendar from September 22 to October 5 over the DP World terminal plan, and the Gulf meeting with Iran is postponed.',
