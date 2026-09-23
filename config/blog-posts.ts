@@ -11,6 +11,77 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'maersk-26-ship-order-typhoon-congestion-sep-23-2026',
+    title: 'Maersk Confirms 26 New Megaships While Typhoon Saudel and Chokepoint Fees Keep China Export Rates Elevated',
+    excerpt: 'Maersk has confirmed an order for 26 LNG dual-fuel vessels of 18,600 TEU each, lifting its orderbook to about 35 percent of its fleet, while Typhoon Saudel left Shanghai vessels waiting up to 9 days at some terminals and the SCFI rose for an eighth straight week to 3,687.83 points. Shanghai to Jebel Ali spot rates climbed 13 percent to 8,509 USD per FEU, Drewry recorded a fourth consecutive record week for intra-Asia rates, and the Panama Canal cut daily transit slots from 36 to 32.',
+    date: 'September 23, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `This week delivered two very different signals from the container shipping market. On one side, carriers are betting billions on future capacity: Maersk has officially confirmed an order for twenty-six large LNG dual-fuel container vessels, the biggest single newbuilding batch in its modern history. On the other side, the present-day network is running close to its limits, with a third typhoon in three months disrupting Shanghai and Ningbo, the Panama Canal cutting daily transits again, and spot rates on the China to Middle East trade climbing toward record territory. For exporters moving cargo out of China to South Asia, the Middle East and Africa, the message of the week is that capacity relief is a 2029 story, while congestion surcharges and elevated rates are a this-month story.
+
+## Market Snapshot: An Eighth Straight Weekly Rise
+
+The Shanghai Containerized Freight Index released on September 22 rose 0.7 percent to **3,687.83 points**, its eighth consecutive weekly increase, with the transpacific trades doing almost all of the lifting.
+
+| Benchmark (as dated) | Reading | Move |
+|---|---|---|
+| SCFI composite (Sep 22) | 3,687.83 points | **plus 0.7 percent, eighth straight rise** |
+| SCFI, Shanghai to US West Coast | USD 7,560 / FEU | plus 3.0 percent |
+| SCFI, Shanghai to US East Coast | USD 10,579 / FEU | plus 1.0 percent |
+| SCFI, Shanghai to Europe | USD 2,425 / TEU | down 4.7 percent |
+| SCFI, Shanghai to Mediterranean | USD 3,125 / TEU | down 5.3 percent |
+| SCFI, Shanghai to Southeast Asia | USD 1,104 / TEU | **plus 9.31 percent** |
+| CCFI composite (Sep 22) | 1,897.15 points | plus 1.9 percent |
+
+Xeneta data from September 17 still frames how extreme the transpacific cycle has become: Far East to US East Coast spot rates average around **11,259 USD per FEU**, up 325 percent since the Strait of Hormuz conflict began in February, and sit roughly 11 percent below the 2022 pandemic peak of 12,683 USD. Far East to US West Coast readings near 7,960 USD are about 18 percent below their 9,699 USD peak. The dry bulk market is strong as well, with the Baltic Dry Index at 3,399 points on September 21, up about 85 percent year to date.
+
+## The Maersk Order: An Arms Race in Steel
+
+On **September 18**, Maersk ended weeks of speculation and confirmed an order for **26 container vessels of 18,600 TEU each**, all fitted with dual-fuel engines able to run on LNG. Deliveries are scheduled for 2029 and 2030, and the carrier has not disclosed the shipyards, the contract value, or how the ships will be allocated across its network.
+
+The context matters for shippers:
+
+- In February, Maersk ordered **eight vessels of the same 18,600 TEU design from New Times Shipbuilding in China**, with options for six more, so Chinese yards are widely expected to take most of the new batch.
+- Korean media report that Maersk may be pursuing more than **40 new vessels worth around 8.9 billion USD** in total, including a possible first-ever order for 24,000 TEU class ships, with Hanwha Ocean bidding against Chinese yards.
+- According to Vespucci Maritime, the order lifts the Maersk orderbook to about **35 percent of its existing fleet**, against roughly 39 percent each for CMA CGM and MSC and **52 percent for COSCO**. The top four carriers now have orders equal to 41 percent of their fleets, versus 29 percent for the remaining six carriers in the top ten.
+
+For cargo owners the practical takeaway is simple: this steel arrives in 2029 and 2030, so it does nothing to ease congestion in 2026 or 2027. The choice of 18,600 TEU rather than 24,000 TEU designs does give Maersk more flexibility to move ships between trades, which can help capacity management in tight quarters, but it also confirms that the largest carriers intend to defend market share through the next cycle.
+
+## Typhoon Saudel and the Chinese Port Squeeze
+
+While the orderbook grows, the current network took another weather hit. **Typhoon Saudel** forced cumulative operational suspensions of about **78 hours at Ningbo**, roughly **54 hours at Yangshan** and **48 hours at Waigaoqiao** in Shanghai, according to operational data reported by Kuehne+Nagel. As of September 8, the seven-day average vessel waiting time stood at **4.72 days in Shanghai and 3.58 days in Ningbo**, with Waigaoqiao terminals WGQ2 and WGQ5 above **9 days**, Yangshan YS12 above 7 days, and yard utilisation at the Meishan terminal above **90 percent**.
+
+Drewry weekly data shows the drag persisting: average waiting time in Shanghai rose from 65 hours in Week 36 to **78 hours in Week 37**, while Ningbo climbed 11 hours to 77 hours. The calendar makes recovery harder. The Mid-Autumn Festival runs September 25 to 27, the National Day holiday follows from October 1 to 7, and that leaves only about three normal working weekdays in between for ports to clear accumulated cargo. Linerlytica expects the existing backlog to keep vessels heavily utilised through the holiday period even as new export production slows.
+
+## Middle East and Intra-Asia: Where Rates Are Breaking Records
+
+The trades that matter most for our clients, China to the Middle East and intra-Asia, are the hottest part of the market right now. Drewry reports that its **Intra-Asia Container Index rose 6 percent to 1,402 USD per 40 ft container**, an **all-time high for the fourth consecutive week**, driven by pre-Golden Week demand and a network still readjusting after repeated operational disruptions.
+
+- **Shanghai to Jebel Ali rose 13 percent to 8,509 USD per FEU**, an unusually high level for the Gulf trade, as carriers and cargo continue to work around regional security risks and higher fuel costs.
+- Shanghai to Laem Chabang and Ho Chi Minh City each gained about 15 percent, to 1,324 and 1,161 USD per FEU.
+- ONE raised its emergency bunker surcharge on short-haul regional trades from 38 to **60 USD per TEU** effective September 16, and Singapore bunker prices are running roughly **60 percent above year-earlier levels** for the third quarter.
+- Maersk has introduced a heavy load surcharge on the Far East to Middle East trade, and the United Arab Emirates is closing the grace period on its Maritime Pre-load Cargo Information program, which raises the documentation bar for Gulf-bound consignments.
+
+## Chokepoints, Panama and Destination-Port Watch
+
+The **Panama Canal** tightened further rather than easing: daily transit slots were cut from an average of 36 to **32 from mid-September**, a restriction the canal authority says will hold until further notice because of El Nino related rainfall shortfalls. Non-booked vessels are reportedly waiting **8 to 9 days** for a slot, and Hapag-Lloyd has introduced a **155 USD per TEU** Panama Canal Charge on affected trades.
+
+In Africa, Hapag-Lloyd added a **250 USD per TEU** reefer congestion surcharge at Tema in Ghana, and Durban Gateway Terminal moved to waive storage charges as it works through congestion. In Bangladesh, the Chittagong Port Authority has proposed extending its maritime jurisdiction about **10 nautical miles northward** toward Mirsarai to create additional anchorage space and ease outer-anchorage congestion, according to The Financial Express. Chattogram depot operators have also raised inland depot charges by about **10 percent**, and the proposed **205 million USD** concession of the New Mooring Container Terminal to DP World continues to draw scheduled labour protests, including a human chain on September 22 and a planned sit-in on October 5. NCT handles close to half of the volume at a port that moved 3.56 million TEU in 2025, so any escalation there translates directly into waiting time for ships on the berth.
+
+## What Shippers Should Do
+
+1. **Book Middle East and South Asia space early.** With Shanghai to Jebel Ali at 8,509 USD per FEU and intra-Asia rates at record highs for four straight weeks, space on Gulf and Southeast Asia services is the tightest part of the network. Confirm bookings at least two to three weeks ahead of the Golden Week shutdown.
+2. **Plan around the holiday calendar now.** With only about three normal working days between Mid-Autumn Festival and National Day, cargo that misses the pre-holiday window will queue behind the backlog in October. Get cut-off dates confirmed in writing.
+3. **Budget for congestion and environmental surcharges.** ONE bunker surcharges, Maersk heavy load fees on the Middle East trade, Panama charges and African reefer surcharges are all live. Ask for an all-in door-to-door quote rather than a bare ocean rate.
+4. **Keep documents tight.** The UAE MPCI grace period is ending and European ICS2 enforcement begins September 30. Accurate cargo descriptions, HS codes and consignee identifiers are now load-critical, not administrative details.
+5. **Do not wait for a rate collapse.** Carriers are holding the line with blank sailings through the holiday, and newbuilding capacity will not arrive before 2029. Shipments with genuine urgency should move; flexible cargo can be reviewed after the holiday backlog clears.
+
+The combination of a confirmed capacity arms race and a congested present is the defining feature of this market: carriers are spending billions on a future fleet while the current supply of usable vessel slots remains scarce. For shippers from China, the practical play is unchanged: book early, quote door-to-door, and treat documentation as part of the freight.
+
+*Spider Logistics provides ocean and air freight, customs clearance and door-to-door service from China to Bangladesh, Israel, Africa and the Middle East. Contact us for a current all-in quotation on your next shipment.*`
+  },
+  {
     slug: 'eu-ics2-no-mrn-no-load-deadline-sep-22-2026',
     title: 'No MRN, No Load: The September 30 EU Customs Deadline Arrives as Asia-Europe Rates Slide 10 Percent',
     excerpt: 'From September 30, Maersk will refuse to load any European Union bound or transit cargo that does not hold a valid Movement Reference Number, a hard documentation rule that lands in the same week the Shanghai settlement index for Europe fell 10.2 percent to 2,610.55 points. Drewry WCI holds at 4,500 USD per FEU with Shanghai to New York at 10,394 and Rotterdam at 3,626, Xeneta puts the Far East to US East Coast at 11,259 USD, carriers have scheduled about 1.5 million TEU of Asia-North Europe capacity around Golden Week, and UKMTO recorded two tanker incidents at Hormuz on September 21.',
