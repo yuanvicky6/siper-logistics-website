@@ -11,6 +11,136 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'hormuz-two-vessels-suez-record-chattogram-chaos-sep-24-2026',
+    title: 'Hormuz Falls to Two Vessels a Day as Suez Sets a Record and Chattogram Payments Chaos Hits Cargo',
+    excerpt: 'Commercial traffic through the Strait of Hormuz fell to just two commodity vessels on September 21 against a pre-conflict norm of about 125 a day, with the IMO now counting 80 verified attacks on merchant shipping and at least 22 seafarer deaths, while the Suez Canal Authority reported a record August of 1,358 vessels and 567.1 million USD in revenue. Drewry WCI held at 4,500 USD per FEU with Shanghai to Rotterdam down 9 percent to 3,626, NYSHEX transpacific rates jumped up to 7.45 percent, and Chattogram withdrew a single-bank payment directive after protests disrupted clearance for several hours.',
+    date: 'September 24, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Two chokepoints are moving in opposite directions, and the gap between them now defines the risk profile for Asian exports. Commercial traffic through the Strait of Hormuz has collapsed to a handful of vessels a day, with the International Maritime Organisation counting eighty verified attacks on merchant shipping since late February and at least twenty-two seafarer deaths. In the same week, the Suez Canal Authority reported its strongest month since the Red Sea crisis began, and Bab el-Mandeb kept carrying around twenty-six commodity vessels a day. For anyone shipping from China to Bangladesh, Israel, the Middle East or Africa, the useful question is no longer whether the market is tight. It is which risk will cost money first: the water risk, or the landside execution risk at destination ports where payment systems, terminal software and weather are now deciding whether cargo moves.
+
+## Market Snapshot: A Calm Composite and a Violent Split
+
+The headline container index barely moved, but the components underneath it continue to diverge by trade lane rather than by direction of demand.
+
+| Benchmark (as dated) | Reading | Move |
+|---|---|---|
+| SCFI composite (latest reading) | 3,687.83 points | **up 0.7 percent, eighth straight weekly gain** |
+| CCFI composite | 1,897.15 points | up 1.9 percent |
+| NCFI composite | 2,535.27 points | down 1.8 percent |
+| Drewry WCI composite (Sep 17) | USD 4,500 / 40 ft | plus 1 percent |
+| NYSHEX Asia to US West Coast | 7,076.39 | **up 7.45 percent** |
+| NYSHEX Asia to US East Coast | 9,165.69 | up 4.71 percent |
+| NYSHEX Asia to North Europe | 3,752.11 | down 3.93 percent |
+| Freightos FBX Global | USD 3,407 | down 3 percent |
+
+Drewry has now recorded a seventh consecutive week of divergence between the transpacific and Asia-Europe trades. Pre-Golden Week demand and carrier capacity controls are holding the transpacific up, while weaker demand and the steady return of services through the Suez Canal keep pushing Asia-Europe down. Chinese benchmarks are splitting in the same way: the Shanghai Containerized Freight Index and the China Containerized Freight Index rose, while the Ningbo index and the Freightos Baltic Index fell. When a composite and its components disagree, the route-level number is the one to plan against.
+
+## Chokepoint Divergence: Hormuz Nearly Stops, Bab el-Mandeb Keeps Moving
+
+Reuters shipping data showed **only two commodity vessels crossing Hormuz on Monday, September 21**, down from ten the previous day, against a pre-conflict norm of about **125 large commercial vessels a day**. IMF PortWatch recorded a single commercial transit on September 20 against a pre-crisis baseline of roughly 85 a day. Two independent datasets, the same collapse, and both readings describe accumulated commercial paralysis rather than a temporary pause.
+
+| Chokepoint | Transit level | Comparison |
+|---|---|---|
+| Strait of Hormuz (Sep 21) | 2 commodity vessels | about 125 a day before February 28 |
+| Strait of Hormuz (Sep 20, PortWatch) | 1 commercial transit | baseline about 85 a day |
+| Bab el-Mandeb (Sep 21) | 26 commodity vessels | broadly in line with recent weeks |
+
+The security tally has hardened. The **IMO has verified 80 attacks on merchant vessels** in and around Hormuz since February 28, with at least **22 seafarer deaths**, and Secretary-General Arsenio Dominguez has publicly urged member states to stop attacking merchant ships and crews. On September 23, UKMTO reported a cargo vessel struck by a projectile at about 16:32 UTC, with the crew abandoning the ship and two people injured, following an earlier strike in the same corridor that morning.
+
+Supply routes are being rebuilt around the closure rather than through it. **Saudi Arabia restarted its East-West pipeline on September 22**, nine days after drone damage shut three pumping stations, allowing crude to bypass Hormuz to the Red Sea port of Yanbu. The line is pumping at a reduced rate, and restoring full capacity of **7 million barrels a day could take six to eight weeks**. Brent broke below 100 USD and was quoted near **98.80 USD** on September 23, a fifth consecutive session of decline, which tells you the oil market is pricing workarounds rather than an outright shortage.
+
+The counterpoint matters just as much. Bab el-Mandeb has not stopped: 26 commodity vessels crossed on Monday, in line with recent weeks, even as Houthi forces consolidate positions along the Yemeni coast and near Perim Island. That is why carriers can keep restoring Suez services while war-risk underwriters keep repricing Gulf transits, and why two lanes that look similar on a map now carry completely different cost structures.
+
+## Suez Canal Posts a Record August
+
+The Suez Canal Authority reported **1,358 vessels in August 2026, with 68.3 million tons of net tonnage and 567.1 million USD in revenue**. In August 2025 the same month produced 1,070 vessels, 45.2 million tons and 326 million USD. That is a rise of **27 percent in vessel numbers, 51.1 percent in net tonnage and 56.7 percent in revenue**, presented by authority chairman Osama Rabie during World Maritime Day 2026.
+
+Sea-Intelligence estimates that about **27 percent of Asia-Europe capacity is back on the Red Sea route in September**, but the split is highly uneven. Head-haul capacity from Asia to Europe is running at **13 to 25 percent**, while return legs from Europe to Asia have climbed from 18 to 26 percent in August to **25 to 47 percent in September**. Measured by European origin, Mediterranean to Asia services are at **57 percent** through Suez against **27 percent** from North Europe.
+
+The network adjustments behind those numbers are visible in schedules:
+
+- **Gemini (Maersk and Hapag-Lloyd)** moved AE5, AE11, AE12 and ME2 to trans-Suez routing, joining AE15 and AE19. The first westbound AE5 sailing was the Marchen Maersk, voyage 635W, from Tanjung Pelepas on September 21, and the first eastbound sailing was the Maastricht Maersk, voyage 637E, from Algeciras on September 22. The first ME2 westbound departure falls on September 24.
+- The revised **AE5 rotation** reads Qingdao, Ningbo, Tanjung Pelepas, Suez, London Gateway, Bremerhaven, Hamburg, Rotterdam, Algeciras, Suez, Tanjung Pelepas, which is a useful reminder that China export cargo now routes through the canal on the same string that serves North Europe.
+- **MSC** is restoring the Indusa service selectively, with westbound cargo only on the first sailing by MSC Domna X from Colombo on September 23, and has announced plans to bring back Tiger, Albatross, Himalaya Express and Jade, each with two fewer vessels.
+- **CMA CGM** now runs most eastbound FAL services through Suez, including FAL2, FAL3, FAL5 and OCR, while FAL6 and FAL8 stay on the Cape of Good Hope.
+- **COSCO Shipping Lines** completed a southbound transit with the 24,188 TEU OOCL Portugal on September 16, the first such passage by the group since the crisis began.
+
+Downstream, the Georgia Ports Authority reported on September 22 that Indian cargo is now reaching Savannah **10 to 14 days faster**, with the Maersk MECL service down to 28 days from Nhava Sheva. The proportion of global container capacity still diverted around the Cape of Good Hope has fallen to **4.6 percent, a two-year low**.
+
+## Trade Lane Reference Rates
+
+| Lane | Latest reference | Move | Source |
+|---|---|---|---|
+| Shanghai to US West Coast | USD 7,712 / FEU | up 5 percent | Drewry WCI, Sep 17 |
+| Shanghai to US East Coast | USD 10,394 / FEU | up 7 percent | Drewry WCI, Sep 17 |
+| Shanghai to Rotterdam | USD 3,626 / FEU | **down 9 percent** | Drewry WCI, Sep 17 |
+| Shanghai to Genoa | USD 4,016 / FEU | down 5 percent | Drewry WCI, Sep 17 |
+| Shanghai to Jebel Ali | about USD 8,509 / FEU | up about 13 percent | Drewry, recent week |
+| China to North America air | USD 6.30 / kg | up 5 percent | Freightos, Sep 8 |
+| China to North Europe air | USD 4.88 / kg | up 6 percent | Freightos, Sep 8 |
+| South Asia and Bangladesh to US East Coast | peak-season surcharge of USD 10,000 / container from Oct 1 | new charge | CMA CGM notice |
+
+There is no published index for the China to Bangladesh or China to Israel lanes, which is precisely why forwarders should be asked for an all-in number rather than a base rate. What is measurable is the surcharge layer. Zencargo reported on September 22 that FAK rates from Chittagong had stabilised at elevated peak levels with little movement, while CMA CGM has confirmed a **10,000 USD per container peak-season surcharge from October 1** on cargo from or via Bangladesh, India, Pakistan, Sri Lanka, the Middle East Gulf and the Red Sea to eastern Canada, the US East Coast and the Gulf.
+
+## Chattogram: A Payment U-turn, a Software Rollout and a Cargo Logjam
+
+Bangladesh gave shippers a clean example of how landside process, not ocean capacity, decides delivery. On September 23 the Chattogram Port Authority issued a circular requiring port users to pay charges through a single nominated bank, and withdrew it later the same day after protests from importers, exporters and customs agents. Clearance processes were disrupted from 8am to 2pm while the directive was live, and the previous multi-bank arrangement at the One Stop Service Centre was restored in the afternoon.
+
+The underlying problem is not the bank. It is that a port handling more than 90 percent of national trade is running three changes at once:
+
+- **Payment routing.** Requiring accounts at one institution broke the working capital flow of clearing and forwarding agents, who use several banks and feared demurrage exposure during the outage.
+- **Terminal software.** The authority is moving container and consignee billing onto its Terminal Operating System and reports that 100 percent of vessel bills are already online, with a target of a fully paperless port by December 2026. Agents counter that the TOS is not yet functioning reliably and that staffing and equipment gaps are delaying deliveries.
+- **Cargo accumulation.** Stranded import cargo is reported to be consuming close to two-fifths of operational capacity, which stretches turnaround times even when berth productivity looks healthy.
+
+Berth productivity does look healthy. Kuehne+Nagel reported for the week of September 16 to 22 a 7-day average vessel waiting time of about **1.05 days**, yard utilisation of **65 to 70 percent**, and gearless vessels consistently handled within a **48-hour port stay window**. Portcast put median waiting at **0.12 days** for September 13 to 19. Zencargo, however, warned that yard occupancy is now running well above the recommended threshold of roughly 60 percent, which is what happens when import dwell time, rather than vessel call frequency, becomes the binding constraint.
+
+For shippers to Bangladesh the consequences are concrete: verify which bank the clearing agent can pay through before the vessel arrives, expect documentation rework during the TOS transition, and treat demurrage and detention as a live budget line rather than a contingency.
+
+## Durban Weather Hit and the Wider African Picture
+
+South Africa lost momentum for reasons that had nothing to do with rates. BUSA reported that Durban Gateway Terminal waterside throughput fell to **20,110 TEU, a 39 percent week-on-week decline**, after two days of extreme weather knocked schedules sideways. Average anchorage time was about **214 hours** and berth time about **123 hours**, with ten vessels at anchorage and the total Durban vessel queue rising to **33 vessels, including 19 container vessels**. Landside conditions stayed materially better than during the late-August crisis, with stack occupancy at **54.5 percent**, though evacuation remains inconsistent at 2,225 gate moves and 287 rail moves in a single 24-hour period.
+
+Elsewhere in the system the picture was mixed rather than negative:
+
+- **Cape Town Container Terminal** waterside volumes rose 55 percent to 102 percent of target, and **Ngqura** handled 151 percent of target.
+- **Port Elizabeth** volumes fell 31 percent but still reached 158 percent of target.
+- **Richards Bay** coal throughput rose 21 percent week on week to almost **180,000 tonnes a day**, with 27 trains serviced daily against a target of 22.
+- Rail evacuation on the ConCor line out of Durban reached **1,080 containers** for September 7 to 13.
+- Border performance improved slightly, with a median crossing time of about **7.5 hours** nationally and **6.3 hours** across the SADC region. Lebombo was the exception, with truck volumes down 10 percent and queue times up 19 percent to 5.6 hours.
+
+DHL continues to rank Durban Pier 2 in its worst category at more than **13 days** of terminal waiting time, and Mombasa at 7 to 10 days. The structural context is worth holding onto: more than **11 percent of global containership capacity** is still absorbed by congestion, and the global orderbook has passed **45 percent of the existing fleet**, about 1,925 vessels and 15.6 million TEU. Neither number helps cargo moving in October.
+
+## Air Freight and the Golden Week Cut-off Calendar
+
+Air capacity is tightening into the holidays on fuel cost rather than on demand. The TAC Index rose 0.2 percent week on week and is up **20.2 percent year on year**, with Frankfurt up 3.2 percent on the week and 30.2 percent on the year and Chicago up 15.1 percent on the week and 59.2 percent on the year, while London Heathrow eased 9.1 percent on the week. Freightos data for September 8 put China to North America at **6.30 USD per kg**, up 5 percent, and China to North Europe at **4.88 USD per kg**, up 6 percent. IATA reported July cargo tonne-kilometres up 3.9 percent year on year against capacity growth of 1.7 percent, with jet fuel running **56.9 percent above** the prior year.
+
+The calendar is now the constraint, and it is unusually compressed:
+
+| Window | Status | Action |
+|---|---|---|
+| September 22 to 24 | Best tender window | Hand cargo over now for guaranteed pre-holiday uplift |
+| September 25 to 27 | Mid-Autumn Festival | Reduced staffing, expect limited processing |
+| September 28 to 30 | Three working days only | Final pre-holiday cut-offs, space thinning fast |
+| October 1 to 7 | National Day Golden Week | No departures from China |
+| October 8 onward | Post-holiday scramble | Post-holiday rates, peak landside congestion |
+
+Transpacific air cargo was quoted in the **5.20 to 6.80 USD per kg** range last week, and the gap between booking before September 26 and shipping after October 8 is the whole decision. On the ocean side, Drewry counted **nine transpacific and four Asia-Europe blank sailings** for the coming week, and roughly 20 percent of capacity has been withdrawn through blank sailings, so space availability, not headline price, is the binding issue.
+
+## What Shippers Should Do
+
+1. **Split your risk categories.** Hormuz is a war-risk and fuel-cost problem; Chattogram and Durban are execution problems. They need different mitigations, and one all-in rate will not cover both.
+2. **Confirm the payment path at destination.** After the Chattogram U-turn, check which bank the clearing agent can actually pay through, and get demurrage responsibility in writing before the vessel berths.
+3. **Treat the cut-off calendar as the plan.** Tender by September 24 or accept an October 8 departure. Build one to two weeks of buffer into Bangladesh and South Africa deliveries on top of the holiday effect.
+4. **Quote door-to-door.** With peak-season surcharges, bunker adjustments and war-risk premiums moving weekly, base ocean rates understate landed cost. Ask for a door-to-door number with fixed and variable components separated.
+5. **Use air selectively.** For genuinely urgent consignments, air at 5.20 to 6.80 USD per kg before September 26 still beats a rolled October shipment, but grade it against the value of the cargo.
+
+Two chokepoints, one record canal and two congested destinations describe the same market: capacity is being reallocated faster than it is being created, and the cost of risk is now a line item on every quotation. For exporters from China, the discipline that works is unchanged. Book early, verify the destination process, and price the whole journey rather than just the ocean leg.
+
+*Spider Logistics provides ocean and air freight, customs clearance and door-to-door service from China to Bangladesh, Israel, Africa and the Middle East. Contact us for a current all-in quotation on your next shipment.*`
+  },
+  {
     slug: 'maersk-26-ship-order-typhoon-congestion-sep-23-2026',
     title: 'Maersk Confirms 26 New Megaships While Typhoon Saudel and Chokepoint Fees Keep China Export Rates Elevated',
     excerpt: 'Maersk has confirmed an order for 26 LNG dual-fuel vessels of 18,600 TEU each, lifting its orderbook to about 35 percent of its fleet, while Typhoon Saudel left Shanghai vessels waiting up to 9 days at some terminals and the SCFI rose for an eighth straight week to 3,687.83 points. Shanghai to Jebel Ali spot rates climbed 13 percent to 8,509 USD per FEU, Drewry recorded a fourth consecutive record week for intra-Asia rates, and the Panama Canal cut daily transit slots from 36 to 32.',
