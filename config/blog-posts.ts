@@ -11,6 +11,132 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'berth-clears-gate-jams-october-surcharges-sep-28-2026',
+    title: 'The Berth Clears, the Gate Does Not: Suez Transits Jump 17 Percent as October Surcharges Land',
+    excerpt: 'Drewry WCI eased 1 percent to 4,468 USD per 40ft as Suez containership transits rose 17 percent from 41 to 48 and the Cape of Good Hope diversion fell to a two-year low of 4.6 percent, while Transnet admitted average vessel waits of 61 hours at Durban Pier 1 and 99 hours at Pier 2 and truck queues returned to Bayhead Road. SCFI held at 3,686.62 with the Persian Gulf lane up 5.4 percent to 6,586 USD per TEU, Brent closed at 106.60 USD as the Strait of Hormuz reached day 208 of closure, and a surcharge wave taking effect between September 25 and October 15 adds up to 800 USD per box on heavy and African cargo.',
+    date: 'September 28, 2026',
+    category: 'Industry Insights',
+    readTime: '8 min read',
+    coverImage: '',
+    content: `Two signals crossed in the same week of late September 2026, and they point at different halves of the same shipment. The water side of global container shipping has measurably healed. Suez Canal containership transits rose from 41 in week 37 to 48 in week 38, the share of global capacity still diverting around the Cape of Good Hope has fallen to 4.6 percent, and Chittagong recorded a seven-day average vessel waiting time of about 1.05 days. The land side has not. Transnet National Ports Authority told a parliamentary committee that vessels waited an average of 61 hours to berth at Durban Container Terminal Pier 1 and 99 hours at Pier 2 through July 2026, truck queues have returned to Bayhead Road, and August container throughput across the South African port system fell 7 percent month on month. For cargo moving from China to Bangladesh, Israel, Africa and the Middle East, the binding constraint has moved off the berth and onto the gate, the rail link and the customs file.
+
+## Market Snapshot: A Flat Composite Hiding Two Different Markets
+
+The Drewry World Container Index (WCI) came in at **4,468 USD per 40ft container** on September 24, down **1 percent** week on week and effectively flat against the 4,476 USD reading of September 10. The composite moved less than 10 USD over two weeks while the lanes underneath it moved in opposite directions by hundreds of dollars, which is the clearest argument for pricing a specific lane rather than an index.
+
+The year-on-year picture remains extreme. WCI is **154 percent higher** than a year earlier. Shanghai to New York is up **216 percent** and Shanghai to Los Angeles is up **239 percent**, the largest annual gain in the basket.
+
+## Trade Lane Rates: September 24, 2026
+
+| Route | Rate | Week on Week | Year on Year |
+| --- | --- | --- | --- |
+| WCI composite | 4,468 USD / 40ft | -1% | +154% |
+| Shanghai - Los Angeles | 7,838 USD / FEU | +2% | +239% |
+| Shanghai - New York | 10,373 USD / FEU | flat | +216% |
+| Shanghai - Genoa | 3,835 USD / 40ft | -5% | +93% |
+| Shanghai - Rotterdam | 3,485 USD / 40ft | -4% | +101% |
+| Rotterdam - Shanghai | 599 USD / 40ft | -1% | +30% |
+| Rotterdam - New York | 3,121 USD / 40ft | flat | +72% |
+
+Source: Drewry World Container Index, September 24, 2026.
+
+The Shanghai Shipping Exchange SCFI for September 24 was **3,686.62 points**, flat week on week and up **8.12 percent** over the month. Underneath the flat headline: Europe **2,313 USD per TEU**, down **4.6 percent**; Mediterranean **3,065 USD per TEU**, down **1.9 percent**; US West Coast **7,463 USD per FEU**, down **1.3 percent**; US East Coast **10,497 USD per FEU**, down **0.8 percent**, leaving a coast-to-coast spread of **3,034 USD**; Persian Gulf **6,586 USD per TEU**, up **5.4 percent**. The CCFI on September 25 was **1,917.68**, up **1.08 percent**, with the US East Coast component up **5.51 percent** to 2,003.87.
+
+The Gulf lane is the one to watch. It was the only major SCFI route that rose this week, and it rose materially.
+
+## The Water Side Has Cleared
+
+Three data points from the week ending September 26 say the same thing from three different oceans.
+
+Suez Canal containership transits went from **41 in week 37 to 48 in week 38**, an increase of roughly **17 percent**. This matters more than blank sailings in the current arithmetic. Carriers have announced **15 transpacific blank sailings** for the week beginning September 27, up from nine this week, and **seven Asia-Europe cancellations**, up from three. Returning Suez routings add effective capacity without adding a single hull, and Drewry expects rates to fall anyway as Chinese export demand pauses for the holiday.
+
+The Suez Canal Authority reported container-ship net tonnage of **72.1 million tonnes for January to August 2026**, up **54.2 percent** from 46.7 million tonnes a year earlier. On September 16 alone, 39 vessels transited with a combined net tonnage of about **2.3 million tonnes**. Red Sea routing is now assessed at roughly **27 percent normalised**, and the Cape of Good Hope diversion has fallen to **4.6 percent** of global container capacity, a two-year low.
+
+On the other side of the Pacific, Port Optimizer data shows the San Pedro Bay complex with **16 vessels at berth, none within 40 nautical miles waiting, and a 0.0-day average berth wait**. Month-to-date September turn times are **65 minutes at Los Angeles and 61 minutes at Long Beach**. Whatever problem the US West Coast had in the third quarter, it is not a berth problem today.
+
+## The Land Side Has Not
+
+Durban is the counter-example, and the authority that runs it has now said so on the record.
+
+Transnet National Ports Authority chief executive Mohammed Abdool told Parliament that vessels waited an average of **61 hours** to berth at Durban Container Terminal Pier 1 and **99 hours** at Pier 2 through July 2026, citing equipment breakdowns, scheduled crane maintenance, malfunctioning reefer units, tidal restrictions and weather stoppages. He listed ageing infrastructure, outdated equipment, deferred and reactive maintenance, shortages of critical spare parts, supply-chain delays and gaps in information technology among the systemic problems. Weather, he said, remains the primary systemic risk across six of the eight ports, and Durban accounts for **16 percent of delayed marine movements** with the lowest on-time pickup rate in the system.
+
+The operating numbers for the week of September 14 to 20 are worse than the berth averages. Durban Gateway Terminal handled **20,110 TEU, down 39 percent** week on week, in a week that included two days of extreme weather. Average anchorage time ran at approximately **214 hours**, or almost nine days, with ten vessels at anchor. National container throughput across the South African port system fell **21 percent** to **72,837 TEU**, an average of 10,405 TEU a day against 13,096 the previous week. The total Durban vessel queue rose to **33, including 19 container vessels**.
+
+Stack occupancy at DGT has improved to **54.5 percent**, which is genuinely good news, and road imports on hand fell to 1,960 containers. Evacuation, though, is inconsistent: in the latest 24-hour period the terminal recorded **2,225 gate moves against only 287 rail moves**. Rail out of Durban did reach 1,780 containers for the week, up **65 percent**, which is real progress from a low base. Port-wide August throughput was **382,755 TEU, down 7 percent month on month and 7 percent year on year**, though still **4.9 percent higher** year to date.
+
+The land-side problem is visible on the road. Truck queues have returned around Bayhead Road, Umbilo Road, Sydney Road, South Coast Junction and Solomon Mahlangu Drive. A smooth road cannot compensate for cranes that are unavailable.
+
+## Chittagong: Fast Berths, Slow Gates
+
+The same pattern shows up on the Bangladesh lane in a cleaner form.
+
+Chittagong recorded a seven-day average vessel waiting time of about **1.05 days** for September 16 to 22, with yard utilisation at **65 to 70 percent**, berth waiting of about one day, and gearless vessels maintained inside a 48-hour port stay window. Portcast records a median waiting time of **0.12 days**. On the water, this is an efficient port.
+
+The consignee-side number is the one that decides delivery dates. Import container dwell time is effectively unchanged at **9.51 days against 9.56 days** a year earlier. Almost all of the operational gain at Chittagong has been captured on the water side, and none of it on land. Port revenue for January to June was **Tk 3,947.69 crore**, up **33.92 percent**, so the port is performing commercially while the cargo on its quay is not moving any faster.
+
+For a China to Bangladesh booking, pre-clearance, duty readiness and inland transport booked before berthing now determine the delivery date far more than the base rate or the quoted transit time.
+
+## Hormuz Keeps the Cost Floor Under Rates
+
+The Strait of Hormuz has not normalised, and it is now the main reason rates are not falling faster on the cost side.
+
+As of September 25 the strait was in its **208th day** of effective closure. Independent tracking put commercial transits at roughly **one vessel** on September 20 against a pre-crisis norm of about 85 a day, or about **1 percent** of normal throughput. War-risk insurance is running at multiples of normal, with cover quoted around **10 percent of hull value**. Roughly **420 ships** are holding position inside the Gulf rather than under way, and sea mines remain uncleared.
+
+Iran hardened its position on September 25, when a senior official told Reuters that the strait will not reopen even if the United States accepts the Iranian proposal, and that no nuclear concessions are on the table. The same week brought further casualties: at least three Indian seafarers were killed in separate attacks on bulk carriers, including a torpedo strike near Oman, following the death of a seafarer aboard the bulk carrier Cape Dao off Oman on September 23.
+
+Brent settled at **106.60 USD per barrel** on September 25, up **3.52 USD** or **3.4 percent**, with the Abu Dhabi benchmark Murban at **117.60 USD** and WTI at **94.51 USD**. The Brent to WTI spread of **12.09 USD** is the market pricing disruption risk into Middle East seaborne supply. Saudi Arabia partially restarted its East-West pipeline on September 22, targeting **4 million barrels a day** toward Red Sea terminals, but roughly **12 million barrels** loaded at Ras Tanura and Juaymah on September 21 have not been enough to remove the risk premium.
+
+Marine fuel is the transmission channel into your invoice. Crude holding near 100 USD keeps bunker costs and fuel surcharges elevated, and war risk remains the largest single line item that can appear between quotation and invoice.
+
+## Israel: The ZIM Decision Slips Into October
+
+On the Israel lane, the event of the week is ownership rather than throughput.
+
+Hapag-Lloyd and Israeli private equity firm FIMI submitted a **revised proposal** for their **4.2 billion USD** acquisition of ZIM on September 24, the day after chief executive Rolf Habben Jansen arrived in Israel to lobby for approval. The price is unchanged at **35 USD per share**, a 58 percent premium to the February 13 share price.
+
+The obstacle is political. Of the eight Israeli government bodies required to give a position, six have indicated opposition, with the National Security Council the only supporter and its position carrying reservations, while the Budget Division at the Ministry of Finance is still considering the file. The Companies Authority extended the revision deadline only to **September 27**, and a final decision is now expected in October.
+
+The revised structure contains roughly ten substantive changes. The threshold at which a foreign investor would trigger government scrutiny under the golden share framework would fall to **10 percent from 24 percent**. FIMI would commit to listing the Israeli successor only on the Tel Aviv exchange. ZIM Israel would hold **16 vessels**, above the 11 required under existing golden share provisions, and would gain access to at least **six shipping services, potentially up to 10**, with at least one Far East connection treated as essential.
+
+That last point is the one that concerns a China to Israel shipper. Israeli authorities are explicitly negotiating for guaranteed maritime connectivity with Asia, precisely because the lane becomes unreliable in periods of regional disruption. Until the deal closes, expected in late 2026, the two carriers continue to operate independently and nothing changes operationally today. Watch the October decision for the medium-term answer on service strings into Haifa and Ashdod.
+
+## The October Surcharge Bill
+
+The cost change that will reach invoices fastest is not the spot index. It is the surcharge wave taking effect between September 25 and October 15.
+
+| Carrier | Lane | Charge | Effective |
+| --- | --- | --- | --- |
+| CMA CGM | Emergency fuel surcharge, mainline headhaul | 265 USD/TEU dry, 320 USD/TEU reefer | October 1, 2026 |
+| Maersk | Far East to North Europe, heavy weight above 28 t VGM | 400 USD per 20ft dry | Price calculation date Sept 30, 2026 |
+| Maersk | Far East to Middle East, heavy weight above 20 t VGM | 800 USD per 40ft, contract customers | October 5, 2026 |
+| Maersk | Import congestion surcharge into Durban | 250 USD per 20ft, 500 USD per 40ft | In force |
+| CMA CGM | China, North Asia and Southeast Asia to Durban | 350 USD/TEU | September 25, 2026 |
+| CMA CGM | North and Central China to Dar es Salaam / Mombasa | 600 USD / 800 USD per TEU | October 15, 2026 |
+| CMA CGM | South China to Dar es Salaam / Mombasa | 550 USD / 800 USD per TEU | October 15, 2026 |
+| Maersk | North Europe and Mediterranean to Kenya | 150 USD per 20ft, 200 USD per 40ft and 45ft HQ | October 7, 2026 |
+| ONE | Europe, Scan-Baltic and Iberia to US East, West and Gulf | 200 USD per 20ft, 400 USD per 40ft | October 1, 2026 |
+
+Sources: carrier customer advisories reported by Container News and trade press, September 2026.
+
+Two details matter commercially. First, the fuel surcharge increase is **115 USD per TEU** higher on dry mainline headhaul than the previous level and **155 USD per TEU** higher on reefer, which is a direct pass-through of the Hormuz risk premium. Second, several of these charges stack. A heavy 20ft consignment to North Europe with a verified gross mass above 28 tonnes can carry the 400 USD Maersk heavy weight surcharge on top of a fuel surcharge that has already risen.
+
+Air cargo is absorbing some of the urgency. WorldACD reported average Asia Pacific to Europe spot rates up **2 percent** week on week to **4.72 USD per kilogram** in week 38, with mainland China up **4 percent** and Vietnam up **8 percent** to 4.89 USD. Asia Pacific to the United States averaged **6.75 USD per kilogram**, about **40 percent** higher than the same week last year. Hong Kong to Europe tonnages are down **29 percent** year on year following the removal of the EU low-value exemption, while mainland China volumes are up **2 percent**. With the Mid-Autumn Festival on September 25 to 27 and Golden Week on October 1 to 7 falling close together, handover windows have compressed into a very narrow band.
+
+## What Shippers Should Do
+
+**Price the lane, not the index.** A flat composite of 4,468 USD contains a 3,485 USD Rotterdam rate and a 10,373 USD New York rate. Any quotation built on the headline is wrong for one of those two trades.
+
+**Book against gate and customs timelines.** On both Chittagong and Durban, berth waiting time and cargo dwell time have decoupled. Chittagong clears vessels in about a day and holds import containers for more than nine. Build the delivery commitment from the dwell number, and start pre-clearance and duty readiness before berthing.
+
+**Confirm the routing in writing, per direction.** Carriers are now running Suez one way and the Cape the other on the same service string. A Suez routing and a Cape routing on the China to Israel lane can differ by seven to fourteen days, and the answer can change by voyage.
+
+**Recalculate the surcharge stack before quoting.** Run every October quotation against the table above, check verified gross mass against the heavy weight thresholds of 28 tonnes for 20ft to North Europe and 20 tonnes for 40ft to the Middle East, and confirm whether the booking is contract or spot, because the Middle East heavy weight charge applies to contract customers.
+
+**Treat war risk as a line item, not a footnote.** With Hormuz transits running at roughly 1 percent of normal and insurance quoted around 10 percent of hull value, any quotation touching the Gulf or the Red Sea should state whether war risk is included and on what basis.
+
+**Use air selectively and early.** Air rates from Asia Pacific to Europe and to the United States are holding firm rather than soaring, but the Mid-Autumn and Golden Week window removes most of the flexibility. If a shipment cannot survive a three-week ocean slide, move it before the October holiday rather than after a missed sailing.`,
+  },
+  {
     slug: 'hormuz-two-vessels-suez-record-chattogram-chaos-sep-24-2026',
     title: 'Hormuz Falls to Two Vessels a Day as Suez Sets a Record and Chattogram Payments Chaos Hits Cargo',
     excerpt: 'Commercial traffic through the Strait of Hormuz fell to just two commodity vessels on September 21 against a pre-conflict norm of about 125 a day, with the IMO now counting 80 verified attacks on merchant shipping and at least 22 seafarer deaths, while the Suez Canal Authority reported a record August of 1,358 vessels and 567.1 million USD in revenue. Drewry WCI held at 4,500 USD per FEU with Shanghai to Rotterdam down 9 percent to 3,626, NYSHEX transpacific rates jumped up to 7.45 percent, and Chattogram withdrew a single-bank payment directive after protests disrupted clearance for several hours.',
