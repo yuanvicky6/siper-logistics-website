@@ -11,6 +11,112 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'schedule-reliability-29-percent-chattogram-gate-hormuz-sep-29-2026',
+    title: 'Reliability Falls to 29 Percent as Chattogram Gates Shut and Hormuz Risk Re-Prices the Gulf',
+    excerpt: 'Xeneta put global ocean schedule reliability at 29 percent in August, a drop of roughly four percentage points in a single month, while container deliveries at Chittagong Port stopped at four in the afternoon on September 28 after a clash over gate pass fees and Iranian state media reported seven vessels targeted overnight in the Strait of Hormuz. Drewry WCI held near 4,468 USD per 40ft as SCFI ended an eight-week run at 3,686.62, India to Middle East spots climbed 25 to 40 percent with Nhava Sheva to Dammam at 9,500 USD per 40ft, and the October surcharge wave includes 11,650 USD per container for Northwest India to all destinations and 1,000 USD per box for Asian cargo including Bangladesh to Latin America.',
+    date: 'September 29, 2026',
+    category: 'Industry Insights',
+    readTime: '8 min read',
+    coverImage: '',
+    content: `Three separate failures in the final week of September 2026 landed on three different parts of the same shipment, and together they explain why shippers should stop staring at the freight index and start staring at the gate. Xeneta put global ocean schedule reliability at **29 percent in August**, a drop of roughly four percentage points in a single month. Container deliveries at Chittagong Port stopped at four in the afternoon on **September 28** after a clash between trailer workers and port security over gate pass fees, halting movement at a port that handles at least **5,000 TEU of inland deliveries every day**. And in the Strait of Hormuz, Iranian state media reported that **seven vessels** were targeted overnight for using routes other than those designated by Tehran, after **twelve the night before**, as Brent pushed back above **107 USD per barrel**. The water is open on paper. The last mile is not.
+
+## Market Snapshot: A Flat Index Sitting On Top Of A Broken Schedule
+
+The Drewry World Container Index (WCI) came in at **4,468 USD per 40ft container** on September 24, down **1 percent** week on week and up **154 percent** year on year. Transpacific rates rose **1 percent**, Asia to Europe and the Mediterranean fell **2 percent**, and the transatlantic held flat. The Shanghai Shipping Exchange SCFI on September 24 printed **3,686.62 points**, down just **1.21 points** and thereby ending an eight-week run of consecutive gains. US West Coast came in at **7,463 USD per FEU**, down **1.28 percent**, and US East Coast at **10,497 USD per FEU**, down **0.78 percent**. The CCFI on September 25 rose **1.08 percent** to **1,917.68**.
+
+Carriers are still managing capacity aggressively. For the period from week 40 (September 28 to October 4) through week 44 (October 26 to November 1), Drewry counts **58 blank sailings out of 712 planned voyages, an 8 percent cancellation rate**, with **64 percent** of them on the transpacific eastbound, **28 percent** on Asia to North Europe and the Mediterranean, and **8 percent** on the transatlantic. For the week immediately ahead the transpacific count jumps to **15 blank sailings from 9**, and Asia to Europe to **7 from 3**.
+
+The supply side keeps improving on the canal. Suez containership transits rose from **41 in week 37** to **48 in week 38**, which adds effective capacity to the Asia to Europe corridor and is precisely why Drewry expects European rates to keep sliding even as blank sailings multiply.
+
+What is not improving is reliability. The Xeneta August reading of **29 percent** for global schedule reliability is down about **four percentage points** from July, with the Far East to Europe corridor the worst performer in the world. The cause is visible in the anchorages: back-to-back typhoons left roughly **1.1 million TEU stuck at anchor off Ningbo, Shanghai and Yantian**. This is now a structural condition rather than a weather event. Global port congestion continues to absorb **more than 11 percent of world containership capacity**, and the global orderbook has climbed to roughly **1,925 vessels representing 15.6 million TEU, more than 45 percent of the existing fleet**. As Maersk and MSC executives have both argued in September, port expansion cycles run five to ten years while shipyard capacity does not, and about **6.6 percent of the global containership fleet** is currently idled by congestion. Main Chinese ports still handled **7.279 million TEU** in the week of September 14 to 20, up **1.8 percent** week on week and close to a record.
+
+## Trade Lane Rates: September 24, 2026
+
+| Route | Rate | Week on Week | Year on Year |
+| --- | --- | --- | --- |
+| WCI composite | 4,468 USD / 40ft | -1% | +154% |
+| Shanghai - Los Angeles | 7,838 USD / FEU | +2% | +239% |
+| Shanghai - New York | 10,373 USD / FEU | flat | +216% |
+| Shanghai - Genoa | 3,835 USD / 40ft | -5% | +93% |
+| Shanghai - Rotterdam | 3,485 USD / 40ft | -4% | +101% |
+| Rotterdam - Shanghai | 599 USD / 40ft | -1% | +30% |
+| Rotterdam - New York | 3,121 USD / 40ft | flat | +72% |
+
+Source: Drewry World Container Index, September 24, 2026.
+
+Bookable spot levels run above the index. Freightos reported rates to the US West Coast between **7,400 and 8,300 USD per FEU** and to the US East Coast between **9,600 and 11,500 USD per FEU**, both near their mid-2022 highs, with a **4 percent** weekly increase westbound and a **1 percent** decline eastbound. The spread between the two coasts, at roughly **3,000 USD per box**, is now large enough to justify routing decisions on its own.
+
+## The Strait of Hormuz Enters An Enforcement Phase
+
+The security picture in the Gulf deteriorated sharply again on September 28. Fars News Agency, citing local sources, reported that **seven vessels accused of violating designated routes were targeted overnight**, following **twelve vessels the previous night**, and that Iranian cruise missiles and suicide drones had been launched from southern Iran towards commercial shipping south of the strait. Iranian state television attributed explosions heard near **Qeshm Island** between 20:16 and 20:41 UTC on September 28 to warning shots fired at non-compliant vessels. President Trump countered that the United States held full control of the waterway and that **29 vessels transited the previous night**.
+
+Physical flow tells a harsher story than either claim. Kpler data showed only **five commodity vessels** passing through the strait on Saturday September 26, against **31** over the previous weekend, with **no transits recorded on Sunday** in preliminary data. The IMF PortWatch count for its most recent published day, **September 20**, recorded **one commercial transit, about 1 percent of the pre-crisis level of 85 per day**. War-risk insurance for tankers is priced at **40 times** the pre-crisis level, cover for a single VLCC now costs in the region of **10 million USD**, and **six P and I clubs** have withdrawn cover for the passage. Multiple trackers put September 28 at **day 211** since the closure began. A separate account from a working bulk carrier operator noted only **four commodity-vessel transits on September 15**, against a pre-conflict average near **125 per day**.
+
+Brent traded around **107.30 to 107.47 USD per barrel** during September 28, up roughly **3 percent** in twenty-four hours. Fuel is the transmission mechanism from the strait into every other lane.
+
+## India to Middle East Rates Up 25 to 40 Percent
+
+The clearest read-through for cargo owners is the India to Middle East trade, where spot rates have climbed **25 to 40 percent since the last week of August**. Nhava Sheva to Dammam is now quoted as high as **8,500 USD per TEU and 9,500 USD per 40ft**, against roughly **5,800 and 6,800 USD** a month earlier. Nhava Sheva to Jeddah sits near **5,500 USD per TEU and 7,400 USD per 40ft**, about **25 percent** above the prior month, and at least one mainline carrier is selling India to Umm Qasr in Iraq at **10,000 USD per 40ft high cube**.
+
+The routing logic matters as much as the price. Hapag-Lloyd and MSC are both increasingly using **Umm Qasr** as a strategic gateway into the Persian Gulf, because the usual bypass options at **Khor Fakkan and Fujairah** in the UAE and **Sohar** in Oman are themselves congested, leaving landbridge and overland corridors struggling. Indian ports are absorbing the overflow: JNPA recorded **145,000 TEU of transhipment in August**, a record, up from **113,000 TEU in July**, with PSA Mumbai alone moving **61,500 TEU** versus **32,500 TEU** the month before. The gap between an Indian transhipment hub and a Chinese direct sailing is worth recalculating on any Gulf cargo right now.
+
+## Chittagong: A Gate Stops And 5,000 Boxes A Day Wait
+
+On September 28, container deliveries from Chittagong Port were suspended from around **4:00pm** after an altercation at **Gate No 5** between a trailer workers association official and port security personnel over gate pass fees. The official fee is **Tk 57.50**; workers allege they were being charged **Tk 80 to Tk 100**. A second altercation followed at **Gate No 4**, and truck, prime mover and trailer drivers then stopped moving containers through the port entirely. Off-dock operators confirmed that container movement between the port and **21 private off-docks** was suspended until **8:00pm**. Chittagong Port Authority Secretary Syed Refayet Hamim said container-carrying vehicles were not operating because of a problem and that the authority was working to resolve it.
+
+Two things deserve attention here. First, the volume at stake is not marginal: the port handles at least **5,000 TEU of containerised deliveries per day**, and a gate stoppage is not a berth delay, it is an inland evacuation failure that immediately fills the yard. Second, the trigger was a mundane fee dispute on a document that costs less than one US dollar. That is the pattern to watch for Bangladesh in the fourth quarter: small procedural friction at the gate producing outsized backlog, on top of the import dwell time of about **9.5 days** that has barely moved all year.
+
+## Durban: Median Waiting Time Roughly Doubles
+
+The South African picture deteriorated in the second half of September. Portcast put the **median waiting time at Durban at 4.81 days for the September 20 to 26 window, up from 3.25 days the week before**, moving the port into a high congestion category.
+
+The underlying terminal data from the SAAFF and BUSA Cargo Movement Update for September 14 to 20 shows national container throughput down **21 percent** week on week to **72,837 TEU**, or an average of **10,405 TEU per day**. Durban Gateway Terminal handled **20,110 TEU, a 39 percent decline**, with average anchorage time of about **214 hours, close to nine days**, and **ten vessels** waiting. The total Durban vessel queue reached **33, including 19 container ships**. Landside evacuation remains lopsided: the latest twenty-four hour window recorded **2,225 gate moves and only 287 rail moves**.
+
+There is a longer-term contradiction worth understanding. An OilPrice analysis on September 28 noted that rerouting around the Cape of Good Hope has doubled shipping traffic past southern Africa since February, yet very little of it converts into port calls, because the detour is around **5,000 miles longer and adds up to 14 days and more than 1 million USD in extra fuel per trip**, and because South African ports remain slow. The World Bank and S and P Global **Container Port Performance Index ranks Cape Town last of 400 evaluated ports and Durban 398th**. Yet Durban was also named the **most improved** container port globally, with the share of productive berth time rising to **76 percent** and anchorage waiting falling from a peak of 20 ships to zero at the time of that assessment. Both readings are true at once, which is the honest summary of South Africa in 2026.
+
+For Ethiopia and Djibouti corridor cargo, Maersk has doubled its late-payment grace period to **15 calendar days** from 7 after the invoice due date, with the **40 USD per shipment** late fee unchanged.
+
+## October Surcharge Calendar
+
+| Effective | Carrier | Lane | Amount |
+| --- | --- | --- | --- |
+| October 1 | CMA CGM | Middle East head-haul emergency fuel surcharge | 265 USD / dry TEU, 320 USD / reefer TEU |
+| October 1 | Maersk | Northwest India and Bhutan to all destinations, PSS | 11,650 USD / container |
+| October 1 | Maersk | Pakistan to all destinations, PSS | 11,000 USD / container |
+| October 1 | Maersk | Middle East six countries to US and Canada East Coast | 8,000 USD / container |
+| October 7 | Maersk | West Mediterranean to US and Canada | 250 USD / container |
+| October 15 | CMA CGM | Asia including Bangladesh to Latin America | 1,000 USD / container |
+| Since September 15 | MSC | Asia to East Mediterranean and Black Sea | 91 USD / TEU combined |
+
+Sources: CMA CGM, Maersk and MSC customer notices.
+
+Two entries deserve highlighting. The **CMA CGM Asia to Latin America increase of 1,000 USD per container** applies from the **loading date of October 15** and explicitly covers **all Asian ports including Bangladesh**, which makes mid-October a hard planning boundary for Bangladesh export programmes. The **MSC East Mediterranean and Black Sea surcharge of 91 USD per TEU** combines a **55 USD piracy risk** component with a **36 USD Suez Canal** component, and MSC has framed it as permanent rather than temporary, citing at least **six commercial vessel hijackings with more than 90 crew detained** in the Gulf of Aden area since late August.
+
+## Air Freight: The Pressure Valve Opens Again
+
+Air cargo is doing what it always does when ocean schedules fail in early October: absorbing the overflow. WorldACD recorded global tonnages up **2 percent** week on week in week 38, a fourth consecutive gain and **8 percent** above the same week last year, with the worldwide spot rate holding at **3.45 USD per kilo**, up **33 percent** year on year. Capacity is up **10 percent** year on year overall and **30 percent** out of Asia Pacific, which is the main reason rates have not spiked despite the volume.
+
+The regional detail is where the action is. Asia Pacific to the United States demand is up **13 percent** year on year, led by South Korea at **54 percent**, Japan at **47 percent**, China at **14 percent**, Indonesia at **19 percent**, Thailand at **12 percent** and Singapore at **10 percent**. The average spot rate on that lane held at **6.75 USD per kilo**, roughly **40 percent** above last year, with Singapore origin rates up **62 percent** and Japan origin up **50 percent**. Asia Pacific to Europe spot rates rose **2 percent** to **4.72 USD per kilo**, with mainland China up **4 percent**, Japan **3 percent**, South Korea **2 percent** and Vietnam **8 percent** to **4.89 USD per kilo**. Hong Kong to Europe tonnage remains down **29 percent** year on year following the removal of the EU de minimis exemption on July 1, while mainland China to Europe is up **2 percent**.
+
+The Middle East and South Asia region is the caution. Tonnages fell **4 percent** week on week in week 38, with **Bangladesh air volumes down 17 percent** and India down **5 percent**, while Gulf capacity eased **1 percent**. Africa tonnages also fell **4 percent**, but African average rates rose **6 percent** to **2.47 USD per kilo**, the largest weekly increase of any region. Spot rates out of the Middle East and South Asia are **52 percent** higher year on year. The window is also unusually tight: Mid-Autumn Festival ran September 25 to 27 and Golden Week runs October 1 to 7, compressing handover into a handful of working days on either side.
+
+## What Shippers Should Do
+
+**Separate the index from the lane.** A WCI that moved less than 10 USD in two weeks disguised a 5 percent fall to Genoa and a 239 percent annual rise to Los Angeles. Decide per destination, not per headline.
+
+**Plan Bangladesh for mid-October, not early.** The CMA CGM Asia to Latin America increase keys off the **October 15 loading date** and includes Bangladeshi origin. Combined with a **17 percent** fall in Bangladesh air tonnage and the September 28 gate stoppage at Chittagong, Bangladesh cargo should be pushed before the first week of October where possible.
+
+**Build gate and rail time into transit promises.** Xeneta puts schedule reliability at **29 percent**. Add contingency days for yard evacuation at Durban, where **2,225 gate moves** run against **287 rail moves**, and for gate disruptions at Chittagong.
+
+**Quote Gulf and Iraq cargo with an explicit risk clause.** India to Middle East rates are up **25 to 40 percent** in a month, Umm Qasr is priced at **10,000 USD per 40ft high cube** from India, and war-risk insurance is at **40 times** normal. Fix rate validity periods short and reference the surcharge calendar in writing.
+
+**Use air selectively and early.** Asia Pacific to US spot at **6.75 USD per kilo** is **40 percent** above last year, and new charter capacity is currently capping further increases. That combination of high absolute levels and stable pricing is the moment to lock capacity rather than wait.
+
+**Pre-clear, then move.** With European customs controls tightening and reliability falling, the cheapest buffer available is documentary. Getting entry data accepted before the container is loaded removes an entire class of delay that no freight rate can compensate for.
+
+Spider Logistics arranges ocean and air freight from China to Bangladesh, Israel, Africa, the Middle East and Europe, including customs clearance and door-to-door delivery. Contact our team for a lane-specific rate and transit assessment before your next booking window.`,
+  },
+  {
     slug: 'berth-clears-gate-jams-october-surcharges-sep-28-2026',
     title: 'The Berth Clears, the Gate Does Not: Suez Transits Jump 17 Percent as October Surcharges Land',
     excerpt: 'Drewry WCI eased 1 percent to 4,468 USD per 40ft as Suez containership transits rose 17 percent from 41 to 48 and the Cape of Good Hope diversion fell to a two-year low of 4.6 percent, while Transnet admitted average vessel waits of 61 hours at Durban Pier 1 and 99 hours at Pier 2 and truck queues returned to Bayhead Road. SCFI held at 3,686.62 with the Persian Gulf lane up 5.4 percent to 6,586 USD per TEU, Brent closed at 106.60 USD as the Strait of Hormuz reached day 208 of closure, and a surcharge wave taking effect between September 25 and October 15 adds up to 800 USD per box on heavy and African cargo.',
