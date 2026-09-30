@@ -11,6 +11,89 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'capacity-flip-suez-return-africa-surcharges-sep-30-2026',
+    title: 'The Capacity Flip Arrives: Two Million TEU Returns to Suez as October Surcharges Reach Africa',
+    excerpt: 'More than 140 containerships carrying over two million TEU have returned to the Suez route since May, and last week was the busiest week for canal transits since 2024, with 30 ships of more than 4,000 TEU passing through. Freight rates ended an eight week run at 3,686.62 on the SCFI and Drewry WCI slipped 1 percent to 4,468 USD per 40ft, while Sea-Intelligence warned that releasing vessel days back into service could flip the market from shortage to surplus. The bill is arriving on the destination side: Maersk files 250 and 500 USD for Far East Asia to South Africa and Mauritius from 15 October, CMA CGM adds 600 to 800 USD per TEU for China to East Africa, and Durban delay hours moved from 39 in January to 364 in September.',
+    date: 'September 30, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Spider Logistics moves cargo out of China every day, and this week the index and the booking told different stories. The Suez Canal recorded its busiest week for containership transits since 2024, freight rates ended an eight week run of gains, and carriers serving South Africa, East Africa and the Gulf filed a fresh round of October surcharges. The market is not simply easing. It is re-pricing route by route, and more of the bill is landing on the destination side of the voyage.
+
+## The Canal Is No Longer the Constraint
+
+For two years the Suez question was binary: transit or round the Cape of Good Hope. It is now settled enough to be measured in capacity. Linerlytica reports that more than **140 containerships with over 2 million TEU** of capacity have returned to the Suez route since May, and that last week was the **busiest week for containership transits through the canal since 2024**, with **30 ships of more than 4,000 TEU** passing through.
+
+On **4 October**, after shifting ten eastbound sailings to the canal since mid-September, COSCO and OOCL operate their **first westbound Suez voyage in more than two years** with the 24,188 TEU OOCL SPAIN on the AEU1/LL1 service. Drewry supplies the arithmetic: container transits rose from **41 in week 37 to 48 in week 38**, and recovering effective capacity now pushes rates down harder than blank sailings can hold them up.
+
+## Market Snapshot
+
+| Index or Benchmark | Level | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 24 September | USD 4,468 per 40ft | -1 percent, +154 percent YoY | Drewry |
+| SCFI composite, 24 September | 3,686.62 | -0.03 percent, ends an eight week rise | Shanghai Shipping Exchange |
+| FBX composite, week 39 | 3,367 | -2.3 percent | Baltic Exchange |
+| Shanghai to Los Angeles | USD 7,838 per 40ft | +2 percent, +239 percent YoY | Drewry |
+| Shanghai to New York | USD 10,373 per 40ft | flat, +216 percent YoY | Drewry |
+| Shanghai to Genoa | USD 3,835 per 40ft | -5 percent, below 4,000 | Drewry |
+| Shanghai to Rotterdam | USD 3,485 per 40ft | -4 percent | Drewry |
+| China and East Asia to North Europe | USD 3,293 per FEU | -9.7 percent | Baltic Exchange |
+
+Forwarder market pricing for 40ft equipment still sits above the index: roughly **USD 7,800 to 8,300** to the US West Coast, **9,000 to 10,500** to the US East Coast, and **2,900 to 3,500** to Europe. The softening is concentrated on Europe.
+
+## The Swing From Shortage to Surplus
+
+Sea-Intelligence argued for weeks that reliability would break before rates did. In August, on-time arrivals fell **5.9 percentage points to 49.9 percent, the weakest since September 2022**, while the average delay for late vessels rose **0.60 days month on month to 6.81 days**, the longest since March 2022. The same analysis estimates these delays absorb about **5 percent of global deep-sea capacity, roughly 1.7 million TEU**, against a pre-pandemic norm near 2.2 percent.
+
+The Suez return does the opposite, because every loop moved back from the Cape releases vessel-days. Sea-Intelligence puts the Asia to Europe network at about **27 percent normalised** in September, with head-haul services at 13 to 25 percent but back-haul routing through Suez at 25 to 47 percent, the signature of carriers using the short route to reposition ships toward Asia. That is why the phrase now in use is capacity flip rather than rate relief. Xeneta reports spot rates from Asia to North Europe down **29 percent to USD 1,590 per FEU** since 1 July, and to the Mediterranean down **38 percent to USD 2,650**, against an expected rate restoration attempt of **USD 4,000 to 4,200 per FEU** in late October.
+
+Golden Week will make the next fortnight look soft regardless of demand. Sea-Intelligence counts about **1.50 million TEU scheduled on Asia to North Europe across the four weeks around the holiday, 27 percent more than last year**, inflated not by demand growth but by congestion bunching vessels into the same sailing windows. Drewry expects **58 blank sailings out of 712 East-West departures, an 8 percent cancellation rate**, with **64 percent** of them on the eastbound transpacific.
+
+## October Surcharges Reach Africa
+
+Africa is where the new surcharges arrive fastest, and they are specific enough to plan around.
+
+| Carrier | Scope | Amount | Effective |
+|---|---|---|---|
+| Maersk | Far East Asia to South Africa and Mauritius, all 20ft and 40ft dry | USD 250 per 20ft, USD 500 per 40ft | 15 October 2026 |
+| CMA CGM | North and Central China to Dar es Salaam | USD 600 per TEU | 15 October 2026 |
+| CMA CGM | North and Central China to Mombasa | USD 800 per TEU | 15 October 2026 |
+| CMA CGM | South China to Dar es Salaam | USD 550 per TEU | 15 October 2026 |
+| CMA CGM | South China to Mombasa | USD 800 per TEU | 15 October 2026 |
+
+## Meanwhile, the Gulf Hardens
+
+The canal has changed. The chokepoint has not. On 29 September, UKMTO reported that a vessel transiting the Strait of Hormuz had been struck by an unidentified projectile, causing a fire the crew extinguished before continuing the voyage, with no casualties reported. Satellite imagery analysed by maritime analyst Martin Kelly indicates a very large tanker was targeted roughly 31.5 kilometres east of Khasab in Omani waters.
+
+The rhetoric hardened alongside the incidents. An IRGC spokesman stated the strait is not only not open but has become a hunting ground for IRGC naval forces, adding that any vessel attempting passage would sustain damage from either direct action or a mine. For cargo owners this surfaces as a booking problem. Maersk has suspended reefer bookings to and from Iraq, Kuwait, Qatar, Bahrain, Saudi Arabia, Jordan and most of the UAE, and applies an emergency freight rate cost of **USD 3,800** on cargo accepted for local consignees in Jeddah. Landbridge routings through Salalah, Khor Fakkan, Fujairah and Aqaba carry what can no longer be booked direct.
+
+## Destination Gateways Are the New Bottleneck
+
+Surcharges are filed because the receiving end cannot clear fast enough. At Durban, average port call time has stayed above seven days for three consecutive weeks at **7 days 6 hours**, with 3 days 8 hours at anchorage and 3 days 22 hours at berth, per the RSA Corridor Pulse report for 14 to 20 September. Richards Bay is worse at 9 days 1 hour, and Cape Town waiting time rose **69 percent to 2 days 8 hours**, the highest since mid-June.
+
+The cost is now counted in public. The Durban Chamber of Commerce, the Road Freight Association and SAAFF report **more than 96 vessels waiting at anchorage**, a direct sunken cost near **R98 million per day** plus indirect costs of at least R26 million daily, with roughly **R7 billion of goods** unable to move each day. The trend line is the worrying part: average delay hours at Durban moved from **39 in January to 96 in July, 194 in August and 364 in September**.
+
+Chattogram tells a gentler version of the same story. Median waiting time rose to **0.57 days** for 20 to 26 September, up from 0.12 days the week before but still low regionally. Container deliveries through the port gates halted for six hours on 28 September over a gate pass fee dispute and resumed the same evening after talks chaired by the port authority. Disruptions of that kind are short, but they recur, and they matter to anyone promising fixed inland delivery windows in Bangladesh.
+
+Israel has become operationally easier instead. Maersk has lifted dangerous goods restrictions and now accepts DG bookings fully at Haifa and Ashdod. The ownership question around ZIM is less settled: the Israeli Finance Ministry recommended on 28 September against approving the **USD 4.2 billion** Hapag-Lloyd and FIMI transaction, citing economic, operational and security risks. Hapag-Lloyd has urged a review of revised terms that add a weekly Far East service and tighten the golden share threshold to 10 percent. Cargo keeps moving either way, but the debate may run into 2027.
+
+## Air Cargo: The Pressure Valve Is Open
+
+Air freight is absorbing what ocean schedules cannot. WorldACD reports global tonnages up **2 percent week on week in week 38 and 8 percent year on year**, with worldwide spot rates flat at **USD 3.45 per kilogram but 33 percent above last year**. Asia Pacific to United States spot rates near **USD 6.75 per kilogram** are roughly 40 percent higher than a year ago. The cost floor is fuel: jet fuel was **116.5 percent higher year on year** as of 18 September. Extra freighter capacity keeps the pass-through capped, so air remains available across the holiday window, just not cheap.
+
+## What Shippers Should Do
+
+1. **Book Africa cargo before 15 October.** The Maersk and CMA CGM surcharges add real money per container, and bookings rated on the correct price calculation date avoid the increase entirely.
+2. **Do not read the index drop as a US lane signal.** FBX US West Coast rose 1.2 percent while North Europe fell 9.7 percent. The softening is concentrated on Europe.
+3. **Plan the October rate restoration into contracts now.** A push to USD 4,000 to 4,200 per FEU is expected after the holiday, so fixing volume through that window beats accepting spot in November.
+4. **Build Durban and Bangladesh buffer into delivery promises.** With Durban delays measured in weeks and Chattogram gate disputes recurring, a fixed door-to-door commitment without a stated buffer is a commercial risk, not an operational detail.
+5. **Re-check Gulf routings.** If your cargo touches Iraq, Kuwait, Qatar, Bahrain, Saudi Arabia or the UAE, confirm whether your carrier now requires a landbridge leg and price the handling before you quote.
+
+## Moving China Origin Cargo Through a Re-Pricing Market
+
+Spider Logistics handles ocean and air freight out of China with customs clearance and door-to-door delivery across Bangladesh, Israel, Africa and the Middle East. When a surcharge lands on 15 October or a gateway slows by a week, the difference is how early we see it. Send us the lane and the volume, and we will tell you what the next thirty days actually look like.`,
+  },
+  {
     slug: 'schedule-reliability-29-percent-chattogram-gate-hormuz-sep-29-2026',
     title: 'Reliability Falls to 29 Percent as Chattogram Gates Shut and Hormuz Risk Re-Prices the Gulf',
     excerpt: 'Xeneta put global ocean schedule reliability at 29 percent in August, a drop of roughly four percentage points in a single month, while container deliveries at Chittagong Port stopped at four in the afternoon on September 28 after a clash over gate pass fees and Iranian state media reported seven vessels targeted overnight in the Strait of Hormuz. Drewry WCI held near 4,468 USD per 40ft as SCFI ended an eight-week run at 3,686.62, India to Middle East spots climbed 25 to 40 percent with Nhava Sheva to Dammam at 9,500 USD per 40ft, and the October surcharge wave includes 11,650 USD per container for Northwest India to all destinations and 1,000 USD per box for Asian cargo including Bangladesh to Latin America.',
