@@ -11,6 +11,82 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'golden-week-day-one-shipping-operations-oct-1-2026',
+    title: 'Golden Week Begins: 15 Transpacific Blank Sailings Next Week and a Rate Slide Drewry Says Has Already Started',
+    excerpt: 'China Golden Week runs 1 to 7 October with 10 October set as an adjusted working day, and carriers have named the cancelled voyages: Maersk blanks AE15 out of Qingdao, AE12 out of Ningbo on 8 October and AE1 out of Shanghai on 10 October. Drewry expects rates to fall next week anyway as Suez transits recover, 58 of 712 East-West sailings are blanked for weeks 40 to 44 with 64 percent on the eastbound transpacific, and a CMA CGM peak season surcharge of 4,000 USD per FEU from Asia Pacific and India to both US coasts takes effect today.',
+    date: 'October 1, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Golden Week begins today. Chinese ports stay open through the holiday, but the export chain around them does not, and the October shipping calendar is now locked in. Drewry expects container spot rates to fall next week rather than spike, carriers have published a specific map of cancelled voyages, and a fresh round of peak season surcharges on the transpacific took effect this morning. Here is what the next ten days actually look like for cargo moving out of China.
+
+## The Holiday Calendar, Precisely
+
+The official State Council schedule runs the National Day Golden Week from Thursday 1 October through Wednesday 7 October, with **10 October designated as an adjusted working Saturday**. The calendar this year was unusually compressed: the Mid-Autumn Festival holiday fell on 25 to 27 September, leaving only **three normal weekdays, 28 to 30 September**, between the two holidays. Cargo that missed that window now waits a full week before factories, customs brokers and trucking teams return at anything close to full staffing.
+
+Terminals keep operating with skeleton crews for pre-arranged cargo, so the holiday is not a blanket port closure. The binding constraints are factory handovers, documentation desks, feeder connections and inland trucking, which is why the operational disruption starts before 1 October and outlasts 7 October.
+
+## Market Snapshot
+
+| Index or Benchmark | Level | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 24 September | USD 4,468 per 40ft | -1 percent, +154 percent YoY | Drewry |
+| Shanghai to Los Angeles | USD 7,838 per 40ft | +2 percent | Drewry |
+| Shanghai to New York | USD 10,373 per 40ft | flat, +216 percent YoY | Drewry |
+| Shanghai to Genoa | USD 3,835 per 40ft | -5 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,485 per 40ft | -4 percent | Drewry |
+| Transpacific blank sailings next week | 15 | up from 9 this week | Drewry |
+| Asia to Europe blank sailings next week | 7 | up from 3 this week | Drewry |
+
+## The Blank Sailing Map for October
+
+Drewry cancelled-sailings tracking counts **58 announced blank sailings out of 712 planned East-West departures for weeks 40 to 44, an 8 percent cancellation rate**, with about **64 percent of them on the eastbound transpacific**. A wider Shipping Gazette window from 14 September to 18 October shows **79 cancellations out of 721 scheduled sailings, 11 percent**, with roughly a third on Asia to North Europe and Asia to Mediterranean services.
+
+The useful part for shippers is that carriers named the voyages. Published Maersk advisories identify these specific blankings:
+
+| Service | Route | Published first load port / planned date |
+|---|---|---|
+| AE15 640W / 645E | Far East to Europe | Qingdao, 28 September |
+| AE12 641W / 648E | Far East to Europe | Ningbo, 8 October |
+| AE1 641W / 648E | Far East to Europe | Shanghai, 10 October |
+| TP8 640E | Asia to US West Coast | Busan, 9 October |
+| TP12 641E | Asia to US East Coast | Ningbo, 9 October |
+
+Each of these is a single cancelled voyage, not a suspended service, and carriers state they will offer coverage through substitute sailings. The catch is that the replacement voyage, the working load port and the revised gate-in cutoff all have to be confirmed per booking. A container handed to a cancelled voyage does not automatically roll onto the next departure on the same loop.
+
+## Drewry Sees Rates Falling, Not Rising
+
+The conventional Golden Week pattern is a pre-holiday space squeeze followed by post-holiday rate restoration attempts. Drewry is calling the opposite for the week ahead: **rates are expected to decrease next week** despite the 15 transpacific blank sailings, because recovering effective capacity outweighs the capacity withdrawals. On Asia to Europe the arithmetic is explicit. Suez Canal containership transits rose from **41 in week 37 to 48 in week 38**, every loop back through the canal releases vessel days, and Drewry expects European rates to keep declining as that capacity lands.
+
+Transpacific pricing is firmer but not immune. Forwarder market pricing for 40ft equipment sits well above the index at roughly **USD 7,800 to 8,300** to the US West Coast and **9,000 to 10,500** to the US East Coast, supported by more than half of all East-West cancellations sitting on that trade. Drewry nonetheless expects the composite to soften into the holiday before carriers attempt October restoration programmes.
+
+## Surcharges Landing This Week
+
+While the index drifts down, filed surcharges are doing the opposite. CMA CGM applies a **peak season surcharge of USD 4,000 per FEU on all cargo from Asia Pacific and India to both US coasts effective 1 October**, up sharply from the USD 2,500 per 40ft PSS it had been applying on Shanghai to Los Angeles, as reported by ICIS citing the carrier filing. Maersk files a **USD 250 per container peak season surcharge from the Mediterranean to the US and Canada from 5 October**, and MSC applies **USD 600 per FEU** on West Mediterranean to North America. For a full 40ft box from Shenzhen to Los Angeles, the surcharge alone adds four figures to the freight bill, which makes the price calculation date on a booking the single most valuable line in the quote.
+
+## Europe and Panama Add Their Own Friction
+
+Drewry flags three non-holiday disruptions that will shape the same sailings. **Labour disruptions in Germany** and **low Rhine water levels** continue to impede hinterland connectivity into North Europe, which matters for cargo routing onward from Rotterdam and Hamburg. **Panama Canal capacity remains constrained**, keeping longer routings and slot management live on the transpacific eastbound. None of these is new, but they compound during a holiday week when there is little schedule slack left to absorb them.
+
+## The Restart: 8 October Is Not a Departure Date
+
+The most common planning error is treating 8 October as a universal departure date. Terminals reopen, but supplier handover, customs documentation and inland transport restart unevenly, and the first post-holiday sailings are typically heavily subscribed after the backlog clears. Expect the **8 to 16 October window to carry the heaviest congestion**, with full schedule normalization taking one to three weeks depending on the trade.
+
+Air freight follows the same rhythm. Global air cargo tonnages were up **2 percent week on week in week 38 and 8 percent year on year** per WorldACD, with Asia Pacific to United States demand up **13 percent year on year** at spot rates near **USD 6.75 per kilogram, roughly 40 percent above last year**. Forwarders expect a rush to fly urgent cargo in the days before 1 October and a second competition for uplift immediately after 7 October, so post-holiday air space should be booked before the holiday, not after it.
+
+## What Shippers Should Do
+
+1. **Confirm the working voyage, not the schedule.** If your cargo was booked on AE15 out of Qingdao, AE12 out of Ningbo, AE1 out of Shanghai, TP8 or TP12, request the named replacement sailing and its revised cutoff in writing.
+2. **Watch the price calculation date against 1 October surcharges.** The CMA CGM USD 4,000 per FEU filing applies from today, so bookings rated before the effective date on the correct terms avoid the entire increase.
+3. **Do not bank on a post-holiday spike for Europe.** With Suez transits rising and effective capacity recovering, Drewry expects Asia to Europe rates to fall further. Spot buying for Europe-bound cargo is currently rewarded, not punished.
+4. **Build the 8 to 16 October congestion window into every promise.** Whether cargo is bound for Chattogram, Haifa, Ashdod, Durban or Mombasa, add the restart backlog on top of existing destination lead times before committing a delivery date.
+5. **Lock post-holiday air space now.** Transpacific air rates are already about 40 percent above last year, and the first days after 7 October will be the tightest of the month.
+
+## Moving China Origin Cargo Through the Holiday
+
+Spider Logistics runs ocean and air freight out of China with customs clearance and door-to-door delivery across Bangladesh, Israel, Africa and the Middle East. Golden Week is exactly when a confirmed voyage, a correct cutoff date and a realistic destination buffer separate a delivered container from a rolled one. Send us the lane, the volume and your required delivery date, and we will map the working sailings and the total timeline before you commit.`,
+  },
+  {
     slug: 'capacity-flip-suez-return-africa-surcharges-sep-30-2026',
     title: 'The Capacity Flip Arrives: Two Million TEU Returns to Suez as October Surcharges Reach Africa',
     excerpt: 'More than 140 containerships carrying over two million TEU have returned to the Suez route since May, and last week was the busiest week for canal transits since 2024, with 30 ships of more than 4,000 TEU passing through. Freight rates ended an eight week run at 3,686.62 on the SCFI and Drewry WCI slipped 1 percent to 4,468 USD per 40ft, while Sea-Intelligence warned that releasing vessel days back into service could flip the market from shortage to surplus. The bill is arriving on the destination side: Maersk files 250 and 500 USD for Far East Asia to South Africa and Mauritius from 15 October, CMA CGM adds 600 to 800 USD per TEU for China to East Africa, and Durban delay hours moved from 39 in January to 364 in September.',
