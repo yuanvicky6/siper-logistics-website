@@ -11,6 +11,80 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'hapag-suez-return-hormuz-strikes-oct-5-2026',
+    title: 'Asia-Europe Falls for a Twelfth Week as Hapag-Lloyd Maps Its Suez Return and Hormuz Strikes Continue',
+    excerpt: 'The Drewry World Container Index fell for a second week to 4,434 USD per 40ft on 1 October as Asia-Europe declined for a twelfth straight week, Hapag-Lloyd announced a phased return of Asia-Mediterranean services through the Suez Canal between October and December, attacks on shipping in the Strait of Hormuz continued into the first days of October, and the Panama Canal raised daily Neopanamax slots from five to ten for transit dates from 15 October.',
+    date: 'October 5, 2026',
+    category: 'Industry Insights',
+    readTime: '8 min read',
+    coverImage: '',
+    content: `Golden Week has emptied the Chinese factory floors, and the freight market is now pricing the pause. The Drewry World Container Index fell for a second consecutive week on 1 October, Asia to Europe rates extended a run of declines that now stretches to twelve straight weeks, and Hapag-Lloyd has published a phased plan to move Asia to Mediterranean services back through the Suez Canal between October and December. At the same time, attacks on shipping in the Strait of Hormuz continued into the first days of October, and the Panama Canal announced more daily slots and a deeper draft. Here is the state of the market for cargo moving out of China this week.
+
+## Market Snapshot
+
+| Index or Benchmark | Level | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 1 October | USD 4,434 per 40ft | -1 percent, second weekly fall | Drewry |
+| Shanghai to New York | USD 10,428 per 40ft | +1 percent | Drewry |
+| Shanghai to Los Angeles | USD 7,835 per 40ft | stable | Drewry |
+| Shanghai to Genoa | USD 3,702 per 40ft | -3 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,399 per 40ft | -2 percent | Drewry |
+| Intra-Asia Container Index | USD 1,518 per 40ft | +2 percent | Drewry |
+| Transpacific blank sailings, next week | 10 | down from 13 this week | Drewry |
+| Asia to Europe blank sailings, next week | 5 | down from 6 this week | Drewry |
+
+## Asia-Europe: A Twelfth Straight Week of Decline
+
+The Asia to Europe corridor has now recorded **twelve consecutive weeks of falling spot rates**, the longest run of the year. Shanghai to Rotterdam settled at **USD 3,399 per 40ft**, a second consecutive weekly decline, and Shanghai to Genoa fell 3 percent to **USD 3,702**. The mechanism behind the slide is supply, not demand weakness alone. Recovering effective capacity is arriving faster than cargo, and the single largest source is the Suez Canal.
+
+Suez Canal containership transits in week 39 ran **68 percent higher than the same week last year**, according to Drewry. Every service that switches from the Cape of Good Hope routing to the canal completes a round voyage in fewer vessel days, which releases capacity into a market that is already soft. Backhaul utilisation of the canal rose to roughly 30 percent in September and is projected to reach about 40 percent in October, as carriers reposition delayed vessels back to Asia more quickly.
+
+Carriers are trying to interrupt the trend. Several lines have filed higher FAK rates for the second half of October, to be applied once factories restart after the holiday. The success of those increases is uncertain, because the traditional post-Golden Week demand recovery will meet a wave of released capacity at the same time. For shippers, the practical read is that the Asia to Europe price calculation date matters more than ever: a booking rated before a mid-October restoration avoids the increase, and one rated after it absorbs the full amount.
+
+The transpacific picture is steadier but not stronger. Shanghai to Los Angeles held at **USD 7,835 per 40ft** and Shanghai to New York edged up 1 percent to **USD 10,428**, supported by blank sailings concentrated on that trade. The eastbound transpacific continues to carry the majority of East-West capacity withdrawals, which is why the gap between the two main corridors remains historically wide.
+
+## Hapag-Lloyd Maps the Suez Return into December
+
+On 28 September Hapag-Lloyd announced that it will gradually resume its regular Asia to Mediterranean container service through the Suez Canal and Bab el-Mandeb **between October and December**. The wording matters: this is a targeted restoration of specific services rather than a wholesale re-routing of the network, and it remains conditional on security conditions in the southern Red Sea.
+
+Hapag-Lloyd had already moved four more Gemini services back to the canal from 19 September, and the carrier is now extending that return in stages. Other carriers are taking a different posture. Maersk continues to restrict bookings for the Strait of Hormuz with a **USD 1,000 per container fee**, and MSC and CMA CGM have left their announced positions on the Red Sea unchanged since July. The result is a market in which the same trade lane is served by two different routings at the same time, and the routing attached to a given booking determines both transit time and rate.
+
+The financial context explains the caution. Suez Canal Authority revenue came to about **USD 449 million in the first half of 2026**, against roughly **USD 4.4 billion in the same period of 2023**. Transits are stable but reduced, running at about **40 vessels per day** on a seven-day average, which is roughly **46 percent below the 2023 average of 74 per day**. Treat the canal as open with reduced but stable traffic, and plan Asia to Europe cargo only on carriers that have announced the switch.
+
+## Hormuz Strikes Continue Into October
+
+The Strait of Hormuz remains the most volatile choke point in the network. Commercial shipping activity in and near the strait was severely reduced between 25 September and 2 October, and attacks on transiting vessels continued.
+
+The reporting from the first days of October is specific. On **2 October** the United Kingdom Maritime Trade Operations centre reported that a tanker transiting outbound through the strait was struck by an unknown projectile, causing a small fire and a temporary loss of power before the crew brought the situation under control. No casualties or environmental impact were reported. A **Kuwait-flagged very large crude carrier was hit on 1 October**, with damage assessments still open. Intertanko advised members on 25 September that attacks on ships transiting the strait were still ongoing, including incidents along the southern route near the Omani coast, and that one seafarer had been killed and several injured over the previous week.
+
+Traffic tells the same story. Maritime traffic through the strait has fallen by **more than 50 percent against pre-conflict levels**, when roughly **125 vessels passed daily**. In September, Hormuz-related crude flows averaged about **9.72 million barrels per day** in Kpler data reported by Reuters, which is roughly **80 percent of pre-conflict Middle East crude exports restored**, while LNG traffic remains far below pre-war levels and many vessels continue to run dark transits.
+
+The United States Maritime Administration issued fresh guidance on 25 September, advising United States-flagged commercial vessels in the Red Sea, Bab el-Mandeb, Gulf of Aden, Arabian Sea and Somali Basin to consider switching off their Automatic Identification System in high-risk waters, unless the master judged that doing so would be unsafe for navigation. The advisory flagged missiles, aerial and surface drones, small-arms fire, explosive boats, illegal boardings and vessel seizures, and noted that vessels linked to Israel, the United States, the United Kingdom or Saudi Arabia face greater risk.
+
+Bab el-Mandeb traffic reflects the same caution. Ahram Online reported that 51 ships crossed the strait during the September reporting period, and that 33 vessels departed over the previous weekend, down from 57 departures in the week before.
+
+## Panama Adds Slots and Draft
+
+In a rare positive development, the Panama Canal Authority is easing its restrictions after improved precipitation and water-saving measures. Effective for transit dates beginning **15 October**, daily Neopanamax booking slots will rise from **five to ten**, the maximum authorised Neopanamax draft has been increased to **14.94 metres**, and total daily booking slots move from **32 to 33**. The authority still warns that the watershed deficit persists and that vessels without a reservation may face indefinite delays, so the increase is best read as a recovery rather than a return to normal. For Asia to United States East Coast cargo, more Neopanamax slots reduce the pressure to divert to longer routings, which matters most in the fourth quarter.
+
+## The Christmas Cargo Window Closes in October
+
+For importers moving goods for the year-end retail season, October is the last realistic window to ship from Asia before space, rather than price, becomes the binding constraint.
+
+Carriers are already filing rate restorations for mid-October. ANL has published three restorations effective **15 October**, applied on top of current spot and FAK rates: **North East Asia to Australia at USD 500 per 20ft and USD 1,000 per 40ft**, **South East Asia, the Indian subcontinent and the Middle East to Australia at USD 300 per 20ft and USD 600 per 40ft**, and **China, South East Asia, North East Asia, the Indian subcontinent and the Middle East to New Zealand at USD 600 per 20ft and USD 1,200 per 40ft**. A late-season peak season surcharge window from mid-October to mid-November is expected on the Oceania lanes, and New Zealand pre-Christmas cut-offs have been flagged at **6 November for direct ports and 30 October for feeder ports**.
+
+Origin conditions still carry residual friction from the September storms. Congestion at Chinese ports has eased from its August peak but remains significant, with average vessel waiting times for the week of 16 to 22 September at about **4.7 days at Shanghai**, **2.5 days at Ningbo** and **1.2 days at Qingdao**. Yantian continues to apply gate-in restrictions and 40ft high cube equipment is tight at Chinese ports. Globally, Linerlytica estimates that about **3.76 million TEU of capacity, some 10.9 percent of the fleet**, is tied up in congestion.
+
+## What Shippers Should Do
+
+1. **Split bookings between Suez and Cape carriers with intent.** Ask each carrier for its announced routing on your service, and price both the quicker Suez transit and the longer Cape fallback. A single quote on this lane no longer describes the whole market.
+2. **Time the Asia to Europe price calculation date against mid-October restorations.** Carriers are filing higher FAK rates for the second half of October, and bookings rated before the effective date avoid the increase.
+3. **Book Christmas cargo before 15 October.** The Oceania restorations take effect on 15 October, and New Zealand feeder cut-offs fall on 30 October. Space, not rate, becomes the constraint through November and December.
+4. **Keep Hormuz cargo on restricted-booking terms.** Confirm the carrier position on the strait, the surcharge structure and the insurance requirements before committing a sailing date, and factor the possibility of a late routing change into the delivery promise.
+
+For exporters in China moving to Bangladesh, Israel, Africa and the Middle East, the practical priority this week is to confirm the working routing and the surcharge effective date on every booking, because the same sailing can now carry two different cost and transit profiles depending on which carrier operates it.`
+  },
+  {
     slug: 'golden-week-day-one-shipping-operations-oct-1-2026',
     title: 'Golden Week Begins: 15 Transpacific Blank Sailings Next Week and a Rate Slide Drewry Says Has Already Started',
     excerpt: 'China Golden Week runs 1 to 7 October with 10 October set as an adjusted working day, and carriers have named the cancelled voyages: Maersk blanks AE15 out of Qingdao, AE12 out of Ningbo on 8 October and AE1 out of Shanghai on 10 October. Drewry expects rates to fall next week anyway as Suez transits recover, 58 of 712 East-West sailings are blanked for weeks 40 to 44 with 64 percent on the eastbound transpacific, and a CMA CGM peak season surcharge of 4,000 USD per FEU from Asia Pacific and India to both US coasts takes effect today.',
