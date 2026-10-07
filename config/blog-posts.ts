@@ -11,6 +11,92 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'last-suez-holdout-record-rate-gap-oct-7-2026',
+    title: 'The Last Suez Holdout Falls Into Line: A Record 4,436 Dollar Rate Gap and Four-Year High Congestion',
+    excerpt: 'The Premier Alliance returned its Southeast Asia to North Europe FE1 service to the Suez Canal, bringing the last major alliance back into the Red Sea and lifting the share of Asia-Europe sailings using the route to about 35 percent. The spread between Shanghai to Los Angeles and Shanghai to Rotterdam widened to a record 4,436 dollars per 40ft, global port congestion reached a four-year high at about 12 percent of the fleet, Maersk and CMA CGM applied new surcharges into South Africa while Durban waited up to sixteen days at Pier 2, and the United States Section 301 port fee suspension remained set to expire on 9 November despite a truce extension to January 2027.',
+    date: 'October 7, 2026',
+    category: 'Industry Insights',
+    readTime: '8 min read',
+    coverImage: '',
+    content: `Golden Week is over, Chinese factories are restarting, and the market has just recorded two milestones in the same week. The Premier Alliance has become the last major carrier grouping to send ships back through the Suez Canal, lifting the share of Asia to Europe sailings that use the Red Sea route to roughly 35 percent. At the same time, the gap between the transpacific and Asia to Europe spot markets has opened to a record level, global port congestion has reached a four-year high, and fresh surcharges have landed on cargo moving from China to South Africa and from Europe to Durban. Here is the state of the market for cargo moving out of China this week.
+
+## Market Snapshot
+
+| Index or Benchmark | Level | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 1 October | USD 4,434 per 40ft | -1 percent | Drewry |
+| Shanghai to Los Angeles | USD 7,835 per 40ft | stable | Drewry |
+| Shanghai to New York | USD 10,428 per 40ft | +1 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,399 per 40ft | -2 percent, twelfth weekly fall | Drewry |
+| Shanghai to Genoa | USD 3,702 per 40ft | -3 percent | Drewry |
+| Freightos FBX Asia to US West Coast | USD 8,319 per FEU | flat, week 40 | Baltic Exchange via Freightos |
+| Freightos FBX Asia to North Europe | USD 3,260 per FEU | flat, week 40 | Baltic Exchange via Freightos |
+| SCFI composite, 2 October | 3,662.30 points | -0.66 percent | Shanghai Shipping Exchange |
+| CCFI composite | 1,923.93 points | +0.3 percent | Shanghai Shipping Exchange |
+
+## The Last Holdout Falls Into Line
+
+The Premier Alliance, made up of Ocean Network Express, HMM and Yang Ming, is returning its Southeast Asia to North Europe FE1 service to the Suez Canal and Bab el-Mandeb from October. According to liner consultancy Linerlytica, this is the first move away from the Cape of Good Hope routing adopted in January 2024, and it makes the alliance the last major grouping to rejoin the canal alongside MSC.
+
+The first sailing is scheduled to be the **8,110 TEU ONE Continuity**, departing Laem Chabang on **17 October**. The 9,000 TEU NYK Venus, the 8,200 TEU ONE Hamburg and the 9,000 TEU NYK Orion are also scheduled for Suez transits in the weeks that follow. Geminis partners Maersk and Hapag-Lloyd are stepping up their own return at the same time: Hapag-Lloyd has confirmed that the SE1 service will send the Umm Qarn towards Suez from Tanjung Pelepas on **27 October**, after earlier switches involving the NE4, SE2 and IEX loops. COSCO has already completed its first westbound Suez transit in more than two years, with the **24,200 TEU OOCL Spain** on the AEU1 service on 4 October.
+
+The scale of the switch is now measurable. Maritime Strategies International estimates that about **35 percent of Asia to Europe sailings** are already using the Red Sea, while Linerlytica calculates that more than **140 containerships representing over 2 million TEU** have returned to Suez routings since May. One recent week was the busiest for Suez containership transits since 2024, with **30 vessels above 4,000 TEU** making the passage. Security remains the principal brake. Demand for naval escorts through the southern Red Sea has grown to the point where the European Union Aspides mission has acknowledged that available warships are insufficient to cover all requests, and a United Kingdom Financial Times report said Houthi commanders sent a communique to the European Union diplomatic service on 10 September promising not to attack European cargo ships.
+
+## A Record Gap Between the Two Corridors
+
+The divergence between the two main corridors has widened to an extreme. Shanghai to Los Angeles held at **USD 7,835 per 40ft** on 1 October while Shanghai to Rotterdam fell 2 percent to **USD 3,399**, a spread of **USD 4,436** that represents a premium of about **130 percent** for United States-bound cargo. This is the widest gap between the transpacific and Asia to Europe spot markets that the indices have recorded.
+
+The underlying indices confirm the pattern rather than contradict it. The Drewry World Container Index slipped 1 percent to **USD 4,434 per 40ft**, driven by softer Asia to Europe rates that have now declined for **twelve consecutive weeks**. The Shanghai Containerized Freight Index eased **0.66 percent to 3,662.30 points**, its first decline since early July, while the China Containerized Freight Index edged up 0.3 percent to 1,923.93 points. On the NYSHEX Freight Index, Asia to United States West Coast rose 1.89 percent to 7,557.37, a much smaller gain than the 4.82 percent recorded a week earlier, and Asia to United States East Coast was almost unchanged at 9,695.31. The Freightos Baltic global index ended at 3,341, unchanged on the week.
+
+The Freightos reading for the European lanes is the clearest signal. Asia to North Europe fell 9 percent to about **USD 3,376 per FEU** and Asia to Mediterranean dropped 7 percent to about **USD 3,620**, unwinding all summer surcharges and returning those lanes to mid-May levels. Xeneta has described the transpacific as having reached its post-Hormuz crisis peak for 2026, though the analytics firm has stopped short of calling a collapse.
+
+## Congestion at a Four-Year High
+
+The reason rates are not falling further is that a very large slice of the fleet is not moving. Global port congestion reached a **four-year high in early October**, with roughly **12 percent of the global container fleet** stuck in queues, according to Zencargo and C.H. Robinson. Linerlytica puts the figure at **3.76 million TEU, or 10.9 percent of the fleet**, and Sea-Intelligence estimates that disruption could take **seven to ten months** to unwind fully.
+
+Origin conditions remain the tightest link. For the week of 30 September to 6 October, the seven-day average vessel waiting time was about **3.51 days at Shanghai**, with some facilities exceeding seven days, **2.37 days at Ningbo** and **1.46 days at Qingdao**, per Kuehne+Nagel. Blank sailings are running at about **8 percent** into Golden Week and are expected to ease to around 5 percent afterwards, but port congestion in China is expected to worsen again as the post-holiday surge meets delayed vessels. Shippers are being advised to book three to four weeks in advance and to plan for bunched double arrivals at North European hubs in mid to late October.
+
+## Surcharges Land on African Cargo
+
+A new round of charges took effect this week on the China to Africa corridor, the busiest destination region in our own network. Maersk is applying a peak season surcharge from **15 October** on shipments from northern European and Mediterranean ports to South Africa, adding **USD 225 per 20ft** and **USD 300 per 40ft or 45ft**. Durban is covered, Mozambique is excluded, and bookings made through the Maersk SPOT digital platform are not affected. On the same date, Maersk is also raising its surcharge from the Far East to South Africa to **USD 250 per 20ft** and **USD 500 per 40ft dry**.
+
+CMA CGM has announced a parallel peak season surcharge of **USD 550 per TEU** on cargo from the Far East to Durban, effective **8 October**. The pattern is clear: the same destination is now carrying a different surcharge depending on the origin and the equipment type, so the booking channel itself has become a cost variable. Where a shipment is priced through a digital spot platform, the surcharge may not apply at all.
+
+## Durban Waits Sixteen Days at Pier 2
+
+The African picture behind those surcharges is difficult. Maersk is reporting about **16 days of terminal waiting time at Durban Gateway Terminal Pier 2**, against **seven to eight days at Pier 1**, and some vessels have been delayed by up to **21 days**. Those figures sit alongside a headline average of about **8.3 days** quoted to South African Transport Minister Barbara Creecy during an inspection of the terminal, against a target of 24 hours.
+
+The disruption followed the August migration of the former Durban Container Terminal Pier 2 to a new NAVIS N4 operating environment under International Container Terminals Services Inc. Throughput has recovered towards **7,000 to 7,500 terminal moves a day** and stack occupancy has stabilised at around 63 to 64 percent, but users continue to report difficulty obtaining truck bookings. The recovery plan now includes a complete overhaul of the truck appointment system, an increase in rail services between the terminal and the Bayhead back-of-port facility from two to three trains a day to about **five trains daily**, and an equipment programme with roughly **R737 million of immediate investment rising to around R1.2 billion** over two years. Several carriers continue to omit Durban and transship cargo through alternative gateways.
+
+## Chittagong: The Yard That Will Not Clear
+
+In Bangladesh, vessel waiting times look healthy but the yard does not. The seven-day average vessel waiting time at Chittagong was about **1.07 days** for the week of 30 September to 6 October, with gearless vessels maintained inside a 48-hour port stay window, yet yard density remains elevated at **75 to 80 percent**, above the 60 percent level normally considered the working threshold. Stranded import cargo is eroding close to two fifths of the operational capacity of the port.
+
+The commercial backdrop is unsettled. On 6 October the Chittagong Port Authority warned media and port users against publishing photographs, videos or operational information without prior permission, citing security concerns and the Official Secrets Act, a move that drew questions over its legal basis and its timing. It came as opponents of the proposed 15-year lease of the New Mooring Container Terminal to DP World demanded the resignation of the port chairman and threatened to besiege the chairman office on 13 October. In a separate move aimed at clearing space, Customs removed nine containers holding **150.89 tonnes** of expired hazardous chemicals that had occupied yard space for more than two decades.
+
+## The Section 301 Clock Has Not Been Reset
+
+One regulatory item deserves attention this week because the paperwork does not match the announcement. The United States and China have extended their broader trade truce from 10 November to **10 January 2027**, and the United States Treasury Secretary stated on 23 September that the extension includes a pause on the Section 301 port fees that target Chinese-linked and Chinese-built vessels. The problem is that the United States Trade Representative notice that suspended those fees still states that the suspension ends at 11:59 p.m. Eastern on **9 November 2026**, and the Federal Register listings to 5 October contained no notice of an extension. More than 200 importer, exporter, port, shipping and customs-broker groups have signed a joint letter asking for an extension before the current suspension lapses.
+
+For shippers, the practical read is not a prediction but a risk to price. Until a new notice appears, the written rule is that the fees return on 10 November. If you have bookings on China-built or China-operated tonnage arriving at United States ports after that date, ask your carrier or forwarder in writing how the fee would be treated and whether it would appear as a separate surcharge or inside the rate.
+
+## Air Cargo Enters the Peak on Firmer Fuel
+
+Air freight is carrying the overflow from ocean congestion into the fourth-quarter peak. WorldACD data for the week ending 20 September showed global tonnage **8 percent higher year on year**, led by Asia Pacific at 11 percent, with average worldwide full-market rates **24 percent above last year** and global spot rates averaging **USD 3.45 per kg, up 33 percent**. Asia Pacific to United States traffic was 13 percent higher year on year at about **USD 6.75 per kg, roughly 40 percent above last year**, while Hong Kong to Europe tonnage remained down 29 percent year on year following the removal of the European Union low-value exemption. The Middle East and South Asia region recorded the largest spot rate increase, at 52 percent.
+
+Fuel is the pressure point. The Baltic Air Freight Index was up **20.9 percent year on year** in the week to 21 September, with Hong Kong and Shanghai outbound rates both up close to 20 percent, and fuel surcharges on most airlines were increased from **26 September**. Demand from technology lanes is consuming freighter capacity: data centre components alone now account for **1.4 million tonnes** of annual air freight and have expanded 39 percent year on year, which has narrowed booking windows for general cargo.
+
+## What Shippers Should Do
+
+1. **Treat the Suez return as a capacity event, not just a routing change.** With about 35 percent of Asia to Europe sailings already on the Red Sea route and more than 2 million TEU returned since May, expect continued downward pressure on Asia to Europe spot rates through the fourth quarter, and expect carriers to defend them with late-October general rate increases.
+2. **Confirm the surcharge and the booking channel for every Africa shipment.** Maersk and CMA CGM surcharges into South Africa take effect on 8 and 15 October, and the amount depends on the origin, the equipment and whether the booking runs through a digital spot platform.
+3. **Add contingency for Durban.** With Pier 2 waiting times reported at up to 16 days and some vessels delayed up to 21 days, build a buffer into delivery commitments and confirm whether your carrier is calling Durban or transshipping through an alternative gateway.
+4. **Watch the 9 November Section 301 date.** The truce extension is a statement, not yet a published notice. Ask for the fee treatment in writing for any China-linked tonnage arriving in the United States after that date.
+5. **Book air freight early and price the fuel surcharge.** Fuel surcharges rose from 26 September and the fourth-quarter peak is tight on technology lanes, so the general cargo space that remains available will be competed for.
+
+For exporters in China moving to Bangladesh, Israel, Africa and the Middle East, the practical priority this week is to separate the two halves of the market. The Asia to Europe and Africa corridors are getting cheaper per box on the base rate and more expensive per booking on the surcharge, while the transpacific is holding near its peak. Confirm the routing, the surcharge effective date and the destination waiting time before you commit a sailing date, because on several lanes the same box can now carry two very different cost and transit profiles.`
+  },
+  {
     slug: 'hapag-suez-return-hormuz-strikes-oct-5-2026',
     title: 'Asia-Europe Falls for a Twelfth Week as Hapag-Lloyd Maps Its Suez Return and Hormuz Strikes Continue',
     excerpt: 'The Drewry World Container Index fell for a second week to 4,434 USD per 40ft on 1 October as Asia-Europe declined for a twelfth straight week, Hapag-Lloyd announced a phased return of Asia-Mediterranean services through the Suez Canal between October and December, attacks on shipping in the Strait of Hormuz continued into the first days of October, and the Panama Canal raised daily Neopanamax slots from five to ten for transit dates from 15 October.',
