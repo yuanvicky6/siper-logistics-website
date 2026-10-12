@@ -11,6 +11,114 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'post-golden-week-policy-shock-oct-12-2026',
+    title: 'Post-Golden Week Restart Meets a Policy Shock: Asia-Europe Slips a Thirteenth Week as Destination Fees Stack Up',
+    excerpt: 'China placed all medium and heavy rare earth elements under export licence on 9 October and the United States threatened an additional 100 percent tariff on 10 October, while the Drewry World Container Index fell 2 percent to USD 4,351 per 40ft and Asia to Europe recorded a thirteenth weekly decline. Maersk doubled the Durban congestion fee destination to USD 900 per 40ft from 1 November, Chittagong kept rates and space stable with yards at 75 to 80 percent, and China to United States air spot rates fell 7 percent to USD 4.07 per kg.',
+    date: 'October 12, 2026',
+    category: 'Industry Insights',
+    readTime: '8 min read',
+    coverImage: '',
+    content: `The first full week after China Golden Week has delivered two shocks at once, and only one of them is about rates. Late on 9 October Beijing placed every medium and heavy rare earth element under export licence, and on 10 October Washington answered with the threat of an additional 100 percent tariff on Chinese goods. In the same 48 hours the Drewry World Container Index slipped another 2 percent to USD 4,351 per 40ft, China to United States air spot rates fell 7 percent, and the Premier Alliance confirmed two Asia to North Europe services will return through the Suez Canal, which means all three major alliances plus MSC now route part of their Asia to Europe networks the short way. For a shipper loading in Shenzhen, Ningbo or Qingdao for Chittagong, Haifa, Durban or Jebel Ali, the second half of October is not a demand story. It is a cost assembly story, and the invoice now carries policy risk as a line item.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 8 October | USD 4,351 per 40ft | -2 percent week on week | Drewry |
+| Shanghai to Los Angeles | USD 7,624 per 40ft | -3 percent | Drewry |
+| Shanghai to New York | USD 10,220 per 40ft | -2 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,337 per 40ft | -2 percent, thirteenth weekly fall | Drewry |
+| Shanghai to Genoa | USD 3,696 per 40ft | stable | Drewry |
+| SCFI composite, 9 October | 3,664.11 points | plus 1.81 points against 30 September | Shanghai Shipping Exchange |
+| SCFI Shanghai to Europe | USD 2,274 per TEU | plus 3.4 percent | Shanghai Shipping Exchange |
+| SCFI Shanghai to Mediterranean | USD 3,002 per TEU | plus 0.2 percent | Shanghai Shipping Exchange |
+| SCFI Shanghai to US West Coast | USD 7,584 per FEU | plus 0.1 percent | Shanghai Shipping Exchange |
+| SCFI Shanghai to US East Coast | USD 10,524 per FEU | flat, spread of USD 2,940 | Shanghai Shipping Exchange |
+| SCFI Shanghai to Persian Gulf | USD 6,452 per TEU | minus 0.6 percent | Shanghai Shipping Exchange |
+| CCFI composite, 9 October | 1,912.38 points | minus 0.6 percent | Shanghai Shipping Exchange |
+| Blank sailings, weeks 42 to 46 | 34 of 713 sailings | 5 percent cancellation rate | Drewry |
+
+The spot index edged up while the contract-weighted CCFI edged down, and inside the spot index Europe and the Mediterranean rose while the Gulf slipped. That split is what a holiday calendar produces, not a turn in demand.
+
+## The Policy Shock Arrived Within 48 Hours
+
+The China Ministry of Commerce announced sweeping new export controls on rare earth and superhard materials on 9 October, plus controls on items related to lithium batteries, in response to recent United States restrictions on semiconductor exports. The rare earth package added holmium, erbium, thulium, europium and ytterbium, so all medium and heavy rare earth elements are now controlled, and it added 26 categories of rare earth processing equipment and raw materials. Items made outside China using Chinese rare earth smelting and separation technology are caught as well. Implementation is set for 8 November.
+
+The response was immediate. On 10 October the United States announced an additional 100 percent tariff on Chinese goods, effective 1 November. The president later indicated the measure might not be enforced, and the Chinese Ministry of Commerce said China does not want a trade war but does not fear one. The diplomatic channel then reopened: Vice Premier He Lifeng and Treasury Secretary Scott Bessent held a video call and agreed to meet in person this coming week, and the two presidents are due to meet again at the end of October.
+
+Read that sequence as a booking risk. The earlier truce extension already left a gap in the paperwork: the announced extension runs to 10 January 2027, yet the notice suspending the Section 301 port fees on Chinese-built and Chinese-linked vessels still states that the suspension ends at 11:59 p.m. Eastern on 9 November 2026, and the Federal Register listings to 5 October contained no extension. More than 200 importer, exporter, port, shipping and customs-broker groups have signed a joint letter asking for one.
+
+## Suez Is Now a Capacity Story, Not a Routing Story
+
+The Premier Alliance of ONE, HMM and Yang Ming is restoring two Asia to North Europe services to the Suez Canal: FE1 on the Southeast Asia to North Europe corridor and IOX/INX on the Indian Subcontinent to North Europe corridor. The FE1 round voyage shortens from 13 weeks to 11, and IOX/INX from 13 weeks to 10. Maersk and Hapag-Lloyd confirmed Suez sailings on four further jointly operated services in reporting dated 8 October, and Drewry projects in its base case that container transits recover gradually towards 80 percent of pre-diversion levels by February 2027.
+
+The canal authority numbers match the direction. Suez Canal revenue reached USD 4.67 billion for fiscal 2025/26, up 23 percent, with vessel transits up 10 percent and cargo tonnage up 22 percent. Container ship net tonnage through the canal was 72.1 million tonnes in the first eight months of 2026 against 46.7 million tonnes a year earlier, and week 39 container transits ran 68 percent above the same week last year.
+
+Carriers are trying to set a floor under Asia to Europe pricing, and the attempt is already visible. Maersk quoted around USD 4,000 per FEU on Shanghai to Rotterdam for late October, Hapag-Lloyd around USD 4,200, and CMA CGM and OOCL between USD 4,200 and USD 4,300. Maersk left its late-October opening rate at only USD 3,200 per FEU, which is the market saying no. Xeneta measures Far East to North Europe 34 percent below the July peak and Far East to Mediterranean 43 percent below.
+
+One second-order effect deserves mention. Services returning through Suez reach Singapore and Port Klang at roughly the same time as Cape-routed services on the same loop, and yards at both hubs already run at 85 to 90 percent utilisation against a working optimum nearer 70. The return fixes transit time and worsens bunching, so transshipment rolling is likely to persist even as rates soften.
+
+## Trade Lane Rates for the Week
+
+| Lane | Reference rate | Basis | Source |
+|---|---|---|---|
+| China to North Europe | USD 3,337 per 40ft | WCI, 8 October | Drewry |
+| China to Mediterranean | USD 3,696 per 40ft | WCI, 8 October | Drewry |
+| China to US West Coast | USD 7,584 per FEU | SCFI, 9 October | Shanghai Shipping Exchange |
+| China to US East Coast | USD 10,524 per FEU | SCFI, 9 October | Shanghai Shipping Exchange |
+| China to Persian Gulf | USD 6,452 per TEU | SCFI, 9 October | Shanghai Shipping Exchange |
+| China to Israel, Xingang to Ashdod | USD 1,800 per 20GP, USD 3,350 per 40GP, USD 3,400 per 40HQ | indicative forwarder quote, 33 day transit | forwarder quoting page, 7 October |
+| China to Bangladesh | stable, very little movement | FAK out of Chittagong | Zencargo market update, 6 October |
+
+## Destination Watch: The Fee Stack in Africa
+
+The clearest example of a rising cost layer sits on the South Africa trade. Maersk published a doubled Congestion Fee Destination for Durban on 8 October, moving the 20ft charge from USD 250 to USD 450 and the 40ft charge from USD 500 to USD 900, for imports from Far East Asia, the Indian Subcontinent and the Middle East into Durban. It takes effect on 1 November for non-regulated countries and Vietnam, and on 8 November for South Korea and Taiwan.
+
+The decision produced the sharpest industry reaction of the week. The Positive Freight Solutions Container Transport Association argues that terminal failures have become a revenue source, noting that shipping lines keep levying dollar-denominated demurrage and detention while the terminal waives its own storage charges for delays beyond customer control. A formal complaint has been lodged with the Competition Commission. An analysis of terminal records for the first half of 2026 covering more than 58,000 truck appointments found 60.8 percent of appointments unused, 44.8 percent of visits missing the 90 minute turnaround target and almost 12 percent lasting more than four hours. The South African Association of Freight Forwarders puts the extra supply chain time added by Durban Gateway Terminal at 21 to 22 days. Waiting times for the week of 30 September to 6 October were 7.0 days at Durban, 5.8 at Tema, 4.5 at Coega, 4.5 at Abidjan with some vessels reaching 12 days, 4.0 at Pointe Noire and 2.25 at Port Louis. Hapag-Lloyd added peak season surcharges of USD 600 per TEU from Asia to South West Africa and USD 1,000 per TEU to Conakry, and CMA CGM revised Asia to Mediterranean and North Africa FAK levels for 15 to 31 October with a further increase announced from 1 November.
+
+## Bangladesh: Stable Rates Into a Tight Yard
+
+Bangladesh is the exception in this week of repricing. Ocean FAK rates out of Chittagong remain stable with very little movement, and space and container availability are described as stable, at a moment when almost every other Asia origin is being re-quoted. Importers planning November exports should treat that as a window rather than a trend.
+
+The constraint is landside. The seven day average vessel waiting time at Chittagong was about 1.07 days for the week of 30 September to 6 October, with gearless vessels held inside a 48 hour port stay window, yet yard density stayed at 75 to 80 percent against a working threshold of about 60 percent. Vessel tracking data shows 35 container vessels arriving in the seven days to 10 October, 28 of them staying more than 48 hours, with a median port stay near 64 hours. Stranded import cargo continues to erode close to two fifths of the operational capacity of the port. The proposed 15 year lease of New Mooring Container Terminal to DP World remains contested, with opponents threatening to besiege the port chairman office on 13 October, while the port authority has warned media and users against publishing operational information without prior permission.
+
+## Israel, the Gulf and the War Risk Line
+
+Israel is being managed service by service rather than lane by lane. Maersk returned Ashdod to its SLB network in September, and dangerous goods restrictions at both Haifa and Ashdod were lifted in the most recent Middle East operating update. Rates behave accordingly: indicative China to Israel quotations published on 7 October list Xingang to Ashdod at USD 1,800 per 20GP, USD 3,350 per 40GP and USD 3,400 per 40HQ, with a quoted 33 day transit and validity to 23 October. Those are forwarder indicative numbers rather than an index, but they describe a lane that is stable rather than spiking.
+
+The Gulf is the opposite. Shanghai to Persian Gulf fell only 0.6 percent to USD 6,452 per TEU, which is what a risk premium looks like rather than a capacity signal. Maritime security sources counted at least 12 incidents involving oil, LNG and LPG tankers between 28 September and 5 October, the highest weekly total since the conflict began. On 9 October the Islamic Revolution Guard Corps said it struck an LPG carrier it identified as NV Sunshine on what it called an unauthorised route, and on 10 October it said a supertanker detonated after hitting mines while attempting to exit the strait. UKMTO separately reported an outbound tanker struck on its port side by an unidentified projectile at about 22:11 UTC on 10 October, with a fire on board. A chokepoint monitoring service counted at least seven named vessels struck between 1 and 9 October and still lists the strait as closed.
+
+Carriers continue to lean on Khor Fakkan and Fujairah in the United Arab Emirates, while Jeddah, King Abdullah Port and Aqaba remain reachable through the Suez Canal from the Mediterranean. Anything moving through the Gulf should be reviewed shipment by shipment, because the premium is set per voyage and per route rather than by lane.
+
+## Air Freight Shows What Front-Loading Looks Like
+
+Air cargo gave the cleanest read on how holidays and policy interact. Global chargeable weight fell about 3 percent week on week in week 41, which covers 6 to 12 October, with Asia Pacific down 9 percent. China fell 13 percent, Hong Kong 6 percent, Taiwan 10 percent for National Day, and South Korea 46 percent because of the Chuseok and Hangeul Day cluster. Strip out the holiday effect and global volumes would have been up about 1 percent week on week, and the two weeks combined were still 4 percent above last year.
+
+Pricing is the interesting part. China to United States spot rates fell for a second consecutive week, down 7 percent to USD 4.07 per kg, about 20 percent below the same week last year. Hong Kong to United States spot rates slipped only 1 percent and remain 2 percent above last year, although tonnage on that lane is 19 percent below last year following the removal of the low value exemption. Asia Pacific to United States tonnage fell 11 percent week on week, a little more than the 9 percent decline into Europe. That is a market with slack in it, which is exactly why the tariff threat of 10 October matters: if importers front-load ahead of a 1 November date, air is where the surge registers first. Watch the week 42 and 43 prints rather than the holiday-distorted week 41 reading.
+
+## Other Lines That Moved
+
+German seaport employers and the Verdi union agreed a new collective labour deal, removing immediate strike risk at Hamburg, Bremerhaven and Bremen, though Bremerhaven yard occupancy remains at 92 percent and low Rhine water continues to stop loaded barges beyond the Kaub measuring point. The Panama Canal raised the maximum authorised draft for the Neopanamax locks to 49 feet and is adding booking slots. Los Angeles and Long Beach expect about 265,000 loaded import TEU in the week of 11 to 17 October, against a National Retail Federation and Hackett Associates projection that United States monthly imports ease from 2.28 million TEU in September to 2.25 million in October and 2.00 million in November. Hapag-Lloyd suspended new bookings to Manila, Batangas and Subic Bay until 31 December, and a fire on the HMM vessel PLATINUM, carrying about 2,300 containers from India to Brazil, led to a Lloyd Open Form salvage agreement with general average under consideration.
+
+## What Shippers Should Do
+
+Split the decision in two. The base rate is falling on Asia to Europe and holding on the transpacific and the Gulf, but the surcharge layer is rising, so ask for the all-in landed figure item by item rather than the base rate.
+
+Treat 1 November as a working deadline, not a rumour. It is the announced tariff effective date and also the effective date for the higher Durban congestion fee, so move November-dated cargo earlier where contract terms allow.
+
+Price the destination fee into quotations now. Durban moves to USD 450 per 20ft and USD 900 per 40ft on 1 November, so ask for the fee schedule in writing with the effective date, the naming rules and the origin scope.
+
+Use the Bangladesh window. FAK out of Chittagong has barely moved and space is available, so November export allocations can be locked earlier than on other lanes, but confirm the gate appointment and the yard position before the vessel cut-off.
+
+Review Israel and Gulf shipments one by one. Dangerous goods declarations and war risk treatment are judged per voyage, and routing inside the Gulf is now being policed by force.
+
+Build two to three weeks of extra buffer into Q4 China-origin ocean commitments. Global schedule reliability was 49.9 percent in August, the weakest since September 2022, and Asia regional reliability was 32.3 percent with China at 23.9 percent.
+
+Finally, do not assume the Suez return applies to your service. Confirm routing, voyage number and cut-off on every booking, because the return is being executed service by service.
+
+This update draws on Drewry, the Shanghai Shipping Exchange, Xeneta, the Suez Canal Authority, the World Ports Organization, Kuehne and Nagel port updates, Maersk and Hapag-Lloyd customer notices, Zencargo, WorldACD, UKMTO, Reuters maritime security reporting, the National Retail Federation and Hackett Associates Global Port Tracker, and customs policy reporting for 3 to 10 October 2026.`,
+  },
+  {
     slug: 'post-golden-week-restart-congestion-oct-10-2026',
     title: 'The Restart Meets the Queue: Rates Fall a Second Week as Asian Congestion Holds 860,000 TEU',
     excerpt: 'The Drewry World Container Index fell 2 percent to USD 4,351 per 40ft on 8 October as capacity returned through the Suez Canal and Asia to Europe rates declined for a thirteenth week, even as 136 vessels and almost 860,000 TEU sat in congestion off Shanghai and Ningbo. MSC and other carriers announced general rate increases from 19 October, Durban Pier 2 waited 10 to 18 days and Chittagong yards stayed above 75 percent, United States September imports set a record at 2,546,261 TEU, and the Section 301 port fee suspension remained set to expire on 9 November while China announced a reciprocal port fee on United States related vessels.',
