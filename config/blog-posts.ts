@@ -11,6 +11,102 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'two-markets-one-fuel-bill-oct-14-2026',
+    title: 'Two Markets, One Fuel Bill: Container Rates Drift Sideways as Tanker Earnings Set a Fifth Straight Record',
+    excerpt: 'The Drewry World Container Index fell 2 percent to USD 4,351 per 40ft and the SCFI held near flat at 3,664.11 points, while the ClarkSea Index climbed 12 percent to a fifth consecutive record of USD 84,951 per day and VLCC earnings reached USD 804,601 per day. Suez transits recovered to 108,400 TEU per day, only 42 percent below 2023 levels, and Durban Gateway Terminal remained 10 to 16 days behind with a signed 15-year NCT concession in Chittagong.',
+    date: 'October 14, 2026',
+    category: 'Industry Insights',
+    readTime: '8 min read',
+    coverImage: '',
+    content: `The container market and the energy market are now telling two entirely different stories, and any shipper loading in Shenzhen, Ningbo or Qingdao for Chittagong, Haifa, Durban or Jebel Ali is exposed to both at once. The Drewry World Container Index eased another 2 percent to USD 4,351 per 40ft in its 8 October assessment, and the Shanghai Containerized Freight Index held almost flat at 3,664.11 points. In the same week the ClarkSea Index, the cross-sector earnings benchmark compiled by Clarksons Research, climbed 12 percent to a fifth consecutive all-time high of USD 84,951 per day. Container rates are drifting sideways while the physical cost of moving anything by sea, above all fuel and chokepoint risk, keeps setting records. That gap is the single most important fact for the second half of October, because it explains why headline box rates look calm while the delivered bill keeps climbing.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 8 October | USD 4,351 per 40ft | minus 2 percent week on week | Drewry |
+| Shanghai to Rotterdam | USD 3,337 per 40ft | minus 2 percent, thirteenth weekly fall | Drewry |
+| Shanghai to Genoa | USD 3,696 per 40ft | unchanged | Drewry |
+| Shanghai to Los Angeles | USD 7,624 per 40ft | minus 3 percent | Drewry |
+| Shanghai to New York | USD 10,220 per 40ft | minus 2 percent | Drewry |
+| SCFI composite, 30 September | 3,664.11 points | plus 1.81 points, plus 0.05 percent | Shanghai Shipping Exchange |
+| SCFI Shanghai to Europe | USD 2,274 per TEU | plus 3.4 percent | Shanghai Shipping Exchange |
+| SCFI Shanghai to Mediterranean | USD 3,002 per TEU | plus 0.2 percent | Shanghai Shipping Exchange |
+| SCFI Shanghai to US West Coast | USD 7,584 per FEU | plus 0.1 percent | Shanghai Shipping Exchange |
+| SCFI Shanghai to US East Coast | USD 10,524 per FEU | flat, spread of USD 2,940 | Shanghai Shipping Exchange |
+| SCFI Shanghai to Persian Gulf | USD 6,452 per TEU | minus 0.6 percent | Shanghai Shipping Exchange |
+| CCFI composite, 30 September | 1,912.38 points | minus 0.6 percent | Shanghai Shipping Exchange |
+| Blank sailings, transpacific next week | 4 sailings | down from 11 this week | Drewry |
+| Blank sailings, Asia to Europe next week | 6 sailings | up from 5 this week | Drewry |
+
+The two headline indices disagree in a way that is worth reading carefully. The spot index edged up while the contract-weighted CCFI edged down, and inside the spot basket Europe and the Mediterranean rose while the Gulf, South America and Southeast Asia slipped. That is what a post-holiday restart looks like, not a change in direction.
+
+## The Cost Floor Moved From Cargo to Energy
+
+The ClarkSea Index reading of USD 84,951 per day in the week to 9 October sits above the previous historical peak of USD 50,714 per day reached in December 2007, and the 2026 average is now 70 percent above year-earlier levels and 87 percent above the ten-year trend. Crude tankers drove the move. Average VLCC earnings jumped 21 percent over the week to USD 804,601 per day, Suezmax earnings rose 17 percent to USD 724,398, and Aframax earnings surged 46 percent to USD 393,951. Global VLCC spot earnings moved above USD 800,000 per day, with freight rates approaching USD 40 per barrel on some routes. Gas carriers on the US Gulf to Japan route earned about USD 209,000 per day.
+
+Three forces are stacking: heavier oil flows out of the Middle East Gulf, waiting time tied to ship-to-ship transfers, and longer-haul Red Sea oil exports. Weekly monitoring shows crude exports through the Strait of Hormuz at 11.379 million barrels per day in week 39, up 63 percent on the prior week and close to early-March levels, before easing to 8.813 million barrels per day in week 40. Tanker tonnage inside the Persian Gulf rose 2.8 percent to about 12.9 million deadweight tonnes, and tonnage in the Gulf of Oman rose 1.7 percent to 44.61 million deadweight tonnes. More cargo moving through a narrower corridor lifts transport efficiency losses and tightens vessel availability, which is exactly what the earnings records reflect.
+
+The container side is not sharing in the windfall. Capesize earnings fell 16 percent to USD 31,130 per day and average bulk carrier earnings slipped 3 percent, but the SCFI still stands 215 percent above its year-earlier level, and OOCL has reported a 45 percent increase in third-quarter revenue to approximately USD 3.3 billion. The important point for a forwarder is that fuel, not cargo scarcity, now sets the floor under the cost of every option we quote.
+
+## Suez Is Approaching Its Old Volume, and Its Old Problem
+
+Clarksons measured average Suez Canal transit volumes at 108,400 TEU per day last week, which is only 42 percent below the 2023 level, compared with roughly 90 percent below pre-crisis levels through 2025. In the third quarter, 166 medium and ultra-large container ships of more than 130,000 gross tonnes passed the canal, against just 16 in the same period last year, and their combined tonnage reached 29 million gross tonnes against 2.4 million a year earlier. On 13 October the CMA CGM Pantheon, a 24,212 TEU ship commissioned in July, made its first canal transit, followed by the 16,204 TEU CMA CGM Monte Cristo.
+
+Carrier behaviour matches the numbers. The Premier Alliance will restore the FE1 Asia to North Europe service, with its first westbound canal transit scheduled in early November, and Maersk will route the AE12 service through the canal in both directions starting with the Umm Qarn on 27 October. That means essentially every major alliance plus MSC now runs at least part of its Asia to Europe network the short way.
+
+Drewry has added a caution that deserves more attention than it has received. Its analysis puts the financial benefit of returning to the canal at only about USD 43 per slot, or close to USD 1 million per round trip, and that figure excludes war risk premiums. The fundamental threats that pushed carriers out of the Red Sea have not disappeared: Houthi action around Bab el-Mandeb continues, and insurance costs for the southern corridor remain elevated. The return is being driven by schedule integrity and slot economics, not by a settled security picture, so please treat canal routings as an operational variable rather than a fixed assumption.
+
+## Trade Lane Rates for the Week
+
+| Lane | Reference rate | Basis | Source |
+|---|---|---|---|
+| China to North Europe | USD 3,337 per 40ft | WCI, 8 October | Drewry |
+| China to Mediterranean | USD 3,696 per 40ft | WCI, 8 October | Drewry |
+| China to US West Coast | USD 7,584 per FEU | SCFI, 30 September | Shanghai Shipping Exchange |
+| China to Persian Gulf | USD 6,452 per TEU | SCFI, 30 September | Shanghai Shipping Exchange |
+| China to Israel, Xingang to Ashdod | about USD 1,800 per 20GP, USD 3,350 per 40GP, 33 to 35 day transit | indicative forwarder quote, 8 October | forwarder quoting page |
+| China to Bangladesh | stable with very little movement in FAK levels | FAK out of Chittagong | Zencargo market update, 6 October |
+| Maersk Far East to North Europe and Mediterranean | revised FAK levels | effective 19 October | Maersk customer advisory |
+| Maersk North Europe and Mediterranean to Kenya, Tanzania, Somalia | peak season surcharge | effective 7 October | Maersk customer advisory |
+
+The Israel figures above are indicative quotes from a public forwarder page and should be treated as a directional reference rather than a firm tariff, because the same source lists a wide spread of carrier quotes on the same lane. The signal to take from it is the transit time, roughly five weeks door to door on the ocean leg, and the fact that capacity into Ashdod and Haifa remains straightforward even while Gulf routings stay constrained.
+
+## Destination Watch: Africa Remains the Costliest Leg
+
+The Durban Gateway Terminal backlog worsened again in the week to 8 October. Average throughput rose 2 percent to 4,487 TEUs per day, but the number of vessels waiting at anchorage increased from nine on 5 October to twelve by 8 October, with two more expected to join the queue, and general stack occupancy rose from 59 percent to 62.3 percent. The industry cargo movement update compiled by the South African Association of Freight Forwarders and Business Unity South Africa estimates that the disruption is adding 20 to 24 days to affected supply chains. The terminal has been working through a backlog linked to an August failure of its cargo management system, and its chief executive now says operations are stable and the replacement truck appointment platform will be introduced as Navigate. The Road Freight Association, meanwhile, puts the cost to heavy-vehicle operators at between 5,000 and 7,000 rand per day.
+
+Terminal-level data underlines how uneven the recovery is. Cape Town Container Terminal handled 17,331 TEUs, up 34 percent and 131 percent of its waterside target, while Port Elizabeth Container Terminal fell 41 percent to 2,393 TEUs and reached only 41 percent of target. Durban New Pier handled 14,958 TEUs, down 1 percent, with ships averaging 216 hours at anchorage and 110 hours at berth, and four vessels waiting. Rail cargo out of Durban on the ConCor line fell 28 percent to 1,754 containers, and Richards Bay coal throughput eased 13 percent to about 154,000 tonnes per day.
+
+The waiting-time picture across the wider region is equally demanding. Seven-day average vessel waiting time is around 13.33 days at Conakry, 9.33 days at Beira, 5.73 days at Durban with 10 to 16 days reported at the gateway terminal, 5.59 days at Tema, 3.77 days at Pointe Noire where yard occupancy is near 95 percent, and up to 12 days at Abidjan. For African destinations, we are now advising clients to plan on berth-to-door windows measured in weeks rather than days, and to budget storage and detention separately from freight.
+
+## Bangladesh: The NCT Concession Is Signed
+
+On 8 October the Chittagong Port Authority and DP World signed a 15-year concession for the operation, maintenance and modernisation of the New Mooring Container Terminal and its overflow yard. Ownership of the terminal, the land and the core infrastructure stays with the port authority. Under the deal DP World pays an upfront fee of approximately 600 crore taka and commits more than 1,000 crore taka of investment over the first ten years in modernisation, equipment and technology, with a revenue share and a fixed annual fee for the authority, plus key performance indicators and penalties for missed targets across three consecutive months.
+
+Two details matter for cargo owners. First, the reported minimum annual handling guarantee is set at 1.23 million TEUs, which is below the 1.385 million TEUs that NCT handled in the 2025 to 2026 fiscal year, so the floor is a contractual volume guarantee rather than a productivity target. Second, NCT already carries about 44 percent of the container traffic at Chattogram, and the port currently ranks 364th out of 400 ports in the 2025 Container Port Performance Index, with container dwell times above nine days and vessels spending more than 2.5 days in port. The concession is a genuine step forward, but the measurable test is crane productivity, truck turnaround and dwell time, and those will take several quarters to move.
+
+Operationally the port itself is running smoothly right now. Median vessel waiting time at Chittagong was 0.1 days for the week of 4 to 10 October, a 17 percent improvement, the seven-day average waiting time is around 1.07 days, and gearless vessels are being turned inside a 48-hour port stay window. Yard occupancy is the constraint, running at 75 to 80 percent against a recommended ceiling nearer 60. Rates and space out of Chittagong remain stable, which makes this a good window to book Bangladesh volumes ahead of the year-end peak.
+
+## Air Freight Enters Peak Season With a Fuel Premium
+
+Air cargo followed the same counter-intuitive pattern. The overall Baltic Air Freight Index fell 2.1 percent in the seven days to 12 October, which is normal for the Golden Week shutdown, yet it remains 24.3 percent higher year on year. Jet fuel rose 3.1 percent in the week to 9 October and stands 111.2 percent higher year on year, so the fuel premium is doing the heavy lifting. Outbound Hong Kong rose 0.2 percent and held 20.5 percent above last year, outbound Shanghai fell 2.1 percent but also stayed 20.5 percent above last year, Frankfurt gained 3.0 percent to stand 47.7 percent higher year on year, and Heathrow jumped 12.1 percent to sit 44.7 percent above last year. Chicago fell 29 percent from an elevated base.
+
+The forward-looking signal is thin capacity rather than soft demand. Electronic commerce shippers and product launch customers have already locked peak season capacity, while some large buyers, including artificial intelligence hardware operators behind data centre buildouts, have not, and that unsatisfied demand can push rates sharply higher as the peak advances. For time-critical cargo out of South China to Israel, Bangladesh or Africa, we are recommending air bookings confirmed at least two to three weeks ahead, with fuel surcharge exposure reviewed at booking rather than at handover.
+
+## What Shippers Should Do
+
+- Treat fuel, not cargo scarcity, as the floor under every quote. Ask for surcharge treatment in writing before booking.
+- Do not read flat container indices as a quiet market. Suez is back to 58 percent of its 2023 volume, yet the economics of the return are thin and reversible, so canal routing can change at short notice.
+- For Africa, plan destination dwell as a line item. Durban is still adding 20 to 24 days to affected supply chains, and Conakry, Beira and Abidjan are worse.
+- For Bangladesh, use the current stability. Chittagong waiting times are low and rates are flat, and the NCT concession introduces a cost and performance reset that will take time to show up.
+- For air, lock peak season capacity now and treat jet fuel, up 112 percent year on year, as the main cost driver for the next quarter.
+- Keep documents clean. Post-arrival clearance remains the fastest way to lose the time you paid freight to save.
+
+Spider Logistics moves cargo from South China to Chittagong, Haifa, Ashdod, Durban, Mombasa, Jebel Ali and the wider Middle East and Africa region, by sea and air, with customs clearance and door to door delivery handled in house. If you want a lane-level quote that separates freight from fuel, terminal and destination costs, our team can build it for you.
+    `.trim(),
+  },
+  {
     slug: 'post-golden-week-policy-shock-oct-12-2026',
     title: 'Post-Golden Week Restart Meets a Policy Shock: Asia-Europe Slips a Thirteenth Week as Destination Fees Stack Up',
     excerpt: 'China placed all medium and heavy rare earth elements under export licence on 9 October and the United States threatened an additional 100 percent tariff on 10 October, while the Drewry World Container Index fell 2 percent to USD 4,351 per 40ft and Asia to Europe recorded a thirteenth weekly decline. Maersk doubled the Durban congestion fee destination to USD 900 per 40ft from 1 November, Chittagong kept rates and space stable with yards at 75 to 80 percent, and China to United States air spot rates fell 7 percent to USD 4.07 per kg.',
