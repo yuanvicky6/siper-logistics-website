@@ -11,6 +11,78 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'october-19-fak-test-gateway-shortage-oct-15-2026',
+    title: 'The 19 October Rate Test: Four Carriers Raise FAK Into a Falling Index as Gateways Buckle',
+    excerpt: 'The Drewry World Container Index fell 2 percent to USD 4,351 per 40ft and Asia to Europe declined for a thirteenth week, yet Maersk, CMA CGM, Hapag-Lloyd and MSC will all raise FAK rates from 19 October, up to USD 4,600 per 40ft into the West Mediterranean. Sea-Intelligence says delays now absorb 8.5 percent of the global fleet and could take seven to ten months to clear. Gemini replaces Jebel Ali with Khor Fakkan from 17 October, Durban Gateway Terminal faces 20 to 24 days of added supply chain time, and Chittagong rates remain stable with DP World signing a 15 year NCT concession.',
+    date: 'October 15, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The four largest container lines have now set a common date, 19 October 2026, to lift Asia to Europe and Mediterranean FAK rates at the same moment that every index feeding those lanes is still falling. Maersk has priced Asia to North Europe at **USD 3,300 per FEU** for 19 October to 14 November. CMA CGM moves Asia to the West Mediterranean to **USD 3,600 per 20ft and USD 4,600 per 40ft**, East Mediterranean and Black Sea to USD 3,900 and USD 4,900, and North Africa to USD 5,200 and USD 6,900. Hapag-Lloyd quotes Far East to North Europe at USD 2,750 and USD 4,200. MSC opens Far East to North Europe at USD 3,150 and USD 4,500 and stacks carbon and canal surcharges on top. For a BCO loading in Shenzhen or Ningbo the question of the week is not whether the increase has been announced. It is whether any of it survives contact with the physical market, and the answer will come from the gateways rather than from demand.
+
+## Why The Index Argues Against The Rise
+
+The reference numbers heading into 19 October are soft. The **Drewry World Container Index fell 2 percent to USD 4,351 per 40ft** in its 8 October assessment, with Shanghai to Rotterdam down 2 percent to USD 3,337 and Shanghai to Genoa flat at USD 3,696. Asia to Europe has now declined for **thirteen consecutive weeks**. The Drewry Intra-Asia Container Index recorded its first fall in seven weeks, down 1 percent to USD 1,503 per 40ft, though it still sits 209 percent above the level of a year ago. Xeneta has put the fall from 1 July at roughly 34 percent on Far East to North Europe and 43 percent on Far East to the Mediterranean. A rate restoration landing into a falling index is a statement of intent, not a settlement. Until the first bookings for the week of 19 October are actually executed, treat the published numbers as ceilings.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 8 October | USD 4,351 per 40ft | minus 2 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,337 per 40ft | minus 2 percent, thirteenth weekly fall | Drewry |
+| Shanghai to Los Angeles | USD 7,624 per 40ft | minus 3 percent | Drewry |
+| Shanghai to New York | USD 10,220 per 40ft | minus 2 percent | Drewry |
+| Drewry IACI composite | USD 1,503 per 40ft | minus 1 percent, first fall in seven weeks | Drewry |
+| Shanghai to Laem Chabang | USD 1,690 per 40ft | minus 3 percent | Drewry |
+| Shanghai to Jebel Ali | USD 8,662 per 40ft | elevated on Middle East risk | Drewry |
+| Asia to North Europe capacity, November | about 330,000 TEU per week | up about 10 percent on October | carriers via Futures Daily |
+
+## The 19 October FAK Grid
+
+| Carrier | Lane | New level | Validity |
+|---|---|---|---|
+| Maersk | Asia to North Europe | USD 3,300 per FEU | 19 October to 14 November |
+| CMA CGM | Asia to West Mediterranean | USD 3,600 per 20ft, USD 4,600 per 40ft | 19 to 31 October |
+| CMA CGM | Asia to East Mediterranean and Black Sea | USD 3,900 per 20ft, USD 4,900 per 40ft | 19 to 31 October |
+| CMA CGM | Asia to North Africa | USD 5,200 per 20ft, USD 6,900 per 40ft | 19 to 31 October |
+| Hapag-Lloyd | Far East to North Europe | USD 2,750 per 20ft, USD 4,200 per 40ft | from 19 October until further notice |
+| MSC | Far East to North Europe | USD 3,150 per 20ft, USD 4,500 per 40ft | 19 to 31 October |
+
+The surcharges matter as much as the base. MSC adds **USD 20 per TEU** as a carbon limit surcharge, **USD 88 per TEU** carbon review into North Europe and **USD 128** into the Mediterranean, and, on any service routed through the canal, **USD 55 per TEU piracy risk** plus **USD 36 per TEU Suez Canal surcharge**. CMA CGM states that its published rates include basic ocean freight, fuel related charges, emissions trading cost and low sulphur surcharge, while terminal handling, security and other charges remain additional. That is the number that lands on the invoice, and it is why the gap between a quoted FAK and a final debit note is widening rather than closing.
+
+## Congestion, Not Demand, Is Holding The Floor
+
+If rates hold, the reason will be physical. **Sea-Intelligence estimates that delays now absorb 8.5 percent of the global containership fleet**, roughly three million TEU, and that a return to the low congestion of June 2025 could take **seven to ten months**. Industry analysts quoted on 13 October said the disruption looks less like a temporary event and more like one that persists into 2027, with the pre-Chinese New Year rush, which falls on 6 February 2027, likely to meet a market that is only partly repaired. HSBC expects the constraint to migrate toward Southeast Asia and the Indian subcontinent as carriers skip the most affected ports. In Week 40, average waiting times at Shanghai and Ningbo reached **74 hours and 58 hours**, and Drewry counted about 136 vessels waiting off the two ports with roughly **860,000 TEU** of cargo held. PSA terminals in Singapore are running three to five days of waiting with arrival and departure delays beyond four days. Asia intra-regional schedule reliability has fallen to 32.3 percent.
+
+That distortion shows up in the capacity statistics too. Sea-Intelligence calculated that Asia to North Europe deployed 1.5 million TEU across four weeks around Golden Week, up 27 percent year on year and 60 percent above pre-pandemic averages, but part of that is vessel bunching rather than deliberate injection. The scheduled addition comes in November, when weekly Asia to North Europe capacity is planned to rise to about **330,000 TEU from about 300,000 in October, an increase of roughly 10 percent**. Extra slots arriving in a soft demand month are the single largest threat to a rate rise.
+
+## The Middle East Gateway Has Moved
+
+The most under-priced change of the week is a port switch. When the Gemini relaunch returns Far East to Middle East links on **17 October**, marketed as AGX by Hapag-Lloyd and FM1 by Maersk, the rotation replaces Jebel Ali with Khor Fakkan on a Qingdao, Ningbo, Tanjung Pelepas, Khor Fakkan, Singapore loop. Khor Fakkan, together with Fujairah, has absorbed the volumes pushed out of the Strait of Hormuz area, and both are now described by Kuehne + Nagel as the main pressure points in the region. Maersk reports vessel congestion, limited berth availability, high yard utilisation, road congestion and extended truck waiting times delaying cargo clearance, and is moving some boxes to an inland container depot at Sajja while planning to redirect other shipments to Jebel Ali. For cargo bound for Israel, Aqaba or Jeddah, the practical consequence is that the last mile, not the ocean leg, now sets the delivery date. Rates behave accordingly: Shanghai to Jebel Ali stayed elevated at **USD 8,662 per 40ft**, and a premium of that size is a risk price rather than a capacity signal.
+
+## Africa And Bangladesh: Two Ends Of One Problem
+
+In Africa the constraint is measured in days. The South African Association of Freight Forwarders reported that vessels waiting at Durban Gateway Terminal rose from **nine on 5 October to twelve by 8 October**, with two more expected, even as throughput improved 2 percent to about 4,487 TEU a day and stack occupancy rose from 59 to 62.3 percent. Road import containers on hand increased 12 percent to 3,575, and the association estimates the disruption has added **20 to 24 days** to affected supply chains. Independent port updates for the week of 9 October put Durban Pier 1 at seven to ten days and Durban Gateway Terminal at ten to sixteen days, with **Beira the most delayed gateway at 19 days**, Mombasa at six, Tema at six and Abidjan at eight. Kuehne + Nagel put the seven day average waiting time at Durban at 5.73 days and Conakry at 13.33 days, with yard occupancy at Pointe Noire near 95 percent. The Road Freight Association says truck operators are losing between **5,000 and 7,000 rand a day**, and it has asked the terminal to guarantee booking slots and build in automatic grace periods.
+
+Bangladesh is the exception, which makes it the window. Ocean FAK rates out of Chittagong are stable with very little movement, and space and container availability remain described as stable while almost every other Asia origin is being re-quoted. The landside constraint is real: yard occupancy has run at **65 to 70 percent against a working threshold of about 60 percent**, and port tracking for the seven days to 13 October shows 29 container ships arriving, 20 of them staying more than 48 hours, with a median port stay near 62 hours. The longer term question is now under contract, after Bangladesh signed a **15 year concession with DP World** to operate, maintain and modernise New Mooring Container Terminal, which handles more than 40 percent of Chittagong container traffic, against an upfront payment of about Tk 600 crore and more than Tk 1,000 crore of investment over ten years. Chattogram ranked 364th of 400 ports in the 2025 Container Port Performance Index, with average dwell time above nine days. Shippers moving Bangladesh cargo in November should treat the current calm as a booking window rather than a trend.
+
+## Air Freight Is Pricing Fuel, Not Peak
+
+Air cargo carries the same message in a cleaner form. The Baltic Air Freight Index rose about 5 percent in the week to 5 October and stood roughly **26 percent above the level of a year earlier**, with Shanghai outbound and Hong Kong outbound each up around 18 to 22 percent year on year and Chicago outbound more than 77 percent higher. Volume is not the driver: global chargeable weight fell about 3 percent week on week in week 41 and Asia Pacific was down about 9 percent. Fuel is the driver, with jet fuel more than double the level of a year ago and Brent crude averaging **USD 102.02 a barrel** in the week and holding above USD 100 since early September. CMA CGM applied a **USD 75 per TEU emergency fuel surcharge** on intra-Asia lanes from 1 October, and forwarder fuel surcharge schedules from Asia to Africa and to the United States remain in the range of USD 0.94 and USD 1.39 per kilo. The peak season is priced in. The peak itself has not arrived.
+
+## What Shippers Should Do
+
+- Do not book against the announced 19 October level. Ask for the executed rate for the specific sailing and container type, and confirm which surcharges sit inside the number.
+- For Europe and Mediterranean cargo, split base ocean from surcharge. The MSC carbon and Suez items and the CMA CGM emissions trading component are permanent cost lines now, not temporary add-ons.
+- For Bangladesh, move while Chittagong rates and space are stable, but build three to five extra days of buffer for yard and gate delays.
+- For Africa, price the delay rather than the freight. Add 20 to 24 days of buffer on Durban routings and check whether the carrier is omitting the port.
+- For the Gulf, Israel, Aqaba and Jeddah, confirm the discharging or transhipment gateway in writing before booking, because the Khor Fakkan switch changes both the last mile and the clearance timeline.
+- For air, lock space now for the pre-Christmas window. Rates are supported by fuel rather than demand, so they will not fall simply because volumes soften.
+- Plan the November capacity increase into contract talks. Weekly Asia to North Europe capacity is scheduled to rise about 10 percent, which weakens the case for accepting a large increase on a long term contract.
+
+Spider Logistics coordinates ocean and airfreight, customs clearance and door to door delivery between China and Bangladesh, Israel, Africa and the Middle East, including Chittagong, Haifa, Ashdod, Durban, Beira and the Gulf gateways. We quote executed rates rather than published ones. Contact us for a lane assessment ahead of the 19 October change.`,
+  },
+  {
     slug: 'two-markets-one-fuel-bill-oct-14-2026',
     title: 'Two Markets, One Fuel Bill: Container Rates Drift Sideways as Tanker Earnings Set a Fifth Straight Record',
     excerpt: 'The Drewry World Container Index fell 2 percent to USD 4,351 per 40ft and the SCFI held near flat at 3,664.11 points, while the ClarkSea Index climbed 12 percent to a fifth consecutive record of USD 84,951 per day and VLCC earnings reached USD 804,601 per day. Suez transits recovered to 108,400 TEU per day, only 42 percent below 2023 levels, and Durban Gateway Terminal remained 10 to 16 days behind with a signed 15-year NCT concession in Chittagong.',
