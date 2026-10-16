@@ -11,6 +11,94 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'wci-rebound-reliability-collapse-oct-16-2026',
+    title: 'The Rebound Is a Queue: Asia-Europe Rates Rise 6 Percent as Global Schedule Reliability Falls to 27 Percent',
+    excerpt: 'The Drewry World Container Index rose 3 percent to USD 4,485 per 40ft on 15 October, the first Asia to Europe increase after three consecutive weekly declines, with Shanghai to Rotterdam up 6 percent to USD 3,522 and Shanghai to Genoa up 7 percent to USD 3,945. In the same week Xeneta reported that global schedule reliability fell to 27 percent in September, that only 4 percent of Far East to Europe vessels arrived on time and that average delays reached 9.9 days. Singapore queues doubled from 12 to 22 ships, Durban Gateway Terminal holds a backlog of 30,352 container moves, Chittagong is still rated congested and Gemini restores its Far East to Middle East link through Khor Fakkan on 17 October.',
+    date: 'October 16, 2026',
+    category: 'Industry Insights',
+    readTime: '8 min read',
+    coverImage: '',
+    content: `Two numbers published within twenty four hours of each other describe this container market better than any forecast. On 15 October the **Drewry World Container Index rose 3 percent to USD 4,485 per 40ft**, its first increase after three consecutive weekly declines, lifted by a 6 percent jump on Shanghai to Rotterdam and a 7 percent jump on Shanghai to Genoa. In the same week Xeneta reported that **only 4 percent of vessels on the Far East to Europe trade arrived on time in September**, with average delays of **9.9 days**, and that global schedule reliability fell to **27 percent**. A rate that rises while a schedule collapses is not a demand signal. It is a queue signal. For importers moving cargo out of China into Bangladesh, Israel, Africa and the Gulf, the question for the rest of October is not what the index printed. It is how much of the published transit time is still real, and what the difference costs at destination.
+
+## The Index Turned Up. The Schedule Did Not.
+
+Drewry is explicit that the rebound came from Asia to Europe, where the route had fallen for thirteen straight weeks, and that two blank sailings are announced for next week against six this week, which it reads as more effective capacity rather than more demand. The same report notes that carriers are pushing FAK levels of **USD 4,500 to 4,800 per 40ft** from 19 October but calls execution uncertain given that extra capacity, and expects rates to hold stable next week. Xeneta supplies the other half of the picture. Global on-time performance fell two percentage points to **27 percent**, a fourth consecutive monthly decline that matches the low set in February. Average delays reached **six days** across all arrivals, 2.4 days worse than at the start of the second quarter. On Far East to Europe only **4 percent** of vessels met their published schedule and average delays reached **9.9 days**, against 8.2 days in August, making September the weakest month on that trade since September 2021. The commercial reading is simple. Publishing a higher rate into a schedule that four vessels in a hundred can keep is a pricing position, not a market clearing price.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 15 Oct | USD 4,485 per 40ft | +3 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,522 per 40ft | +6 percent | Drewry |
+| Shanghai to Genoa | USD 3,945 per 40ft | +7 percent | Drewry |
+| Shanghai to Los Angeles | USD 7,884 per 40ft | +3 percent | Drewry |
+| Shanghai to New York | USD 10,075 per 40ft | -1 percent | Drewry |
+| Drewry Intra-Asia Container Index | USD 1,503 per 40ft | -3 percent | Drewry |
+| Global schedule reliability, Sept | 27 percent | -2 points | Xeneta |
+| Average vessel delay, Q3 | 6.0 days | +2.4 days vs Q2 | Xeneta |
+| Far East to Europe on time, Sept | 4 percent | worst since Sept 2021 | Xeneta |
+| Singapore daily vessel queue | 22 ships | from 12 | Xeneta |
+
+## Trade Lane Rates
+
+| Lane | Reference rate | Change | Notes |
+|---|---|---|---|
+| Shanghai to Rotterdam | USD 3,522 per 40ft | +6 percent | First rise after 13 weekly declines |
+| Shanghai to Genoa | USD 3,945 per 40ft | +7 percent | Carriers seek USD 4,500 to 4,800 FAK from 19 Oct |
+| Shanghai to Los Angeles | USD 7,884 per 40ft | +3 percent | Six blank sailings, unchanged |
+| Shanghai to New York | USD 10,075 per 40ft | -1 percent | Softening while the West Coast firms |
+| Intra-Asia composite | USD 1,503 per 40ft | -3 percent | Congestion easing inside Asia |
+| Ningbo to Ashdod | USD 5,050 per 40HQ | Indicative | Dual clearance door to door, valid to 30 Oct |
+| Shenzhen to Haifa | USD 4,170 per 40HQ | Indicative | Forwarder product quotation |
+| Chittagong FAK | Stable | Flat | Space and equipment described as stable |
+
+The two Israel lines deserve a caveat. They are forwarder product quotations for a dual clearance door to door service, published on 15 October, and not a port to port index. The spread against Far East to Europe FAK reflects the duties, documentation and final delivery bundled into the price rather than a different level of ocean cost. Read them as a sign that the lane is stable, which is exactly what a shipper planning a November shipment wants to see.
+
+## Where The Capacity Actually Went
+
+Capacity is returning to the water while effective capacity stays tight, and both halves of that sentence matter. Clarksons counts **166 medium and ultra-large containerships** through the Suez Canal in the third quarter, against just **16** in the same period last year. Yet **0.74 million TEU of capacity was sitting at anchor off Shanghai, Ningbo and Yantian as of 6 October**. Shanghai cut its anchorage queue from 101 to 86 vessels but still saw average waiting time rise from 1.9 to 2.7 days. Yantian runs a seven day average wait of about 1.65 days with berth delays of three to five days for large vessels, and yard density at Shekou remains above 90 percent, forcing heavy discharge vessels to be deprioritised. For October, planned cancellations run at **17 percent of Far East to Europe capacity and 13 percent of Far East to North America capacity**, so the blank sailing programme is doing more work now than it did in September.
+
+A ship waiting at anchor still burns charter and fuel and still holds its slot in the weekly rotation. That is how a fleet of record size produces tight effective capacity, and it is why the index can rise while the schedule decays.
+
+There is one genuine operational improvement at the origin gate. Yantian International issued a notice on 15 October stating that the congestion and peak season bunching upstream have eased and that yard load has stabilised, and from **16 October at midnight** the export laden container appointment window widens from ETB-7 to **ETB-10** while the daily quota rises from **11,000 to 13,000** containers. That is a signal about gate throughput at South China, not about price, and it is worth telling a factory about before it buys a rate.
+
+## Destination Watch: Bangladesh
+
+Chittagong is the one lane in this week of repricing where the ocean side is calm. FAK rates out of Chittagong remain stable, with space and equipment described as stable, at a moment when nearly every other Asia origin is being re-quoted. The constraint is entirely landside. Port tracking shows **34 container vessels arriving in the seven days to 15 October, of which 19 stayed more than 48 hours**, a share of 56 percent, with a median port stay of 58 hours and the port rated congested. Six vessels are planned in the next seven days. Port workers continue protest actions against the planned DP World takeover of New Mooring Container Terminal, which handles roughly **44 percent** of the port container traffic and is now under a 15 year concession signed in October.
+
+A second, less visible blockage is building on the cargo side. The garment and knitwear exporters associations have written to the Prime Minister asking for intervention over imported 10 to 30 count cotton yarn held at Chattogram. The National Board of Revenue suspended the bonded warehouse facility for that count range in the first week of September, customs began demanding bank guarantees, the commerce ministry withdrew that requirement on 13 September, and consignments have continued to be held pending further instructions. For a Bangladesh-bound shipper the practical lesson is unchanged from last week but sharper now: book equipment early, and treat the yard and the customs bond position as the binding constraints rather than the rate.
+
+## Destination Watch: South Africa
+
+Durban remains the weakest gateway we quote into. Kuehne + Nagel puts the seven day average vessel waiting time for 7 to 13 October at **5.73 days**, split into **7 to 10 days at Pier 1 and 10 to 16 days at Durban Gateway Terminal**. Update No. 303 from Africa Ports and Ships, incorporating data to 15 October, records **11 vessels still at anchorage** with average waiting of about **251 hours at anchorage and 127 hours alongside**. A terminal assessment on 14 October put the vessel backlog at about **30,352 container moves, equivalent to roughly 11.3 days of quayside work**, with approximately 10,000 containers to be redirected through Pier 1 and the Point terminal to relieve pressure. Stack occupancy rose to 59.4 percent, road imports on hand reached 3,559 containers and gate performance fell to 2,111 moves in the latest 24 hour period.
+
+The broader numbers show a market recovering slowly from a low base. South African container terminals averaged **12,704 TEU per day** in the week of 5 to 11 October for a total of **88,926 TEU, up 6 percent week on week**, and Durban Gateway Terminal lifted waterside throughput by 6 percent to 4,734 TEU per day. Pier 1 anchorage waiting fell to 167 hours from 216. Yet the total queue of vessels waiting outside the port of Durban rose to **36**, and Transport Minister Barbara Creecy has called for a detailed recovery plan after an inspection, noting that ships still wait about **8.3 days against a terminal target of 24 hours**. ICTSI has committed roughly **R737 million** to an immediate recovery programme and around **R1.2 billion** over two years, with rail services between the terminal and the back of port facility to rise from two to about five trains a day. Elsewhere in the region, waiting times for 7 to 13 October ran at **13.33 days at Conakry, 9.33 at Beira, 5.59 at Tema with reefer plug utilisation at 100 percent, 4.0 at Cotonou, 3.77 at Pointe Noire with yard occupancy near 95 percent, 2.5 at Mombasa and 2.33 at Coega**. Plan South African and West African lead times off the terminal backlog, not the tariff.
+
+## Destination Watch: The Gulf and Israel
+
+Gemini restores its Far East to Middle East link this weekend, marketed as AGX by Hapag-Lloyd and FM1 by Maersk, on a rotation of Qingdao, Ningbo, Tanjung Pelepas, Khor Fakkan, Singapore and Qingdao. The first sailing, GUTHORM MAERSK 641W with 11,008 TEU, calls Qingdao on 18 October and Ningbo on 21 October, with **Khor Fakkan replacing Jebel Ali**. The substitution carries a warning rather than a relief. Kuehne + Nagel describes Khor Fakkan and Fujairah as the main pressure points in the region, and Maersk reports vessel congestion, limited berth availability, high yard utilisation, road congestion and extended truck waiting times, with some boxes relocated to the inland depot at Sajja and possible redirection of other shipments to Jebel Ali. Security has not improved either. The containership GFS Pride sank this week after being struck, with all 21 crew evacuated safely, adding to a run of attacks that has kept the Strait of Hormuz listed as closed by chokepoint monitors. Salalah recorded the highest average wait in the Middle East and India region at 2.6 days.
+
+Israel looks comparatively settled. Average waiting time at Ashdod stands at **2 days**, in line with Chennai and behind only Salalah across the region. Indicative China to Israel quotations published on 15 October list Ningbo to Ashdod at **USD 5,050 per 40HQ** on a dual clearance door to door basis valid to 30 October, Shenzhen to Haifa at **USD 4,170 per 40HQ**, and groupage to Ashdod at **USD 40 per cubic metre** for light cargo or USD 42 per tonne for heavy cargo on a transit of about 45 days. Those numbers describe a lane that is being managed service by service rather than lane by lane, and one where the risk premium of the summer is no longer being repriced upward.
+
+Inland in Europe, the Rhine is running at historically low water at the Kaub gauge, effectively halting loaded barge traffic, and where service continues the surcharge reaches the equivalent of **USD 1,350 per FEU**. European port labour remains a live disruptor with strikes affecting Italy, France and Spain and a nationwide French dockworkers strike called for 30 October.
+
+## What Shippers Should Do
+
+1. **Treat the 19 October FAK as a ceiling, not a settlement.** Carriers are seeking USD 4,500 to 4,800 per 40ft on Asia to Europe. Drewry itself calls execution uncertain given the extra capacity. Negotiate against the number, and do not budget for the full increase.
+2. **Price the queue, not the rate.** With 4 percent on-time arrival on Asia to Europe and 9.9 days of average delay, a rate that looks 6 percent higher can still be the cheaper option once detention, demurrage, expedited trucking and stock-out cost are counted at destination.
+3. **Lock Asia to Chittagong space while it is flat.** FAK, space and equipment are all described as stable, and yard density remains the constraint rather than price.
+4. **Build South African lead times off the terminal backlog.** Durban Gateway Terminal alone has 30,352 container moves of quayside work ahead of it, worth about 11.3 days before new cargo is touched.
+5. **Keep Gulf cargo shipment by shipment.** Khor Fakkan and Fujairah are absorbing volumes displaced from inside the Strait of Hormuz, and war risk is priced per voyage and per route rather than by lane.
+6. **Watch the origin gate for the first sign of relief.** The Yantian appointment window widening to ETB-10 and the daily quota rising to 13,000 containers is the clearest evidence so far that Chinese export capacity, rather than demand, is starting to loosen.
+
+## Spider Logistics
+
+Spider Logistics moves cargo from South China to Bangladesh, Israel, Africa and the Gulf by sea and air, with customs clearance and door to door delivery handled end to end. Our teams in Shenzhen work the gate appointments, the yard cut-offs and the destination clearance in the same week the booking is made, and we quote against the schedule you will actually get rather than the one printed on the booking confirmation.
+
+Get in touch to plan your October and November sailings, and ask us for a landed cost view that includes the cost of delay.
+`.trim(),
+  },
+  {
     slug: 'october-19-fak-test-gateway-shortage-oct-15-2026',
     title: 'The 19 October Rate Test: Four Carriers Raise FAK Into a Falling Index as Gateways Buckle',
     excerpt: 'The Drewry World Container Index fell 2 percent to USD 4,351 per 40ft and Asia to Europe declined for a thirteenth week, yet Maersk, CMA CGM, Hapag-Lloyd and MSC will all raise FAK rates from 19 October, up to USD 4,600 per 40ft into the West Mediterranean. Sea-Intelligence says delays now absorb 8.5 percent of the global fleet and could take seven to ten months to clear. Gemini replaces Jebel Ali with Khor Fakkan from 17 October, Durban Gateway Terminal faces 20 to 24 days of added supply chain time, and Chittagong rates remain stable with DP World signing a 15 year NCT concession.',
