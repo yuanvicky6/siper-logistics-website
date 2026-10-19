@@ -11,6 +11,79 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'suez-capacity-doubled-fak-round-oct-19-2026',
+    title: 'Suez Capacity Doubled in Six Weeks, Yet the 19 October Rate Round Still Lands',
+    excerpt: 'Xeneta reports that weekly capacity through the Bab el-Mandeb strait doubled from 224,000 to 448,000 TEU between 27 August and 5 October, while Clarksons puts Suez container capacity at 753,000 TEU per week, 52 percent of the 2023 average, with 36 percent of eligible capacity now using the canal instead of the Cape. The Drewry World Container Index still rose 3 percent to USD 4,485 per 40ft on 15 October and a new FAK round of USD 4,200 to 4,700 per 40ft takes effect on 19 October, with Hapag-Lloyd, CMA CGM and MSC publishing different levels. Carriers are blanking 58,200 TEU on the Far East to US West Coast trade, Chittagong is holding yarn consignments over a bond dispute, Durban Gateway Terminal still has 11 vessels at anchorage, and Ashdod waits two days.',
+    date: 'October 19, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Two datasets published five days apart describe this market from opposite ends. Xeneta reports that weekly scheduled capacity crossing the Bab el-Mandeb strait in at least one direction rose from about **224,000 TEU on 27 August to 448,000 TEU on 5 October**, a near doubling in six weeks. Clarksons Research puts container capacity through the Suez Canal at about **753,000 TEU per week** in the first half of October, roughly **52 percent** of the 1.457 million TEU weekly average of 2023, with **36 percent** of the capacity that could use either the canal or the Cape now taking the canal, against **8 percent** earlier in 2026. In the same week the Drewry World Container Index rose **3 percent to USD 4,485 per 40ft**, and a new general rate round of **USD 4,200 to 4,700 per 40ft** takes effect today, 19 October. More capacity and higher prices are not a contradiction. They are what a capacity managed market looks like in the weeks before contract season, and the practical question for anyone shipping out of China is which of the two moves first on their lane.
+
+## The Capacity Is Coming Back Faster Than the Rates Are Coming Down
+
+Sea-Intelligence estimates that normalisation could release around **2.1 million TEU** of vessel capacity, and that if all head-haul services return to Suez by the end of 2026, head-haul container demand could contract **8.7 percent year on year in the first half of 2027** despite underlying growth of 6.6 percent. About **19 percent** of Asia-Europe capacity has already moved back. CMA CGM now describes the waterway as a permanent and sustainable route, its 24,212 TEU newbuild CMA CGM Pantheon has completed a maiden canal transit, and CMA CGM together with MSC have returned the joint North Europe to Australasia service to Suez in both directions, which lets them cut the fleet from 18 ships to 16. The Premier Alliance restores its FE1 Asia to North Europe service to the Red Sea route this week, its first return since the diversion began.
+
+Carriers are offsetting the release with blank sailings. Xeneta counted **58,200 TEU withdrawn from the Far East to US West Coast trade and 35,500 TEU from the Far East to US East Coast** in a single week, roughly **13 percent of October sailings** have been pulled, and the cargo movement update compiled by SAAFF and BUSA records **34 blank sailings** expected across the major East-West trades. Suez hands capacity back with one hand and blankings take it away with the other, which is exactly why the index has not collapsed.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 15 Oct | USD 4,485 per 40ft | +3 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,522 per 40ft | +6 percent | Drewry |
+| Shanghai to Genoa | USD 3,945 per 40ft | +7 percent | Drewry |
+| Shanghai to Los Angeles | USD 7,884 per 40ft | +3 percent | Drewry |
+| Shanghai to New York | USD 10,075 per 40ft | -1 percent | Drewry |
+| Bab el-Mandeb weekly capacity | 448,000 TEU | from 224,000 in August | Xeneta |
+| Suez weekly container capacity | 753,000 TEU | 52 percent of 2023 | Clarksons |
+| Capacity routed via Suez | 36 percent | from 8 percent | Clarksons |
+
+## The 19 October Round Is a Test, Not a Floor
+
+The announced levels are Hapag-Lloyd at **USD 4,200 per 40ft to North Europe and USD 4,600 to the Mediterranean**, CMA CGM at **USD 4,600 and USD 4,700**, and MSC at **USD 4,500 to both regions**, all effective today. Drewry is explicit that implementation is uncertain given the extra capacity from fewer blank sailings and resumed canal transits, and expects rates to hold rather than climb next week.
+
+The spread is the signal. A **USD 500 gap** between the cheapest and the dearest carrier on one trade is a pricing position, not a clearing price, and it tells shippers the round is negotiable. Two second-order effects matter on secondary lanes. Capacity defended on North Europe is capacity withheld from feeders, so space usually tightens there before it tightens on the headline trade. And adjacent increases are already landing: CMA CGM added **USD 1,000 per container** on Asia to South America from 15 October, a move that explicitly covers Bangladesh origins, while Maersk lifts its US inland fuel surcharge from **USD 140 to USD 215 per container** on 1 November.
+
+## Trade Lane Reality
+
+| Lane or port | Operating signal | What it means |
+|---|---|---|
+| China to Chittagong | Congested rating on 19 Oct, 25 of 31 vessels over 48 hours, median stay 70 hours | Berth is workable, release is not |
+| China to Ashdod | 2 days average vessel waiting | Space available |
+| China to Haifa | 24 vessels in seven days, none over 48 hours, 17 hours median | Cleanest port on the network |
+| China to Durban | 11 at anchorage, 251 hours waiting, 30,352 move backlog | Add 10 to 16 days |
+| Salalah transhipment | 2.6 days, highest in the region | Buffer every Gulf relay |
+| South China origin | Shanghai 2.61, Shekou 1.29, Yantian 1.65 days | Shekou yard density above 90 percent |
+| Singapore transhipment | 3 to 5 days berth wait, over 4 days average delay | Allow a week of slack |
+
+## Bangladesh: The Bottleneck Moved From the Berth to the Bond
+
+The port is not the constraint this week. Chittagong is rated congested in port data on 19 October, with **25 of 31 container vessels** that called in the previous seven days staying more than 48 hours and a median time in port near **70 hours**, but the queue itself is short. Release is the constraint. In the first week of September the National Board of Revenue suspended the bond facility for imports of **10 to 30 count cotton yarn**, the coarse count used in knitwear, and customs began demanding bank guarantees even on letters of credit opened before the order took effect. A commerce ministry circular on 13 September withdrew the guarantee requirement, yet consignments are still held pending further instruction, and BGMEA together with BKMEA wrote to the Prime Minister on 15 October asking for release of yarn shipped under earlier letters of credit.
+
+Coarse cotton yarn is a China origin flow, so the lesson is concrete. Confirm HS classification and bond eligibility before the box is booked rather than after it arrives, and carry a guarantee cost line in the quote so a rule change does not turn into a surprise invoice. A container that arrives on time and cannot be released is more expensive than one that arrives late.
+
+## Israel and the Gulf: Capacity Is Not the Constraint
+
+Ashdod averages **2 days** of vessel waiting and Haifa is clear, with **24 container vessels** in seven days, none staying beyond 48 hours and a median stay of about **17 hours**. The ocean leg from South China runs roughly five weeks. Space into Israel is available; what moves the landed cost is the war risk premium, which can be reimposed at short notice, and schedule integrity rather than berth availability. The return of services to Suez is the single largest positive for this trade, because it removes the Cape detour from the Asia to Eastern Mediterranean leg. In the Gulf, Salalah records the highest regional wait at **2.6 days** with yard congestion affecting berthing, so Oman transhipment needs a buffer.
+
+## Africa: Improving From a Depressed Base
+
+Durban Gateway Terminal lifted waterside throughput **6 percent** to an average of **4,734 TEU per day**, and two-week total moves improved by about **15 percent**. The backlog has not cleared. As of 15 October, **11 vessels** remained at anchorage with delays of about **251 hours at anchorage and 127 hours at berth**, while **30,352 container moves**, equivalent to about **11.3 days of quayside work**, were still waiting and roughly **10,000 containers** were being redirected through Pier 1 and the Point terminal. The total port queue, including bulk and breakbulk, reached **36 vessels**. September throughput was **460,166 TEU**, up **20 percent month on month** but down **5 percent year on year**.
+
+The rest of the region is worse. Seven day average waits are around **13.33 days at Conakry**, **9.33 at Beira**, **5.59 at Tema**, **3.77 at Pointe Noire** where yard occupancy sits near **95 percent** and window and first-come berthing have been suspended, **4.0 at Cotonou** and **2.33 at Coega**. Quote Africa on a berth to door basis, and budget storage and detention as separate lines rather than burying them inside the freight rate.
+
+## What Shippers Should Do
+
+- **Read the FAK calendar, not the index.** The 19 October round is live and a mid-November round is the next decision point. Ask whether a quote already reflects the new level or remains subject to revision.
+- **Ask which service is protected from blanking.** With about 13 percent of October sailings withdrawn, a cheap slot on a service that gets blanked is the most expensive booking of the quarter.
+- **Separate clearance from freight.** Chittagong shows that a vessel arriving on time means nothing if the release does not follow. Pre-lodge documents and confirm bond eligibility.
+- **Price African time.** Durban is recovering from a depressed base, which is not the same as recovered. Plan 10 to 16 days of terminal delay and treat it as a cost, not an exception.
+- **Keep a war risk clause in Israel contracts.** Space is available and transit is competitive, but the surcharge can return without a week of notice.
+
+Spider Logistics moves cargo from South China to Chittagong, Ashdod, Haifa, Durban, Mombasa, Jebel Ali and the wider Middle East and Africa region by sea and air, with customs clearance and door to door delivery handled in house. If you want a lane level quote that separates freight from terminal, fuel and destination costs, our team can build it for you.`,
+  },
+  {
     slug: 'wci-rebound-reliability-collapse-oct-16-2026',
     title: 'The Rebound Is a Queue: Asia-Europe Rates Rise 6 Percent as Global Schedule Reliability Falls to 27 Percent',
     excerpt: 'The Drewry World Container Index rose 3 percent to USD 4,485 per 40ft on 15 October, the first Asia to Europe increase after three consecutive weekly declines, with Shanghai to Rotterdam up 6 percent to USD 3,522 and Shanghai to Genoa up 7 percent to USD 3,945. In the same week Xeneta reported that global schedule reliability fell to 27 percent in September, that only 4 percent of Far East to Europe vessels arrived on time and that average delays reached 9.9 days. Singapore queues doubled from 12 to 22 ships, Durban Gateway Terminal holds a backlog of 30,352 container moves, Chittagong is still rated congested and Gemini restores its Far East to Middle East link through Khor Fakkan on 17 October.',
