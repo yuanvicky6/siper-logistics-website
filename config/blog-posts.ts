@@ -11,6 +11,84 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'two-gri-rounds-fuel-bill-oct-20-2026',
+    title: 'Two GRI Rounds and a 108 Dollar Barrel: The Freight Rate Is Only Half the Invoice',
+    excerpt: 'Seven carriers filed general rate increases of USD 2,000 to 3,000 per 40ft on the trans-Pacific effective 15 October and again on 1 November, while the Freightos Baltic Index showed Asia to North Europe down 15 percent to USD 3,700 per FEU and Asia to the Mediterranean down 7 percent to USD 3,900. In the same week Brent closed at USD 108.51 per barrel, its highest since May, Singapore very low sulphur fuel oil was assessed near USD 930 per tonne and high sulphur fuel oil reached USD 873, leaving a spread of about 30 dollars and gutting the scrubber case in the largest Asian hub. Roughly 200,000 TEU of new capacity was delivered in September with no scrapping, the orderbook sits at 45 percent of the fleet, and Drewry counted only 34 blank sailings across weeks 42 to 46.',
+    date: 'October 20, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The freight rate and the fuel bill moved in opposite directions this week, and only one of them is negotiable. On 17 October the Freightos Baltic Index put Asia to North Europe at **USD 3,700 per FEU**, down **15 percent**, and Asia to the Mediterranean at **USD 3,900**, down **7 percent**, while Asia to the US West Coast rose **4 percent to above USD 8,100** and the East Coast held near **USD 9,600**. Across the same fortnight seven carriers filed two rounds of general rate increases on the trans-Pacific, effective **15 October and 1 November**, at **USD 2,000 to 3,000 per 40ft** in each round. Underneath both numbers, Brent closed at **USD 108.51 per barrel** on 19 October, its highest level since May, and Singapore very low sulphur fuel oil was assessed near **USD 930 per tonne**. A shipper who wins a rate negotiation and ignores the bunker clause has won half a conversation.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 15 Oct | USD 4,485 per 40ft | +3 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,522 per 40ft | +6 percent | Drewry |
+| Shanghai to Genoa | USD 3,945 per 40ft | +7 percent | Drewry |
+| Shanghai to Los Angeles | USD 7,884 per 40ft | +3 percent | Drewry |
+| Shanghai to New York | USD 10,075 per 40ft | -1 percent | Drewry |
+| FBX Asia to US West Coast, 17 Oct | above USD 8,100 per FEU | +4 percent | Freightos |
+| FBX Asia to North Europe, 17 Oct | USD 3,700 per FEU | -15 percent | Freightos |
+| FBX Asia to Mediterranean, 17 Oct | USD 3,900 per FEU | -7 percent | Freightos |
+| SCFI composite, 20 Oct | 3,680 points | flat | Shanghai Shipping Exchange |
+| Brent front month, 19 Oct | USD 108.51 per barrel | about +3 percent on the week | ICE |
+| Singapore VLSFO, 17 Oct | USD 909 per tonne | +2.2 percent on the week | SteelMint |
+| Singapore HSFO, 17 Oct | USD 873 per tonne | +7.8 percent on the week | SteelMint |
+| Singapore VLSFO, 19 Oct | about USD 930 per tonne | firming | Engine |
+
+The two index families disagree on direction because they measure different things. The WCI is a weekly assessment across eight routes and rose **3 percent** on 15 October, carried by a **6 percent** gain to Rotterdam and **7 percent** to Genoa. The FBX is a forward-looking daily index and by 17 October showed Asia to North Europe **15 percent lower**. Both can be right. What matters is that the Asia to Europe correction is real and supply driven, while the trans-Pacific is being held up by demand and by carrier discipline.
+
+## The Trans-Pacific Is Where the Pricing Power Is
+
+Seven carriers filed increases for both 15 October and 1 November, at identical levels in each round: **Evergreen, Hapag-Lloyd and HMM at USD 3,000 per 40ft**, and **CMA CGM, COSCO, Yang Ming and ZIM at USD 2,000**, according to rate monitoring published by Distribution-Publications on 7 October. COSCO applies its increase to service contract cargo only, and the Evergreen figure covers 40ft dry and reefer units.
+
+The demand behind those filings is measurable. Descartes reported that US container imports reached **2,546,300 TEU in September**, up **10.3 percent year on year** and the highest September on record, with **924,500 TEU from China**, up **21.2 percent year on year** and **4.5 percent month on month**, equal to **36.3 percent** of the total, a share up **2.3 points** from August. That is not a market that absorbs a rate cut.
+
+Asia to Europe has the opposite problem. Carriers are returning services to Suez, and Drewry head of container research Simon Heaney expects canal transits to reach **80 percent of pre-diversion levels by February 2027**. Every service that returns releases ships. Roughly **200,000 TEU of new capacity was delivered in September with no scrapping**, and the orderbook now stands at about **45 percent of the existing fleet**, the highest since 2009. Blank sailings are not absorbing it. Drewry counted **34 blank sailings across weeks 42 to 46**, covering 12 October to 15 November, equal to just **5 percent of 713 scheduled voyages**, split **50 percent to Asia-Europe and the Mediterranean, 32 percent trans-Pacific eastbound and 18 percent transatlantic**. Committed capacity differs sharply by alliance, from **99 percent of scheduled sailings operating at Gemini** down to **89 percent at the Premier Alliance**.
+
+## The Fuel Bill Is the Part Nobody Quotes
+
+Bunker is where October diverges from the rate story. Brent gained about **3 percent on the week** and briefly touched **USD 110 per barrel** on 16 October before closing at **USD 108.51** on 19 October. Singapore very low sulphur fuel oil rose **2.2 percent to USD 909 per tonne** in the week to 17 October and was assessed near **USD 930** by 19 October, with marine gas oil at about **USD 1,315** and high sulphur fuel oil at **USD 873**.
+
+That last number is the one to notice. HSFO at **USD 873** against VLSFO at **USD 909** leaves a spread of roughly **USD 36 per tonne** in Singapore, and by 19 October the gap had widened from **USD 29 to USD 42 on a single day** as VLSFO gained and HSFO held. Fujairah still shows **USD 229**, narrowing from **USD 242** as HSFO there rose faster than VLSFO. The saving from a scrubber is now a function of where a vessel bunkers rather than whether it carries the equipment.
+
+Port-level differences are wider than grade differences. On 19 October VLSFO rose **USD 20 per tonne at Zhoushan**, **USD 13 at Singapore** and **USD 12 at Fujairah**, leaving Zhoushan at a **USD 30 premium to Singapore** and a **USD 31 discount to Fujairah**. Fujairah marine gas oil jumped **USD 67 per tonne**, widening its premium over Singapore to **USD 462** and over Zhoushan to **USD 382**. Availability of every grade is reported tight at Fujairah, and Zhoushan suppliers quote **11 day lead times** for all three grades. For a South China loading this is actionable, because a Middle East rotation that bunkers at Zhoushan rather than Fujairah can differ by several thousand dollars on the same voyage.
+
+The physical shortage explains the shape. Middle East disruption has removed at least **800,000 tonnes per month** of HSFO supply and attacks on Russian refineries roughly **1 million tonnes** more, about **1.8 million tonnes** in total, pushing spot premiums toward **USD 50 per tonne**. The Energy Information Administration still forecasts Brent averaging **USD 84 per barrel** across 2027, but that assumes the war and Hormuz logistics normalise. A fourth quarter budget should not be built on it.
+
+## Trade Lane Reality
+
+| Lane or port | Operating signal | What it means |
+|---|---|---|
+| China to Chittagong | 25 of 31 vessels over 48 hours, median stay 70 hours, congested on 19 Oct | Berth works, release does not |
+| China to Ashdod and Haifa | Waiting under 48 hours, Ashdod near 2 days | Space available, war risk is the variable |
+| China to Durban | 7 days average waiting, terminal backlog persisting | Plan 10 to 16 days of terminal time |
+| China to Conakry | 12.5 days average waiting | Highest in Africa |
+| China to Dar es Salaam | 7.6 days average waiting | Buffer every East Africa relay |
+| China to Tema | 5.8 days, reefer plugs at 100 percent | Book reefer slots early |
+| South China origin | Shanghai 3.51, Ningbo-Zhoushan 2.37, Yantian 2.3 days | Shanghai still the slowest in Asia |
+| Gulf via Hormuz | Transit fee stacked on emergency freight | Route through Fujairah or Khor Fakkan |
+
+## Hormuz Is Now a Line Item
+
+Middle East cargo carries a surcharge stack that did not exist a year ago. Maersk has suspended bookings to Iraq, Kuwait, Qatar, Bahrain, Saudi Gulf ports, Jordan and most UAE ports, discharges at **Fujairah and Khor Fakkan** outside the strait and moves cargo overland to Jebel Ali, and charges **USD 1,000 per container** on any vessel that transits the Strait of Hormuz, on top of an emergency freight rate of **USD 1,800 per 20ft dry, USD 3,000 per 40ft dry and USD 3,800 per reefer**. Houthi strikes on **Yanbu on 24 September and 1 October** caused intermittent loading disruption at a port that carries a large share of Saudi oil exports.
+
+Israel is a different problem. The ocean leg is intact and Ashdod and Haifa remain the cleanest ports on the network, with waiting under 48 hours, so capacity is not the constraint. What moves landed cost is the war risk premium, which can be reimposed without a week of notice, and Fujairah tightness, which feeds straight into the bunker cost of any Gulf rotation. Air freight has moved the other way, with China to North Europe down **18 percent to USD 4.30 per kilogram** on easing e-commerce volumes while China to the United States held near **USD 6.50**, so a shipper converting ocean to air into the Eastern Mediterranean is paying for speed in a market that has not yet repriced.
+
+## What Shippers Should Do
+
+- **Ask for bunker as a separate line.** A quote that folds fuel into an all-in rate hides the only cost that rose this month. Request the BAF basis, the reference port and the review date in writing.
+- **Check which port the bunker clause references.** Singapore, Zhoushan and Fujairah sit **USD 30 to 40 apart on VLSFO and USD 462 apart on gas oil**. The clause should name the hub, not the region.
+- **Do not assume a scrubber still pays.** At a **USD 36 to 42** spread in Singapore the payback has moved. If a carrier justifies a discount with scrubber economics, ask for the current spread.
+- **Split the rate strategy by trade.** The trans-Pacific has **USD 2,000 to 3,000** filed for 1 November. Asia to Europe is correcting. Book the first early and negotiate the second late.
+- **Treat schedule reliability as a cost.** Global reliability fell for a fourth consecutive month in September, and the average delay on Asia-linked services rose **0.8 days to 6.9 days**. A cheap slot on a late service is not cheap.
+- **Pre-clear Bangladesh before the box moves.** Chittagong port workers are protesting the New Mooring concession while customs still holds coarse cotton yarn. Confirm HS code and bond eligibility at booking rather than at arrival.
+
+Spider Logistics moves cargo from South China to Chittagong, Ashdod, Haifa, Durban, Mombasa, Jebel Ali and the wider Middle East and Africa region by sea and air, with customs clearance and door to door delivery handled in house. If you want a quote that separates ocean freight from bunker, terminal and destination charges, our team can build it lane by lane.`,
+  },
+  {
     slug: 'suez-capacity-doubled-fak-round-oct-19-2026',
     title: 'Suez Capacity Doubled in Six Weeks, Yet the 19 October Rate Round Still Lands',
     excerpt: 'Xeneta reports that weekly capacity through the Bab el-Mandeb strait doubled from 224,000 to 448,000 TEU between 27 August and 5 October, while Clarksons puts Suez container capacity at 753,000 TEU per week, 52 percent of the 2023 average, with 36 percent of eligible capacity now using the canal instead of the Cape. The Drewry World Container Index still rose 3 percent to USD 4,485 per 40ft on 15 October and a new FAK round of USD 4,200 to 4,700 per 40ft takes effect on 19 October, with Hapag-Lloyd, CMA CGM and MSC publishing different levels. Carriers are blanking 58,200 TEU on the Far East to US West Coast trade, Chittagong is holding yarn consignments over a bond dispute, Durban Gateway Terminal still has 11 vessels at anchorage, and Ashdod waits two days.',
