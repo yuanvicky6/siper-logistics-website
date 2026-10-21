@@ -11,6 +11,97 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'khor-fakkan-nine-day-queue-oct-21-2026',
+    title: 'The Queue Moved to the Gateway: Nine Days at Khor Fakkan, Seventy Hours at Chittagong',
+    excerpt: 'Chinese load ports have cleared, with Shanghai at 2.14 days, Ningbo at 1.95 and Shekou at 1.15, while the waiting has moved to the destination gateways. Portcast puts the median vessel wait at 9.4 days in Khor Fakkan and 7.79 days in Fujairah, up 34 percent and 163 percent in a week, with about 217 ships at anchor and Hormuz running roughly 3.5 transits a day against a pre-crisis norm of 85. Chittagong now clears the anchorage in 0.14 days but holds vessels 70 hours at berth, Durban averages 7.33 days with the gateway terminal at 10 to 16 days, and C.H. Robinson estimates 12 percent of global container capacity is tied up by congestion, the highest in four years.',
+    date: 'October 21, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The congestion story inverted this month. Chinese load ports have cleared: in the week to 20 October the seven day average vessel wait was **2.14 days at Shanghai**, **1.95 at Ningbo** and **1.15 at Shekou**, according to Kuehne+Nagel port updates. What replaced that queue sits at the other end of the voyage. On the Gulf of Oman, **Khor Fakkan waited a median of 9.4 days** and **Fujairah 7.79 days** in the week to 17 October, up **34 percent** and **163 percent** respectively, with roughly **217 vessels at anchor** across the two anchorages on 18 October, the highest count of the reporting period. Durban averaged **7.33 days** and Beira reached **13**. Meanwhile Chittagong, the worst queue on the network through September, now clears the anchorage in **0.14 days** and holds vessels at berth for **70 hours**. Freight has stopped being an origin problem. It is a gateway problem, and gateway problems are priced in days rather than dollars.
+
+## Market Snapshot
+
+| Benchmark | Latest reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 15 Oct | USD 4,485 per 40ft | +3 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,522 per 40ft | +6 percent | Drewry |
+| Shanghai to Genoa | USD 3,945 per 40ft | +7 percent | Drewry |
+| Shanghai to Los Angeles | USD 7,884 per 40ft | +3 percent | Drewry |
+| Shanghai to New York | USD 10,075 per 40ft | -1 percent | Drewry |
+| Asia to Europe FAK filed for 19 Oct | USD 4,500 to 4,800 per 40ft | landing uncertain | Drewry |
+| Blank sailings, weeks 43 to 47 | 44 of 713 voyages | 6 percent | Drewry |
+| Global container liftings, August | 17.46 million TEU | +3.7 percent year on year | Container Trades Statistics |
+| Fleet capacity tied up by congestion | about 12 percent | four year high | C.H. Robinson |
+| Khor Fakkan median wait | 9.4 days | +34 percent | Portcast |
+| Fujairah median wait | 7.79 days | +163 percent | Portcast |
+| Chittagong median wait | 0.14 days | -40 percent | Portcast |
+
+## A Record Cargo Month
+
+Container Trades Statistics reports that global liftings reached **17.46 million TEU in August**, the highest monthly volume on record, up **3.7 percent year on year**, **7.2 percent** on August 2024 and **12.9 percent** on August 2023. Year to date growth holds above **5 percent**. The same dataset puts the global freight rate index at **117 points**, **2 points** above July, **44 percent** above a year earlier and roughly **50 percent** higher since January, the strongest reading since July 2024. Far East exports are up **8 percent** year to date, an addition of **6.3 million TEU**.
+
+The two regions moving the other way are the Indian subcontinent and the Middle East, where imports are down **5 percent** and exports down **10 percent**, about **1 million TEU** lost. Demand is therefore not the reason cargo into the Gulf is expensive. Routing is.
+
+## Twelve Percent of the Fleet Is Parked
+
+C.H. Robinson puts about **12 percent of global container ship capacity** as tied up by port congestion in its October Edge report, the highest share in four years. That is the number that reconciles record cargo with restricted effective capacity. A fleet that looks adequate on paper is not adequate when an eighth of it is waiting at anchor.
+
+Drewry counted **44 blank sailings across weeks 43 to 47**, equal to **6 percent** of **713 scheduled voyages**, with **94 percent** of services expected to operate. The split is **44 percent Asia to Europe and the Mediterranean, 36 percent trans-Pacific eastbound and 20 percent transatlantic**. On the Asia to Europe lane blank sailings fall to two next week from six. Fewer blanks plus returning Suez transits is exactly the combination that makes a **USD 4,500 to 4,800 per 40ft** FAK round hard to hold, which is why Drewry expects flat rather than rising rates in the near term.
+
+## Where the Waiting Actually Is
+
+| Gateway | Median vessel wait | Direction | Operational note |
+|---|---|---|---|
+| Khor Fakkan, UAE | 9.4 days | up from 7.0 | about 217 ships at anchor with Fujairah |
+| Fujairah, UAE | 7.79 days | up from 2.96 | holding shifting to the Gulf of Oman side |
+| Beira, Mozambique | 13.0 days | critical | terminal recovery ongoing, weather risk |
+| Conakry, Guinea | 12.2 days | severe | one vessel per line, first come first served |
+| Durban, South Africa | 7.33 days | severe | Pier 1 up to 14 days, DGT up to 25 days |
+| Pointe Noire, Congo | 4.89 days | yard at 95 percent | fixed window and FIFO berthing suspended |
+| Tema, Ghana | 5.87 days | persistent | high yard use, trucking short |
+| Chittagong, Bangladesh | 0.14 to 1.07 days | improving | 70 hours at berth, yard 75 to 80 percent |
+| Haifa, Israel | 0.08 days | low | clean berth, war risk is the variable |
+| Shanghai, China | 2.14 days | improving | post-holiday normalisation |
+
+Sources: Portcast weekly snapshot 11 to 17 October, Kuehne+Nagel port updates 14 to 20 October, Zencargo market update 20 October.
+
+Chinese load ports are back to normal and the eastern Mediterranean is empty. Everything between them, and everything south of the Sahara, is not.
+
+## Khor Fakkan Became the Chokepoint
+
+The UAE east coast is now the most expensive place in the network to wait. JMIC Update 106 counted about **217 vessels at anchor** in the Fujairah and Khor Fakkan area as at 18 October, **21 percent higher over 72 hours**, with Fujairah alone rising from **126 to 159 hulls**. Khor Fakkan handles about **1.8 port calls a day** against **1.0** before the crisis, and weekly throughput has climbed from **8,000 TEU to 65,000 TEU**. Jebel Ali is running at about **18 percent of normal port calls**.
+
+The cause is structural. Hormuz is moving roughly **3.5 transits a day** against a pre-crisis norm of **85**, and only **ten container ship transits** were recorded in the whole of September. Every box bound for Dubai, Dammam or Kuwait lands outside the strait and moves by truck. The **Gemini AGX and FM1 loops** restarted on **17 October** with Khor Fakkan replacing Jebel Ali, which adds scheduled capacity and adds to the same two anchorages.
+
+Security has not improved in parallel. JMIC raised the Arabian Gulf from moderate to substantial after two confirmed tanker attacks off Al Jubail on **16 October**, and the **18 October** attack on a tug **20 nautical miles northeast of Khor Fakkan** shows the Gulf of Oman side is exposed too. The **2,824 TEU GFS Pride** sank on **14 October**. A nine day wait at anchor, AIS on and stationary, is a commercial delay and a security exposure at the same time.
+
+## Chittagong Fixed the Queue and Not the Stay
+
+Bangladesh is the counter example. Portcast puts the median wait at **0.14 days**, down **40 percent**, and Zencargo reports **1.07 days** with space and equipment stable. Yard density sits between **75 and 80 percent**, above the 60 percent comfort threshold but no longer the 90 percent that forces a stop order. Most telling, FAK rates out of Chittagong have **trended slightly down** across most major carriers, the only origin in the region where that is true.
+
+The remaining constraint is time at berth. Twenty one of **31 vessels** arriving in the seven days to 20 October stayed **more than 48 hours**, and the median stay was **70 hours**. Productivity is improving: on **18 October** RSGT Bangladesh handled the **MV AMOUREUX** at **122 TEU per hour**, or **72 moves per hour**, moving **2,571 TEU in 21 hours** and beating the September record of **82 TEU per hour**. Ship to shore cranes were commissioned at Patenga in **August**.
+
+The gap between a fast berth and a slow release is where Bangladesh shipments lose days. Port workers remain on hunger strike over the **15 year DP World concession** signed on **8 October** for New Mooring Terminal, which handles more than **40 percent** of port container volume, and clearance on cotton yarn and bonded cargo is still unresolved. Book the vessel on the port data and the delivery on the clearance data.
+
+## Africa Is the Other Half of the Problem
+
+Durban averages **7.33 days** and both terminals are severe: **Pier 1 at 6 to 11 days** with isolated cases at **14**, and **Durban Gateway Terminal at 10 to 16 days** with some vessels at **25**. Kuehne+Nagel reports that some carriers are **omitting Durban** and rerouting, which pushes volume onto Port Elizabeth, where NCT already reports **2 to 3 days** while PECT stays fluid at **0 to 1 day**. Cape Town is the clean port at **1 day** and suits time sensitive Western Cape cargo.
+
+North and west of South Africa the picture is worse. **Beira at 13 days** remains critical. **Conakry at 12.2 days** allocates berths first come first served with one vessel per line. **Pointe Noire at 4.89 days** has yard occupancy near **95 percent** and has suspended fixed window and FIFO berthing, prioritising the largest discharges. **Dakar** is at **2.2 days** with yard above **82 percent**. Each of these adds days that are invisible on a port to port quote.
+
+## What Shippers Should Do
+
+- **Quote the gateway, not the country.** Khor Fakkan, Fujairah, Jebel Ali and Sohar carry different waits, different land bridge costs and different surcharges. A quote that says UAE has not answered the question.
+- **Budget the wait as a line item.** Nine days at Khor Fakkan is not demurrage, it is inventory. For Gulf cargo add **10 to 14 days** to door delivery and tell the buyer.
+- **Split Bangladesh bookings.** The anchorage is clean and the berth is improving, so ocean capacity is the easy part. Clear HS codes, bond eligibility and yarn documents before the container moves.
+- **Use Haifa while it is clean.** A **0.08 day** median is the best berth in the network. The variable is war risk and GNSS interference, not terminal capacity.
+- **Route South Africa by tolerance.** Durban for cost, Cape Town for time, and expect Port Elizabeth to absorb diverted volume.
+- **Put guardrails on contract rates.** Carriers are converting increases into surcharges rather than base rates, so cap the surcharge stack and fix the review date in writing.
+
+Spider Logistics moves cargo from South China to Chittagong, Ashdod, Haifa, Durban, Mombasa, Jebel Ali and the wider Middle East and Africa region by sea and air, with customs clearance and door to door delivery handled in house. If you need a routing that shows the real waiting time at the destination gateway rather than the port to port transit, our team can build it lane by lane.`,
+  },
+  {
     slug: 'two-gri-rounds-fuel-bill-oct-20-2026',
     title: 'Two GRI Rounds and a 108 Dollar Barrel: The Freight Rate Is Only Half the Invoice',
     excerpt: 'Seven carriers filed general rate increases of USD 2,000 to 3,000 per 40ft on the trans-Pacific effective 15 October and again on 1 November, while the Freightos Baltic Index showed Asia to North Europe down 15 percent to USD 3,700 per FEU and Asia to the Mediterranean down 7 percent to USD 3,900. In the same week Brent closed at USD 108.51 per barrel, its highest since May, Singapore very low sulphur fuel oil was assessed near USD 930 per tonne and high sulphur fuel oil reached USD 873, leaving a spread of about 30 dollars and gutting the scrubber case in the largest Asian hub. Roughly 200,000 TEU of new capacity was delivered in September with no scrapping, the orderbook sits at 45 percent of the fleet, and Drewry counted only 34 blank sailings across weeks 42 to 46.',
