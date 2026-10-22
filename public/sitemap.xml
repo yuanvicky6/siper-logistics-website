@@ -7,7 +7,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://spiderlogisticsinc.cn</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -44,9 +44,13 @@
   <!-- Blog Index -->
   <url>
     <loc>https://spiderlogisticsinc.cn/blog</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spiderlogisticsinc.cn/blog/flat-scfi-all-in-costs-oct-22-2026</loc>
+    <lastmod>2026-10-22</lastmod>
   </url>
 
   <!-- Blog Post: October 21, 2026 -->

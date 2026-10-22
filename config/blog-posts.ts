@@ -11,6 +11,74 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'flat-scfi-all-in-costs-oct-22-2026',
+    title: 'The Flat Index Test: SCFI Holds at 3,680 While the All-In Bill Keeps Climbing',
+    excerpt: 'The SCFI closed flat at 3,679.6 points on 21 October, still about 181 percent above last year, while Drewry counts 34 blank sailings across weeks 42 to 46 and transpacific capacity cuts of 12 to 15 percent. A new Drewry sourced board for China to South Africa shows USD 900 spreads on a 40HQ between origin ports, Israel quotations hold steady on Cape routings, and Chittagong clears the anchorage in 0.14 days while the yard remains the binding constraint.',
+    date: 'October 22, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The headline indices have stopped moving, and that stillness is the story of the week. The Shanghai Containerized Freight Index closed at **3,679.6 points on 21 October**, essentially flat week on week at **+0.4 percent**, yet still roughly **181 percent above** the level of a year ago, according to Shanghai Shipping Exchange data tracked by Trading Economics and ViewShipping. The Drewry World Container Index, last published on 15 October at **USD 4,485 per 40ft** after a **3 percent** rise, has not moved enough since to change the picture. Flat does not mean cheap, and it does not mean quiet. Under the stable surface, carriers have scheduled **34 blank sailings** across the East West trades for the next five weeks, Chinese gateways to South Africa are quoting spreads of more than **USD 1,000** on the same equipment from different origin ports, and the Israel lane is holding steady quotations on a routing that still rounds the Cape of Good Hope.
+
+## Market Snapshot
+
+| Benchmark | Latest reading | Change | Source |
+|---|---|---|---|
+| SCFI composite, 21 Oct | 3,679.6 points | +0.4 percent | Shanghai Shipping Exchange |
+| SCFI, year on year | about +181 percent | elevated | Trading Economics |
+| Drewry WCI composite, 15 Oct | USD 4,485 per 40ft | +3 percent | Drewry |
+| Shanghai to Rotterdam, 15 Oct | USD 3,522 per 40ft | +6 percent | Drewry |
+| Shanghai to Genoa, 15 Oct | USD 3,945 per 40ft | +7 percent | Drewry |
+| Blank sailings, weeks 42 to 46 | 34 voyages | 5 percent cancellation rate | Drewry |
+| Ningbo to Ashdod 40HQ, ONE | USD 4,300 | valid to 27 Oct | carrier quotation |
+| Ningbo to Haifa 40HQ, EMC | USD 4,668 | valid to 24 Oct | carrier quotation |
+| Chittagong median vessel wait, 11 to 17 Oct | 0.14 days | low congestion | Portcast |
+
+## A Flat Index Is Not a Flat Bill
+
+A composite that refuses to fall is doing exactly what carriers intended. The Drewry Cancelled Sailings Tracker counted **34 blank sailings** between weeks 42 and 46, a **5 percent** cancellation rate across the major East West loops, and Business Unity South Africa repeated the same figure in its 21 October logistics update, alongside a warning that security risk around Hormuz and congestion in parts of Asia remain live. Capacity action of this kind explains why the spot indices can hold a plateau while demand itself cools into the fourth quarter. United States bound services are being managed even harder: J.M. Rodgers October market update reports carriers announcing capacity reductions of roughly **12 to 15 percent** on Asia to United States lanes for October and November, concentrated on East Coast loops.
+
+The plateau also hides divergence. Asia to Europe pricing keeps softening where Suez capacity has returned, while transpacific rates stay firm on blanked space. For a shipper the composite number is close to useless this week. What matters is the origin port, the destination gateway and the validity date on the quotation.
+
+## China to South Africa: The Full Board
+
+The clearest new data this week is a Drewry sourced rate table for China to South Africa, published in the Exporters Western Cape logistics update of 21 October. It shows how widely the same voyage can be priced depending on where the box is loaded.
+
+| Origin port | Durban 20GP | Durban 40GP / 40HQ | Cape Town 20GP | Cape Town 40GP / 40HQ |
+|---|---|---|---|---|
+| Shekou / Nansha | USD 3,550 | USD 5,050 | USD 3,650 | USD 5,250 |
+| Ningbo | USD 4,250 | USD 5,350 | USD 4,850 | USD 6,150 |
+| Shanghai | USD 4,350 | USD 5,750 | USD 4,450 | USD 5,250 |
+| Qingdao | USD 3,950 | USD 5,050 | USD 4,150 | USD 5,250 |
+| Xingang / Tianjin | USD 3,550 | USD 5,050 | USD 3,650 | USD 5,250 |
+
+Two reads stand out. First, **Ningbo to Cape Town at USD 6,150 for a 40ft high cube** against **USD 5,250 from Shekou** is a spread of USD 900 on identical equipment, and Shanghai to Durban at **USD 5,750** sits USD 700 above Xingang. Re-gating cargo to a southern Chinese load port can pay for inland haulage several times over. Second, the table is a benchmark average, not a quotation; Drewry itself flags that a global index should not be read as a South Africa shipment price, and the publication repeats the standing advice to demand a written estimate that names the carrier, route, free time, validity date and every surcharge.
+
+Operationally the destination is improving but not fixed. The same update notes that recovery at the Durban Gateway Terminal is moving forward while reliability still needs confirmation at shipment level, and road freight through the Lebombo border post is queuing about **5.5 hours** a day at higher vehicle volumes. Landside time is now where South African delivery risk lives.
+
+## Israel: Steady Quotes on a Cape Routing
+
+The Israel lane keeps doing what it has done for a month: quoting steady numbers on a longer sea route. Current forwarder indications updated 19 October list **ONE from Ningbo to Ashdod at USD 2,780 per 20GP and USD 4,300 per 40GP or 40HQ**, on roughly **50 days** of direct transit and valid to 27 October. **EMC from Ningbo to Haifa stands at USD 3,584 per 20GP and USD 4,668 per 40HQ**, about **44 days**, valid to 24 October. Consolidated cargo prices at **USD 40 per cubic metre** for light freight into Ashdod and **USD 81** into Haifa, with transits of 45 to 48 days. These are forwarder indicative products rather than an index, and the validity dates matter more than the levels: they describe a lane priced for the Cape of Good Hope routing that most services still favour, which adds 10 to 14 days against a Suez transit. Eilat remains closed to Asia services, so every sea box lands on the Mediterranean coast, and the practical planning question is berth congestion at Ashdod and Haifa rather than a moving rate line.
+
+## Bangladesh: Quiet Water Over a Tight Yard
+
+Chittagong continues to look calm from the anchorage and complicated on land. Portcast data for the week of 11 to 17 October puts the median vessel waiting time at **0.14 days**, a low congestion category with no long tail, which means ships are berthing promptly once they arrive. The constraint has not disappeared. Vessels that berth stay long, yard density has been running well above the 60 percent working threshold in recent weekly reporting, and the contested fifteen year lease of the New Mooring Container Terminal to DP World still hangs over labor relations at a terminal that handles a large share of national volume. For exporters the commercial signal is simple: ocean FAK levels out of Chittagong have been described as stable with space available, which makes the current weeks a window for November bookings rather than a trend, provided yard slots, free time and port stay limits are confirmed in writing before the booking is placed.
+
+## Capacity Discipline Holds the Floor
+
+Three forces are now working in the same direction, and none of them is demand. Carriers are blanking **34 sailings** over five weeks rather than defending utilization. Capacity reductions of **12 to 15 percent** are announced on transpacific services through November. And the war risk premium on anything adjacent to the Gulf has not gone away, with the Hormuz security situation still flagged in weekly business risk updates on 21 October. That combination is why the SCFI can sit flat at 3,679.6 and the WCI at 4,485 without either index needing to fall. The floor under the market is scheduled absence, and scheduled absence is visible in advance.
+
+## What Shippers Should Do
+
+- **Read validity dates before rate levels.** The Israel quotations above expire on 24 and 27 October; the next FAK round, not the index, will set the following number.
+- **Shop the origin port, not just the carrier.** The China to South Africa board shows USD 700 to 900 swings on a 40ft high cube between northern and southern gateways. Move the cargo to the port, not the rate.
+- **Treat the flat composite as a floor, not a ceiling.** With 34 blank sailings and double digit capacity cuts on transpacific lanes, the risk in November is space and rollover, not price collapse.
+- **For Bangladesh, buy the window.** Stable FAK and prompt berthing at Chittagong will not survive a yard accident. Confirm equipment and free time in writing and book November space now.
+- **Price the whole journey.** War risk surcharges, Cape routings, terminal recovery at Durban and border queues at Lebombo all sit outside the index. Insist on a written estimate that lists carrier, routing, free time, surcharge basis and validity before committing.
+
+Flat indices are not a pause in the story; they are the result of discipline elsewhere. The market that stops falling on paper is the one that will cost more in practice the moment space tightens again.`
+  },
+  {
     slug: 'khor-fakkan-nine-day-queue-oct-21-2026',
     title: 'The Queue Moved to the Gateway: Nine Days at Khor Fakkan, Seventy Hours at Chittagong',
     excerpt: 'Chinese load ports have cleared, with Shanghai at 2.14 days, Ningbo at 1.95 and Shekou at 1.15, while the waiting has moved to the destination gateways. Portcast puts the median vessel wait at 9.4 days in Khor Fakkan and 7.79 days in Fujairah, up 34 percent and 163 percent in a week, with about 217 ships at anchor and Hormuz running roughly 3.5 transits a day against a pre-crisis norm of 85. Chittagong now clears the anchorage in 0.14 days but holds vessels 70 hours at berth, Durban averages 7.33 days with the gateway terminal at 10 to 16 days, and C.H. Robinson estimates 12 percent of global container capacity is tied up by congestion, the highest in four years.',
