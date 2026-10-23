@@ -11,6 +11,101 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'wci-4585-blank-sailing-rotation-oct-23-2026',
+    title: 'WCI at 4,585: Shanghai Clears in 38 Hours While Ashdod Starts to Queue',
+    excerpt: 'The Drewry World Container Index rose 2 percent to USD 4,585 per 40ft on 22 October, the highest in 15 weeks, but the driver changed: blank sailings fell from six to two on the transpacific and rose from two to eight on Asia to Europe while Shanghai vessel waiting time dropped from 97 hours to 38. Ashdod turned congested with 68 percent of arrivals over 48 hours, Chittagong holds a 70 hour median stay above an empty anchorage, and war risk insurance on Gulf routings is quoted at up to 10 percent of cargo value.',
+    date: 'October 23, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The Drewry World Container Index rose **2 percent to USD 4,585 per 40ft container on 22 October**, the second consecutive weekly increase and the highest reading in **15 weeks**, according to the assessment published by Drewry Supply Chain Advisors. The composite now sits roughly **166 percent above** the same week last year. What separates this week from the last four is not the direction of the index but the mechanism behind it. The rate was pushed up by capacity decisions rather than by port delay: carriers have cut blank sailings on the transpacific from **six this week to two next week**, while raising them on Asia to Europe from **two to eight**, and vessel waiting time at Shanghai has fallen from **97 hours in week 38 to 38 hours in week 42**. The bottleneck at origin has cleared. The premium has moved to the booking desk and to the destination gate, where Ashdod is rated congested and Chittagong holds a 70 hour median stay above an anchorage that is effectively empty.
+
+## Market Snapshot
+
+| Benchmark | Latest reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 22 Oct | USD 4,585 per 40ft | +2 percent | Drewry |
+| WCI, year on year | about +166 percent | highest in 15 weeks | Drewry |
+| Shanghai to Rotterdam, 22 Oct | USD 3,632 per 40ft | +3 percent | Drewry |
+| Shanghai to Genoa, 22 Oct | USD 4,152 per 40ft | +5 percent | Drewry |
+| Shanghai to Los Angeles, 22 Oct | USD 8,007 per 40ft | +2 percent | Drewry |
+| Shanghai to New York, 22 Oct | USD 10,166 per 40ft | +1 percent | Drewry |
+| Rotterdam to Shanghai, 22 Oct | USD 646 per 40ft | +1 percent | Drewry |
+| Los Angeles to Shanghai, 22 Oct | USD 847 per 40ft | +2 percent | Drewry |
+| Transpacific blank sailings, next week | 2 voyages | down from 6 | Drewry Capacity Insight |
+| Asia to Europe blank sailings, next week | 8 voyages | up from 2 | Drewry Capacity Insight |
+| Shanghai vessel waiting time, week 38 to 42 | 97 to 38 hours | improving | Drewry |
+| Boxships entering the Gulf, week 42 | 2 vessels | down from 5 | Drewry |
+| Suez Canal transits, week 41 to 42 | 54 to 55 | slightly higher | Drewry |
+| Ashdod median vessel stay, 23 Oct | 59 hours | 68 percent over 48 hours | port data |
+| Chittagong median vessel stay, 20 Oct | 70 hours | 68 percent over 48 hours | port data |
+
+## The Blank Sailings Changed Sides
+
+Last week the discipline sat on the Pacific. This week it moved. Drewry reports only **two blank sailings announced for next week on the transpacific, down from six this week**, which points to more effective capacity on that corridor, while **eight blank sailings are scheduled on Asia to Europe against two this week**, a much tighter supply position. The pricing result is exactly what the capacity numbers imply. Rates from Shanghai to Rotterdam added **3 percent to USD 3,632** and Shanghai to Genoa added **5 percent to USD 4,152**, the strongest move on the board, while Shanghai to Los Angeles managed **2 percent to USD 8,007** and Shanghai to New York **1 percent to USD 10,166**.
+
+Two things follow for anyone booking out of China this month. First, the Asia to Europe leg is now the tighter of the two corridors, not the transpacific, which inverts the reflex to treat Europe as the soft lane. Second, the Atlantic backhauls are firming in a way that is easy to miss: Rotterdam to Shanghai at **USD 646** and Los Angeles to Shanghai at **USD 847** are both up, and Rotterdam to New York at **USD 3,181** and New York to Rotterdam at **USD 1,158** are both up **2 to 3 percent**. Firm backhauls are an equipment signal. When it costs more to bring an empty box home, the repositioning cost is being recovered somewhere, and it usually lands on the export quotation as an equipment imbalance or peak season line rather than as base freight.
+
+Drewry expects rates to remain stable on the transpacific next week and to rise slightly on Asia to Europe while capacity stays tight. That is a forecast of managed stability, not of a market clearing.
+
+## Shanghai at 38 Hours: The Origin Premium Is Gone
+
+The most consequential number this week is not a rate. Vessel waiting time at Shanghai has dropped from **97 hours in week 38 to 38 hours in week 42**, which is a return to normal berth behaviour at the largest container gateway in the world. The Shanghai Containerized Freight Index reflected the same easing, printing **3,679.58 points on 21 October**, up **0.4 percent** week on week, a second consecutive marginal gain rather than a breakout, according to Shanghai Shipping Exchange data.
+
+Put those two facts together and the logic of the current market becomes clear. Congestion at origin has been removed and the rate has not fallen. Jefferies, in a report covered on 22 October, put the wider move in perspective: global container freight rates have risen about **130 percent since February 2026**, from a range of **USD 2,000 to 2,500** to roughly **USD 4,000 to 4,500**. A market that holds its level after the physical constraint disappears is a market being held by capacity policy. For a shipper, that changes the correct response. Waiting for a port to clear will not bring the rate down, because the port has already cleared. The available levers are booking timing, the choice of load port, the contract structure and the validity date on the quotation, and on the Middle East and Israel corridors, the war risk line.
+
+## Destination Risk: Ashdod Flips, Chittagong Splits
+
+The risk has moved to the discharge end, and it is moving fast. Port data for Ashdod on 23 October counts **22 container vessels arriving in seven days, with 15 of them staying more than 48 hours, or 68 percent, a median stay of 59 hours, and a status of congested**. One day earlier the same source showed 17 arrivals, 8 over 48 hours at 47 percent, and a median of 43 hours. A gate can go from busy to congested inside 24 hours, which is precisely why a single destination port should never be the only option on an Israel quotation. Haifa is the natural alternative and the two gates do not move in step.
+
+Chittagong looks better than it is. Portcast measured a **median anchorage waiting time of 0.14 days for 11 to 17 October**, a low congestion reading, and the anchorage genuinely is clear. But port data for 20 October counts **31 container vessels in seven days, 21 of them over 48 hours at 68 percent, with a median stay of 70 hours and a status of congested**. Both readings are correct, and together they describe the same problem: the queue is no longer at anchor, it is at the berth and in the yard. Vessel waiting time is the wrong metric for Bangladesh. Yard dwell and berth productivity are the right ones, and 70 hours of median stay is where demurrage and detention exposure begins.
+
+There is a live disruption risk on top of the physical one. On 22 October, labour and civic groups threatened to halt activity at Chattogram Port, including the Kutubdia anchorage, if the government signs a foreign operator agreement for the New Mooring Container Terminal. Chattogram handles the overwhelming majority of Bangladesh seaborne trade, so a stoppage of even a few days would reset vessel schedules across the Bay of Bengal and strand export containers in the yard.
+
+## Bangladesh: The Release Risk Now Beats the Freight Risk
+
+For Bangladesh cargo, the binding constraint this month is documentation, not space. The National Board of Revenue withdrew the duty free bonded warehouse facility for imports of **10 to 30 count cotton yarn** in early September, suspended the decision on 13 September, then found that the withdrawal circular had not reached customs at port level, where officers kept demanding bank guarantees and consignments stayed held. A partial restoration on **8 October** allowed release without guarantees only for letters of credit opened before **7 September**, leaving later LCs still exposed to guarantee requirements. On **15 October** the BGMEA and BKMEA escalated the matter in a joint letter to the Prime Minister, warning that continued delay could push buyers to move orders elsewhere.
+
+The stakes are not marginal. Ready made garment exports grew **6.10 percent year on year to USD 10.58 billion** in the first quarter of fiscal 2026 to 2027, with knitwear, the segment most exposed to this dispute, up **6.88 percent to USD 5.63 billion**. Both the LC opening date and the HS heading now determine whether a container releases, which means a Bangladesh booking needs a documentary check before it needs a rate check. A shipper who confirms freight first and paperwork second is exposed to storage, not to the ocean line.
+
+## War Risk Is Back in the Invoice
+
+The Gulf premium is no longer a background assumption. UK maritime authorities recorded **12 attacks in or near the Strait of Hormuz last week**, the highest weekly total reported, and **only two containerships entered the Gulf in week 42, down from five the previous week**, per Drewry. Suez Canal transits edged up from **54 to 55**, which is stabilisation at a low level rather than a recovery. Brent crude traded above **USD 112** on 22 October, a Middle East to China supertanker voyage was reported at roughly **USD 1.4 million a day**, and war risk insurance was quoted at up to **10 percent of cargo value**. The IMF projects the Middle East, North Africa and Pakistan grouping to contract about **1.3 percent** in 2026 as war depresses energy output, shipping, tourism and trade.
+
+The forward view is where the interest sits. The chief executive of Kuehne and Nagel expects most major lines to return to the Suez Canal by late in the first quarter or early in the second quarter of 2027, and Maersk has already restored selected services. A broad Suez return would cut Asia to Europe transit times and release vessel capacity, which is the single most likely trigger for a genuine rate correction in this market. It would also pull the Cape surcharge out of Israel and Mediterranean quotations. Until then, the routing is a priced choice and should appear as a separate line on every estimate.
+
+## The Surcharge Stack on a Cape Routed Box
+
+Base freight is only the first line. For a China origin box moving to Israel or the East Mediterranean on a Cape routing, the current build up looks like this, drawn from market commentary published on 17 October and from live port rate boards.
+
+| Cost component | Indication | Basis | Source |
+|---|---|---|---|
+| FAK uplift on Far East to Mediterranean since the diversion | 60 to 110 percent | per 20GP | market commentary, 17 Oct |
+| Red Sea contingency surcharge | USD 200 to 400 | per 20GP, Suez routed | market commentary, 17 Oct |
+| Cape of Good Hope charge | USD 150 to 300 | per 20GP | market commentary, 17 Oct |
+| Destination congestion surcharge at Haifa | USD 50 to 100 | per 20GP | market commentary, 17 Oct |
+| China to Haifa transit, Suez routing | 21 to 25 days | port to port | market commentary, 17 Oct |
+| China to Haifa transit, Cape routing | 38 to 45 days | port to port | market commentary, 17 Oct |
+| Ashdod 20GP from Piraeus | USD 3,600 | relay leg | port rate board, 23 Oct |
+| Ashdod 20GP from Thessaloniki | USD 3,850 | relay leg | port rate board, 23 Oct |
+| Ashdod 20GP from Venice | USD 3,000 | relay leg | port rate board, 23 Oct |
+| Ashdod 20GP from Beirut | USD 3,700 | relay leg | port rate board, 23 Oct |
+
+The relay leg matters because most China to Israel volume now reaches the Eastern Mediterranean through a hub and then feeds into Ashdod or Haifa. A regional leg priced between **USD 3,000 and USD 3,850 per 20GP** is a real cost, not a rounding error, and it sits outside the ocean rate that a shipper sees on a headline index. The transit gap is the other number to internalise: **21 to 25 days through Suez against 38 to 45 days around the Cape** is a difference of nearly three weeks, which is the space between a workable delivery window and a missed one.
+
+## What Shippers Should Do This Week
+
+- Book Asia to Europe earlier than habit suggests. Blank sailings on that corridor went from two to eight, while the transpacific went from six to two. The tight lane is no longer the Pacific.
+- Ask every quotation to state the routing and the surcharge separately. With 55 Suez transits a week and war risk insurance at up to 10 percent of cargo value, the routing is a decision, not a default.
+- For Bangladesh, check the letter of credit date and the HS heading before confirming freight. Release risk on 10 to 30 count cotton yarn is dated 7 September, not priced.
+- For Israel, request both Ashdod and Haifa. Ashdod moved from 47 to 68 percent of arrivals over 48 hours in a single day.
+- Treat Chittagong anchorage figures as irrelevant. The median stay is 70 hours with 68 percent of vessels over 48 hours, so plan free time and detention against the yard.
+- Model a contingency for a Chattogram stoppage. A threatened halt over the New Mooring Container Terminal would affect the majority of Bangladesh seaborne trade.
+- Fix rates with a named validity date. A 2 percent weekly drift on a USD 4,585 benchmark is roughly USD 90 a box, and that is before the surcharges.
+
+The headline for 22 October is a **2 percent rise to USD 4,585**, and it will be the number everyone quotes. The number that decides the invoice is 38 hours at Shanghai against 59 hours at Ashdod and 70 hours at Chittagong, because it tells you where the money is actually being spent. Rate levels are being managed by carriers with blank sailings. Transit and dwell are being managed by nobody, which is where a competent forwarder earns the margin. Spider Logistics books China origin cargo to Bangladesh, Israel, the Middle East and Africa on both Suez and Cape routings, quotes the surcharge stack in writing, and confirms the release requirements for the destination before the booking is made, so that the quotation a shipper signs is the invoice that arrives.`,
+  },
+  {
     slug: 'flat-scfi-all-in-costs-oct-22-2026',
     title: 'The Flat Index Test: SCFI Holds at 3,680 While the All-In Bill Keeps Climbing',
     excerpt: 'The SCFI closed flat at 3,679.6 points on 21 October, still about 181 percent above last year, while Drewry counts 34 blank sailings across weeks 42 to 46 and transpacific capacity cuts of 12 to 15 percent. A new Drewry sourced board for China to South Africa shows USD 900 spreads on a 40HQ between origin ports, Israel quotations hold steady on Cape routings, and Chittagong clears the anchorage in 0.14 days while the yard remains the binding constraint.',
