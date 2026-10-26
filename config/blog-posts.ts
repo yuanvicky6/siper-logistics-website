@@ -11,6 +11,92 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'champi-closes-east-china-suez-returns-oct-26-2026',
+    title: 'Champi Closes East China While Suez Capacity Keeps Coming Back',
+    excerpt: 'Super Typhoon Champi shut Ningbo from the evening of 23 October and Shanghai from the evening of 24 October, with Yangtze estuary pilotage suspended and more than 100 flights grounded, just as MSC and Zim moved their joint Asia to US East Coast service back through the Suez Canal and Washington proposed extending the Section 301 port fee pause to 9 January 2027. Asia to Europe spot rates rose 3 percent on eight blank sailings while Chittagong waiting time climbed to 2.24 days under a new feeder licensing squeeze.',
+    date: 'October 26, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Super Typhoon Champi gave the East China coast the kind of disruption that no index captures. The storm, a Category 5 equivalent with maximum sustained winds of **240 kilometres per hour** near the centre according to the Hong Kong Observatory on 21 October, forced Ningbo to suspend operations from the **evening of 23 October** and Shanghai from the **evening of 24 October**, each with a projected reopening around midday on 25 October. Pilotage on the Yangtze estuary was suspended ahead of the closures, which stops feeder movements into Shanghai even while terminals are technically open. More than **100 flights were grounded** and tens of thousands of people were evacuated across Shanghai, Fujian and Zhejiang on 24 October. At the same time the structural story moved in the opposite direction: MSC and Zim are returning their joint Asia to US East Coast service to the Suez Canal, the US trade representative proposed extending the pause on Section 301 port fees for Chinese linked vessels to **9 January 2027**, and Asia to Europe spot rates climbed on a fresh round of blank sailings. A market that was clearing at origin last week absorbed a weather shock this week, and the response of carriers to that shock will decide November quotations.
+
+## Market Snapshot
+
+| Benchmark | Latest reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 22 Oct | USD 4,585 per 40ft | +2 percent, 15 week high | Drewry |
+| Shanghai to Rotterdam, week to 23 Oct | USD 3,632 per 40ft | +3 percent | Drewry via China Logistics Daily |
+| Shanghai to Genoa, 22 Oct | USD 4,152 per 40ft | +5 percent | Drewry |
+| Shanghai to Los Angeles, 22 Oct | USD 8,007 per 40ft | +2 percent | Drewry |
+| Shanghai to New York, 22 Oct | USD 10,166 per 40ft | +1 percent | Drewry |
+| Asia to Europe blank sailings, next week | 8 voyages | up from 2 | Drewry Capacity Insight |
+| Transpacific blank sailings, next week | 2 voyages | down from 6 | Drewry Capacity Insight |
+| Champi maximum sustained winds, 21 Oct | 240 km/h | Category 5 equivalent | Hong Kong Observatory |
+| Ningbo port closure | 23 Oct evening to 25 Oct midday | weather suspension | carrier advisories |
+| Shanghai port closure | 24 Oct evening to 25 Oct midday | about 18 hours | carrier advisories |
+| Flights grounded, 24 Oct | more than 100 | Shanghai, Fujian, Zhejiang | China Logistics Daily |
+| Pre storm delay at Shanghai and Ningbo | about 4 days | before Champi | market participants via World Ports |
+| Chittagong 7 day average waiting, 24 Oct | 2.24 days | several vessels at anchor | Kuehne + Nagel seaexplorer |
+
+## Champi: An Eighteen Hour Closure That Is Not Eighteen Hours
+
+The published numbers undersell the disruption. Shanghai announced a window of roughly **18 hours**, from the evening of 24 October to around midday on 25 October, and Ningbo closed about a day earlier. But a typhoon closure has two layers that recover on different clocks. The gate closure is an administrative decision and can be reversed in an hour. Pilotage is a physical constraint: pilots transfer by launch, so services stop before sea conditions peak and resume only after they ease, and the pilot station then has to reset boarding points and work through the fleet of anchored vessels that accumulated during the closure. The Yangtze estuary is a single throat for Shanghai feeder traffic, one pilot station, one boarding area, one set of tidal windows, and feeder operators report that movements stalled from the morning of 23 October, well before the headline closure began.
+
+The arithmetic that matters to a shipper is rotation time, not closure time. A berth day lost on 24 October on an Asia to Europe loop does not reappear on 26 October. The vessel loses its slot, either waits and pushes the whole rotation back by two or three port calls, or omits the call and leaves containers on the quay, and the missed departure does not come back until the next full round trip, five to seven weeks later. Feeder operators are hit twice, unable to deliver boxes to mother vessels and unable to receive discharge, so cargo stacks up at origin terminals with the demurrage clock running. Conditions at the two ports were already difficult before the storm: market participants quoted average delays of about **four days** at Shanghai and Ningbo, and a Southeast Asian shipper told Platts, part of S and P Global Energy, that a clearer picture of the disruption should emerge by Monday 26 October, with port effects expected to last **one to two weeks**.
+
+The air side compounded the squeeze. Champi grounded more than 100 flights and forced evacuations across Shanghai, Fujian and Zhejiang on 24 October, Taiwan suspended work island wide on 23 October and observes the Retrocession Day holiday on 26 October, creating a four day operational bottleneck across the strait, and forwarders advised customers to expect air freight delays of **24 to 48 hours** through the region with backlogs to clear afterwards. Carriers have also been omitting port calls to manage congestion, which tightens space on the affected corridors. For shippers with cargo booked on East China loadings this week, the practical question is not whether the container is loaded but whether the vessel that loaded it still calls where it was supposed to.
+
+## MSC and Zim Put the USEC Loop Back Through Suez
+
+The Journal of Commerce reported on 23 October that MSC and Zim are resuming Suez transits on their joint Asia to US East Coast service, the America Seven Star Express or Z7S. The first vessel in the resumed arrangement is the **Santa Loretta, 9,178 TEU**, which departed Singapore on 18 October and is expected at New York and New Jersey on 18 November. A Suez routing against a Cape routing on that trade removes roughly ten days of transit and returns vessel days to the market, and it is the clearest sign yet that the return to the canal is becoming routine on head haul services rather than a set of one off voyages.
+
+The broader count agrees. SEKO Logistics reported that more than half of the services previously diverted around the Cape of Good Hope have shifted back to the Suez route, with the number of diverted ships falling to about **180, the lowest level since January 2024**, while global port congestion stands at about 3.36 million TEU, or 9.7 percent of the global fleet. Kuehne and Nagel has said it expects most major lines to be back on Suez routings by late in the first quarter or early in the second quarter of 2027. Every loop that comes back releases effective capacity, which is precisely why carriers are leaning harder on blank sailings to hold the rate line: Drewry counts **eight blank sailings on Asia to Europe for next week, up from two this week**, even as rates rose.
+
+## Washington Extends the Fee Pause
+
+On the policy side, the Office of the United States Trade Representative published a proposal on 23 October to extend the suspension of the Section 301 measures covering Chinese owned and operated vessels, Chinese built vessels, certain car carriers and port handling equipment. The suspension would run from 9 November to **9 January 2027**, a two month extension designed to keep trade negotiations moving. The measure was pre published for the Federal Register of 26 October, and the comment window runs to **30 October**. Two cautions apply. First, this is a proposal, not a final rule. Second, a pause is not a repeal: 9 January 2027 becomes the next decision point, and any shipper with China to US volume in the first quarter should treat that date as a planning marker, because a reactivated fee schedule of up to several million dollars per port call would reprice every transpacific service that touches a US gateway almost overnight.
+
+## Trade Lane Rates
+
+| Lane | Indication | Basis | Source |
+|---|---|---|---|
+| Shanghai to Rotterdam | USD 3,632 per 40ft | spot, +3 percent week to 23 Oct | Drewry via China Logistics Daily |
+| Shanghai to Genoa | USD 4,152 per 40ft | spot, +5 percent, 22 Oct | Drewry |
+| Shanghai to Los Angeles | USD 8,007 per 40ft | spot, +2 percent, 22 Oct | Drewry |
+| Shanghai to New York | USD 10,166 per 40ft | spot, +1 percent, 22 Oct | Drewry |
+| Ningbo to Ashdod | USD 5,050 per 40HQ | dual clearance door to door, valid to 30 Oct | forwarder board, 15 Oct |
+| Mombasa | USD 5,500 per 40HQ | COSCO ASHDOD 642W, 17 Oct | special allocation board |
+| Casablanca | USD 4,200 per 40HQ | MAERSK 639W, 18 Oct | special allocation board |
+| Algiers | USD 4,550 per 40HQ | BRISBANE EXPRESS 643W, 22 Oct | special allocation board |
+| Global air cargo average | USD 3.13 per kg | early October, stable | China Logistics Daily |
+
+The Israel number deserves its usual caveat. The Ningbo to Ashdod quotation is a forwarder dual clearance door to door product, not a port to port index, and it describes a lane that is stable rather than spiking. The African numbers are limited special allocations on named sailings, which means the printed price exists only while the space does. Both categories reward fast decisions more than negotiation.
+
+## Bangladesh: New Rules at the Feeder Gate
+
+Bangladesh added a documentation risk this month that has nothing to do with weather or rates. The Flag Vessel Protection Act, implemented earlier this year to favour vessels flying the Bangladesh flag, requires foreign flagged feeders to hold a certificate before loading or discharging containers at national ports. Since the beginning of October, **at least five vessels from two feeder operators have suffered service disruptions** because of delays in issuing waiver certificates, according to the Financial Express, and the Bangladesh Shipping Agents Association has acknowledged the problem and suggested the authorities may need to reconsider if foreign feeders keep getting caught. Large carriers including Maersk, MSC and CMA CGM are able to meet the requirement without much trouble, so the immediate impact falls on smaller regional feeders and on the consignees whose cargo rides on them.
+
+The physical picture has also shifted. The Kuehne + Nagel seaexplorer platform recorded a **7 day average vessel waiting time of 2.24 days at Chittagong as of 24 October**, with several vessels waiting to berth, against anchorage readings near zero days earlier in the month. Port activity itself continues: a second US government to government wheat consignment of **60,802 tonnes** arrived aboard the MV SPAR ARIES this week, part of a 440,000 tonne programme, and port sample testing began on arrival. The lesson for November bookings is procedural. Before confirming freight on a Bangladesh lane, confirm the feeder operator holds a valid certificate under the FVPA, and plan free time against a waiting number that has moved from 0.14 days to 2.24 days inside two weeks.
+
+## Israel and Africa: Steady Hands, Different Currents
+
+Israel remains the calm lane in the region, and the calm is being managed rather than inherited. Carrier advisories published in October confirm normal operations at **Haifa and Ashdod**, with inland road and rail links running, while **Ashkelon remains suspended** and vessels are being diverted north. Dangerous goods restrictions still apply at Ashdod, where Hapag-Lloyd is not accepting DG bookings, which makes Haifa the default gateway for restricted cargo, and Zim berth priority at Haifa remains a practical lever for keeping port stays short. The structure of the lane is unchanged: quote both gates, check the DG status before the rate, and expect the Suez or Cape routing decision to sit as its own line on the estimate.
+
+Africa is changing for investment reasons rather than risk ones. Sierra Leone and the Chinese group Zhejiang Xiehai have formed **SLOSCo, a joint venture to build a fleet of 50 vessels for the Asia to Africa trade**, a scale of commitment that signals how much China Africa volume growth is being underwritten before the tonnage exists. On the supply side, the container ship orderbook has reached **46.5 percent of the active fleet, a post 2009 high, with Chinese shipyards booking 88 percent of the ordered capacity**. Both numbers point the same direction: more vessels, more direct calls and eventually softer rates on Asia to Africa lanes, but in the meantime the special allocations quoted above are the pricing reality, and they expire with the sailing.
+
+## What Shippers Should Do This Week
+
+- Reconfirm every East China loading from 23 to 27 October. A closure of 18 hours translates into rotation slips of two to three port calls, and some vessels will omit Shanghai or Ningbo entirely.
+- Ask whether the booked vessel returned to pilotage or is working from the anchorage backlog. The reopening time is not the recovery time, and feeder connections through the Yangtze estuary lag the terminals by days.
+- Pad air freight lead times out of Shanghai, Taiwan and Zhejiang by 48 to 72 hours. More than 100 flights were grounded and backlogs will take the week to clear.
+- Book Asia to Europe earlier than usual. Blank sailings jumped from two to eight for next week and Drewry expects the tightness to push rates up slightly, not down.
+- For US bound cargo, note 9 January 2027 as the Section 301 fee decision date and fix Q1 quotations with that date inside the validity window.
+- For Bangladesh, verify the feeder certificate status under the Flag Vessel Protection Act before booking, and plan detention against a 2.24 day waiting average rather than the near zero readings from early October.
+- For Israel, quote Ashdod and Haifa together and check DG acceptance first, since Ashdod restrictions make Haifa the fallback for restricted cargo on short notice.
+
+The week ahead is a test of which force wins: the weather that just closed the two largest gateways in the world for a day and a half, or the capacity that keeps coming back through Suez and keeps the rate line honest. Carriers have answered with blank sailings, Washington has answered with a two month reprieve, and Champi has answered with an eighteen hour window that will cost the market five weeks of rotation integrity. Shippers who reconfirm loadings this week, hold validity dates on quotations and keep a second gateway option open on every lane will absorb that answer without paying for it twice. Spider Logistics books China origin cargo to Bangladesh, Israel, the Middle East and Africa, quotes the routing and surcharge stack in writing, and reconfirms vessel schedules through weather events before the customer has to ask.`,
+  },
+  {
     slug: 'wci-4585-blank-sailing-rotation-oct-23-2026',
     title: 'WCI at 4,585: Shanghai Clears in 38 Hours While Ashdod Starts to Queue',
     excerpt: 'The Drewry World Container Index rose 2 percent to USD 4,585 per 40ft on 22 October, the highest in 15 weeks, but the driver changed: blank sailings fell from six to two on the transpacific and rose from two to eight on Asia to Europe while Shanghai vessel waiting time dropped from 97 hours to 38. Ashdod turned congested with 68 percent of arrivals over 48 hours, Chittagong holds a 70 hour median stay above an empty anchorage, and war risk insurance on Gulf routings is quoted at up to 10 percent of cargo value.',
