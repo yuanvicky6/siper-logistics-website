@@ -11,6 +11,81 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'maersk-hapag-ae12-suez-return-oct-27-2026',
+    title: 'AE12 Back Through Suez on 27 October as East China Recovery Begins',
+    excerpt: 'Maersk and Hapag-Lloyd return the AE12 Asia to Mediterranean service to the Suez Canal from 27 October, as Alphaliner counts 63 percent of Far East to Europe capacity back on Red Sea routings and Suez container volume passes the halfway mark toward pre crisis levels. East China terminals recover after Typhoon Champi with Shanghai waiting times down to 38 hours, while record United States import demand of 2.55 million TEU in September keeps transpacific rates near USD 10,000 per 40ft and a landside fee strike slows Chattogram.',
+    date: 'October 27, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Week 43 closes with the two halves of the freight market moving at the same time in opposite directions. From 27 October, Maersk and Hapag-Lloyd return their AE12 Asia to Mediterranean service to the Suez Canal, the most visible step yet in a structural shift that Alphaliner now measures at **63 percent of Far East to Europe capacity** back on Red Sea routings. At the same moment, East China terminals are working through the backlog left by Typhoon Champi, on top of waiting times that had already improved sharply before the storm, and demand out of the United States keeps setting records. For shippers booking November cargo out of China, the week ahead decides whether the return to Suez releases capacity faster than blank sailings and storm recovery can remove it.
+
+## Market Snapshot
+
+| Benchmark | Latest reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 22 Oct | USD 4,585 per 40ft | +2 percent, 15 week high | Drewry |
+| Shanghai to Rotterdam, 22 Oct | USD 3,632 per 40ft | +3 percent | Drewry |
+| Shanghai to Genoa, 22 Oct | USD 4,152 per 40ft | +5 percent | Drewry |
+| Shanghai to Los Angeles, 22 Oct | USD 8,007 per 40ft | +2 percent | Drewry |
+| Shanghai to New York, 22 Oct | USD 10,166 per 40ft | +1 percent | Drewry |
+| Far East to Europe capacity on Suez services | 63 percent | mid Sept to mid Oct | Alphaliner |
+| Suez container transit volume, early Oct | 753,000 TEU per week | vs 1.46 million pre crisis | Maritime Executive |
+| Shanghai average waiting time, week 42 | 38 hours | down from 97 hours in week 38 | Drewry |
+| Ningbo average waiting time, week 42 | 34 hours | down from 40 hours | Drewry |
+| Global port congestion | 3.36 million TEU | 9.7 percent of global fleet | Linerlytica via Sourcing Journal |
+| US container imports, September | 2.55 million TEU | +10.3 percent YoY, September record | Descartes |
+
+## AE12 Returns: The Canal Shift Reaches the Big Loop
+
+Cory Brothers reported this month that Maersk and Hapag-Lloyd bring the AE12 Asia to Mediterranean service back through the canal **from 27 October**, with each transit subject to a security review under naval protection. The Premier Alliance has also set its date: the FE1 service is due to make its first Rotterdam call via Suez on **19 November**. With the Ocean Alliance and Premier Alliance loops already back, the return is no longer a set of trial voyages but a network redesign, and every service that converts saves roughly two weeks per round trip against the Cape of Good Hope.
+
+The scale of the shift is now quantified. Alphaliner counts **8.7 million TEU deployed on Far East to Europe trades between mid September and mid October, of which about 5.5 million TEU** sailed on services using the Suez route in at least one direction. The split is telling: **70 percent on Asia to Mediterranean services against 58 percent on Far East to North Europe**, which is exactly the pattern a Mediterranean forwarder would expect, since the eastern Mediterranean gains the most from the shorter routing. Total canal traffic has passed the halfway mark of the pre crisis level, at about **753,000 TEU per week in early October against 1.46 million in 2023**, and the forecasters converge on a full return: Linerlytica expects the first quarter of 2027, Drewry expects roughly **80 percent of capacity back on the Red Sea route by February**.
+
+Freightos research head Judah Levine has warned that the transition itself is a price event: vessels arriving seven to ten days early bunch at already congested European ports, which can push rates up short term, before more than **2 million TEU of released capacity**, about 9 percent of global container capacity, presses them down once schedules normalize. Carriers are managing that window with capacity control. Drewry counts **eight blank sailings announced on Asia to Europe for the coming week, up from two**, and expects the resulting tightness to lift rates slightly rather than let them fall.
+
+## East China After Champi: Recovery on Two Clocks
+
+The congestion data published just before the storm showed how far East China had recovered. Drewry put average waiting time at Shanghai at **97 hours in week 38, falling to 58 hours the following week and 38 hours in week 42**, while Ningbo eased from 40 to 34 hours, and Maersk told customers on Tuesday that conditions at Chinese ports had continued to improve from the disruption of earlier typhoons, which at one point had more than **4 million TEU** waiting to berth globally through early September. That global figure now stands at **3.36 million TEU, or 9.7 percent of the fleet**, according to Linerlytica.
+
+Under the averages, the terminal picture is uneven. SEKO Logistics week 43 data show Waigaoqiao berths at **1 to 2.5 days** waiting, Yangshan split between one grouping near **4 days** and others at **6 to 7 days**, and Ningbo terminals at **1.5 to 3 days** after single berth closures for quay crane upgrades. South China is a study in contrast: Yantian has removed all gate in restrictions with waits down to 0.5 to 2 days, while **Shekou yard density sits above 90 percent** and heavy discharge vessels are being deprioritized. The same report flags **Busan above 90 percent utilization at BNCT and Tokyo container yard density at 91 to 119 percent**, which matters for transshipment cargo connecting through Northeast Asia. Champi passed without a confirmed shutdown of container handling at the major gateways, but the backlogs it leaves behind will take the week to clear, and a market running this tight converts every weather event into a rotation slip measured in port calls, not hours.
+
+## Trade Lane Rates
+
+| Lane | Indication | Basis | Source |
+|---|---|---|---|
+| Shanghai to Rotterdam | USD 3,632 per 40ft | spot, +3 percent, 22 Oct | Drewry |
+| Shanghai to Genoa | USD 4,152 per 40ft | spot, +5 percent, 22 Oct | Drewry |
+| Shanghai to Los Angeles | USD 8,007 per 40ft | spot, +2 percent, 22 Oct | Drewry |
+| Shanghai to New York | USD 10,166 per 40ft | spot, +1 percent, 22 Oct | Drewry |
+| Shanghai to Jebel Ali | USD 8,662 per 40ft | spot, elevated risk premium | Drewry |
+| Global air cargo average | USD 3.13 per kg | early October, stable | China Logistics Daily |
+
+## Record US Demand Holds the Transpacific Floor
+
+The reason transpacific rates can sit at **USD 8,007 to Los Angeles and USD 10,166 to New York**, roughly **250 percent and 197 percent above the levels of 23 October 2025**, is demand. Descartes counts US container imports at about **2.55 million TEU in September, up 10.3 percent year on year and the highest September on record**, while the National Retail Federation puts the major port figure near 2.28 million TEU, up about 8.2 percent. Forwarders at the Canton Fair described an unusual pattern to Chinese media: the peak season started early, never really ended, and Ocean Alliance standard service rates that were near **USD 4,000 per FEU in March now trade close to USD 10,000**, at or above what premium expeditious products charged earlier in the year. Carriers are not adding capacity to chase it; transpacific blank sailings actually fell from six to two for the coming week. The trade policy backdrop helps: Washington has proposed extending the pause on Section 301 port fees for Chinese linked vessels to 9 January 2027, which removes one repricing risk from first quarter planning but sets a new decision date.
+
+## Bangladesh: A Landside Strike That Rates Cannot Fix
+
+While ocean rates into Bangladesh stay stable, the landside is the risk. The Chittagong Port Authority raised the heavy vehicle gate pass fee from **Tk 57.50 to Tk 230** per entry by circular dated 13 October, effective 15 October, and trailer owners responded by halting heavy vehicle entry to the port **from 18 October**. Local reporting at the height of the stoppage counted **8 containers released to importers in 24 hours against a normal 600 to 900**, and the Bangladesh Inland Container Depots Association warned that more than **2,000 export containers** move from private depots to the port each day, with delayed shipments risking cancellations. Vessel waiting data had already deteriorated before the fee dispute: Kuehne and Nagel seaexplorer put the **7 day average waiting time at Chittagong at 2.24 days as of 24 October**, up from readings near zero earlier in the month. Shippers with November cargo should assume that berth recovery and truck recovery run on separate schedules, build extra free time into delivery terms, and reconfirm gate in cut offs before releasing containers to depots.
+
+## Israel, the Gulf and Africa
+
+The Gulf remains the risk priced lane. Drewry counted only **two container ship entries into the Persian Gulf in week 42, down from five** the week before, while Suez transits edged from 54 to 55. Security advisories continue to list the strait area as high risk, which keeps the risk premium on Gulf quotations structural rather than cyclical. Israel by contrast stays steady: carrier advisories through October confirm normal operations at **Haifa and Ashdod**, with Ashkelon still suspended and dangerous goods restrictions at Ashdod pushing restricted cargo through Haifa. Africa lanes keep pricing through limited special allocations rather than published indexes, so validity dates matter more than headline levels, and the structural direction is capacity led: the container ship orderbook at **46.5 percent of the active fleet** will eventually soften Asia to Africa rates, but not this quarter.
+
+## What Shippers Should Do This Week
+
+- Ask which routing applies before booking Europe and Mediterranean cargo. AE12 is back through Suez from 27 October, but parallel Cape routings still exist on the same trades, and the transit difference is about two weeks.
+- Plan for the bunching risk Freightos describes: services converting to Suez arrive early and stack up at North European gateways, so inland delivery in Europe should carry buffer days through November.
+- Reconfirm East China loadings through this week. Shanghai and Ningbo recovered before the storm, but Yangshan and several Ningbo terminals are still running multi day waits, and omitted port calls from the Champi window surface over the next two rotations.
+- Treat Shekou yard density above 90 percent as a booking constraint and consider Yantian or Nansha as alternates for South China cargo.
+- For transpacific cargo, book against the record demand rather than hoping for a seasonal drop: September imports set a record and blank sailings fell to two, so space stays the constraint.
+- For Bangladesh, pad landside time for the fee strike recovery, verify depot cut offs daily and hold delivery terms that do not start detention at the port gate.
+- For Gulf cargo, keep the risk premium in the budget and route reviews shipment by shipment, since week 42 entries fell to two vessels.
+
+The market enters November with capacity coming back through Suez faster than any month since 2023, a storm backlog still draining in East China, and demand on the transpacific that keeps rewriting seasonal records. Those three forces offset each other for now, which is exactly why the published indexes moved only a few percent this week. Shippers who lock validity dates, confirm routings by service name and keep a second gateway option open on every lane will trade through the transition instead of paying for it. Spider Logistics books China origin cargo to Bangladesh, Israel, the Middle East and Africa, quotes routing and surcharge stacks in writing, and reconfirms service schedules through network changes before the customer has to ask.`,
+  },
+  {
     slug: 'champi-closes-east-china-suez-returns-oct-26-2026',
     title: 'Champi Closes East China While Suez Capacity Keeps Coming Back',
     excerpt: 'Super Typhoon Champi shut Ningbo from the evening of 23 October and Shanghai from the evening of 24 October, with Yangtze estuary pilotage suspended and more than 100 flights grounded, just as MSC and Zim moved their joint Asia to US East Coast service back through the Suez Canal and Washington proposed extending the Section 301 port fee pause to 9 January 2027. Asia to Europe spot rates rose 3 percent on eight blank sailings while Chittagong waiting time climbed to 2.24 days under a new feeder licensing squeeze.',
