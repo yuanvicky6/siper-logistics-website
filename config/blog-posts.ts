@@ -11,6 +11,86 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'november-fak-resets-chattogram-recovery-oct-28-2026',
+    title: 'November FAK Resets Are Filed While Chattogram Restores Its Landside Flow',
+    excerpt: 'CMA CGM and MSC file November FAK increases across the Mediterranean, Black Sea and North Africa from 1 November while Maersk adds peak season surcharges to Oceania. Chattogram restores truck and customs operations after the CPA suspends its first tariff revision since 1986, and Drewry holds the WCI at USD 4,585 per 40ft, a 15 week high.',
+    date: 'October 28, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The last week of October has turned into a pricing pivot point. On one side, the Drewry World Container Index closed 22 October at **USD 4,585 per 40ft**, its highest reading in 15 weeks, and three major carriers have now filed their November tariff resets across the Mediterranean, Black Sea, North Africa and Oceania. On the other side, Chattogram, the gateway that handles about 92 percent of the trade of Bangladesh, has restored truck and customs operations after a strike against a steep gate fee increase froze container delivery for days. For exporters booking November cargo out of China to Bangladesh, Israel, the Middle East and Africa, the coming days decide the cost base of every shipment that rolls into the new month.
+
+## Market Snapshot
+
+| Benchmark | Latest reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 22 Oct | USD 4,585 per 40ft | +2 percent, 15 week high | Drewry |
+| Shanghai to Rotterdam, 22 Oct | USD 3,632 per 40ft | +3 percent | Drewry |
+| Shanghai to Genoa, 22 Oct | USD 4,152 per 40ft | +5 percent | Drewry |
+| Shanghai to Los Angeles, 22 Oct | USD 8,007 per 40ft | +2 percent | Drewry |
+| Shanghai to New York, 22 Oct | USD 10,166 per 40ft | +1 percent | Drewry |
+| Rotterdam to New York, 22 Oct | USD 3,181 per 40ft | +3 percent, +85 percent year on year | Drewry |
+| SCFI composite, 16 Oct | 3,679.58 points | +15.47 points week on week | Shanghai Shipping Exchange |
+| CCFI composite, 16 Oct | 1,922.64 points | +0.5 percent | Shanghai Shipping Exchange |
+
+Two details inside the China Containerized Freight Index deserve attention for our lanes. The **South Africa sub index rose 5.1 percent** and the **Southeast Asia sub index rose 6.6 percent** in the latest reading, the strongest moves of any direction, while the Mediterranean sub index slipped 0.8 percent. Exporters covering Africa are already paying more at origin, and transshipment hubs in Southeast Asia are both slower and more expensive than a month ago.
+
+## The 1 November Rate Reset
+
+Entering the November window, leading carriers have published new FAK levels and surcharges covering Far East and China exports, and the effective date is uniform: **1 November 2026**.
+
+| Carrier | Scope | Increase | Window |
+|---|---|---|---|
+| CMA CGM | Asia to West Mediterranean, Adriatic, East Mediterranean, Black Sea | +USD 300 per 20ft and per 40ft | 1 to 14 November |
+| CMA CGM | Asia to North Africa | +USD 100 per 20ft, +USD 200 per 40ft | 1 to 14 November |
+| MSC | Far East to West Mediterranean and Adriatic | +USD 500 per 40ft | 1 to 14 November or until further notice |
+| MSC | Far East to East Mediterranean and Black Sea | +USD 300 per 40ft | 1 to 14 November or until further notice |
+| MSC | Far East to Algeria, Libya, Casablanca and Tunis | +USD 500 per 40ft | 1 to 14 November or until further notice |
+| MSC | Far East to North Europe | unchanged | 1 to 14 November |
+| Maersk | Asia to Australia, Papua New Guinea, Solomon Islands | peak season surcharge +USD 500 per 20ft, +USD 1,000 per 40ft | from 1 November |
+| Maersk | Asia to New Zealand, Fiji and Pacific islands | peak season surcharge +USD 300 per 20ft, +USD 600 per 40ft | from 1 November |
+
+The CMA CGM filing covers dry, reefer, special and paid empty equipment, and the quoted levels include base ocean freight, bunker related surcharges, ETS and low sulphur surcharges. The Maersk peak season surcharge applies **only to non SPOT bookings**, so shippers with SPOT allocations are insulated for now.
+
+As reference levels reported by The Loadstar, MSC files FAK from 1 November at **USD 4,500 per 40ft** to North Europe, **USD 5,000** to the West Mediterranean and **USD 5,100** to the East Mediterranean, while CMA CGM aims at **USD 4,900** to the West Mediterranean and **USD 5,200** to the East Mediterranean. The Shanghai Containerized Freight Index last assessed Shanghai to North Europe at USD 3,547 per 40ft and Shanghai to the Mediterranean at USD 4,097, which means the new FAK floors sit well above current spot assessments.
+
+Whether these increases stick is another matter. Linerlytica predicts the November pricing round will likely fail, noting that the MSC level to North Europe only matches the mid October introduction, and European forwarders reported receiving discounted offers below FAK through the first half of October. Xeneta chief analyst Peter Sand has been blunt about the structural threat: the faster than expected return to Suez is the biggest risk to carrier efforts to support rates. With Maersk and Hapag Lloyd already moving the AE12 back through the Suez Canal from 27 October and Alphaliner counting 63 percent of Far East to Europe capacity on Red Sea routings, effective capacity is heading up exactly as carriers try to push tariffs up.
+
+## Chattogram Restores Its Landside Flow
+
+The landside crisis at Chattogram that dominated the middle of October has eased, but the sequence is a lesson in how quickly destination costs can change.
+
+- The Chattogram Port Authority introduced its first tariff revision since 1986, effective 15 October: charges across 23 of 52 port services rose by up to 41 percent on average, and the vehicle entry fee for trucks, trailers and covered vans jumped from **Tk 57.50 to Tk 230**, a more than fourfold increase.
+- Transport owners suspended all vehicle entry from Saturday 18 October. Trailer operations had already slowed from 15 October as drivers balked at the new fee.
+- The impact was immediate. Port deliveries fell by **45 percent over four days**, and on 19 October only **295 TEU were released against a normal daily average near 4,500 TEU**. Customs agents added four hour daily work abstentions on 19 and 20 October.
+- On 20 October, after a meeting chaired by the CPA chairman, the authority agreed to suspend the Tk 230 entry fee pending a board decision. Vehicles may again enter at the previous Tk 57.50 rate, truck and trailer owners called off the strike, and the Customs Agents Association withdrew its protest the same day.
+- By the 20 October performance report, 101 vessels were counted at the port: 50 at the outer anchorage, 32 awaiting berths and 16 berthed at main jetties, a queue that will take days to clear even with trucks moving again.
+
+The institutional backdrop matters too. The Daily Star reports that DP World secured management of New Mooring, the largest container terminal, this month, adding to Red Sea Gateway Terminal at Patenga since 2023 and APM Terminals at the Laldia development since 2025, while the shipping ministry pushes to appoint Red Sea Gateway at the Chittagong Container Terminal as well. Foreign operators now run or are slated to run all four container terminals, a structural change that should improve berth productivity over time but leaves the landside fee dispute, the source of this month of disruption, entirely unresolved.
+
+For China to Bangladesh shippers the practical message is simple: expect a backlog clearance period at Chattogram through early November, reconfirm last mile delivery dates with consignees, and budget for the tariff environment, because the 41 percent average increase in port service charges remains in force even while the gate fee itself is suspended.
+
+## Reliability and Transit Watch
+
+- Sea Intelligence global schedule reliability remains near **50 to 53 percent**, and vessels that miss their window arrive about **6 days late** on average, driven by Cape of Good Hope diversions that stretch Asia to Europe voyages to **42 to 55 days**.
+- Transshipment relay yards in Southeast Asia are congested again: Singapore, Port Klang and Colombo are adding **6 to 10 days of transshipment dwell**, and ships at Port Klang wait about **2.5 days** for a berth.
+- Drewry counts **8 blank sailings announced on Asia to Europe for the coming week, up from 2**, while transpacific cancellations fall from 6 to 2, evidence that capacity discipline is concentrated on Europe bound services.
+- On the Middle East corridor, security risk persists: only **2 container ships entered the Persian Gulf in week 42 against 5 the week before**, and Suez transits edged up from 54 to 55. Cargo routed via Gulf hubs should carry buffer time and war risk cover.
+
+## What Shippers Should Do
+
+1. **Lock rates before 1 November.** Any Asia to Mediterranean, Black Sea or North Africa quote issued now at October levels will not survive the FAK reset. Confirm the validity end date in writing before booking.
+2. **Use SPOT products where available.** The Maersk Oceania peak season surcharge explicitly excludes SPOT bookings, and carriers historically honor SPOT allocations first when the market softens.
+3. **For Bangladesh cargo, add buffer.** Chattogram needs time to work through the anchorage queue and the undelivered import containers. Build 3 to 7 extra days into door delivery promises and reconfirm haulage with the consignee side.
+4. **Recheck Africa routings.** The 5.1 percent jump in the CCFI South Africa sub index plus Cape diversions mean all in costs to Durban and Mombasa are rising from both directions. Compare direct and transshipment options before the November tariffs land.
+5. **Keep war risk and delay clauses current for Gulf and Israel cargo.** Persian Gulf calls are thin and security conditions remain volatile, so routing changes can still appear at short notice.
+
+The pattern into November is a market trying to lift a floor while capacity quietly returns beneath it. Carriers have the filings, the blank sailings and the surcharges; shippers have the Suez reopening, discounted offers still circulating and a Chattogram gateway back in motion. The side that plans early captures the gap between the two.
+
+Spider Logistics tracks these lanes daily from Shenzhen with door to door sea and air services, customs clearance and destination support into Bangladesh, Israel, the Middle East and Africa. Contact our team for a binding November quotation before the FAK reset takes effect.
+`,
+  },
+  {
     slug: 'maersk-hapag-ae12-suez-return-oct-27-2026',
     title: 'AE12 Back Through Suez on 27 October as East China Recovery Begins',
     excerpt: 'Maersk and Hapag-Lloyd return the AE12 Asia to Mediterranean service to the Suez Canal from 27 October, as Alphaliner counts 63 percent of Far East to Europe capacity back on Red Sea routings and Suez container volume passes the halfway mark toward pre crisis levels. East China terminals recover after Typhoon Champi with Shanghai waiting times down to 38 hours, while record United States import demand of 2.55 million TEU in September keeps transpacific rates near USD 10,000 per 40ft and a landside fee strike slows Chattogram.',

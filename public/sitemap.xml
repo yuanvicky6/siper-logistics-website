@@ -7,7 +7,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://spiderlogisticsinc.cn</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -44,9 +44,13 @@
   <!-- Blog Index -->
   <url>
     <loc>https://spiderlogisticsinc.cn/blog</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spiderlogisticsinc.cn/blog/november-fak-resets-chattogram-recovery-oct-28-2026</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://spiderlogisticsinc.cn/blog/maersk-hapag-ae12-suez-return-oct-27-2026</loc>
