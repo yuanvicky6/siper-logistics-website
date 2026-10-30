@@ -11,6 +11,63 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'wci-slips-suez-yearly-high-oct-30-2026',
+    title: 'WCI Eases 3 Percent as Suez Transits Hit a Yearly High',
+    excerpt: 'The Drewry WCI falls 3 percent to USD 4,429 per 40ft as transpacific rates cool, while Suez transits reach a 2026 weekly high of 62 vessels and Zim returns to the Red Sea. Chattogram holds near USD 3,750 per 40HQ and air rates out of China climb into peak season.',
+    date: 'October 30, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The final Drewry assessment of October delivered a split verdict for global shippers. The World Container Index fell 3 percent week on week to **USD 4,429 per 40ft** on 29 October, as transpacific rates gave back ground and the National Retail Federation forecast US ocean import volumes to drop 11 percent month on month in November. Yet the market also crossed a symbolic line: container transits through the Suez Canal reached **62 vessels** last week, the highest weekly count of 2026, and Israeli carrier Zim has confirmed a return to the Red Sea. For exporters shipping from China to Bangladesh, Israel, the Middle East and Africa, November planning now hinges on filed rate increases in the westbound trades versus softening demand in the Pacific.
+
+## Market Snapshot
+
+| Benchmark | Latest reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 29 Oct | USD 4,429 per 40ft | -3 percent | Drewry |
+| Shanghai to Los Angeles, 29 Oct | USD 7,514 per 40ft | -6 percent | Drewry |
+| Shanghai to New York, 29 Oct | USD 9,631 per 40ft | -5 percent | Drewry |
+| Shanghai to Rotterdam, 29 Oct | USD 3,686 per 40ft | +1 percent | Drewry |
+| Shanghai to Genoa, 29 Oct | USD 4,151 per 40ft | Unchanged | Drewry |
+| FBX Asia to US East Coast | USD 10,565 per 40ft | +9 percent, 2026 high | Freightos Baltic Index |
+| FBX Asia to Mediterranean | USD 4,252 per 40ft | +8 percent | Freightos Baltic Index |
+| Ningbo to Chattogram | USD 3,750 per 40HQ | Stable | CCFGroup |
+
+## The Transpacific Cools While Westbound Trades Push Higher
+
+The two east-west corridors diverged sharply this week. On the transpacific, rates from Shanghai to Los Angeles fell 6 percent to **USD 7,514 per 40ft** and Shanghai to New York slipped 5 percent to **USD 9,631**, with Drewry expecting further decreases next week as the NRF forecasts US ocean imports down 11 percent in November. Carriers have announced six blank sailings on the trade for next week, up from five.
+
+The Freightos Baltic Index painted a stronger picture through 28 October, with Asia to the US East Coast at **USD 10,565 per 40ft**, a new high for the year, before daily prices began to recede and forwarders reported cooling demand on the Pacific.
+
+On Asia to Europe, Shanghai to Rotterdam inched up 1 percent to **USD 3,686** while Genoa held at **USD 4,151**. Carriers have filed higher FAK rates for November, but with blank sailings on the trade cut to four next week from eight, effective capacity is growing and Drewry expects rates to hold flat rather than climb, so treat the increases as a negotiation floor rather than a ceiling.
+
+## Suez Transits Hit a Yearly High and Zim Comes Back
+
+The Red Sea normalization advanced on two fronts. Weekly transits through the Suez Canal rose to **62 container vessels**, the highest level of 2026, and Alphaliner estimates that nearly two thirds of total Asia to Europe capacity has now returned to the route. Drewry expects Suez transits to reach 80 percent of pre-diversion levels by February 2027, though added war risk premiums could offset much of the fuel savings.
+
+The headline move concerns Israel. **Zim resumed taking the Red Sea route** for its joint Asia to US East Coast service with MSC, a striking shift given that the Houthis declared the Bab el-Mandeb Strait closed to Israel-linked vessels as recently as August. The move expands rotation options for China to Israel consignments bound for Haifa and Ashdod.
+
+The contrast in the Gulf remains stark. Only **two vessels** transited the Strait of Hormuz last week as disruption there continues, and transshipment hubs serving the Middle East are running high yard utilization, keeping Gulf bound rates elevated. Typhoon Champi closed ports and airports in Taiwan on Friday but largely spared East China.
+
+## Bangladesh and South Asia: Rates Hold as the Port Recovers
+
+Spot rates from Ningbo to Chattogram stand around **USD 3,750 per 40HQ**, with Karachi near USD 3,600 and Jakarta near USD 2,000, according to CCFGroup market collection. Vessel activity is recovering after the gate fee dispute that froze landside delivery earlier this month, but Chattogram remains congested, with 31 container ship arrivals in the past seven days and roughly three quarters staying in port for more than 48 hours. In a structural signal, the Chittagong Port Authority has signed a 30 year agreement with Maersk to build and operate the Ladia Container Terminal, adding capacity from 2027 onward.
+
+## Air Freight: Peak Season Pricing Is Here
+
+Air rates out of China climbed last week, with the Freightos Air Index up 4 percent to **USD 7.13 per kg** to North America and up 12 percent to **USD 4.35 per kg** to Europe, as data center driven electronics demand stacks on top of seasonal retail volumes. Israel has also tightened aviation security: the National Passenger Targeting Center now requires crew manifests 48 hours before departure for all inbound flights, so air consignments to Tel Aviv should allow extra documentation lead time.
+
+## What Shippers Should Do
+
+1. **Book westbound Europe and Mediterranean space early.** Filed November increases may not fully hold, but space tightens as blank sailings shrink.
+2. **Quote transpacific cargo now.** With imports forecast down 11 percent in November, waiting for lower rates is reasonable, but locking space for urgent shipments is safer.
+3. **Keep contingency routings for Gulf cargo.** With Hormuz transits near zero, Middle East deliveries still depend on alternative hubs and overland corridors.
+4. **Plan Chattogram shipments two to three weeks ahead.** Berth and yard pressure persists even as landside operations normalize.
+5. **Lock air freight rates this week.** Peak season surcharges are climbing while capacity stays flat.
+
+Spider Logistics provides door to door ocean and air freight from China to Bangladesh, Israel, Africa and the Middle East, with customs clearance and tracking. Contact our team for a November rate plan before the FAK window closes.`,
+  },
+  {
     slug: 'november-fak-resets-chattogram-recovery-oct-28-2026',
     title: 'November FAK Resets Are Filed While Chattogram Restores Its Landside Flow',
     excerpt: 'CMA CGM and MSC file November FAK increases across the Mediterranean, Black Sea and North Africa from 1 November while Maersk adds peak season surcharges to Oceania. Chattogram restores truck and customs operations after the CPA suspends its first tariff revision since 1986, and Drewry holds the WCI at USD 4,585 per 40ft, a 15 week high.',
