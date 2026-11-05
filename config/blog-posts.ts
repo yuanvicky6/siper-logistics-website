@@ -11,6 +11,65 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'suez-return-november-gri-africa-south-asia-nov-5-2026',
+    title: 'Suez Returns Accelerate as November GRIs Hit Africa and South Asia',
+    excerpt: 'Every major alliance plus MSC now has a Suez return date. Durban adds a congestion fee and a USD 2,000 surcharge from 9 November, Chattogram still holds 71 percent of arrivals beyond 48 hours, and Haifa turns ships in a 28 hour median.',
+    date: 'November 5, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The final week of October closed with the Shanghai Containerized Freight Index at **3,687.35 points**, a fourth consecutive weekly gain of 0.16 percent. The headline hides the bigger shift. Evergreen and Yang Ming have now confirmed Suez routings, Durban has added a congestion fee, and Maersk has filed a **USD 2,000 per 40ft** surcharge on South Africa from 9 November.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| SCFI composite, 30 Oct | 3,687.35 points | +0.16 percent | SSE |
+| SCFI Shanghai to Mediterranean, 40ft | USD 4,318 | +4.48 percent | SSE |
+| SCFI Shanghai to Durban, 20ft | USD 4,768 | +13.58 percent | SSE |
+| Drewry WCI composite, 29 Oct | USD 4,429 per 40ft | -3 percent | Drewry |
+| Drewry Intra-Asia index | USD 1,504 per 40ft | +USD 46, near 200 percent year on year | Drewry |
+| Shanghai to Haifa and Ashdod, 6 Nov | USD 4,100 per 20ft, USD 5,100 per 40ft | Marked up | Port quote data |
+
+## The Suez Return Has Become a Network Decision
+
+The last two holdouts moved. Evergreen restarts its China to Red Sea service on **12 November**, with the 7,024 TEU Ever Superb sailing from Qingdao, its first Red Sea transit since January 2024. Yang Ming follows on **13 November**, when the 11,714 TEU YM Trust leaves Ningbo on the restructured MD1 Asia to East Mediterranean loop. Gemini moved earlier: the ME1/IOS service returned to Suez on 2 November, and MSC has restored the canal on its Europe to Australia loop.
+
+The aggregate matters more than any single string. About **3 million TEU** transited Suez in October 2026, and Linerlytica expects the three alliances plus MSC to be fully back by the first quarter of 2027, leaving Zim as the only major carrier still on the Cape. Sea-Intelligence puts **70 to 80 percent** of westbound and **80 to 90 percent** of eastbound Asia to Mediterranean capacity on the canal for November and December. The revised AE11/SE2 also swaps Tangier for Port Said and cuts the round voyage by roughly **14 days**.
+
+The return releases capacity, which is bearish for rates on the affected loops. It does not mean the westbound floor collapses, because carriers filed increases for the second half of November: Maersk at **USD 4,000 per FEU**, CMA CGM and MSC at **USD 4,600 per FEU**.
+
+## Africa Is Now the Tightest Trade in the Market
+
+The 30 October assessment for Shanghai to Durban jumped **13.58 percent to USD 4,768 per 20ft**, the sharpest move of any major route that week. The cause is landside: congestion at Durban Container Terminal has run since 30 June, roughly 18 weeks, and rail evacuation fell to about **233 boxes a day** in mid-September against 477 before the disruption. Of the 14 container ships in port at the start of November, **71 percent** had been alongside for more than 48 hours.
+
+Carriers converted the delay into tariff. A Durban wide congestion fee of **USD 450 per 20ft and USD 900 per 40ft** applies from 1 November with no end date. Maersk adds a surcharge from 9 November of **USD 1,000 per 20ft and USD 2,000 per 40ft** from Far East Asia to South Africa and Mauritius. CMA CGM and MSC have added USD 500 and USD 1,000. For a 40ft to Johannesburg, the fee and the surcharge alone add **USD 2,900** before any base rate movement.
+
+## Bangladesh: Volume Is Back, Berth Time Is Not
+
+AIS data for the seven days to 1 November shows **35 container ship arrivals** at Chattogram, with 25 of them, or **71 percent**, staying longer than 48 hours. The median stay was **77 hours** and the port is still congested. Terminal management is unsettled too: the Chittagong Port Authority extended the Saif Powertec contract at Chittagong Container Terminal by three weeks from 2 November while a proposal from Red Sea Gateway Terminal International stays under review.
+
+Regional pricing is firm, not explosive. The Drewry Intra-Asia index sits at **USD 1,504 per 40ft**, close to **200 percent** above the level of a year earlier, while waiting time at Ho Chi Minh City stretched from 8 to 22 hours, so transshipment legs through Southeast Asia still need slack.
+
+## Israel: Haifa Turns Fast, Ashdod Carries the DG Limit
+
+Reference quotes from Shanghai for 6 November put Haifa and Ashdod at **USD 4,100 per 20ft and USD 5,100 per 40ft**. Operations are better than the price suggests: Haifa recorded 21 container ship arrivals in the seven days to 2 November, with only seven staying over 48 hours and a median stay of **28 hours**, so berth windows are open. Note that Ashdod restricts dangerous goods and no longer accepts DG bookings, so hazardous cargo should route through Haifa, while Ashkelon stays outside normal operations.
+
+## Air Freight Enters Peak With Less Headroom
+
+Forwarder briefings for week 43 put the global air spot rate at **USD 3.80 per kg**, up 5 percent on the week and **38 percent** above the same week last year, with Asia Pacific to North America at **USD 7.43 per kg**. The Black Friday build is overlapping with electronics demand.
+
+## What Shippers Should Do
+
+1. **Re-quote Africa before confirming.** The fee plus the 9 November surcharge moves the landed cost of a 40ft to South Africa by close to USD 2,900.
+2. **Book South Africa three weeks out.** Approvals and direct sailings are constrained through mid-November, and 40NOR equipment from ONE is a cheaper substitute where loading allows.
+3. **Treat the Suez return as a transit gain, not a rate cut.** Filings of USD 4,000 to 4,600 per FEU set the November negotiation floor on Asia to Europe.
+4. **Plan Chattogram on a three week horizon** and confirm the berth window weekly while the operator question stays open.
+5. **Route Israel DG cargo through Haifa**, and check each surcharge line with a validity date.
+
+Spider Logistics arranges door to door ocean and air freight from China to Bangladesh, Israel, Africa and the Middle East, with customs clearance and end to end tracking. Send your November shipping list and we will return a routing and cost plan within one working day.`,
+  },
+  {
     slug: 'wci-slips-suez-yearly-high-oct-30-2026',
     title: 'WCI Eases 3 Percent as Suez Transits Hit a Yearly High',
     excerpt: 'The Drewry WCI falls 3 percent to USD 4,429 per 40ft as transpacific rates cool, while Suez transits reach a 2026 weekly high of 62 vessels and Zim returns to the Red Sea. Chattogram holds near USD 3,750 per 40HQ and air rates out of China climb into peak season.',
