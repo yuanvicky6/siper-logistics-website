@@ -11,6 +11,69 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'wci-slips-air-high-west-coast-deadline-nov-6-2026',
+    title: 'WCI Slips 1 Percent as Air Freight Hits a 2026 High',
+    excerpt: 'Drewry put the World Container Index at USD 4,389 per 40ft on 5 November, down 1 percent but 124 percent above a year earlier. Air from China to North America reached USD 7.76 per kg, and a watchmen strike deadline at Los Angeles and Long Beach runs out tonight.',
+    date: 'November 6, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Drewry assessed the World Container Index at **USD 4,389 per 40ft** on 5 November, down **1 percent** on the week but **124 percent higher** than a year earlier. The softness sits on the transpacific and North Europe, where returning Suez capacity is being felt. Air went the other way: China to North America reached **USD 7.76 per kg**, the highest reading of 2026. A labour deadline covering most Long Beach terminals expires at midnight Pacific time tonight.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 5 Nov | USD 4,389 per 40ft | -1 percent, +124 percent year on year | Drewry |
+| Shanghai to Los Angeles | USD 7,539 per 40ft | unchanged | Drewry |
+| Shanghai to New York | USD 9,303 per 40ft | -3 percent | Drewry |
+| Shanghai to Rotterdam | USD 3,615 per 40ft | -2 percent | Drewry |
+| Freightos Air, China to North America | USD 7.76 per kg | +9 percent, +40 percent year on year | Freightos, 3 Nov |
+
+## Ocean: The Capacity Argument Is Winning
+
+Shanghai to New York gave back **3 percent to USD 9,303**, Los Angeles held at **USD 7,539**, Rotterdam fell **2 percent to USD 3,615**, and Genoa stayed at **USD 4,166**. Drewry links the tone to improving port conditions in China: average vessel waiting time at Shanghai fell to **35 hours** last week. Blank sailings are being unwound too, with three announced for the transpacific next week against five this week, and five for Asia to Europe against eight.
+
+Carriers have not given up on price. GRIs of **USD 1,000 to 1,500 per FEU** were filed for Asia to Europe from 1 November and **USD 2,000 to 3,000 per FEU** for the transpacific. Freightos reports daily rates flat through the first days of the month, with some forwarders doubting the market will carry them. The monthly picture still shows gains of **10 percent to North Europe and 23 percent to the Mediterranean**, helped by a one-day port worker strike across several European ports.
+
+## Suez: More Tonnage, More Bunching
+
+About **60 percent** of Asia to Europe capacity now runs through Suez, and **53 vessels** transited in both directions last week. Evergreen resumes eastbound Suez transits from 7 November and relaunches its China to Red Sea loop on 12 November, Gemini starts SE5/AE18 on 21 November, and Premier Alliance returns MD1 from December.
+
+The risk is the mix. Vessels that left Asia on Cape routings and vessels on new Suez routings can arrive in the same week, bunching at European hubs. Confirm routing by vessel and voyage, not service name.
+
+## Air: A Yearly High With Weeks Still to Run
+
+China to North America air rose **9 percent to USD 7.76 per kg**, up **40 percent year on year** and close to the **USD 8.00 per kg** peak of December 2025. China to North Europe held at **USD 4.39 per kg**, up 1 percent on the week and 11 percent on the year, still below the USD 5.25 seen earlier in 2026.
+
+TAC Index reads the same way: the global Baltic Air Freight Index eased **1.1 percent** in the seven days to 2 November but stayed **22.8 percent** above last year, and outbound Shanghai is **14.4 percent** up year on year. For Bangladesh and Israel consignments that cannot wait for ocean space, book air now rather than in the first week of December.
+
+## The West Coast Deadline Runs to Midnight
+
+Roughly **250 watchmen** represented by ILWU Local 26 have worked without a contract since July 2025. The deadline has slipped twice, from 1 November to 5pm on 4 November, and now to **midnight Pacific time on Friday 6 November**, with federal mediators at the table. Watchmen cover about 2 percent of the ILWU workforce at the two ports, but their terminals handle about **85 percent of Long Beach** cargo and **33 percent of Los Angeles** cargo, and other ILWU members are expected to respect a picket line.
+
+The timing is awkward. Both ports set all-time volume records in September, holiday stock is still landing, and inland rail already carries a backlog. A two-day stoppage would extend dwell time, and terminals need several days to clear once gates reopen.
+
+## Destination Watch: Chattogram Eases, Ashdod Slows
+
+Chattogram has improved. Yard density is running at **75 to 80 percent**, average berth waiting is about **one day**, and gearless vessels are handled inside a 48 hour port stay, according to the week 45 update from SEKO Logistics citing Linerlytica. That is a clear change from late October, when 71 percent of arrivals sat beyond 48 hours.
+
+Israel is split. Haifa recorded **21 container ship arrivals** in the seven days to 2 November, with only 7 beyond 48 hours, a **33 percent** share and a median stay of **28 hours**. Ashdod recorded 17 arrivals, 10 beyond 48 hours, a **59 percent** share and a median of **58 hours**. Shanghai to Ashdod was quoted at **USD 4,100 per 20ft** on 6 November.
+
+Global port congestion reached **3.57 million TEU**, or **10.3 percent** of the fleet, on 1 November, with North Asia about 40 percent.
+
+## What Shippers Should Do
+
+1. **Split ocean and air decisions.** Ocean rates are drifting lower while air is at a yearly high. Move only launch-critical cargo to air.
+2. **Lock West Coast free time now.** Ask the carrier in writing how demurrage and detention will be treated if terminals close.
+3. **Do not reroute the whole programme.** The deadline has been extended twice. Pre-clear an Oakland or Seattle option, but keep bookings in place.
+4. **Confirm Suez routing by voyage**, and add two to three days of buffer where a booking can land on either a Suez or a Cape sailing.
+5. **Use Haifa for Israel DG cargo** and expect a slower Ashdod gate against the 58 hour median stay.
+6. **Book Chattogram with confidence but verify the berth window weekly** while terminal arrangements settle.
+
+Spider Logistics arranges door to door ocean and air freight from China to Bangladesh, Israel, Africa and the Middle East, with customs clearance and end to end tracking. Send your November list for a routing plan within one working day.`,
+  },
+  {
     slug: 'suez-return-november-gri-africa-south-asia-nov-5-2026',
     title: 'Suez Returns Accelerate as November GRIs Hit Africa and South Asia',
     excerpt: 'Every major alliance plus MSC now has a Suez return date. Durban adds a congestion fee and a USD 2,000 surcharge from 9 November, Chattogram still holds 71 percent of arrivals beyond 48 hours, and Haifa turns ships in a 28 hour median.',

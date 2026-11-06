@@ -7,7 +7,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://spiderlogisticsinc.cn</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -44,9 +44,15 @@
   <!-- Blog Index -->
   <url>
     <loc>https://spiderlogisticsinc.cn/blog</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spiderlogisticsinc.cn/blog/wci-slips-air-high-west-coast-deadline-nov-6-2026</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://spiderlogisticsinc.cn/blog/suez-return-november-gri-africa-south-asia-nov-5-2026</loc>
