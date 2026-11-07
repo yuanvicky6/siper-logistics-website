@@ -11,6 +11,67 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'la-bridge-closure-scfi-softens-nov-7-2026',
+    title: 'SCFI Slips Again as a 16 Month Bridge Closure Begins at Los Angeles',
+    excerpt: 'The Shanghai Containerized Freight Index fell 1.46 percent on 6 November while November GRIs failed to stick. At Los Angeles, the Vincent Thomas Bridge closed for about 16 months of deck replacement, redirecting 4,700 daily port truck trips past record September volumes and rising dwell times.',
+    date: 'November 7, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The Shanghai Containerized Freight Index slipped for another week, and the Port of Los Angeles woke up on 7 November to a construction reality that will outlast any rate cycle. The Vincent Thomas Bridge closed to all traffic at 12:01 am Pacific time for a deck replacement expected to run about 16 months, redirecting thousands of daily port truck trips just as San Pedro Bay terminals carry record volumes and elevated dwell times. For shippers moving goods from China, the message is a softer market with a slower last mile.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| SCFI composite, 6 Nov | 3,633.45 points | -1.46 percent from 3,687.35 | Shanghai Shipping Exchange |
+| SCFI US West Coast | USD 7,381 per FEU | down USD 98 | SSE, 6 Nov |
+| SCFI US East Coast | USD 9,857 per FEU | down USD 342 | SSE, 6 Nov |
+| SCFI Europe | USD 2,325 per TEU | down USD 45 | SSE, 6 Nov |
+| SCFI Mediterranean | USD 3,393 per TEU | up USD 43 | SSE, 6 Nov |
+| Drewry WCI composite, 5 Nov | USD 4,389 per 40ft | -1 percent | Drewry |
+
+The Mediterranean is the only lane that gained ground, consistent with capacity returning fastest on the transpacific and North Europe runs.
+
+## The Vincent Thomas Bridge Closes for 16 Months
+
+Caltrans closed the bridge on State Route 47 between San Pedro and Terminal Island at the start of Friday, with completion targeted for early March 2028. The crossing carries roughly **53,000 vehicles per day**, including about **4,700 port related truck movements daily**. The Port of Los Angeles confirms that all terminals remain open, that about **8 percent of drayage trips** normally use the span, and that rail service is unaffected.
+
+Detours route through the **I-710 and the Long Beach International Gateway Bridge** from the east, the **Heim Bridge and SR-47 north** from the north, and the **I-110, SR-103 and Harry Bridges Boulevard** corridors.
+
+The closure lands on a landside system already slowing. Pacific Merchant Shipping Association data show truck pulled containers averaged **3.18 days of terminal dwell in September**, up from 2.95 in August, and rail bound dwell rose from **6.75 to 7.19 days**. September set records at both ports: Los Angeles moved **1.04 million TEU** with imports up 19 percent, and Long Beach handled **997,200 TEU**, up 25 percent, with import boxes up 31.3 percent.
+
+## November GRIs Did Not Stick
+
+The increases carriers filed for 1 November — **USD 2,000 to 3,000 per FEU** on the transpacific and **USD 1,000 to 1,500 per FEU** on Asia to Europe — have not shown up in either index. The SCFI West Coast reading fell USD 98 on the week rather than jumping, and early November trade press described the filings as having gained little traction. Drewry expects transpacific rates to fall further next week while Asia to Europe stays stable.
+
+Carriers are pivoting to mid-November FAK adjustments ahead of 2027 contract talks. The China Containerized Freight Index, which blends contract rates, rose **2.28 percent to 1,924.69**, a sign contracts are firmer than spot. The Drewry cancelled sailings tracker counts **46 of 717 sailings blanked for weeks 46 to 50, about 6 percent**, down from 56 of 715 a week earlier — carriers are putting capacity back, keeping downward pressure on spot.
+
+## Capacity Is Coming Back Through Suez
+
+Evergreen resumes eastbound Suez transits on 7 November, with further movements on 11 and 16, and relaunches its China to Red Sea OGRD loop on 12 November. Gemini starts the SE5/AE18 Asia to Mediterranean service via Suez on 21 November, and Premier Alliance brings back MD1 from December.
+
+About **60 percent of Asia to Europe capacity** now routes through Suez, but the transition risk is real: a single service can mix Cape routed and Suez routed sailings during re-phasing, and vessels from both routings can bunch into the same European port week. Confirm routing by vessel and voyage number, not by service name. Global port congestion stood at about **3.57 million TEU, or 10.3 percent of the containership fleet**, as of 1 November.
+
+## Destination Watch: Bangladesh Steady, North Asia Hubs Tight
+
+Chattogram remains the calm spot. Yard density runs at **75 to 80 percent**, average berth waiting is about **one day**, and gearless vessels are completed inside a **48 hour port stay**.
+
+North Asian transshipment hubs are the opposite. Busan BNCT is losing about **1,700 TEU of yard capacity** to crane maintenance through 15 November, and Yokohama D5 will suspend yard and quayside operations from **21 to 23 November**. Consignments routed through either hub should carry three to four extra days of buffer. Chinese New Year falls on **6 February 2027**, earlier than last year, compressing the Q1 factory window on every Asia origin lane.
+
+For US bound cargo, the duty picture also shifted: the ITC published affirmative injury determinations on solar cells from India, Indonesia and Laos on 5 November, with Commerce duty notices scheduled for 9 November. Combined cash deposit rates reach about **233 percent for India, 168 percent for Indonesia and 147 percent for Laos**. Solar supply chains through Southeast Asia should be screened before the next booking.
+
+## What Shippers Should Do
+
+**Lock transpacific space now.** Spot is softening and GRIs failed, making this the cheapest window before mid-November FAK moves and pre-Lunar New Year demand.
+
+**Budget extra inland time for Southern California.** Bridge closure plus record dwell means booking drayage early, confirming free time with carriers, and adding several days to warehouse appointments for LA and Long Beach deliveries through November.
+
+**Verify every Asia to Europe and Mediterranean routing by vessel.** During the Suez transition, check the actual voyage, not the service name.
+
+**For Bangladesh and Israel consignments**, Chattogram port conditions are workable and air remains the fallback for urgent cargo, with China to North America air rates still near their 2026 high.`,
+  },
+  {
     slug: 'wci-slips-air-high-west-coast-deadline-nov-6-2026',
     title: 'WCI Slips 1 Percent as Air Freight Hits a 2026 High',
     excerpt: 'Drewry put the World Container Index at USD 4,389 per 40ft on 5 November, down 1 percent but 124 percent above a year earlier. Air from China to North America reached USD 7.76 per kg, and a watchmen strike deadline at Los Angeles and Long Beach runs out tonight.',
