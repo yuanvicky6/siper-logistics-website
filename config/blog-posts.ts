@@ -11,6 +11,73 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'xeneta-2027-outlook-nov-15-fak-hikes-nov-8-2026',
+    title: 'Xeneta Sees Spot Rates Down 30 Percent in 2027 as 15 November Hikes Meet a Soft Market',
+    excerpt: 'Xeneta told its Munich summit that global spot rates will average 30 percent lower in 2027 and long-term rates 5 percent lower, with 2.9 million TEU of new ships arriving. Carriers have filed 15 November FAK increases of up to USD 600 per container to the Mediterranean, but Asia to Europe cargo is already clearing at USD 3,000 to 3,500 per 40ft. Evergreen made its first Suez transit in almost three years on 7 November.',
+    date: 'November 8, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Two things happened in the first week of November that pull the container market in opposite directions. Xeneta told more than 700 shippers and forwarders in Munich that global spot rates will average 30 percent lower in 2027 than in the third quarter of 2026. In the same week, MSC, CMA CGM and Maersk filed fresh freight-all-kinds increases for 15 and 16 November, with MSC targeting USD 4,600 per 40ft to North Europe and USD 5,300 to the western Mediterranean. Filed and cleared numbers are now far apart.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 5 Nov | USD 4,389 per 40ft | -1 percent | Drewry |
+| SCFI composite, 6 Nov | 3,633.45 points | -1.46 percent | Shanghai Shipping Exchange |
+| Asia to North Europe, cleared spot | USD 3,000 to 3,500 per 40ft | against 4,500 filed for 1 Nov | Linerlytica |
+| Blank sailings, weeks 45 to 49 | 56 of 715 sailings, 8 percent | 92 percent still sail | Drewry |
+| EC2612 container futures | -12.89 percent in one week | main contract 2,560.5 on 2 Nov | Shanghai exchange |
+| TAC Baltic Air Freight Index, 2 Nov | -1.1 percent week on week | +22.8 percent year on year | TAC Index |
+
+## The 2027 Outlook: Thirty Percent Lower Spot Rates
+
+Xeneta chief analyst Peter Sand presented the Ocean Outlook 2027 on 5 November against a Q3 2026 baseline. Global average spot rates are forecast **down 30 percent** and long-term rates **down 5 percent**. Demand growth slows to **2.5 to 4 percent** from 4.7 percent in the first eight months of 2026, while the fleet grows **6.8 percent** as carriers take delivery of **2.9 million TEU**.
+
+In October carriers committed **467,297 TEU of weekly capacity** back to the Red Sea, roughly double the level at the end of August and about **50 percent** of the August 2023 pre-crisis figure. Shorter routings have already released **599,000 TEU** that was absorbed by Cape of Good Hope diversions.
+
+Sand was explicit that the forecast is not a promise: rates were expected to fall in each of the past three years before the Red Sea crisis, US tariffs and the Hormuz crisis pushed them the other way. Transpacific rates to the US West Coast rose **343 percent** between 28 February and 31 October 2026. The biggest variable for next year is whether the Red Sea return holds.
+
+## Carriers File 15 November Increases Into a Falling Market
+
+The 1 November round failed. Linerlytica put cleared Asia to Europe spot at **USD 3,000 to 3,200 per 40ft** with the Gemini lines and **USD 3,400 to 3,500** with MSC, the Ocean Alliance and the Premier Alliance, against filed levels of USD 4,500 to 5,200. Maersk opened week 46 at **USD 3,000 per FEU**, down another USD 200 and the second consecutive weekly cut. A second round is already filed:
+
+| Carrier | Effective | Destination | Adjustment per container |
+|---|---|---|---|
+| MSC | 15 Nov | East Med, Black Sea | +USD 600, 20ft and 40ft |
+| MSC | 15 Nov | West Med, Adriatic | +USD 200 per 20ft, +USD 300 per 40ft |
+| MSC | 15 Nov | North Europe | +USD 70 per 20ft, +USD 100 per 40ft |
+| CMA CGM | 15 to 30 Nov | West Med, Adriatic, Black Sea | +USD 400 per 20ft, +USD 500 per 40ft |
+| CMA CGM | 15 to 30 Nov | East Med | +USD 300 per 20ft, +USD 400 per 40ft |
+| CMA CGM | 15 to 30 Nov | North Africa | +USD 400, all container types |
+| Maersk | 16 Nov | North Europe, Mediterranean | amount not disclosed |
+
+Read them as increments, not prices. MSC adds USD 600 to a Black Sea level already the highest in the Europe complex, and only USD 100 to a North Europe rate clearing near USD 3,000. Carriers are defending the Mediterranean and the Black Sea because that is where Suez routing restored the most capacity.
+
+## Suez Return Reaches the Mediterranean Strings
+
+Evergreen completed its first Suez transit in almost three years on 7 November, when the **16,556 TEU Ever Eon** cleared the canal on the NEU7/CES service, with Ever Edit following on 11 November. Drewry counted **53 containerships** through the canal in the week to 1 November, up **130 percent** year on year, and estimates about **60 percent** of Asia to Europe capacity is back on Suez. Kuehne+Nagel puts the share nearer **70 percent**.
+
+The Premier Alliance moves next: MD1 makes its first Suez sailing from Ningbo on **14 November**, MS2/MP2 departs Qingdao on **28 November**. Sea-Intelligence expects **70 to 80 percent** of westbound Asia to Mediterranean capacity to use the canal in November and December. Zim remains the last holdout on the Cape route as of 1 November.
+
+During re-phasing, one service can operate both Cape and Suez voyages in the same month. Confirm routing by vessel and voyage, not service name, and expect transit time to move by seven to ten days.
+
+## Reliability Is the Hidden Cost
+
+Global on-time arrivals were **27 percent** in the third quarter, and Far East to Europe fell to **4 percent** in September. A delivery date planned on a proforma schedule is a date with roughly a one in twenty-five chance of holding. Build one to two weeks of buffer into December and January sailings.
+
+## What Shippers Should Do
+
+**Book Europe space before 15 November if cargo is ready.** Filed increases rarely hold in full, but partial implementation of USD 200 to 600 per container is the normal outcome, and space tightens as winter programmes trim strings.
+
+**Negotiate against the cleared market, not the filed tariff.** Ask for the confirmed booking rate by vessel and week. The spread between USD 3,000 and USD 4,600 on one lane is real.
+
+**Do not lock 2027 contracts at Q3 2026 levels.** A 5 percent decline in average long-term rates is the Xeneta base case. Multi-quarter commitments priced off October spot will look expensive by the second quarter.
+
+**Keep air priced for Bangladesh and Israel lanes.** These lanes are not part of the November FAK wave, and air indices remain **22.8 percent** above year-ago levels. For time-critical cargo into Chattogram, Dhaka or Tel Aviv, quote air and ocean side by side.`,
+  },
+  {
     slug: 'la-bridge-closure-scfi-softens-nov-7-2026',
     title: 'SCFI Slips Again as a 16 Month Bridge Closure Begins at Los Angeles',
     excerpt: 'The Shanghai Containerized Freight Index fell 1.46 percent on 6 November while November GRIs failed to stick. At Los Angeles, the Vincent Thomas Bridge closed for about 16 months of deck replacement, redirecting 4,700 daily port truck trips past record September volumes and rising dwell times.',
