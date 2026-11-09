@@ -11,6 +11,66 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'chattogram-standstill-13000-containers-nov-9-2026',
+    title: 'Chattogram Standstill: 13,000 Export Containers and USD 660 Million Held at the Gateway of Bangladesh',
+    excerpt: 'EuroCham Bangladesh says about 13,000 export containers holding USD 660 million of goods are stranded at Chattogram after garment wage protests closed up to 690 factories and blocked the Dhaka corridor, against normal throughput of 2,000 to 2,500 boxes a day. Ocean rates keep easing, with WCI at USD 4,389 and the SCFI at 3,633.45, while air from China to North America sits at a 2026 high of USD 7.76 per kg and Ashdod shows a median stay of 55 hours.',
+    date: 'November 9, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Chattogram has stopped moving. On 7 November the European Union Chamber of Commerce in Bangladesh (EuroCham) said an estimated **13,000 export containers** holding about **USD 660 million** of goods are stranded at port facilities, private depots and on ships unable to berth or depart. Normal throughput at the port is **2,000 to 2,500 export containers a day**. A wage dispute that began on 1 November has closed hundreds of garment factories and blocked the roads that feed the terminal, and the second largest garment exporter in the world is delivering late to Europe and the US. For any shipper loading from China into Bangladesh, or moving Bangladeshi cargo out, this is the story of the week.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 5 Nov | USD 4,389 per 40ft | -1 percent, +124 percent year on year | Drewry |
+| SCFI composite, 6 Nov | 3,633.45 points | -1.46 percent, -53.90 points | Shanghai Shipping Exchange |
+| Shanghai to US East Coast | USD 9,857 per 40ft | -3.35 percent, back below 10,000 | Shanghai Shipping Exchange |
+| Shanghai to Europe | USD 3,479 per 40ft | -3.01 percent | Shanghai Shipping Exchange |
+| China to North America air | USD 7.76 per kg | +9 percent weekly, +40 percent year on year | Freightos Air Index |
+
+## What Is Actually Stuck at Chattogram
+
+The trigger was a wage claim. Workers want the monthly minimum raised from **Tk 12,500** to **Tk 30,000**, an increase of about 140 percent. The government formed a wage board on 1 November and protests continued. Factory data reported through 6 November put the number of idled units at **679 to 690**, with close to **one million workers** affected.
+
+A closed factory stops production. A blocked highway stops cargo. Both are happening on the Dhaka to Chattogram corridor, so the queue starts at a factory gate and ends at an anchorage. The port handles more than **90 percent** of the international trade of Bangladesh and moved **831,000 export containers** worth **USD 42.3 billion** in fiscal 2024-25. At 2,000 to 2,500 boxes a day, 13,000 stranded units are five to six days of full-capacity output sitting still, and more arrive daily.
+
+The exposure is concentrated. Textiles and ready-made garments are about **80 percent** of national exports, and EU apparel imports from Bangladesh recently passed **USD 9.6 billion**. Buyers facing missed windows have two levers: claim against the factory, or ask for air. The second is already expensive.
+
+## A Soft Ocean Market Makes the Contrast Sharper
+
+The irony is that ocean freight outside Bangladesh is easing. The Drewry World Container Index fell 1 percent to **USD 4,389 per 40ft** on 5 November, still **124 percent** above a year earlier, with Shanghai to Los Angeles at **USD 7,539** and Rotterdam at **USD 3,615**.
+
+The Shanghai Containerized Freight Index confirmed it on 6 November at **3,633.45 points**, down 53.90 points or 1.46 percent, ending four weeks of gains. The US East Coast leg fell 3.35 percent to **USD 9,857 per 40ft** and broke the 10,000 mark, Europe fell 3.01 percent to **USD 3,479**, and only the Mediterranean rose, up 1.11 percent to **USD 4,366**.
+
+Two forces press rates down. Waiting time at Shanghai improved to **35 hours**, and carriers announced **three blank sailings** on the transpacific next week against five this week, and five on Asia-Europe. Filed increases for **15 November** look defensive rather than bullish.
+For Bangladesh the arithmetic runs the other way: space is not the constraint, the terminal is. When a port stops releasing boxes, equipment sits idle, feeder rotations slip, and the delay lands on the shipper as detention, demurrage and depot storage. Add one date to China export plans: the APEC summit opens in **Shenzhen on 18 November**, and traffic controls can slow trucking and gate moves across South China.
+
+## Air Is the Only Real Escape Valve
+
+The Freightos Air Index put China to North America at **USD 7.76 per kg** on 3 November, up 9 percent in a week, **40 percent** above a year earlier and the highest reading of 2026, within reach of the **USD 8.00** peak of December 2025. China to North Europe held at **USD 4.39 per kg**, 11 percent higher year on year.
+
+That is the price of rescue capacity for a garment order that must reach a European distribution centre before a markdown date. So the first question on a stranded Chattogram booking is commercial: is the margin large enough to fly it? If yes, book now, because peak season airspace tightens weekly.
+
+## Ashdod Is the Other Port to Watch
+
+Israel is the second lane where terminal performance, not freight rates, sets delivery dates. AIS data for the seven days to 4 November showed **17 container ships** arriving at Ashdod, with **10 of them in port for more than 48 hours**, a share of 59 percent, and a median stay of about **55 hours**.
+Rates into the eastern Mediterranean stay firm because of it. All-in quotes for Tianjin to Ashdod were published on 3 November at **USD 3,900 per 20ft** and **USD 5,750 per 40ft**, above the Shanghai to Genoa benchmark of USD 4,166 because the Israeli pair carries a congestion premium. Book early and confirm free time in writing.
+
+## What Shippers Should Do
+
+**Stop counting on the Chattogram cut-off.** Assume the terminal can close without notice, and get the vessel, berth window and detention position in writing.
+
+**Split urgent Bangladesh cargo now.** Where the date is hard, fly the critical portion from Dhaka while ocean space is cheap and let the balance sail.
+
+**Do not read falling indices as falling costs on this lane.** A composite at USD 4,389 describes a market with spare capacity, not a five-day queue at one berth.
+
+**Fix the 18 November Shenzhen window into your trucking plan.** Confirm gate cut-offs and haulage before APEC controls take effect.
+
+**Price Israel with free time, not just freight.** A USD 5,750 quote means little if the box waits 55 hours and demurrage starts on day four.`,
+  },
+  {
     slug: 'xeneta-2027-outlook-nov-15-fak-hikes-nov-8-2026',
     title: 'Xeneta Sees Spot Rates Down 30 Percent in 2027 as 15 November Hikes Meet a Soft Market',
     excerpt: 'Xeneta told its Munich summit that global spot rates will average 30 percent lower in 2027 and long-term rates 5 percent lower, with 2.9 million TEU of new ships arriving. Carriers have filed 15 November FAK increases of up to USD 600 per container to the Mediterranean, but Asia to Europe cargo is already clearing at USD 3,000 to 3,500 per 40ft. Evergreen made its first Suez transit in almost three years on 7 November.',
