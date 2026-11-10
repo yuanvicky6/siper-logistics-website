@@ -11,6 +11,59 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'suez-return-critical-mass-bangladesh-barges-nov-10-2026',
+    title: 'Suez Return Reaches Critical Mass as Chattogram Barges Join the Bangladesh Stoppage',
+    excerpt: 'About 63 percent of Far East to Europe capacity is back on Suez routings, with Evergreen Ever Edit transiting on 11 November and every alliance plus MSC fully returned by Q1 2027. Xeneta estimates 6 to 8 percent of global capacity will be released, pressuring rates already at USD 4,389 on the WCI. In Bangladesh, 1,600 barges joined the Chattogram stoppage from Sunday, pushing the median vessel stay to 71 hours.',
+    date: 'November 10, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The map of the Asia-Europe trade is being redrawn this month. Evergreen sent the **16,556 TEU Ever Eon** through the Suez Canal on **7 November**, its first transit in almost three years. The sister ship **Ever Edit** follows on **11 November**, and the **20,124 TEU Ever Gifted** crosses around **16 to 17 November**. According to Linerlytica, about **63 percent** of Far East to Europe container capacity has now returned to Suez routings, and every major alliance plus MSC should be fully back by **Q1 2027**. The transition is not friction free, and a fresh labor action in Bangladesh shows how quickly a second problem can stack on top of a routing shift.
+
+## Market Snapshot
+
+| Benchmark | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 5 Nov | USD 4,389 per 40ft | -1 percent, +124 percent year on year | Drewry |
+| Shanghai to Rotterdam | USD 3,615 per 40ft | -2 percent | Drewry |
+| Shanghai to Genoa | USD 4,166 per 40ft | stable | Drewry |
+| Far East to Europe capacity on Suez routings | about 63 percent | Med 70 percent, North Europe 58 percent | Linerlytica |
+| Schedule reliability, September | 40 percent | +1 point month on month | Drewry |
+| Shanghai outbound air index (BAI80), 2 Nov | 6,138 | +2.8 percent weekly, +14.4 percent year on year | TAC Index |
+
+## The Suez Return Timeline
+
+The sequence is public and dated. Evergreen relaunches its **China to Red Sea service** on **12 November** with calls at **Jeddah, Sokhna and Aqaba**. The **Premier Alliance MD1** restarts Suez crossings from **13 November**, sailing from **Ningbo** with the **11,714 TEU YM Trust** and running an 84-day rotation with **12 ships instead of the 16** needed on the Cape routing. Maersk and Hapag-Lloyd have signalled a full return by Q1 2027, and MSC already operates **11 loops** through the waterway. The only major line still holding to the Cape route is **Zim**. The volume evidence backs the schedules: containerships transiting the canal in the four weeks to late October carried about **3.4 million TEU** of nominal capacity against **5.5 million TEU** in October 2023, about **62 percent** recovered.
+
+## Why Rates Have More Downside
+
+A Suez routing shortens the Asia-Europe round voyage by about **seven days** compared with the Cape. Xeneta estimates a comprehensive return could free the equivalent of **6 to 8 percent** of global containership capacity. The pressure is already visible: the Drewry World Container Index fell 1 percent to **USD 4,389 per 40ft** on 5 November, and Drewry projects further transpacific declines, where next week carries only **three blank sailings against five** this week. Mid-November FAK increases of up to USD 600 per container to the Mediterranean are being filed against spot tiers where Asia-Europe cargo already clears near **USD 3,000 to 3,500 per 40ft** (Linerlytica). Treat the hikes as negotiating positions, not floors.
+
+## The Catch: Bunching at Hub Ports
+
+Faster is not the same as smoother. When vessels switch back from the Cape, arrivals staggered across two voyage lengths converge into queues. Drewry warns an accelerated return could produce **vessel bunching and cargo congestion at European ports**, and the strain is visible upstream: terminal utilization at major Southeast Asian hubs such as **Singapore is running above 90 percent**, adding an estimated **7 to 12 days** of dwell for transiting boxes. With schedule reliability at just **40 percent**, the seven days saved at sea can evaporate at a berth.
+
+## Bangladesh: A Second Layer on Top of the Wage Strike
+
+While ocean routing normalizes, Chattogram is absorbing a fresh shock. Barge workers went on strike from **Sunday midnight**, stopping about **1,600 barges** that move cargo between the outer anchorage, terminals and upcountry jetties. The union lists **ten demands**, led by a minimum monthly wage of **Tk 20,000**. The Water Transport Committee normally dispatches **70 to 80 barges a day**; on day one it dispatched none. This is a distinct dispute from the dockworker wage action that began on 1 November, but it lands on the same wound: AIS data for the seven days to 10 November shows **43 container ships** arriving at Chattogram, with **38 of them in port for more than 48 hours**, a share of **88 percent**, and a median stay of about **71 hours**. Every day the barges stay tied up, boxes at the anchorage cannot reach a crane.
+
+## What This Means for China to Israel and the Middle East
+
+The routing shift cuts both ways for the eastern Mediterranean. **Zim remains on the Cape route**, so some China to Israel rotations still carry the longer transit, while services that have switched to Suez deliver up to a week faster. MSC has extended its Shikra service to Khor Fakkan, where congestion means **berthing waits of more than two weeks**. The Evergreen Red Sea relaunch on 12 November adds Jeddah, Sokhna and Aqaba options for consolidations that previously needed transshipment. Air is the hedge for hard dates: the Shanghai outbound index rose **2.8 percent** in the week to 2 November, Indian rates are up about **80 percent** year on year, and TAC Index commentary from 5 November notes rates pushing past previous peak season highs as jet fuel prices soar.
+
+## What Shippers Should Do
+
+**Quote the routing, not just the rate.** The same tariff can hide a seven day transit gap.
+
+**Do not bank the savings yet.** Hub bunching can return the days the canal gives back. Build a buffer into delivery promises through December.
+
+**Treat Bangladesh as a two-risk lane.** Two separate labor disputes can idle the corridor. Book with written free time and a contingency for 71 hour anchorage delays.
+
+**Use the Red Sea relaunch for Middle East consolidations.** Direct calls at Jeddah, Sokhna and Aqaba from 12 November beat a double transshipment on cost and time.
+
+**Keep an air option priced.** The cost of rescuing a late container keeps rising weekly. Decide the air threshold now, before the cargo is already late.`,
+  },
+  {
     slug: 'chattogram-standstill-13000-containers-nov-9-2026',
     title: 'Chattogram Standstill: 13,000 Export Containers and USD 660 Million Held at the Gateway of Bangladesh',
     excerpt: 'EuroCham Bangladesh says about 13,000 export containers holding USD 660 million of goods are stranded at Chattogram after garment wage protests closed up to 690 factories and blocked the Dhaka corridor, against normal throughput of 2,000 to 2,500 boxes a day. Ocean rates keep easing, with WCI at USD 4,389 and the SCFI at 3,633.45, while air from China to North America sits at a 2026 high of USD 7.76 per kg and Ashdod shows a median stay of 55 hours.',
