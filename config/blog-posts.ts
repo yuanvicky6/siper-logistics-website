@@ -11,6 +11,62 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'suez-open-gulf-queues-nov-20-deadline-nov-11-2026',
+    title: 'Suez Is Open but the Gulf Is Queuing: Seven-Day Anchors and a 20 November Strike Deadline',
+    excerpt: 'Drewry counted 53 Suez transits in the week before 5 November, with about 60 percent of Asia-Europe capacity back on the canal, yet Khor Fakkan is averaging 7.25 days of waiting and Fujairah 8.86 days, while Gulf transshipment has stretched from five days to 12 to 15. A China to Israel box out of Tianjin quotes at USD 5,750 per 40ft for 30 days, and Evergreen restarts its China to Red Sea OGRD service on 12 November. On the US West Coast, the watchmen contract now runs to 20 November.',
+    date: 'November 11, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The Suez Canal is filling up again, and the bottleneck has moved east. Drewry counted **53 transits** in both directions in the week before its 5 November assessment, with about **60 percent** of Asia-Europe capacity back on the canal. The same week, the ports that feed the Gulf were reporting berthing waits measured in weeks. For a shipper in Shenzhen or Ningbo, the question is no longer whether the ship can cross the Red Sea, but whether the box can be discharged once it does.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Direction | Source |
+|---|---|---|---|
+| Drewry WCI composite, 5 Nov | USD 4,389 per 40ft | -1 percent weekly, +124 percent year on year | Drewry |
+| Shanghai to Los Angeles | USD 7,539 per 40ft | unchanged | Drewry |
+| Shanghai to New York | USD 9,303 per 40ft | -3 percent | Drewry |
+| Asia-Europe capacity on Suez | about 60 percent | 53 transits in the week | Drewry |
+| Tianjin to Ashdod, 40ft | USD 5,750 | 30 days, valid to 24 November | carrier quote, 9 Nov |
+
+## The Bottleneck Moved to the Gulf
+
+Kuehne+Nagel data as of **30 October** sets out the queue. **Khor Fakkan** shows an average berthing wait of **7.25 days**, with vessels arriving **7.4 days** late and departing **5.7 days** late over 30 days. **Fujairah** averaged **8.86 days** of waiting for container ships, with arrival delays of **7.58 days** and departure delays of **7.65 days**, and still restricts discharge of dangerous goods and special equipment. **Sharjah** waits about **three days**, but delays have exceeded four days across the month.
+
+The damage is on land. Transshipment from Khor Fakkan and Fujairah to Jebel Ali, Sharjah and Abu Dhabi has stretched from roughly **five days to 12 to 15 days**. Signal Ocean data counted **265 bulk carriers** waiting at 29 ports across the Persian Gulf and Gulf of Oman on 28 October, about **75 percent** more than a year earlier. Linerlytica describes regional container congestion at a record.
+
+## When the Alternative Is Also Full
+
+Diversion only works if the diversion port has room. Hapag-Lloyd reporting puts **Salalah yard density at 84 percent** with berthing delays up to **36 hours**, **Sohar** at **two to three days**, and **Jeddah** as high as **76 percent**. On 30 October Maersk adjusted booking acceptance and cargo flow for Khor Fakkan, Fujairah and some Upper Gulf destinations: new bookings are taken against actual capacity, a revised booking is not rolled to the next voyage. Congestion was a forecast two weeks ago. It is now a booking rule.
+
+## What a China to Israel Container Actually Pays
+
+A published quote for **Tianjin to Ashdod** on 9 November sits at **USD 3,900 per 20ft and USD 5,750 per 40ft**, with a **30 day** transit. A Suez routing shortens the voyage by roughly **6,000 nautical miles** and **10 to 14 days** against the Cape, and capacity is returning: Evergreen restarts its **China to Red Sea OGRD** service on **12 November** with **EVER SUPERB**, calling **Qingdao, Shanghai, Ningbo, Shekou, Singapore, Jeddah, Sokhna and Aqaba** on a fortnightly rotation with four ships of **7,000 to 9,000 TEU**. The Shekou call matters to South China exporters.
+
+The catch is at the other end. Israeli ports typically allow **five to seven free days** on import containers. If a box clears Suez quickly but then sits 12 to 15 days in a Gulf transshipment queue, the free time is gone before it reaches a truck. Compare quotes on the door-to-door clock, not the ocean leg.
+
+## The Insurance Signal Has Not Moved
+
+Routing decisions rest on security advice, and that advice is split. Reporting on **6 November** described shipmasters emailing the Houthi Humanitarian Operations Coordination Centre for transit assurance, with replies inside **24 hours**, a permit valid **seven days**, and conditions requiring AIS transmitting and a VHF channel 16 watch. That is not recognised clearance. Insurer **Skuld** states the centre has no internationally recognised authority to impose transit conditions, the Yemen Maritime Affairs Authority in Aden, circulated by GAC, advises vessels not to engage, and **JMIC** warns that targeting has involved ships with no direct connection to the conflict. **UKMTO** reported no attacks in the Red Sea or Bab el-Mandeb in the week to 6 November, with transits about **24 percent** below its pre-blockade benchmark. An emailed permit is not a war risk endorsement: cover is priced on ownership, flag, route and named exclusions.
+
+## The 20 November Clock in California
+
+The second gate has a date. **ILWU Local 26**, about **250 terminal watchmen**, has authorised a strike at Los Angeles and Long Beach. The Pacific Maritime Association and the union extended the contract a **third time**, to **20 November**, with talks continuing under federal mediation. The group is about **two percent** of the ILWU workforce there, but covers six container terminals, and PMA estimates exposure at **85 percent of Long Beach cargo** and **33 percent of Los Angeles cargo**, because other members are expected to honour a picket line. The timing is the problem: the two ports handled about **2.04 million TEU** in September, a record month, and roughly **35,000 import containers** were waiting for rail at the end of October. The **Vincent Thomas Bridge** closed on **7 November** for about 16 months, rerouting some **4,700 drayage trucks** a day. A 20 November stoppage would land on a system with no spare capacity.
+
+## What Shippers Should Do
+
+**Price the discharge, not the freight.** A cheap ocean rate into a 12 to 15 day transshipment queue is the expensive option.
+
+**Book the gateway window in writing.** Ask for the berth and transshipment estimate, not the proforma.
+
+**Qualify a second Middle East portal.** Salalah and Sohar are tighter than they look.
+
+**Use the OGRD restart for Red Sea cargo.** Direct calls at Jeddah, Sokhna and Aqaba from 12 November beat a double transshipment.
+
+**Lock 20 November into contracts.** For US cargo, agree who pays demurrage if a terminal stops, and pre-clear an Oakland routing.`,
+  },
+  {
     slug: 'suez-return-critical-mass-bangladesh-barges-nov-10-2026',
     title: 'Suez Return Reaches Critical Mass as Chattogram Barges Join the Bangladesh Stoppage',
     excerpt: 'About 63 percent of Far East to Europe capacity is back on Suez routings, with Evergreen Ever Edit transiting on 11 November and every alliance plus MSC fully returned by Q1 2027. Xeneta estimates 6 to 8 percent of global capacity will be released, pressuring rates already at USD 4,389 on the WCI. In Bangladesh, 1,600 barges joined the Chattogram stoppage from Sunday, pushing the median vessel stay to 71 hours.',
