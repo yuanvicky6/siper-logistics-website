@@ -11,6 +11,74 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'chattogram-fee-hike-paused-bangladesh-rates-nov-12-2026',
+    title: 'Chattogram Walks Back a Four-Fold Fee Rise as Ocean Rates Soften',
+    excerpt: 'Chattogram Port Authority has suspended a storage tariff revision that would have raised the top step to four times the current level, keeping the old rate in force while customs queues and inland capacity remain the real constraint. Drewry put the WCI at USD 4,389 per 40ft on 5 November with 46 blank sailings in 717 voyages through week 50, yet China to Chittagong quotes rose about 22 percent monthly to USD 3,622 to 4,428 per 40ft. Air is the tight half: TAC global BAI00 at 2,775 points, up 27.1 percent year on year, while China to Dhaka holds near USD 1.5 per kg.',
+    date: 'November 12, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The most expensive part of a Bangladesh shipment in November was never the ocean freight. It was the clock. Chattogram Port Authority is still holding its old storage tariff rather than the four-fold increase it drafted, the Shanghai export index has slipped for a second week, and air freight out of China sits at a seasonal high. That gives importers into Dhaka a narrow, usable window: cheaper ocean, unchanged port penalty, and expensive air only for cargo that cannot wait.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Direction | Source |
+|---|---|---|---|
+| Drewry WCI composite, 5 Nov | USD 4,389 per 40ft | -1 percent weekly, +124 percent year on year | Drewry |
+| Shanghai Containerized Freight Index, 6 Nov | 3,633.45 points | -1.46 percent weekly | Shanghai Shipping Exchange |
+| China Containerized Freight Index, 6 Nov | 1,924.69 points | +2.30 percent weekly | Shanghai Shipping Exchange |
+| Blank sailings, weeks 46 to 50 | 46 of 717 voyages | 6 percent cancellation rate | Drewry |
+| Ningbo to Chittagong, 40ft high cube | USD 2,850 | valid to 15 November | carrier quote, 9 Nov |
+
+The WCI and the SCFI track spot bookings still falling as capacity returns through Suez, while the CCFI, weighted toward contract cargo, firmed 2.3 percent. Drewry counts **46 blank sailings out of 717 voyages** between weeks 46 and 50, split **50 percent** on Asia to Europe, **35 percent** on the transpacific and **15 percent** on the Atlantic.
+
+## Chattogram Pauses the Four-Fold Fee Rise
+
+Chattogram Port Authority drafted a revision to storage charges on overstayed import containers, with the top step reaching **four times** the current level. The intent was straightforward: raise the cost of leaving a box on the yard and force faster clearance. Shipping lines, forwarders, importers and exporters pushed back on cost grounds, and the authority has **suspended implementation**. The existing tariff applies for now.
+
+The pause is no fix. The congestion that motivated the increase has not gone away, and the causes sit outside the gate: customs examination, documentation errors, inland truck and rail capacity, and slow pick-up when demand is soft. A four-fold tariff does not clear a box waiting for an examination slot. It moves the cost down the chain to the importer, or to the forwarder that quoted a fixed all-in rate.
+
+Three consequences follow. Storage assumptions written before the pause may be too pessimistic, but stay exposed if the plan returns. The risk has shifted from price to policy, so contracts should state who pays storage above the free period. And the pause is a prompt to clear documents faster, not a licence to let boxes sit.
+
+## What the Bangladesh Lane Costs Now
+
+November quotes show the ocean leg moving up even as the main east-west indexes soften, because South Asia is priced off feeder capacity rather than alliance strings.
+
+| Lane | Size or mode | November quote | Change | Transit |
+|---|---|---|---|---|
+| China to Chittagong | 40ft general purpose | USD 3,622 to 4,428 | about +22 percent monthly | 10 to 15 days |
+| China to Chittagong | 20ft general purpose | USD 2,592 to 3,168 | about +2.9 percent monthly | 10 to 15 days |
+| China to Chittagong | LCL | about USD 10 per cbm | stable | 11 to 19 days |
+| Ningbo to Chittagong | 40ft high cube, COSCO | USD 2,850 | valid to 15 November | about 25 days |
+| China to Dhaka | air freight | about USD 1.5 per kg | about +7.1 percent monthly | 3 to 4 days |
+
+The spread between a Ningbo quote at **USD 2,850** and a range topping **USD 4,428** reflects sailing date, direct call versus transshipment, and whether origin handling is inside the number. Compare on the same Incoterm and the same free time, or the comparison is meaningless.
+
+## Air Is the Other Half of the Story
+
+The TAC index for 26 October put the global Baltic Air Freight Index at **2,775 points**, up **3.9 percent** in a week and **27.1 percent** year on year, above the Thanksgiving and Christmas peaks of the two previous years. Shanghai Pudong outbound reached **5,972 points**, up **19.2 percent** year on year. Kuehne+Nagel reports China to US air rates up about **14 percent** and China to Europe up about **11 percent** from mid-November.
+
+Jet fuel, per the IATA price index on 23 October, is up **118.5 percent** year on year, which resets the floor under every rate. Capacity is also absorbed by semiconductors, servers and consumer electronics on the transpacific, where block space agreements pull tonnage off the spot market before general cargo is quoted.
+
+Bangladesh is a different market. Air freight from China to Dhaka at roughly **USD 1.5 per kg** is up about **7 percent** month on month, a fraction of the transpacific move, because garment samples and spare parts travel on different belly capacity.
+
+## The Demand Side Is Cooling
+
+The National Retail Federation expects US ports to handle about **2.0 million TEU** in November, down roughly **11 percent** from **2.25 million TEU** in October, while China manufacturing PMI slipped to **49.3**. Hence the split picture: east-west spot rates falling, Bangladesh holding or rising on space, air at a seasonal high.
+
+## What Shippers Should Do
+
+**Treat the storage pause as a deadline.** Clear documentation before vessel arrival. A four-fold tariff has been drafted once already.
+
+**Fix free time in the contract.** Name who pays storage beyond the free period, and the daily rate if the tariff changes.
+
+**Split the booking by urgency.** Ocean for the bulk at USD 2,850 to 3,600 per 40ft, air at about USD 1.5 per kg only for SKUs that protect a production line.
+
+**Watch the blank sailing list, not the index headline.** A 6 percent cancellation rate on Asia to Europe and the transpacific turns a 15 day transit into a 22 day one.
+
+The window is open because three unrelated things moved at once: a tariff was paused, spot rates softened on main lanes, and air priced the peak honestly. None is permanent. Book against the calendar, not the sentiment.`,
+  },
+  {
     slug: 'suez-open-gulf-queues-nov-20-deadline-nov-11-2026',
     title: 'Suez Is Open but the Gulf Is Queuing: Seven-Day Anchors and a 20 November Strike Deadline',
     excerpt: 'Drewry counted 53 Suez transits in the week before 5 November, with about 60 percent of Asia-Europe capacity back on the canal, yet Khor Fakkan is averaging 7.25 days of waiting and Fujairah 8.86 days, while Gulf transshipment has stretched from five days to 12 to 15. A China to Israel box out of Tianjin quotes at USD 5,750 per 40ft for 30 days, and Evergreen restarts its China to Red Sea OGRD service on 12 November. On the US West Coast, the watchmen contract now runs to 20 November.',
