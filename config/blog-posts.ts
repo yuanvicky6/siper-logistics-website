@@ -11,6 +11,76 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'index-falls-hormuz-surcharge-divergence-nov-13-2026',
+    title: 'The Index Fell for a Third Week. The Gulf Invoice Did Not.',
+    excerpt: 'Drewry put the World Container Index at USD 4,305 per 40ft on 12 November, down 2 percent for a third straight week and the lowest Shanghai to New York reading since August. The Gulf is moving the other way: Maersk charges USD 1,000 per container for cargo crossing the Strait of Hormuz on top of an Emergency Freight Rate that includes 14 days of storage, and new bookings are suspended for Iraq, Kuwait, Qatar, Bahrain, Dammam and Jubail. DP World has moved one million TEU overland since March as Jebel Ali throughput fell 90.1 percent. Ashdod waits 1.8 days; Fujairah waits 8.86.',
+    date: 'November 13, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Three numbers described the same week. The World Container Index published by Drewry fell 2 percent to **USD 4,305 per 40ft** on 12 November, the third straight weekly decline. Maersk put **USD 1,000 per container** on cargo crossing the Strait of Hormuz, for insurance and crew risk. And DP World confirmed on 10 November that it has moved **more than one million TEU** by road and rail since March, because ships cannot reach Jebel Ali normally. The spot index is falling. The landed cost of a Gulf shipment is not.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Change | Source |
+|---|---|---|---|
+| WCI composite, 12 Nov | USD 4,305 per 40ft | -2 percent, third weekly fall | Drewry |
+| Shanghai to New York | USD 9,020 per 40ft | -3 percent, lowest since August | Drewry |
+| Shanghai to Rotterdam | USD 3,504 per 40ft | -3 percent | Drewry |
+| Shanghai vessel waiting time | 49 hours | up from 36 hours | Drewry |
+| Suez and Hormuz transits | 53 and 1 | same week | Drewry |
+
+That is the ordinary cycle. Carriers cut capacity into weak demand: eight blank sailings next week on the transpacific against four this week, eight on Asia-Europe against five. Shanghai waiting time rose to **49 hours** from **36 hours**, ending eleven weeks of improvement.
+
+The last row is not ordinary. The same assessment counted **53 Suez transits and one Hormuz transit** in one week. One waterway is normalising. The other is not.
+
+## A Thousand Dollars a Box, Priced as Risk
+
+The Maersk Middle East update is blunt: cargo crossing Hormuz carries **USD 1,000 per container** for insurance premiums and crew risk compensation, invoiced with the base ocean freight. It sits on top of an Emergency Freight Rate for the upper Gulf that includes **14 days of storage in transit**; beyond that, storage runs at **USD 25 per TEU per day**.
+
+Bookings are tighter than the price. New bookings are suspended for Iraq, Kuwait, Qatar, Bahrain, Dammam and Jubail. For the UAE only Khor Fakkan on import and Jebel Ali through the landbridge stay open. Jeddah bookings for local consignees carry an emergency rate of **USD 3,800**.
+
+Three details matter more than the headline. The charge has **no end date** and is reviewed weekly, so it cannot be amortised over a contract year. It is added to a change-of-destination fee if the discharge port moves. And the storage clock starts at discharge, not arrival.
+
+## Jebel Ali Moved a Million TEU by Truck
+
+Ahmad Yousef Al-Hassan, chief executive of DP World GCC, told a Dubai roundtable on 10 November that the group has moved **more than one million TEU** through alternative road and rail corridors since the first week of March, using roughly **3,000 trucks**. It had reported **500,000 TEU** by August, so half the total moved in the last three months.
+
+The cause is in the throughput. Jebel Ali handled **374,000 TEU** in the second quarter against about **3.8 million** a year earlier, down **90.1 percent**. The terminal stayed open; the constraint is access through the strait. Carriers say normal service could take **one to three months** to restore, so a reopening tomorrow would not clear the empty container imbalance this month.
+
+Security has not improved. The Joint Maritime Information Center kept the strait at a **severe** rating on 8 November, with about **352 vessels** at anchor across the main Gulf anchorages. Tracking cited by IMF PortWatch counted **3 transits on 8 November** against a pre-crisis norm of about **85 a day**.
+
+## Israel Is the Exception
+
+Israel is the one destination on this corridor where the constraint is cost rather than waiting. Kuehne+Nagel data compiled by Everstream Analytics on 12 November put the average wait at Ashdod at **1.8 days**, against **8.86 days** at Fujairah and **7.25 days** at Khor Fakkan.
+
+AIS records agree: **20 container vessels** reached Ashdod in the seven days to 7 November, **9 stayed more than 48 hours**, a median stay near **35 hours**.
+
+That gap is usable. A Mediterranean discharge into Ashdod avoids the Hormuz charge, the anchorage wait and the **12 to 15 day** land bridge that now separates a Gulf discharge from a Gulf warehouse.
+
+## Origin Got Fragile Too
+
+The **15,516 TEU Maersk Cincinnati** struck a quay crane while berthing at berth 12 in Yantian on 9 November, and the cause remains under investigation. Yantian is the main South China gateway for Europe, so a berth outage is not local: it becomes a missed connection at the first transshipment port, which on a Gulf routing costs two weeks rather than two days.
+
+## Air Is Defying the Fuel Curve
+
+The Baltic Air Freight Index reached **2,924 points** on 9 November, up **6.6 percent** weekly and **28.2 percent** year on year, the highest of 2026 and above the previous two peak seasons. Shanghai Pudong outbound closed at **6,485 points**, up **21.1 percent** year on year.
+
+Jet fuel, per the IATA monitor, fell **6.5 percent** in the week to 6 November and **7 percent** against a month earlier. Rates rose anyway, so the driver is demand ahead of Black Friday and Christmas, not input cost. Spot levels rose on every major lane out of Hong Kong, Shanghai and Korea.
+
+## What Shippers Should Do
+
+**Put USD 1,000 per container in the quote as a line, not a contingency.** A reserve outside the price gets spent without a decision.
+
+**Get the routing in writing.** Which port of discharge, which landbridge, and who pays change of destination, storage beyond 14 days and terminal charges after a re-route.
+
+**Separate Israel from the upper Gulf in the same purchase order.** One lane is bookable at normal transit; the other is a project.
+
+**Answer the inventory question, not the freight question.** Cargo that must arrive in November flies at the year high; cargo that can arrive in January waits for a canal already carrying 53 ships a week.
+
+The index is not wrong and the surcharge is not wrong. One measures a slot between two ports. The other measures whether that slot reaches the consignee at all.`,
+  },
+  {
     slug: 'chattogram-fee-hike-paused-bangladesh-rates-nov-12-2026',
     title: 'Chattogram Walks Back a Four-Fold Fee Rise as Ocean Rates Soften',
     excerpt: 'Chattogram Port Authority has suspended a storage tariff revision that would have raised the top step to four times the current level, keeping the old rate in force while customs queues and inland capacity remain the real constraint. Drewry put the WCI at USD 4,389 per 40ft on 5 November with 46 blank sailings in 717 voyages through week 50, yet China to Chittagong quotes rose about 22 percent monthly to USD 3,622 to 4,428 per 40ft. Air is the tight half: TAC global BAI00 at 2,775 points, up 27.1 percent year on year, while China to Dhaka holds near USD 1.5 per kg.',
