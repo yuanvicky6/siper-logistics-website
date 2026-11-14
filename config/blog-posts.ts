@@ -11,6 +11,73 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'suez-capacity-reliability-four-percent-nov-14-2026',
+    title: 'Four Percent On Time: Capacity Came Back Before Reliability Did',
+    excerpt: 'The Shanghai Containerized Freight Index closed at 3,572.33 points on 13 November, down 1.68 percent, and the Drewry World Container Index fell 2 percent to USD 4,305 per 40ft. Underneath the softening, service did not improve: Xeneta assessed Far East to Europe on-time arrivals at 4 percent in September with average delays of 9.9 days, while about 50 percent of pre-crisis capacity has returned through Suez. China to Israel shows the gap between index and invoice, with the November lane benchmark at USD 2,415 to 2,932 per 40GP against live Ningbo to Ashdod quotes of USD 4,418 per 40ft.',
+    date: 'November 14, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Three numbers from one week describe three different markets. The Shanghai Containerized Freight Index closed at **3,572.33 points** on 13 November, down **1.68 percent** week on week. The Xeneta spot assessment for the Far East to US West Coast lane sat at **USD 8,360 per FEU**, flat on the week but **344.9 percent above 28 February**, the last week before the Strait of Hormuz closed. And the Xeneta September scorecard put Far East to Europe reliability at **4 percent on time**, with an average delay of **9.9 days**.
+
+A rate is a direction. A booking is a promise. This week the direction weakened and the promise did not improve.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Week on week | Source |
+|---|---|---|---|
+| SCFI composite, 13 Nov | 3,572.33 points | -1.68 percent | Shanghai Shipping Exchange |
+| CCFI composite, 13 Nov | 1,919.27 points | -0.30 percent | Shanghai Shipping Exchange |
+| WCI composite, 12 Nov | USD 4,305 per 40ft | -2 percent | Drewry |
+| Far East to US West Coast | USD 8,360 per FEU | flat | Xeneta |
+| Far East to North Europe | USD 3,588 per FEU | +0.3 percent | Xeneta |
+| Far East to Europe on-time, Sep | 4 percent | delay 9.9 days | Xeneta |
+
+The Freightos Baltic Index sat at **USD 3,487.50**. Carriers are blanking eight transpacific sailings next week against four this week, and eight on Asia-Europe against five.
+
+## Four Percent Is the Number That Matters
+
+Xeneta assessed Far East to Europe on-time arrivals at **4 percent** in September against **19 percent** on Far East to North America, where delays ran about **seven days**. Global on-time ended the third quarter at **27 percent**; Drewry put overall reliability at **40 percent**.
+
+The cause was weather, not pricing policy: four typhoons closed Chinese ports in quick succession. The effect compounds anyway: every carrier posted its highest average delay of the previous twelve months in that same month, and Gemini slipped from **70 percent in June to 40 percent in September**, only four points ahead of non-alliance services.
+
+A shipper who saves **5 percent** on a Shanghai to Europe booking and loses **9.9 days** on arrival has saved nothing if the cargo feeds a promotion, a line stoppage or a demurrage clock. Reliability is the product now, and no index prices it.
+
+## Capacity Came Back Before Reliability Did
+
+Roughly **50 percent** of pre-crisis capacity has returned through Suez, and about **60 percent** of Asia-Europe capacity was expected to route that way in November and December. More than one hundred vessels of 16,000 TEU and above transited since early September.
+
+The shift is measurable. Xeneta measured offered capacity from 1 to 13 November against the October average: Far East to US West Coast **349,556 TEU**, up **1.7 percent**; Far East to North Europe **302,219 TEU**, down **7.3 percent**; Far East to US East Coast **161,571 TEU**, down **9.9 percent**. October itself set a US East Coast record at **179,000 TEU per week**, up **10.9 percent** year on year, and the spot peak came on 22 October before easing **2.5 percent**.
+
+So the network absorbs shorter rotations, changed port pairs and vessel bunching at first-call European ports at once, while a low Rhine pushes barge payloads onto rail. The system runs faster on paper and less predictably in practice.
+
+## The Stack Above the Base Rate
+
+Bunker surcharges on the four main Far East trades have risen **45 percent since February to USD 840 per FEU**, and the average fuel surcharge inside long-term contracts is up **42 percent to USD 820 per FEU**.
+
+The announced general rates sit well above the assessed market. MSC filed **USD 4,500** for North Europe and **USD 5,000** for the Western Mediterranean and Adriatic; CMA CGM filed **USD 4,900** for the Western Mediterranean, against a WCI assessment of **USD 3,504** on Shanghai to Rotterdam and **USD 4,168** on Shanghai to Genoa. Sogese expects carriers to secure only part of those increases. Shanghai to Genoa rose **12.7 percent** between 8 October and 5 November against **8.3 percent** to Rotterdam, since the Mediterranean leg carries more of the Gulf diversion.
+
+## What the Israel Lane Actually Costs
+
+For a China to Israel booking the benchmark and the bookable quote are two different numbers. The November lane benchmark runs **USD 1,868 to 2,292 per 20GP** and **USD 2,415 to 2,932 per 40GP**. Live quotes for Ningbo to Ashdod run **USD 3,509 per 20ft** and **USD 4,418 per 40ft**, and Tianjin to Haifa quoted **USD 1,701 per 20GP**, **USD 3,102 per 40GP** and **USD 3,202 per 40HQ** on 10 November.
+
+On a 40ft box the spread is roughly **50 percent**. Budget from the quote, never from the index.
+
+The smaller the shipment, the sharper the move. China to Israel LCL benchmarked at **USD 84.51 per cbm** in November, up **6.0 percent** month on month. Air tightened as well: the 1,000 kg plus lane to Tel Aviv quoted **USD 6.39 per kg**, up about **20 percent**, with express courier at **USD 15.94 per kg**. For Bangladesh the inland tail is longer: Chattogram congestion, not the ocean rate, sets the landed date.
+
+## What Shippers Should Do
+
+**Price the delay, not just the freight.** Multiply your daily inventory and penalty cost by the realistic delay on the lane. On Asia-Europe that delay can be nine to ten days.
+
+**Write the roll policy into the booking.** Ask what happens when a sailing is blanked or a port is omitted: which vessel, which week, who pays storage.
+
+**Cap and define the surcharge.** Bunker is now a fifth of the total on some lanes. Fix the review frequency, the reference index and the trigger in writing.
+
+**Separate Israel and Bangladesh from Europe in one tender.** The Mediterranean corridor reprices on Gulf diversion while North Europe reprices on capacity return. One contract cannot hedge both.
+
+The index tells you what a slot cost on Thursday. Reliability tells you when your container arrives. In November 2026 the second number is the one worth negotiating.`,
+  },
+  {
     slug: 'index-falls-hormuz-surcharge-divergence-nov-13-2026',
     title: 'The Index Fell for a Third Week. The Gulf Invoice Did Not.',
     excerpt: 'Drewry put the World Container Index at USD 4,305 per 40ft on 12 November, down 2 percent for a third straight week and the lowest Shanghai to New York reading since August. The Gulf is moving the other way: Maersk charges USD 1,000 per container for cargo crossing the Strait of Hormuz on top of an Emergency Freight Rate that includes 14 days of storage, and new bookings are suspended for Iraq, Kuwait, Qatar, Bahrain, Dammam and Jubail. DP World has moved one million TEU overland since March as Jebel Ali throughput fell 90.1 percent. Ashdod waits 1.8 days; Fujairah waits 8.86.',
