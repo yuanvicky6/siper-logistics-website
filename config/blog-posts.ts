@@ -11,6 +11,70 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'shanghai-congestion-fak-small-cargo-nov-16-2026',
+    title: 'Rates Fall While the Queue in Shanghai Doubles',
+    excerpt: 'Drewry put the World Container Index at USD 4,305 per 40ft on 12 November, down 2 percent for a third straight week, yet Shanghai port waiting time jumped from 36 to 49 hours after eleven weeks of improvement. Carriers doubled blank sailings to eight per east-west trade and filed higher FAK rates and peak season surcharges on Asia to Europe and the Mediterranean from late November. Meanwhile the small shipment market moves the other way: China to Israel LCL is up 6.0 percent to USD 84.51 per cbm and air freight to Tel Aviv is up about 20 percent to USD 6.39 per kg.',
+    date: 'November 16, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The Drewry World Container Index fell for a third consecutive week, down 2 percent to **USD 4,305 per 40ft** in the week ending 12 November. The same weekly report recorded something the index does not show: containers were waiting **49 hours** outside Shanghai, up from **36 hours** the week before, after eleven straight weeks of improvement. Spot rates are easing and queues are lengthening at the same time, and carriers have answered by doubling blank sailings and filing higher FAK rates and peak season surcharges on Asia to Europe and the Mediterranean from the second half of November. The cost of a booking has become a race between three clocks: the index, the port and the surcharge file.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Week on week | Source |
+|---|---|---|---|
+| WCI composite, 12 Nov | USD 4,305 per 40ft | -2 percent, third weekly drop | Drewry |
+| Shanghai to New York | USD 9,020 per FEU | -3 percent, lowest since August | Drewry |
+| Shanghai to Los Angeles | USD 7,416 per FEU | -2 percent, lowest since September | Drewry |
+| Shanghai to Rotterdam | USD 3,504 per FEU | -3 percent | Drewry |
+| Shanghai to Genoa | USD 4,168 per FEU | flat | Drewry |
+| Shanghai port waiting time | 49 hours | up from 36 hours | Drewry |
+
+The composite has moved inside a narrow band of roughly **USD 400** since July, so this dip reads as a gentle exit from the peak season rather than a collapse. The structure underneath it is less gentle.
+
+## The Queue Grew While the Index Fell
+
+Shanghai waiting times had improved for eleven consecutive weeks. That streak ended last week when congestion rose from **36 hours to 49 hours**. A longer queue at the biggest export port in the world does not raise spot rates while demand is soft, but it eats buffer days out of every transit promise on a China origin booking.
+
+Two further risks sit behind the numbers. Labor negotiations at the ports of Los Angeles and Long Beach remain unresolved, and Drewry flags geopolitical uncertainty as an open threat to schedule integrity. The Suez picture is still split: **53 vessels** transited the Suez Canal last week against a single vessel through the Strait of Hormuz, so the Gulf leg of any Asia to Mediterranean rotation remains exposed to diversion and war risk premiums.
+
+## Blank Sailings Double and Surcharges File Upward
+
+Carriers are cutting supply into falling demand. Drewry counted **eight blanked transpacific sailings** announced for next week against four this week, and **eight blanked Asia to Europe sailings** against five. At the same time, carriers have announced **higher FAK rates and peak season surcharges** on Asia to Europe and Mediterranean trades effective from the second half of November, aiming to catch pre Lunar New Year cargo.
+
+This is a bet that discipline holds longer than softness does. When blankings and surcharge filings land while spot readings fall, the quote a shipper actually receives in late November may rise even as the index prints lower. Book on old assumptions and the gap lands in your landed cost.
+
+## The Small Shipment Market Moves Opposite
+
+While full container spot rates drift down, the small shipment market in the lanes this agency serves is moving up.
+
+| Lane | Mode or size | Quote | Note | Source |
+|---|---|---|---|---|
+| China to Israel | 20GP sea | USD 1,868 to 2,292 | 10 to 12 days | Sino-Shipping, Nov |
+| China to Israel | 40GP sea | USD 2,415 to 2,932 | 10 to 12 days | Sino-Shipping, Nov |
+| China to Israel | LCL | USD 84.51 per cbm | +6.0 percent monthly | Sino-Shipping, Nov |
+| China to Israel | Air, 1,000 kg plus | USD 6.39 per kg | +20.3 percent monthly | Sino-Shipping, Nov |
+| Ningbo to Chittagong | COSCO 20GP / 40GP | USD 2,750 / 2,850 | about 25 days | carrier quote, 14 Nov |
+| Yiwu to Dhaka | MCC 20GP / 40GP | USD 2,755 / 4,680 | about 18 days | carrier quote, 15 Nov |
+
+China to Israel LCL rose **6.0 percent month on month** to **USD 84.51 per cbm**, and air freight out of South China tightened sharply: the 1,000 kg plus lane to Tel Aviv quoted **USD 6.39 per kg**, up about **20 percent**, with express courier at **USD 15.94 per kg**. Consolidated cargo and air capacity are priced by scarcity, and peak season scarcity arrives before the full container market bottoms out.
+
+On the Bangladesh lanes, Ningbo to Chittagong quotes **USD 2,750 per 20GP** and **USD 2,850 per 40GP** on COSCO with a transit of about **25 days**, while Yiwu to Dhaka quotes **USD 2,755 / 4,680 per 20GP / 40GP** on MCC in about **18 days**. LCL to Chittagong runs **USD 70 per cbm** for light cargo. Chattogram remains under a congestion red alert, with local industry reports putting trade losses above **USD 5 billion**, so the clearance tail, not the ocean rate, still sets the delivery date into Dhaka.
+
+## What Shippers Should Do
+
+**Book around the queue, not the index.** A lower spot reading with 49 hour Shanghai waiting means less schedule margin. Ask for the estimated berthing delay at the port of loading before you fix a vessel that feeds a fixed delivery date.
+
+**Confirm the FAK and surcharge stack in writing.** With new FAK rates and peak season surcharges effective in the second half of November, get the all-in number, the validity window and the rollover policy into the booking note before cut-off.
+
+**Split urgency from economy.** Israel bound air at **USD 6.39 per kg** now costs around 20 percent more than a month ago. Put only the cargo that cannot wait on the plane and let the rest ride sea freight at **USD 1,868 to 2,292 per 20GP**.
+
+**Treat Chittagong clearance as a project.** Free time, documentation accuracy and pre-alert completeness decide when a Dhaka shipment actually lands. A USD 2,850 ocean leg does not forgive a ten day examination queue.
+
+The index says what a slot cost on Thursday. The queue says when it sails, and the surcharge file says what you will pay. In the second half of November 2026, the second and third clocks are the ones worth watching.`,
+  },
+  {
     slug: 'suez-capacity-reliability-four-percent-nov-14-2026',
     title: 'Four Percent On Time: Capacity Came Back Before Reliability Did',
     excerpt: 'The Shanghai Containerized Freight Index closed at 3,572.33 points on 13 November, down 1.68 percent, and the Drewry World Container Index fell 2 percent to USD 4,305 per 40ft. Underneath the softening, service did not improve: Xeneta assessed Far East to Europe on-time arrivals at 4 percent in September with average delays of 9.9 days, while about 50 percent of pre-crisis capacity has returned through Suez. China to Israel shows the gap between index and invoice, with the November lane benchmark at USD 2,415 to 2,932 per 40GP against live Ningbo to Ashdod quotes of USD 4,418 per 40ft.',
