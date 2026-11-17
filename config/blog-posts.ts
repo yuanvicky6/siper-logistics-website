@@ -11,6 +11,83 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'suez-full-return-december-surcharge-wall-nov-17-2026',
+    title: 'The Canal Is Back. The Invoice Got There First.',
+    excerpt: 'Maersk and Hapag-Lloyd set 16 November for the last three Gemini Asia to Europe services to return through Suez, with first sailings from Ningbo on 4 December, Shanghai on 20 December and Shanghai on 14 January, lifting the alliance to 11 canal services and saving 10 to 14 days each way. In the same week three carriers filed peak season surcharges before contract season: Maersk at USD 1,000 per 40ft to North Europe from 1 December, CMA CGM at USD 1,600 per 40ft to the Mediterranean from 25 November, and MSC FAK at USD 4,600 per 40ft for 1 to 14 December. Spot indexes keep falling, with the WCI at USD 4,305 and the SCFI at 3,572 points.',
+    date: 'November 17, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The two halves of a booking moved in opposite directions this week. On 16 November Maersk and Hapag-Lloyd scheduled the last three Gemini Asia to Europe services back through the Suez Canal, putting the whole alliance network on the shorter route by mid-January. In the same seven days, Maersk, CMA CGM and MSC filed peak season surcharges and fresh FAK levels effective 25 November and 1 December. Spot indexes keep falling, with the Drewry World Container Index at **USD 4,305 per 40ft**, down 2 percent, and the Shanghai export index at **3,572 points**, down 1.68 percent. Transit time will improve by 10 to 14 days. The price will not.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Change | Source |
+|---|---|---|---|
+| WCI composite, 12 Nov | USD 4,305 per 40ft | -2 percent, +132 percent yearly | Drewry |
+| SCFI, 13 Nov | 3,572.33 points | -1.68 percent | Shanghai Shipping Exchange |
+| Shanghai port waiting time | 49 hours | up from 36 hours | Drewry |
+| Baltic Air Freight Index, 16 Nov | 2,880 points | -1.5 percent weekly, +20.8 percent yearly | TAC Index |
+
+## Gemini Commits the Entire Asia-Europe Network
+
+The 16 November advisory is the largest routing decision of the year. AE1, AE2 and AE3 leave the Cape of Good Hope with firm first sailings: Mary Maersk voyage 650W at Ningbo on **4 December**, Alette Maersk voyage 652W at Shanghai on **20 December**, and Damietta Express voyage 702W at Shanghai on **14 January 2027**. Hapag-Lloyd markets the same strings as NE2, NE1 and NE3.
+
+That lifts Gemini to **11 services through the canal**, adding SE1 to SE5, NE4, IEX and IOS to the Asia-Europe trio. It is the first alliance with a complete Asia-Europe Suez plan, and the Hapag-Lloyd chief executive expects a full return in the first quarter of 2027, conditional on Red Sea stability.
+
+Drewry puts the one-way gain at **10 to 14 days**, recovering most of the buffer shippers built into lead times this year. The same report counted **53 vessels through Suez** and **one through the Strait of Hormuz**, so the canal works while the Gulf corridor does not.
+
+## The Saving Does Not Arrive With the Ship
+
+A shorter voyage is not automatically cheaper. Drewry compared a 24,000 TEU round voyage on both routings: **124 days and 29,700 nautical miles** via the Cape against **97 days and 21,900 nautical miles** via Suez, saving 7,800 nautical miles and **about USD 1 million** per round voyage before variable charges.
+
+Across a nominal slot that is roughly **USD 43 per TEU**. War risk cover then works against it: two quotations at 0.3 percent of a USD 225 million hull total **USD 1.35 million**, more than the voyage saving.
+
+The transit gain arrives immediately and the freight saving does not, so plan around the schedule, not the discount. Carriers also need volume on the returning strings to defend the filings below.
+
+## The December Wall Is Already Filed
+
+| Carrier | Trade | Amount | Effective |
+|---|---|---|---|
+| Maersk | Far East Asia to North Europe PSS | USD 500 per 20ft, USD 1,000 per 40ft | 1 December |
+| CMA CGM | Asia to North Europe PSS | USD 500 per TEU | 1 December |
+| CMA CGM | Asia to Mediterranean and North Africa PSS | USD 800 per 20ft, USD 1,600 per 40ft | 25 November |
+| MSC | Far East to North Europe FAK | USD 3,220 per 20ft, USD 4,600 per 40ft | 1 to 14 December |
+| Hapag-Lloyd | India, Pakistan, Middle East to US GRI | USD 1,000 per container | 1 December |
+
+Applied FAK levels run **USD 4,500 to 5,000 per 40ft** to North Europe and **USD 5,500 to 6,600 per 40ft** to the Mediterranean, where carriers have aimed for two months. Hapag-Lloyd has told analysts that 2027 contracts will close above 2026 levels, and with Lunar New Year on 6 February, pre-holiday demand fills January.
+
+For Israel and the East Mediterranean, the filing that matters is the **25 November** step at USD 800 per 20ft and USD 1,600 per 40ft, since Israel is served off East Mediterranean strings.
+
+## What the Destination Lanes Cost
+
+| Lane | Mode and size | Quote | Date |
+|---|---|---|---|
+| Tianjin to Chittagong | 40ft high cube | USD 4,929 | 13 November |
+| Tianjin to Haifa | 40ft high cube, 35 days | USD 4,600 | 16 November |
+| China to Israel benchmark | 40ft, November | USD 2,415 to 2,932 | November |
+
+Read Bangladesh against the index. A 40ft box from Tianjin to Chittagong at **USD 4,929** costs more than a Shanghai to Rotterdam index box at USD 3,504, because South Asia is priced off feeder capacity, not alliance strings. Chattogram stays congested: 46 container vessels arrived in the seven days to 13 November, **32 stayed beyond 48 hours**, and the median stay was 60 hours.
+
+## Air Peaked First
+
+TAC Index put the Baltic Air Freight Index at **2,880 points** on 16 November, down 1.5 percent, the first weekly fall after the 9 November print set the high of 2026. Shanghai Pudong eased to **6,310 points**, down 2.7 percent but still 13.1 percent above last year, and Hong Kong fell 4.5 percent to 4,937.
+
+Air turns before ocean because it reprices weekly and the parcel peak has a date. The premium into Dhaka and Tel Aviv should narrow through early December while ocean surcharges rise.
+
+## What Shippers Should Do This Week
+
+**Book before the filing date.** If cargo can sail before 25 November for the Mediterranean and before 1 December for North Europe, the old rate applies.
+
+**Ask for the stack, not the headline.** Base rate plus PSS plus origin and destination charges, with the validity window and rollover policy in the booking note.
+
+**Do not sign 2027 against a falling index.** Long-term cover needs a floor and a review clause, or index linkage.
+
+**Budget Bangladesh at 4,900 per 40ft.** The 3,600 range quoted a month ago no longer buys a Tianjin to Chittagong box.
+
+Spider Logistics arranges ocean and air freight, customs clearance and door-to-door delivery from all major Chinese gateways to Chittagong, Haifa, Ashdod, Durban and the Gulf. Contact us for a lane quotation that separates the rate from the surcharge.`,
+  },
+  {
     slug: 'shanghai-congestion-fak-small-cargo-nov-16-2026',
     title: 'Rates Fall While the Queue in Shanghai Doubles',
     excerpt: 'Drewry put the World Container Index at USD 4,305 per 40ft on 12 November, down 2 percent for a third straight week, yet Shanghai port waiting time jumped from 36 to 49 hours after eleven weeks of improvement. Carriers doubled blank sailings to eight per east-west trade and filed higher FAK rates and peak season surcharges on Asia to Europe and the Mediterranean from late November. Meanwhile the small shipment market moves the other way: China to Israel LCL is up 6.0 percent to USD 84.51 per cbm and air freight to Tel Aviv is up about 20 percent to USD 6.39 per kg.',
