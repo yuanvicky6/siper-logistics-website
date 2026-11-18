@@ -250,6 +250,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section - AI search (GEO) optimization */}
+      <section className="py-24 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Quick answers about <strong>shipping from China</strong> to Bangladesh, Israel, Africa and the Middle East
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              {
+                q: 'What is Spider Logistics?',
+                a: 'Spider Logistics (Shenzhen Spider Logistics Technology Co., Ltd.) is an international freight forwarder founded in 2010 in Shenzhen, China, specializing in air freight, sea freight FCL and LCL, customs clearance and door-to-door delivery from China to Bangladesh, Israel, Africa, the Middle East and worldwide.'
+              },
+              {
+                q: 'How long does air freight from China to Bangladesh and Israel take?',
+                a: 'Door-to-door air freight takes about 3 to 5 days to Bangladesh and 4 to 6 days to Israel, including supplier pickup, export customs clearance in China and final delivery.'
+              },
+              {
+                q: 'How long does sea freight from China to Africa take?',
+                a: 'Ocean transit runs approximately 25 to 30 days to Nigeria, 28 to 35 days to Kenya, 30 to 40 days to South Africa and 25 to 35 days to Ghana, plus clearance and inland delivery time at destination.'
+              },
+              {
+                q: 'FCL or LCL: which sea freight option fits my cargo?',
+                a: 'Choose FCL when your cargo fills half a container or more for a flat rate and faster handling. Choose LCL for smaller volumes: your goods share container space in our weekly South China consolidations and you pay only for the space you use.'
+              },
+              {
+                q: 'Can you consolidate orders from multiple suppliers in China?',
+                a: 'Yes. Your suppliers deliver to our Dongguan warehouse, where we inspect, repack, label and merge everything into one shipment, cutting total freight cost for e-commerce sellers and trading companies.'
+              },
+              {
+                q: 'How do I get a freight quote?',
+                a: 'Send your origin city, destination, product description, weight and volume through our contact page, by email at yuanvicky6@gmail.com or by phone and WhatsApp at +86 13651459671. Rates change weekly, so we quote live market prices for every shipment.'
+              }
+            ].map((faq, index) => (
+              <div key={index} className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{faq.q}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Link href="/faq">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+                View All Questions
+              </button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Latest Blog Posts - SEO Internal Linking */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

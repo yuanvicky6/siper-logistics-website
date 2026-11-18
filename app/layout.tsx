@@ -118,6 +118,9 @@ export default function RootLayout({
       ],
       sameAs: [
         'https://github.com/yuanvicky6/siper-logistics-website',
+        'https://twitter.com/siperlogistics',
+        'https://linkedin.com/company/siperlogistics',
+        'https://instagram.com/siperlogistics',
       ],
       geo: {
         '@type': 'GeoCoordinates',

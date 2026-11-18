@@ -76,35 +76,46 @@ export default async function BlogPostPage({
 
   // JSON-LD structured data for the article (server-rendered)
   const jsonLd = post
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'BlogPosting',
-        '@id': `${SITE}/blog/${post.slug}#article`,
-        headline: post.title,
-        description: post.excerpt,
-        datePublished: new Date(post.date).toISOString(),
-        inLanguage: 'en',
-        author: {
-          '@type': 'Organization',
-          name: 'Spider Logistics',
-          url: SITE,
-        },
-        publisher: {
-          '@type': 'Organization',
-          name: 'Shenzhen Spider Logistics Technology Co., Ltd.',
-          logo: {
-            '@type': 'ImageObject',
-            url: `${SITE}/icon.png`,
+    ? [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BlogPosting',
+          '@id': `${SITE}/blog/${post.slug}#article`,
+          headline: post.title,
+          description: post.excerpt,
+          datePublished: new Date(post.date).toISOString(),
+          inLanguage: 'en',
+          author: {
+            '@type': 'Organization',
+            name: 'Spider Logistics',
+            url: SITE,
           },
+          publisher: {
+            '@type': 'Organization',
+            name: 'Shenzhen Spider Logistics Technology Co., Ltd.',
+            logo: {
+              '@type': 'ImageObject',
+              url: `${SITE}/icon.png`,
+            },
+          },
+          mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': `${SITE}/blog/${post.slug}`,
+          },
+          image: [`${SITE}/blog-og.jpg`],
+          articleSection: post.category,
+          keywords: 'China freight, shipping rates, freight forwarding, logistics',
         },
-        mainEntityOfPage: {
-          '@type': 'WebPage',
-          '@id': `${SITE}/blog/${post.slug}`,
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: SITE },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE}/blog` },
+            { '@type': 'ListItem', position: 3, name: post.title, item: `${SITE}/blog/${post.slug}` },
+          ],
         },
-        image: [`${SITE}/blog-og.jpg`],
-        articleSection: post.category,
-        keywords: 'China freight, shipping rates, freight forwarding, logistics',
-      }
+      ]
     : {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
