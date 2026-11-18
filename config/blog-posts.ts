@@ -11,6 +11,71 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'pacific-fak-cuts-med-surcharges-nov-18-2026',
+    title: 'The Pacific Cut FAK. The Mediterranean Added a Fee.',
+    excerpt: 'Alliance carriers cut transpacific FAK on 12 November, with the US East Coast down USD 1,900 per FEU to USD 9,000 and the West Coast down USD 550 to USD 7,700, while non-alliance quotes fell below USD 7,000. The Mediterranean moved the other way: Maersk filed a peak season surcharge of USD 750 per 20ft and USD 1,500 per 40ft from 23 November with Israel in scope, MSC added USD 91 per TEU of piracy and Suez fees, and CMA CGM filed USD 1,600 per 40ft from 25 November. Los Angeles posted a record October of 1,026,900 TEU, but the NRF sees imports fading to 2.05 million TEU in November.',
+    date: 'November 18, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `One ocean spent this week cutting prices. The other spent it adding fees. On 12 November, alliance carriers notified FAK reductions on the transpacific: US East Coast down **USD 1,900 per FEU to USD 9,000**, West Coast down USD 550 to USD 7,700, with some non-alliance quotes on both coasts below USD 7,000. In the same seven days, Maersk confirmed a Mediterranean peak season surcharge of **USD 750 per 20ft and USD 1,500 per 40ft from 23 November**, with the published scope naming Israel, Turkey and Egypt among the destinations. Spot indexes barely moved. The invoice changed anyway.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Change | Source |
+|---|---|---|---|
+| WCI composite, 12 Nov | USD 4,305 per 40ft | -2 percent, third weekly drop | Drewry |
+| SCFI, 13 Nov | 3,572.33 points | -1.68 percent | Shanghai Shipping Exchange |
+| FBX Asia to US West Coast | USD 8,460 per FEU | +3 percent weekly | Freightos |
+| FBX Asia to US East Coast | USD 9,850 per FEU | +1 percent weekly | Freightos |
+| FBX Asia to North Europe | about USD 3,400 per FEU | level, -5 percent from late October | Freightos |
+| Air, China to North America | USD 9.25 per kg | +16 percent weekly | Freightos Air Index |
+
+## The Pacific Repriced Down
+
+The published cuts are the sharpest of the fourth quarter. One alliance carrier moved its US East Coast FAK from USD 10,900 to USD 9,000 per FEU in a single notice, and US West Coast from USD 8,250 to USD 7,700. Non-alliance quotes run under USD 7,000 on both coasts. Yet the spot indexes tell a calmer story: Freightos puts the West Coast at USD 8,460 and the East Coast at USD 9,850, both still around **2.8 times** the levels of November 2025.
+
+Demand explains the divergence. Los Angeles handled **1,026,900 TEU in October**, an October record and the first time the port has cleared one million TEU in consecutive months, with loaded imports up 25 percent year on year. That was the peak passing through the port, not a signal of what comes next. The National Retail Federation projects imports of 2.05 million TEU in November and 2.03 million in December, roughly flat year on year, then a 3 percent decline in January and 11.2 percent in March as the pre-tariff stocking cycle fades.
+
+Two operational risks sit on top. The watchmen contract at Los Angeles and Long Beach runs out on **20 November**, and inland rail dwell at the two ports remains a problem even as vessel queues ease. The Panama Canal, by contrast, has retired a risk: better rainfall allowed the authority to reverse the summer draft and transit limits, and the El Nino outlook is downgraded.
+
+## The Mediterranean Stacks Instead
+
+Asia-Europe spot is soft, with Shanghai to Rotterdam at USD 3,504 and the Freightos North Europe reading down 5 percent from late October. The response has been surcharges, not discounts.
+
+| Carrier | Fee | Amount | Effective |
+|---|---|---|---|
+| Maersk | Far East to Mediterranean PSS | USD 750 per 20ft, USD 1,500 per 40ft | 23 November |
+| MSC | Piracy and Suez Canal surcharges, more Med and Black Sea ports | USD 91 per TEU combined | 15 November |
+| CMA CGM | Asia to Mediterranean and North Africa PSS | USD 800 per 20ft, USD 1,600 per 40ft | 25 November |
+| Hapag-Lloyd | Far East to North Europe and Med PSS | USD 500 per TEU and USD 750 per TEU | 1 December |
+
+The Maersk Mediterranean filing is the one that matters most for this lane network, because the announced destination scope includes **Israel**. A 40ft box to Haifa or Ashdod booked on or after 23 November carries USD 1,500 of surcharge that the same box did not carry in October, before any movement in the base rate. MSC has separately widened its piracy and Suez surcharges across more Mediterranean and Black Sea discharge ports at USD 91 per TEU combined, and its East Mediterranean and Black Sea FAK steps of USD 600 per box run through 30 November.
+
+## What the Israel Lane Costs This Week
+
+| Lane | Mode and size | Quote | Date |
+|---|---|---|---|
+| Tianjin to Haifa | 40ft high cube, 35 days | USD 4,600 | 16 November |
+| Tianjin to Haifa | 20ft, 35 days | USD 2,600 | 16 November |
+| China to Israel benchmark, November | 40ft | USD 2,415 to 2,932 | Sino-Shipping |
+| China to Israel air, 1,000kg plus | per kg | USD 6.39 | November |
+
+The spread between the benchmark and the live Tianjin quote is the usual mix of sailing date, direct call and origin handling. What changes on 23 November is not the spread but the floor: the Maersk surcharge lands on top of whatever base rate is quoted. Shippers with cargo ready this week should treat 23 November as a price event, not a filing formality. Air does not offer the same window, with China to North America at USD 9.25 per kg, above the 2025 peak of USD 8.00, and transatlantic at its highest since December 2022.
+
+## What Shippers Should Do This Week
+
+**Book Mediterranean and Israel cargo before 23 November.** The Maersk surcharge applies by price calculation date, so cargo gate-in before the date may still clear under the old terms. Confirm which PCD your booking uses.
+
+**Requote the Pacific this week, not last week.** With FAK down USD 1,900 on the East Coast and non-alliance quotes below USD 7,000, a quote older than seven days is probably wrong in your favour or against it. Shorten validity and reprice at booking.
+
+**Separate the surcharge stack from the base rate.** PSS, piracy risk, Suez Canal, bunker and terminal charges now move independently of the index. Ask for each line item before comparing two quotes.
+
+**Watch 20 November at Los Angeles and Long Beach.** A stoppage would hit gates at most terminals of the two ports. Cargo with a fixed delivery date needs a contingency routing now, not after the deadline.
+
+Spider Logistics arranges ocean and air freight, customs clearance and door-to-door delivery from all major Chinese gateways to Haifa, Ashdod, Chittagong, Durban and North America. Contact us for an all-in quotation with every surcharge shown as its own line.`,
+  },
+  {
     slug: 'suez-full-return-december-surcharge-wall-nov-17-2026',
     title: 'The Canal Is Back. The Invoice Got There First.',
     excerpt: 'Maersk and Hapag-Lloyd set 16 November for the last three Gemini Asia to Europe services to return through Suez, with first sailings from Ningbo on 4 December, Shanghai on 20 December and Shanghai on 14 January, lifting the alliance to 11 canal services and saving 10 to 14 days each way. In the same week three carriers filed peak season surcharges before contract season: Maersk at USD 1,000 per 40ft to North Europe from 1 December, CMA CGM at USD 1,600 per 40ft to the Mediterranean from 25 November, and MSC FAK at USD 4,600 per 40ft for 1 to 14 December. Spot indexes keep falling, with the WCI at USD 4,305 and the SCFI at 3,572 points.',
