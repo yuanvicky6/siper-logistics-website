@@ -11,6 +11,69 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'typhoon-congestion-december-fak-nov-19-2026',
+    title: 'The Fleet Is Tied to the Dock. The Index Did Not Notice.',
+    excerpt: 'Sea-Intelligence estimates typhoon congestion has tied up about 8.5 percent of the global container fleet, roughly 3 million TEU, while DHL puts the figure above 10 percent. Schedule reliability has fallen to a four-year low of 49.9 percent and Xeneta counts 24 percent of vessel calls on time, yet the Drewry WCI dropped to USD 4,305 per 40ft on 12 November, a third straight weekly decline. Intra-Asia rates hit records, with Shanghai to Laem Chabang up 22 percent to USD 1,609, blank sailings reach 52 of 716 departures in weeks 47 to 51, and the pre-Lunar New Year rush toward 6 February 2027 starts against a congested network.',
+    date: 'November 19, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `One number explains the fourth quarter better than any index: Sea-Intelligence estimates that typhoon-driven congestion in Asia has tied up roughly **8.5 percent of the global containership fleet, about 3 million TEU**, the equivalent of removing the fifth largest ocean carrier from active service. Mainline spot rates keep sliding anyway. The Drewry World Container Index fell to **USD 4,305 per 40ft on 12 November**, a third straight weekly decline, yet schedule reliability has collapsed to a four-year low and December FAK letters are already landing. The market is not short of ships. It is short of ships that are on time.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Change | Source |
+|---|---|---|---|
+| WCI composite, 12 Nov | USD 4,305 per 40ft | -2 percent, third weekly drop | Drewry |
+| SCFI, 13 Nov | 3,572.33 points | -1.68 percent | Shanghai Shipping Exchange |
+| FBX composite, 17 Nov | USD 3,485 per 40ft | softening | Freightos |
+| SCFIS Europe, 16 Nov | 2,289.56 points | +4.13 percent | Shanghai Shipping Exchange |
+| Shanghai to Laem Chabang | USD 1,609 per 40ft | +22 percent, record | Drewry intra-Asia |
+| Shanghai to Jakarta | USD 2,300 per 40ft | +12 percent | Drewry intra-Asia |
+
+Note the split in the middle rows: the settled SCFIS Europe index rose 4.13 percent in the same week that spot Europe fell, which is the usual signature of December FAK filings running ahead of the market rather than behind it.
+
+## The Congestion Ledger
+
+| Port | 7-day average wait | Note |
+|---|---|---|
+| Shanghai | 2.14 days | wind-related closures, suspended barge operations |
+| Shekou | 1.4 days | yard density above 90 percent, APEC restrictions 16 to 20 November |
+| Yantian | rising | Berth 12 closed until end of November after the 9 November crane collision |
+| Tokyo | about 1 day | yard utilisation 109 to 121 percent |
+| Busan | about 1 day | BNCT yard density 102 percent |
+| Port Klang | 1.63 days | yard density above 90 percent |
+| Manila | 2.25 days | MICT yard at 85 to 90 percent |
+
+Source: Kuehne+Nagel weekly port update, 11 to 17 November.
+
+Behind the port table sit three bigger numbers. DHL Global Forwarding puts congestion above **10 percent of the global fleet, about 3.6 million TEU**, and warns that rebuilding the Asia-Europe network around the Suez return will take **6 to 12 months**. Sea-Intelligence scores schedule reliability at **49.9 percent**, a four-year low, with vessel waiting at North Asian hubs of 5 to 11 days and queues at Singapore roughly doubled. Xeneta counts only **24 percent** of vessel calls on time in October, the fifth consecutive monthly decline, with average delays of 6.4 days. Analysts expect the backlog to take **7 to 10 months** to clear, which runs the disruption well past Lunar New Year on 6 February 2027.
+
+## Rates Split: Regional Up, Mainline Down
+
+Intra-Asia is the market the typhoons actually hit, and it is priced accordingly: Drewry puts Shanghai to Laem Chabang up 22 percent to USD 1,609 per 40ft and Shanghai to Jakarta up 12 percent to USD 2,300, both at record levels. DHL reports berthing delays beyond two weeks at some Gulf gateway ports, and demand growth of 5 percent year to date against fleet growth of about 4 percent leaves almost no slack in the system. On the mainlines the same capacity squeeze meets fresh supply: Xeneta measured Far East to US East Coast offered capacity at about 179,000 TEU per week in October, up 10.9 percent year on year, which is why the composite index falls even as ports choke.
+
+## December FAK and the 6 February Clock
+
+Drewry counts **52 blank sailings out of 716** scheduled departures across east-west trades in weeks 47 to 51, about 7 percent, with half of them on Asia to North Europe and the Mediterranean. Carriers have started circulating December FAK letters and peak season surcharges, and Hapag-Lloyd has announced a Far East to Europe FAK increase from December, although early quotes show how unevenly these filings land against a soft spot market. Two policy clocks bracket the quarter: the United States has extended its pause on Section 301 port fees for Chinese-linked vessels to 10 January 2027, and the watchmen contract deadline at Los Angeles and Long Beach was pushed again to **20 November**, covering terminals that handle about 85 percent of containerized cargo at Long Beach and about one third at Los Angeles.
+
+## What It Means for Israel, Bangladesh and Africa Cargo
+
+Cargo bound for Haifa, Ashdod, Chittagong or African ports rarely sails direct from China. It transships, and the hubs it transships through are exactly the ones under strain: Singapore queues have doubled and Port Klang yards run above 90 percent density. A congested hub does not add a line item to your invoice, it silently eats the connection. On destination ports the picture is uneven but real: Tema waits about 6.08 days, Conakry about 11.5 days, Beira about 8.14 days and Pointe Noire about 4.85 days with yards near 95 percent, per the same Kuehne+Nagel update. Chittagong clearance remains the delivery bottleneck into Dhaka regardless of what the ocean leg costs.
+
+## What Shippers Should Do This Week
+
+**Add buffer, not price.** With reliability below 50 percent and transshipment yards full, a five to seven day margin on connections to Israel, Bangladesh and Africa is planning, not padding.
+
+**Confirm transshipment ports in writing.** Ask which hub your booking uses and what the fallback is if the connection rolls.
+
+**Treat December FAK letters as a floor, not a promise.** Get the all-in number, the validity window and the surcharge list into the booking note before cut-off.
+
+**Gate Israel and Gulf cargo early.** With Gulf berthing delays beyond two weeks and surcharge filings stacking for December, cargo ready now should ship now.
+
+Spider Logistics arranges ocean and air freight, customs clearance and door-to-door delivery from all major Chinese gateways to Haifa, Ashdod, Chittagong, Durban and West Africa. Contact us for an all-in quotation with the transshipment port, the connection buffer and every surcharge shown as its own line.`,
+  },
+  {
     slug: 'pacific-fak-cuts-med-surcharges-nov-18-2026',
     title: 'The Pacific Cut FAK. The Mediterranean Added a Fee.',
     excerpt: 'Alliance carriers cut transpacific FAK on 12 November, with the US East Coast down USD 1,900 per FEU to USD 9,000 and the West Coast down USD 550 to USD 7,700, while non-alliance quotes fell below USD 7,000. The Mediterranean moved the other way: Maersk filed a peak season surcharge of USD 750 per 20ft and USD 1,500 per 40ft from 23 November with Israel in scope, MSC added USD 91 per TEU of piracy and Suez fees, and CMA CGM filed USD 1,600 per 40ft from 25 November. Los Angeles posted a record October of 1,026,900 TEU, but the NRF sees imports fading to 2.05 million TEU in November.',
