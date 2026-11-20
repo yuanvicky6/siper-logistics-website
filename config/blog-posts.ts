@@ -11,6 +11,80 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'same-lane-four-prices-nov-20-2026',
+    title: 'One Lane, Four Prices, One Week',
+    excerpt: 'The Drewry World Container Index fell 3 percent to USD 4,176 per 40ft on 19 November, a fourth consecutive decline and still 126 percent above last year, while Shanghai to Genoa rose 6 percent to USD 4,436 and carriers filed December peak season surcharges of USD 1,000 to 1,600 per 40ft. The lane quotes tell a different story: in one week a 40ft box from Tianjin to Durban was quoted at USD 1,357, USD 5,800 and USD 8,200, and Tianjin to Chittagong ran from USD 1,050 to USD 3,560. Rotation, allocation, surcharge bundling and slow empty returns to Asia explain the gap, and DHL puts more than 10 percent of the global fleet, about 3.6 million TEU, still stuck in congestion.',
+    date: 'November 20, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `One lane, one week, four prices. A 40ft box from Tianjin to Durban quoted at **USD 1,357** on 16 November, **USD 5,800** on 17 November, and **USD 8,200** out of Shenzhen the same day, all port to port. The Drewry World Container Index for that week reads one number: **USD 4,176 per 40ft**, down 3 percent, the fourth consecutive decline. Both are true, they answer different questions, and confusing them is the expensive mistake of the quarter.
+
+## Market Snapshot
+
+| Indicator | Latest reading | Change | Source |
+|---|---|---|---|
+| WCI composite, 19 Nov | USD 4,176 per 40ft | -3 percent, fourth weekly drop | Drewry |
+| Shanghai to New York | USD 8,194 per 40ft | -9 percent, 15-week low | Drewry |
+| Shanghai to Los Angeles | USD 7,026 per 40ft | -5 percent, 12-week low | Drewry |
+| Shanghai to Genoa | USD 4,436 per 40ft | +6 percent after three flat weeks | Drewry |
+| Shanghai to Rotterdam | USD 3,496 per 40ft | unchanged | Drewry |
+| Blank sailings, transpacific | 10 next week, 4 this week | rising | Drewry |
+
+The composite is still **126 percent above** the same week last year, so four weeks of decline is a drift, not a correction. The transpacific fell for a seventh straight week and Drewry expects another fall next week. The Mediterranean moved the other way, with Genoa up 6 percent.
+
+## The Index Fell. The Quotes Did Not.
+
+| Lane | 20ft | 40ft or 40HQ | Transit | Quoted |
+|---|---|---|---|---|
+| Tianjin to Chittagong, OOCL | USD 1,025 | USD 1,050 | 30 days | 14 November |
+| Tianjin to Chittagong | USD 1,250 | USD 1,750 | 21 days | 19 November |
+| Shenzhen to Chittagong, SITC | USD 2,880 | USD 3,560 | 29 days | 17 November |
+| Tianjin to Haifa | USD 1,425 | USD 2,150 | 35 days | 16 November |
+| Tianjin to Haifa | USD 2,600 | USD 4,600 | 35 days | 17 November |
+| Tianjin to Durban | USD 857 | USD 1,357 | 37 days | 16 November |
+| Tianjin to Durban | USD 3,000 | USD 5,800 | 33 days | 17 November |
+| Shenzhen to Durban, CMA CGM | USD 5,360 | USD 8,200 | 26 days | 17 November |
+
+Read the Chittagong block together. In one working week a 40ft box out of Tianjin cost USD 1,050 on a 30-day rotation and USD 1,750 on a 21-day rotation, while the same box out of Shenzhen cost USD 3,560 on a 29-day string. None of the three is wrong. Durban is wider: Tianjin quotes this month have run from USD 1,357 to USD 4,929.
+
+## Why the Same Box Has Four Prices
+
+**Rotation.** A 26-day direct CMA CGM booking from Shenzhen to Durban at USD 8,200 and a 37-day Tianjin rotation at USD 1,357 are not competing products. They differ in carrier, in hubs touched, and in who carries the risk when a connection rolls.
+
+**Allocation and bundling.** Zencargo reports second-half November space already full on most Asia-Europe services, so carrier FAK space and named-account space price differently. And a base rate, an all-in with origin handling, and a guaranteed-allocation quote are three products carrying one lane name.
+
+**Equipment.** North Europe congestion is slowing empty returns to Asia, with three-day waits at London Gateway and Rotterdam yards near 90 percent density. Fewer empties come back, so the unit you need in Ningbo costs more to position. Drewry flagged this on 19 November as a risk to future supply, not a shortage today.
+
+## The Surcharge Calendar Still Runs Forward
+
+Carriers have filed peak season surcharges of **USD 1,000 to 1,600 per 40ft** on Asia-Europe and the Mediterranean from December, and Drewry expects Asia-Europe rates to rise on pre-Lunar New Year demand. The Suez return does not remove the fee: DHL puts about **60 percent** of relevant Asia-Europe headhaul services back on the routing but says the network needs **6 to 12 months** to rebalance, while Linerlytica sees released capacity absorbed by Far East to Middle East trades. DHL also counts more than **10 percent of the global fleet, about 3.6 million TEU**, still stuck in congestion.
+
+The back story is supply. Alphaliner counts **15.12 million TEU** on order, 43.9 percent of the live fleet, with capacity set to grow 9.2 percent in 2027. Relief is a 2027 story. December is a fee story.
+
+## What It Means for Chittagong, Haifa and Durban
+
+The three lanes that carry most of our business reprice on three different mechanisms, so one contract cannot hedge all of them.
+
+**Bangladesh** runs on feeder capacity and Chattogram clearance. A 40ft box into Chittagong at USD 1,750 sits below a Shanghai to Rotterdam index box at USD 3,496, so the ocean leg is not the cost. The inland tail and the berth queue are.
+
+**Israel** inherits the Mediterranean move. Haifa and Ashdod are served off East Mediterranean strings, so they follow Genoa and the December filing. Two Tianjin to Haifa quotes a day apart this week, both at 35 days, read USD 2,150 and USD 4,600 per 40ft.
+
+**Africa** is surcharge-driven. Maersk filed USD 1,000 per 20ft and USD 2,000 per 40ft from Far East Asia to South Africa and Mauritius from 9 November, and CMA CGM added USD 300 per TEU to South Africa from 1 November. The Durban band of USD 3,180 to USD 4,320 now sits under a fee stack that did not exist in October.
+
+## What Shippers Should Do This Week
+
+**Quote three ways on identical terms.** Same incoterm, box, validity window and surcharge basis. Anything else compares a base rate to an all-in number.
+
+**Ask which rotation.** Direct or transship, through which hub, and what happens if the feeder rolls.
+
+**Time the filing.** Mediterranean cargo that can sail in November books under the old stack. Cargo that cannot should be budgeted at the December number now.
+
+**Secure equipment with the sailing.** With empties returning slowly, a booking without a confirmed box is an intention, not a reservation.
+
+Spider Logistics arranges ocean and air freight, customs clearance and door-to-door delivery from all major Chinese gateways to Chittagong, Haifa, Ashdod, Durban and West Africa. Contact us for a lane quotation that states the rotation, the transit time and every surcharge as its own line.`,
+  },
+  {
     slug: 'typhoon-congestion-december-fak-nov-19-2026',
     title: 'The Fleet Is Tied to the Dock. The Index Did Not Notice.',
     excerpt: 'Sea-Intelligence estimates typhoon congestion has tied up about 8.5 percent of the global container fleet, roughly 3 million TEU, while DHL puts the figure above 10 percent. Schedule reliability has fallen to a four-year low of 49.9 percent and Xeneta counts 24 percent of vessel calls on time, yet the Drewry WCI dropped to USD 4,305 per 40ft on 12 November, a third straight weekly decline. Intra-Asia rates hit records, with Shanghai to Laem Chabang up 22 percent to USD 1,609, blank sailings reach 52 of 716 departures in weeks 47 to 51, and the pre-Lunar New Year rush toward 6 February 2027 starts against a congested network.',
