@@ -11,6 +11,66 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'canal-reopens-queue-moves-discharge-port-nov-22-2026',
+    title: 'The Canal Reopened. The Queue Moved to Your Discharge Port.',
+    excerpt: 'The Shanghai Containerized Freight Index fell 1.92 percent to 3,503.78 points on 20 November, a third weekly decline and still 141.4 percent above last year, while the Mediterranean gained 2.63 percent and the Persian Gulf rose 1.3 percent to USD 6,670 per TEU. Suez transits reached 57 container ships in the week to 15 November, up 73 percent, and direct China to Israel vehicle shipments have resumed after three years. The bottleneck has moved ashore: Durban adds 20 days and a USD 500 congestion fee, Chattogram shows 82 percent of arriving ships waiting more than 48 hours, and the Chittagong Container Terminal changes operator on 23 November.',
+    date: 'November 22, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Three weeks of falling rates, and the average still hides the story. The Shanghai Containerized Freight Index closed at **3,503.78 points on 20 November**, down **1.92 percent**, its third consecutive weekly decline and still **141.4 percent above** the same week of 2025. Drewry put the World Container Index at **USD 4,176 per 40ft**, down **3 percent**, the fourth straight drop. Open the basket and the single number falls apart. The Mediterranean gained **2.63 percent** to **USD 4,371 per 40ft**, the Persian Gulf gained **1.3 percent** to **USD 6,670 per TEU**, and the US East Coast lost **6.51 percent**. Rates are not falling. They are repricing by risk, and the risk has moved from the water to the quay.
+
+## Market Snapshot
+
+| Indicator | Reading, 20 November | Week on week | Source |
+|---|---|---|---|
+| SCFI composite | 3,503.78 points | -1.92 percent, third fall | Shanghai Shipping Exchange |
+| Shanghai to US West Coast | USD 6,711 per 40ft | -5.63 percent | Shanghai Shipping Exchange |
+| Shanghai to US East Coast | USD 8,776 per 40ft | -6.51 percent | Shanghai Shipping Exchange |
+| Shanghai to Mediterranean | USD 4,371 per 40ft | +2.63 percent | Shanghai Shipping Exchange |
+| Shanghai to Persian Gulf | USD 6,670 per TEU | +1.3 percent | Shanghai Shipping Exchange |
+
+Forwarders quote the US West Coast near **USD 6,500** and the East Coast near **USD 8,500** on the open market, below the index prints because an assessment and a bookable allocation are different products. Maersk B shares eased 0.6 percent to DKK 19,875 on Friday.
+
+## The Canal Is Reopening Faster Than the Network Can Absorb
+
+Drewry counted **57 container ships** through Suez in the week to 15 November, up **73 percent** year on year, with about **60 percent** of Asia-Europe capacity back on the canal. Clarksons puts weekly capacity through the waterway in early October at **753,000 TEU**, against **1,457,000 TEU** in 2023, so the recovery is half complete.
+
+The Suez Canal Authority reported **1,490 transits** and **USD 724 million** of revenue in October, a **94 percent** jump on 2025. Evergreen moved the **20,124 TEU Ever Gifted** through on 16 November, the largest boxship in the return wave. Gemini adds AE2 from Ningbo on 4 December and AE1 from Shanghai on 14 January 2027.
+
+Two cautions belong beside those dates. Both carriers say the routing depends on Red Sea stability, and ZIM remains barred from running its flagged vessels directly to Israel, so the short path is not open to every booking.
+
+## What the Canal Gives Israel Back
+
+Direct China to Israel vehicle shipments through Suez have resumed after about three years, with two shipments discharged in containers at Ashdod. The Cape routing added up to **20 days** and up to **USD 1,200 per 40ft**, stretching factory to unload to **45 to 65 days** against **30 to 40 days** through Suez. Eilat handled about **30,000 vehicles** in the first three quarters of 2026, one third of the 2023 volume.
+
+For container cargo: an Asia to Israel booking on a Suez rotation buys back 10 to 15 days against the Cape, worth more than the rate spread on most consumer goods. What it does not buy back is a berth. Ashdod and Haifa are both rated high congestion as of 21 November.
+
+## The Queue Moved to the Discharge Port
+
+**Durban** is the clearest case. SAAFF estimates affected supply chains run **20 days** longer end to end, with 13 to 14 vessels at anchorage and waterside throughput at Durban Gateway Terminal down **19 percent** since the August system switch. Transnet has dedicated Berth 102 to geared vessels and diverted selected ships to Ngqura. Kuehne+Nagel sees no meaningful improvement before the end of the first quarter of 2027, and Maersk has charged **USD 250 per 20ft** and **USD 500 per 40ft** on imports discharged there since 15 September.
+
+**Chattogram** is the second, and the port is rated congested. AIS records show **39 container ships** arriving in the seven days to 22 November, with **32 over 48 hours**, or **82 percent**, and a median stay of **75 hours**.
+
+## Chittagong Changes Operator on 23 November
+
+The Chittagong Container Terminal, which berths two ships at once, changes hands this week. The Saif Powertec contract expired on 2 November and was extended by three weeks. A limited tender published on 17 November gave bidders one day to buy documents and one day to submit. Four companies bid, with Everest Port Services lowest at **Tk 301.5 million** against Tk 404.0 million, Tk 427.1 million and Tk 441.8 million. Only one of the nine established handling companies took part, two bidders failed to post the required security, and the port authority aims to name a new operator by **23 November**.
+
+A terminal handover in the week before December, at a port where more than four in five arriving ships already wait over 48 hours, is a schedule risk rather than a rate risk. It lands as carriers try to push a **USD 1,000 to 1,600 per 40ft** peak season surcharge into Asia-Europe and Mediterranean contracts.
+
+## What Shippers Should Do This Week
+
+**Price the discharge port, not the index.** A 40ft box into Durban carries 20 days of delay and a USD 500 congestion fee that no Shanghai index line reflects.
+
+**Ask who runs the terminal.** For Chittagong cargo this week that matters more than the sailing date.
+
+**Use the canal saving where it is real.** Mediterranean and Israel cargo recovers 10 to 15 days on a Suez rotation. Confirm the carrier may transit before you sell that transit.
+
+**Keep an air option priced.** The TAC Shanghai outbound air index ran **11.7 percent** above the October level in the first half of November, and **15.4 percent** above 2025, so air is a costed fallback, not a rescue.
+
+Spider Logistics arranges ocean and air freight, customs clearance and door-to-door delivery from all major Chinese gateways to Chittagong, Haifa, Ashdod, Durban and West Africa. Contact us for a quotation that states the routing, the terminal and every surcharge as its own line.`,
+  },
+  {
     slug: 'same-lane-four-prices-nov-20-2026',
     title: 'One Lane, Four Prices, One Week',
     excerpt: 'The Drewry World Container Index fell 3 percent to USD 4,176 per 40ft on 19 November, a fourth consecutive decline and still 126 percent above last year, while Shanghai to Genoa rose 6 percent to USD 4,436 and carriers filed December peak season surcharges of USD 1,000 to 1,600 per 40ft. The lane quotes tell a different story: in one week a 40ft box from Tianjin to Durban was quoted at USD 1,357, USD 5,800 and USD 8,200, and Tianjin to Chittagong ran from USD 1,050 to USD 3,560. Rotation, allocation, surcharge bundling and slow empty returns to Asia explain the gap, and DHL puts more than 10 percent of the global fleet, about 3.6 million TEU, still stuck in congestion.',
