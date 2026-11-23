@@ -11,6 +11,54 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'blank-sailings-congestion-overcapacity-nov-23-2026',
+    title: 'Carriers Cut 6 Percent of Sailings. Congestion Still Eats 10 Percent of the Fleet.',
+    excerpt: 'Drewry reports the WCI down 3 percent to USD 4,176 per 40ft on 19 November while carriers blank 42 of 724 east west sailings through 27 December, yet DHL counts more than 10 percent of the global fleet, about 3.6 million TEU, stuck in port congestion. Maersk doubles the Durban peak season surcharge to USD 1,000 per 20ft, schedule reliability falls to 34 percent, and Shanghai berthing waits climb back to 49 hours.',
+    date: 'November 23, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The winter capacity cuts have begun, and the market answered with a shrug. Drewry published its weekly report on 23 November with the headline numbers: the World Container Index fell 3 percent to **USD 4,176 per 40ft**, its fourth consecutive decline and still **126 percent above** last year, and carriers will blank **42 sailings out of 724 planned departures** between week 48 and week 52, about **6 percent** of the schedule. Yet the rate slide stays shallow, and the reason sits outside the index: DHL Global Forwarding calculates that **more than 10 percent of the global container fleet**, roughly **3.6 million TEU** of ship capacity, is tied up waiting at congested ports. Carriers are cutting sailings into a shortage of working ships, not a shortage of slots.
+
+## Market Snapshot
+
+| Indicator | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite | USD 4,176 per 40ft | -3 percent, fourth straight fall | Drewry, 19 November |
+| Blank sailings, weeks 48 to 52 | 42 of 724 planned | 6 percent of schedule | Drewry Capacity Insight |
+| Global schedule reliability | 34 percent in October | down from 40 percent in September | Drewry |
+| Fleet absorbed by congestion | about 3.6 million TEU | above 10 percent of fleet | DHL November Ocean Report |
+| Shanghai average berthing wait | 49 hours | up from 36 hours the prior week | Drewry |
+
+## The Blank Sailing Math Does Not Reverse the Slide
+
+Drewry counts 42 cancellations across the east west trades through 27 December. Transpacific eastbound accounts for **48 percent** of them, Asia to North Europe and the Mediterranean **33 percent**, and the transatlantic **19 percent**. Over the next five weeks, **94 percent** of scheduled voyages should still sail. That is a modest cut, and Drewry expects transpacific rates to fall further next week because demand, not schedule, is setting the price there. Shanghai to New York closed at **USD 8,194 per 40ft**, the lowest in 15 weeks, and Shanghai to Los Angeles at **USD 7,026**, a 12 week low.
+
+Asia Europe is the counterweight. Shanghai to Genoa rose **6 percent** to **USD 4,436 per 40ft** after three flat weeks, Rotterdam held at **USD 3,496**, and the Persian Gulf leg gained **1.3 percent** to **USD 6,670 per TEU**. Carriers have already warned of a strong December on this lane, with some services full four weeks out.
+
+## Congestion Is the Real Capacity Policy
+
+The DHL November Ocean Market Report puts the arithmetic in one line: 2026 demand grows about **5 percent** and Asian exports about **8 percent**, but more than 10 percent of the fleet cannot sail its schedule because it is queued at a berth. The Gulf is the worst case, with some berthing delays above **two weeks**, and carriers are diverting Persian Gulf cargo through Jeddah, King Abdullah Port, Khor Fakkan and Fujairah. At Shanghai, average waiting time rose from **36 to 49 hours**, ending eleven straight weeks of improvement, and Rotterdam absorbed **167 container ship calls** in seven days with **44 of them** waiting more than 48 hours.
+
+The supply side does not rescue the story. Fleet capacity grows about **4 percent** this year, Linerlytica counts the orderbook at **6.4 million TEU**, about **47.8 percent** of the existing fleet, and DHL expects the network adjustment after the Suez return to take another **6 to 12 months**. Shorter voyages release ships, but released ships are being absorbed by Far East to Middle East trades where congestion has reached record levels. Schedule reliability fell from **40 percent** in September to **34 percent** in October, so the capacity that does sail arrives late.
+
+## Africa Desk: Durban Fees Double Again While the Queue Holds
+
+Maersk raised its peak season surcharge for Far East origins to South Africa and Mauritius to **USD 1,000 per 20ft** and **USD 2,000 per 40ft**, up from USD 250 and USD 500 set on 15 October, and a separate Durban congestion fee of **USD 400 per 20ft** and **USD 800 per 40ft** applies to China origin cargo from 1 November. Hapag-Lloyd publishes **USD 500 per TEU**. Behind the fees, the SAAFF and BUSA cargo update shows Durban Gateway Terminal waterside throughput down **19 percent** with 13 to 14 vessels at anchorage, and component maker Metair values the disruption at **20 to 25 percent** of its 2025 EBITDA. The transport minister points to recovery between December and February; Kuehne+Nagel does not expect meaningful improvement before the end of the first quarter of 2027.
+
+For Chattogram, AIS data for the seven days to 22 November shows **39 container ship arrivals** with **32 waiting more than 48 hours**, an 82 percent share and a median stay of **75 hours**. The operator change at the Chittagong Container Terminal on 23 November lands inside that queue.
+
+## What Shippers Should Do
+
+Budget the surcharge stack, not the freight number. On South Africa, a USD 1,000 PSS plus a USD 400 congestion fee can exceed the base ocean rate on some equipment sizes. Confirm each fee, its origin rule and its price calculation date in writing before booking.
+
+Treat December Asia Europe space as scarce despite soft indices. Services are filling weeks ahead, so fix bookings early and keep a Cape routing quote as backup in case Red Sea stability shifts.
+
+Protect delivery dates with schedule margin. Reliability at 34 percent means roughly two of three vessels miss plan. Add buffer to factory and shelf dates through the new year.
+
+Watch the Gulf diversion list. Cargo routed via Jeddah or UAE gateways needs the inland leg costed before it becomes the expensive surprise.`,
+  },
+  {
     slug: 'canal-reopens-queue-moves-discharge-port-nov-22-2026',
     title: 'The Canal Reopened. The Queue Moved to Your Discharge Port.',
     excerpt: 'The Shanghai Containerized Freight Index fell 1.92 percent to 3,503.78 points on 20 November, a third weekly decline and still 141.4 percent above last year, while the Mediterranean gained 2.63 percent and the Persian Gulf rose 1.3 percent to USD 6,670 per TEU. Suez transits reached 57 container ships in the week to 15 November, up 73 percent, and direct China to Israel vehicle shipments have resumed after three years. The bottleneck has moved ashore: Durban adds 20 days and a USD 500 congestion fee, Chattogram shows 82 percent of arriving ships waiting more than 48 hours, and the Chittagong Container Terminal changes operator on 23 November.',
