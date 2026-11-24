@@ -11,6 +11,63 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'hormuz-four-transits-surcharge-stack-nov-24-2026',
+    title: 'Four Ships Crossed Hormuz Last Week. The Detour Is Now the Rate.',
+    excerpt: 'Drewry counted only 4 vessels transiting the Strait of Hormuz in one week against 57 through Suez, and the WCI fell 3 percent to USD 4,176 per 40ft on Pacific weakness. The Greater China to Middle East index is up 250 percent since January, forwarder quotes for Dammam and Sohar reach USD 12,600 per 40ft, and Maersk stacks a USD 1,000 Hormuz charge on top of emergency freight of USD 1,800 and USD 3,000. Durban Pier 2 averages 14 days to berth.',
+    date: 'November 24, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `The Strait of Hormuz has stopped behaving like a lane and started behaving like a closed door with a toll booth beside it. Drewry counted **four vessels** crossing the strait last week; in the same seven days **57 vessels** transited Suez. That explains the split in this market: the index keeps falling while a Gulf quote keeps climbing.
+
+Drewry assessed the World Container Index at **USD 4,176 per 40ft** on 19 November, down **3 percent** for a fourth consecutive week and still **126 percent above** last year. But the composite is now a Pacific story. Shanghai to New York fell **9 percent** to **USD 8,194 per 40ft**, a 15 week low, and Shanghai to Los Angeles fell **5 percent** to **USD 7,026**, a 12 week low. Container Trades Statistics put the Greater China to Middle East index at **392 in September**, up **250 percent since January**, on a lane where volume is still **12 percent below** 2025.
+
+## Market Snapshot
+
+| Lane or indicator | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite | USD 4,176 per 40ft | -3 percent, +126 percent YoY | Drewry, 19 November |
+| Hormuz transits, one week | 4 vessels | Suez handled 57 | Drewry |
+| Greater China to Middle East index | 392 in September | +250 percent since January | CTS |
+| 40ft quote, Dammam and Sohar and Hamad | USD 12,600 | near 8 times pre-disruption | carrier quotes |
+
+## You Cannot Book a Lane That Carries Four Ships
+
+Kpler puts Hormuz crude transits at about **8.5 million barrels per day**, roughly half the early November level. Drewry notes carriers adding emergency fuel surcharges on Middle East services. For containers the result is blunt: almost every box now lands outside the strait and moves inland by truck and rail. DP World assembled about **3,000 trucks** plus a rail leg to pull boxes from east coast gateways into Jebel Ali, and has moved **more than one million TEU** that way since March. That improvisation is also why Jebel Ali container throughput fell **90.1 percent** year on year in the second quarter, and DP World expects **one to three months** after reopening before flows normalize.
+
+## The Surcharge Stack Is the Real Rate
+
+Maersk published Middle East Operational Update 55 on 18 November, the clearest statement yet of how Gulf cargo is priced. A vessel that actually transits Hormuz carries a **USD 1,000 per container** charge for war risk insurance and crew risk, and it sits **on top of** the emergency freight rate rather than replacing it:
+
+| Charge per container | 20ft dry | 40ft dry | Reefer, DG, special |
+|---|---|---|---|
+| Emergency freight rate | USD 1,800 | USD 3,000 | USD 3,800 |
+| Hormuz transit surcharge | USD 1,000 | USD 1,000 | USD 1,000 |
+| Combined | USD 2,800 | USD 4,000 | USD 4,800 |
+
+These exclude ocean freight, terminal handling and local charges. The emergency rate covers cargo to or from Iraq, Kuwait, Dammam and Jubail, Bahrain, Qatar, the United Arab Emirates, and Oman excluding Salalah. Jebel Ali transshipment cargo carries **USD 25 per TEU per day** after 14 days of storage in transit included in the rate. Reefer bookings for Iraq, Kuwait, Qatar, Bahrain, parts of Saudi Arabia, Jordan and some UAE destinations remain suspended, while Lebanon, Israel, Salalah, Sohar and imports at Khor Fakkan are still accepted on conditions. Read that twice if you ship to Israel: the Gulf and the Levant run as two markets inside one notice.
+
+## The Detour Ports Are Full as Well
+
+The obvious workaround, discharge at Fujairah or Khor Fakkan and drive inland, is why those ports are now the bottleneck. Linerlytica called Middle East congestion a record high in November, naming both, and MSC deployed a **24,000 TEU** ship on a new Far East to Middle East service calling Khor Fakkan while that port already suffered heavy berthing delay. One trap: the Gemini AGX service calls Salalah, outside the strait, so a Jebel Ali booking on that service avoids the USD 1,000 charge while the same destination on a transit service does not. The destination name does not tell you the routing.
+
+## Europe and Africa Are Measured in Days of Waiting
+
+Mid November port monitoring puts the European queue in days: Rotterdam **1.62**, Antwerp **1.32**, Hamburg **1.06**, Bremerhaven **1.45** with yard utilization near **91 percent**. A Spanish national strike on 11 November suspended work at BEST and APMT in Barcelona and TTIA in Algeciras, and a French action on 17 November hit Le Havre. Africa is worse. Carrier notices dated 18 November put Durban Pier 1 delays at **4 to 6 days** and Pier 2 at an average of **14 days** from arrival to berth, with Conakry near **11.5 days** and Beira near **8.14 days**. Evergreen and Emirates Shipping Line have restored direct Red Sea services, but concentrated arrivals will press Jeddah further.
+
+## What Shippers Should Do
+
+**Verify the routing, not the destination.** Ask for the actual port rotation on every Gulf booking and get written confirmation on whether the vessel enters the strait. On a 40ft that answer is worth USD 1,000.
+
+**Price the whole stack before comparing quotes.** One line at USD 4,000 and another at USD 6,500 may describe different fee sets. Ask for emergency freight, transit surcharge, storage in transit, war risk and the inland leg separately.
+
+**Split Israel from Gulf cargo.** Israel bookings remain open on conditions while most Gulf reefer and dangerous goods bookings are suspended. One regional memo should not drive both decisions.
+
+**Move reefers and dangerous goods first.** They carry the largest combined charge, up to **USD 4,800 per container**, and the tightest restrictions. Confirm acceptance before cargo leaves the factory, not at the gate.
+
+**Build 10 to 14 days of buffer into Gulf and Africa dates.** With Durban Pier 2 at 14 days to berth and Gulf boxes landing outside the strait, a promise built on ocean transit alone will be missed. For time critical Gulf cargo, price a sea air split against the full stack.`,
+  },
+  {
     slug: 'blank-sailings-congestion-overcapacity-nov-23-2026',
     title: 'Carriers Cut 6 Percent of Sailings. Congestion Still Eats 10 Percent of the Fleet.',
     excerpt: 'Drewry reports the WCI down 3 percent to USD 4,176 per 40ft on 19 November while carriers blank 42 of 724 east west sailings through 27 December, yet DHL counts more than 10 percent of the global fleet, about 3.6 million TEU, stuck in port congestion. Maersk doubles the Durban peak season surcharge to USD 1,000 per 20ft, schedule reliability falls to 34 percent, and Shanghai berthing waits climb back to 49 hours.',
