@@ -11,6 +11,62 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'red-sea-return-stalled-med-premium-nov-25-2026',
+    title: 'The Red Sea Return Stalled in November. The Mediterranean Is Paying for It.',
+    excerpt: 'Xeneta counted 11.9 container ship transits per day through the Bab el-Mandeb on 19 November, down 28 percent from a peak of 16.6 in late October, and Far East to Mediterranean spot rose 6.8 percent to USD 4,989 per FEU, now USD 1,551 above North Europe. Chattogram held 68 ships at the outer anchorage with 59 lighter vessels allocated against 124 requested, Manila is sitting on about 100,000 empty boxes, and 80 percent of Durban arrivals stayed beyond 48 hours.',
+    date: 'November 25, 2026',
+    category: 'Industry Insights',
+    readTime: '7 min read',
+    coverImage: '',
+    content: `Returning to the Red Sea was the story of the autumn. It stopped in November. Xeneta counted a seven-day average of **11.9 container ship transits per day** through the Bab el-Mandeb on 19 November, down **28 percent** from a peak of **16.6 per day** on 25 October, after monthly crossings climbed from **305 in August** to **463 in October**. The rate effect landed on one lane: Far East to Mediterranean spot rose **6.8 percent** to **USD 4,989 per FEU** while every other fronthaul softened, leaving the Mediterranean **USD 1,551 per FEU** more expensive than North Europe. Two days later a Houthi warning told shipping companies to pull vessels out of Saudi Red Sea ports. December had been priced as a normalization story. It is now being re-priced for risk.
+
+## Market Snapshot
+
+| Indicator, 19 November | Reading | Change | Source |
+|---|---|---|---|
+| Far East to Mediterranean spot | USD 4,989 per FEU | +6.8 percent week on week, +68.7 percent year on year | Xeneta |
+| Far East to North Europe spot | USD 3,438 per FEU | -2.3 percent week on week | Xeneta |
+| Far East to US West Coast spot | USD 8,203 per FEU | -1.7 percent week on week, +304.3 percent year on year | Xeneta |
+| Drewry WCI composite | USD 4,176 per 40ft | -3 percent, +126 percent year on year | Drewry |
+| Bab el-Mandeb transits | 11.9 per day | -28 percent from 25 October | Xeneta |
+
+Drewry saw the same split from a different sample: Shanghai to Genoa rose **6 percent** to **USD 4,436 per 40ft**, while Shanghai to New York fell **9 percent** to **USD 8,194**, a 15 week low.
+
+## The Return Reversed in Four Weeks
+
+The sequence matters because much of the December plan was built on it. Carriers had been phasing services back through Suez since August, then it turned. Peter Sand, chief analyst at Xeneta, put it plainly: something has happened to cool the return of container shipping services to the Red Sea in November. Suez still handled **57 vessel transits** last week against **4** through Hormuz, so the corridor is open. What changed is the willingness to commit strings to it.
+
+The trigger appears to sit at the Saudi end. On 21 November, after a coalition strike on Hodeidah, a Houthi spokesman told shipping companies to evacuate the Saudi Red Sea ports. Jeddah and King Abdullah Port sit on Asia to Europe and Asia to Mediterranean rotations and carry regional transshipment. Orbital Risk Intelligence logged **15 attacks and piracy incidents** in the seven days to 20 November, a **50 percent** rise on the week before. Carriers are not waiting for a verdict. The Gemini phase-in of NE1, NE2 and NE3 through Suez is being released service by service across December and January, not as one network decision.
+
+## Why the Mediterranean Absorbs the Damage
+
+The Mediterranean is the most operationally exposed of the east-west lanes, so it carries the risk premium first. That explains a 6.8 percent rise in a week when offered capacity from the Far East to the Mediterranean grew only **2.2 percent** against 19 October, while capacity to the US West Coast grew **10.9 percent**. This is not demand. It is a routing and insurance problem passed through as rate.
+
+For a shipper moving into Israel, Egypt or the eastern Mediterranean, the reading is uncomfortable. A booking priced off the composite index will look 20 to 25 percent cheaper than the quote available that day.
+
+## Three Queues That Cost More Than the Index Says
+
+Away from the headline index, three discharge side bottlenecks are now billing importers directly.
+
+**Chattogram.** Port data for 22 November shows 86 vessels at the jetties and outer anchorage, with **68 at the outer anchorage**, including five container ships awaiting berth and 63 bulk carriers requiring lighter vessels to discharge. On 19 November the allocation cell was asked for **124 lighter vessels** to serve 59 mother vessels and allocated **59**. The port handles about **50 mother vessels at a time**; reports cite 81 to 85 waiting. A commercial vessel idle at the anchorage can run up demurrage of up to **USD 30,000 a day**. Ramadan demand is still ahead of this queue.
+
+**Manila.** Roughly **100,000 empty containers** are estimated stuck nationally, with boxes sitting on chassis and blocking trucks that should collect imports. Five Philippine business groups backed a temporary depot on 20 November, and the reclamation authority has committed about **5 to 10 hectares** near North Harbour. Intra-Asia congestion is now visible in rates, with Shanghai to Manila up about **7 percent**.
+
+**Durban.** Twenty container ships arrived in the seven days to 25 November and **16 stayed beyond 48 hours**, an 80 percent share, with a median stay of **61 hours**.
+
+## What Shippers Should Do
+
+**Price the Mediterranean on its own.** Do not assume the composite index applies to your east Mediterranean or Israel booking. Get a lane quote with the routing shown, and compare a Suez routing against a Cape routing with the transit difference costed rather than assumed.
+
+**Budget December surcharges as a line item.** Drewry reports peak season surcharges of **USD 1,000 to USD 1,600 per 40ft** on Asia to Europe and Mediterranean from December, stacked on a rate that already rose this week.
+
+**Treat Bangladesh transit as variable.** With lighter allocation running at roughly half of demand, a fixed transit promise into Chattogram is a promise you may not keep. Quote with a demurrage assumption written in, and separate the ocean leg to the outer anchorage from the inland leg.
+
+**Secure equipment before the December rush.** Empty boxes are not circulating normally in Manila or in North Europe, where congestion is slowing repatriation to Asia. Confirm container availability at booking, not at stuffing.
+
+**Keep a routing contingency live.** Red Sea capacity is released service by service, so it can be withdrawn the same way. The direction of rates into 2027 is still down. The path there is not a straight line, and November just proved it.`,
+  },
+  {
     slug: 'hormuz-four-transits-surcharge-stack-nov-24-2026',
     title: 'Four Ships Crossed Hormuz Last Week. The Detour Is Now the Rate.',
     excerpt: 'Drewry counted only 4 vessels transiting the Strait of Hormuz in one week against 57 through Suez, and the WCI fell 3 percent to USD 4,176 per 40ft on Pacific weakness. The Greater China to Middle East index is up 250 percent since January, forwarder quotes for Dammam and Sohar reach USD 12,600 per 40ft, and Maersk stacks a USD 1,000 Hormuz charge on top of emergency freight of USD 1,800 and USD 3,000. Durban Pier 2 averages 14 days to berth.',
