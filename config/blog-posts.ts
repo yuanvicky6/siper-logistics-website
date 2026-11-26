@@ -11,6 +11,60 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'gemini-suez-return-rates-slide-nov-26-2026',
+    title: 'Gemini Sets Dates for Suez. The Rates Keep Sliding.',
+    excerpt: 'Drewry assessed the World Container Index at USD 4,176 per 40ft on 19 November, a fourth straight weekly decline, while Maersk and Hapag-Lloyd confirmed that Gemini services AE1, AE2 and AE3 return to the Suez Canal between December 2026 and January 2027, starting with the Mary Maersk from Ningbo on 4 December. Drewry counts 42 blank sailings across east-west trades in weeks 48 to 52, schedule reliability slipped to 34 percent in October, and the Baltic Air Freight Index reached 2,944, its highest level of 2026.',
+    date: 'November 26, 2026',
+    category: 'Industry Insights',
+    readTime: '6-8 min read',
+    coverImage: '',
+    content: `Two headlines pulled the container market in opposite directions this week. Maersk and Hapag-Lloyd confirmed that three more Gemini services will return to the Red Sea and the Suez Canal on a structural basis, the clearest sign yet that the Suez return is becoming the new normal for Asia to Europe trades. Meanwhile the Drewry World Container Index fell for a fourth consecutive week and carriers scheduled 42 blank sailings before Christmas. For shippers moving cargo from China, the details matter.
+
+## Market Snapshot
+
+Drewry assessed the World Container Index at **USD 4,176 per 40ft** on 19 November, down **3 percent** on the week, a fourth straight weekly decline, and still **126 percent** above the same week last year. The lane picture is uneven: the Mediterranean holds a premium while every transpacific lane from Shanghai softened.
+
+| Lane, 19 November | Rate per 40ft | Week on week | Note |
+|---|---|---|---|
+| Drewry WCI composite | USD 4,176 | -3 percent | Fourth straight weekly decline |
+| Shanghai to Los Angeles | USD 7,026 | -5 percent | Transpacific softening |
+| Shanghai to New York | USD 8,194 | -9 percent | 15 week low |
+| Shanghai to Rotterdam | USD 3,496 | Unchanged | Flat week |
+| Shanghai to Genoa | USD 4,436 | +6 percent | Mediterranean premium holds |
+
+## Gemini Sets Dates for the Suez Return
+
+On 17 November Maersk and Hapag-Lloyd confirmed that Gemini services AE1, AE2 and AE3 will resume transiting the Suez Canal in both directions, phased between December 2026 and January 2027. The first sailings are the Mary Maersk, voyage 650W, from Ningbo on **4 December**, the Alette Maersk, voyage 652W, from Shanghai on **20 December**, and the Damietta Express, voyage 702W, from Shanghai on **14 January**. Gemini thus becomes the first alliance to run all of its Asia to Europe services through Suez on a structural basis.
+
+The operational arithmetic matters more than the symbolism. A round trip via the Cape of Good Hope ties up about two extra weeks of vessel time per string, so every service that returns to Suez releases capacity carriers can redeploy across the network. That is bearish for rates over time, but not immediately. DHL Global Forwarding expects the wider network rebalancing to take **six to twelve months**, and estimates that more than **10 percent** of the global container fleet is still held up by port congestion. Both carriers kept their standing caveat: the schedule holds only while Red Sea security holds.
+
+## Blank Sailings Signal a December Capacity Fight
+
+Drewry counts **42 blank sailings** out of **724 planned** departures on east-west trades in weeks 48 to 52, 23 November to 27 December, or **6 percent** of the schedule. Transpacific eastbound accounts for **48 percent** of the cancellations, Asia to North Europe and the Mediterranean **33 percent**, and the transatlantic **19 percent**. Across the next five weeks about **94 percent** of planned sailings should still operate.
+
+Global schedule reliability on east-west trades also slipped from **40 percent** in September to **34 percent** in October, so even where a sailing exists, delivery dates are less dependable than the sailing count suggests. More effective capacity is arriving in December exactly when carriers are cutting sailings to defend rates: that favors shippers on price, but punishes anyone who books late on space.
+
+## Air Cargo Is the Opposite Story
+
+The Baltic Air Freight Index stood at **2,944** on 23 November, up **2.2 percent** on the week and **25.3 percent** above a year earlier, and the Hong Kong outbound index sits at **5,029** after another weekly gain. WorldACD put the global average spot rate at **USD 3.93 per kg** in week 44, roughly **40 percent** above last year. From China, air freight to the US averaged **USD 6.47 per kg** in October and to Europe **USD 4.85 per kg**, up 30 and 14 percent year on year.
+
+One structural change deserves attention from e-commerce shippers. China and Hong Kong to Europe air tonnage fell **17 percent** year on year in October, with Hong Kong origins down **32 percent**, after the EU introduced a EUR 3 charge on parcels below EUR 150 in July and an additional EUR 2 handling fee from 1 November. Tonnage is shifting toward consolidated business-to-business imports, including by ocean, instead of flying individual parcels.
+
+## Chittagong and Middle East Lanes Into December
+
+December is the peak shipping month for Bangladesh. Textile raw materials and garment accessories are following the final tranche of western year end orders, and the market expects space on direct China to Chittagong services to tighten through the month as yard storage pressure at Chattogram continues. For the Middle East, the phased Suez return shortens Asia to Europe and Asia to Mediterranean voyages, but every Gemini advisory ties the routing to the security situation staying stable.
+
+## What Shippers Should Do
+
+- **Book December Chittagong space now.** Direct China to Bangladesh services head into their strongest month of the quarter, and late bookings face rollover risk.
+- **Confirm the routing, not just the sailing.** The Gemini switch is phased through January; some sailings still round the Cape, so get the expected transit time in writing.
+- **Lock air freight 10 to 14 days ahead.** Space, not fuel, is the binding constraint out of Hong Kong and Shanghai this peak.
+- **Revisit air versus consolidated ocean for EU-bound parcels.** The new EU charges have changed the economics for low-value shipments.
+- **Track blank sailing notices weekly.** A 6 percent cancellation rate means departures can disappear; keep a backup sailing for time-critical cargo.
+
+A returning Suez routing, softening ocean rates and peak season air congestion give shippers more options than a month ago, provided they plan early. If you are moving cargo from China to Bangladesh, the Middle East, Africa or Europe, Spider Logistics can help you choose the right sailing and lock space before the December squeeze.`,
+  },
+  {
     slug: 'red-sea-return-stalled-med-premium-nov-25-2026',
     title: 'The Red Sea Return Stalled in November. The Mediterranean Is Paying for It.',
     excerpt: 'Xeneta counted 11.9 container ship transits per day through the Bab el-Mandeb on 19 November, down 28 percent from a peak of 16.6 in late October, and Far East to Mediterranean spot rose 6.8 percent to USD 4,989 per FEU, now USD 1,551 above North Europe. Chattogram held 68 ships at the outer anchorage with 59 lighter vessels allocated against 124 requested, Manila is sitting on about 100,000 empty boxes, and 80 percent of Durban arrivals stayed beyond 48 hours.',
