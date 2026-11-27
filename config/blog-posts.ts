@@ -11,6 +11,54 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'unctad-zero-growth-four-chokepoints-nov-27-2026',
+    title: 'UNCTAD Calls 2026 a Zero Growth Year for Seaborne Trade',
+    excerpt: 'The UNCTAD Review of Maritime Transport 2026, launched in Geneva on 26 November, forecasts zero growth in global seaborne trade this year after 1.9 percent in 2025, with the Strait of Hormuz, the Red Sea, the Black Sea and the Panama Canal under pressure at once. UNCTAD warns that if high fuel costs persist into 2027, shipping costs alone could push consumer price inflation in the least developed countries to almost twice the global average, while Drewry November signals show schedule reliability stuck at 40 percent and offered capacity 10 percent above last year.',
+    date: 'November 27, 2026',
+    category: 'Industry Insights',
+    readTime: '6-8 min read',
+    coverImage: '',
+    content: `The United Nations trade and development body UNCTAD presented the Review of Maritime Transport 2026 in Geneva this week, and the headline number is blunt: global seaborne trade is set to record **zero growth in 2026**, down from **1.9 percent** in 2025, after four major maritime chokepoints came under pressure in the same year. For anyone moving cargo out of China to Bangladesh, the Middle East, Africa or Europe, the report explains why freight costs stay elevated even as weekly spot rates drift lower, and why the smallest economies end up paying the largest bill.
+
+## The Numbers Behind the Stall
+
+UNCTAD put 2025 seaborne trade at **12.3 billion tonnes**, growing **1.9 percent**, only half the pace recorded the year before. For 2026 the forecast is **zero growth**, with a recovery to **3.2 percent** projected for 2027. More than **80 percent** of world trade by volume moves by sea, including the food and fuel that economies depend on, so a stalled shipping year is a stalled trade year.
+
+| Indicator, UNCTAD Review of Maritime Transport 2026 | Reading | Note |
+|---|---|---|
+| 2025 seaborne trade volume | 12.3 billion tonnes | Growth slowed to 1.9 percent |
+| 2026 growth forecast | Zero | Down from 1.9 percent in 2025 |
+| 2027 growth forecast | 3.2 percent | Projected recovery |
+| Chokepoints under simultaneous pressure | 4 | Hormuz, Red Sea, Black Sea, Panama |
+| Share of world trade moved by sea | Over 80 percent | UNCTAD estimate |
+
+## Four Chokepoints, One Bill
+
+The report singles out the **Strait of Hormuz, the Red Sea, the Black Sea and the Panama Canal** as four critical passages that faced pressure at the same time in 2026. When a chokepoint closes or turns risky, vessels do not stop moving; they take longer, costlier routes. A Cape of Good Hope diversion adds roughly two weeks of sailing and heavy fuel burn to an Asia to Europe voyage, Hormuz risk reprices war insurance on Gulf legs, and Black Sea disruption reroutes grain and commodity flows. UNCTAD stresses that the cost of these workarounds is **not evenly shared**: shipping disruption pushes up transport, energy and food costs, and developing economies typically absorb the largest share because freight is a bigger slice of their import bill.
+
+Acting Secretary-General Pedro Manuel Moreno framed the conclusions directly: maritime trade is increasingly vulnerable to shocks, the economic cost of disruption keeps rising and falls unevenly, and resilience cannot come from rerouting after each crisis. It requires contingency planning, international cooperation, predictable rules and investment in the future of the global fleet.
+
+## The Inflation Warning for Developing Markets
+
+The sharpest finding for our lanes is the inflation arithmetic. UNCTAD estimates that if elevated bunker fuel costs persist into 2027, higher shipping costs alone could push consumer price inflation in the **least developed countries to almost twice the global average**. Bangladesh imports cotton, machinery and garment accessories by sea for the industry that anchors its export economy, and African consumer markets import the bulk of finished goods from China. Every surcharge, war risk premium and longer voyage lands in the landed cost of those containers. That is why a zero growth headline still coexists with freight rates sitting well above historical norms.
+
+## What the Weekly Data Adds
+
+The macro view matches the weekly tape. Drewry November Market Signals put the container market at **49 out of 100**, a balanced reading with underlying pressures: the monthly average World Container Index stood at **USD 4,457 per 40ft** in October, cancelled sailings fell to **61** for the month, schedule reliability sat at just **40 percent**, and average port waiting time improved to 1.40 days while fuel costs rose **6 percent** month on month to USD 741 per tonne. Drewry counts offered capacity **10 percent above last year** year to date, which keeps downward pressure on spot rates even as chokepoint risk holds a floor under them.
+
+Landside risk is concentrated in the United States: about **14,500 import containers** bound for rail had waited nine days or longer at Los Angeles and Long Beach in mid-November, against record October volumes at the two ports, and September rail dwell averaged 7.19 days versus 3.18 days for truck boxes.
+
+## What Shippers Should Do
+
+- **Budget for chokepoint risk, not just the freight rate.** War risk premiums, longer routings and fuel surcharges can outweigh the headline rate move. Get the all-in landed cost in writing.
+- **Lock 2027 contract terms early.** UNCTAD projects 3.2 percent volume growth in 2027 while capacity keeps expanding; shippers with credible volumes have leverage on rate validity and routing guarantees.
+- **Watch destination cost inflation in developing markets.** The UNCTAD warning on least developed country inflation applies directly to Bangladesh and much of Africa; factor it into landed cost and pricing decisions.
+- **Confirm the routing of every sailing.** With some alliances returning to Suez and others hedging between Suez and the Cape, transit time and surcharge exposure differ by string.
+- **Keep air freight as the contingency lane.** With ocean schedule reliability at 40 percent, time-critical cargo needs an air backup priced in advance.
+
+A stalled trade year sounds like a quiet market. In reality it is a market where risk, fuel and chokepoints, not demand, set the price. Spider Logistics helps shippers moving cargo from China to Bangladesh, the Middle East, Africa and Europe plan around exactly that: confirmed routings, transparent destination charges and space secured before disruption finds your container.`,
+  },
+  {
     slug: 'gemini-suez-return-rates-slide-nov-26-2026',
     title: 'Gemini Sets Dates for Suez. The Rates Keep Sliding.',
     excerpt: 'Drewry assessed the World Container Index at USD 4,176 per 40ft on 19 November, a fourth straight weekly decline, while Maersk and Hapag-Lloyd confirmed that Gemini services AE1, AE2 and AE3 return to the Suez Canal between December 2026 and January 2027, starting with the Mary Maersk from Ningbo on 4 December. Drewry counts 42 blank sailings across east-west trades in weeks 48 to 52, schedule reliability slipped to 34 percent in October, and the Baltic Air Freight Index reached 2,944, its highest level of 2026.',
