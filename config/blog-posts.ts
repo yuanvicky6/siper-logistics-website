@@ -11,6 +11,63 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: 'december-pss-air-squeeze-nov-28-2026',
+    title: 'Spot Rates Fall. The Surcharges Do Not.',
+    excerpt: 'Drewry composite index fell for a third straight week into late November, yet Hapag-Lloyd, Maersk, CMA CGM and MSC stacked fresh peak season surcharges onto December sailings, with the Mediterranean premium over North Europe at USD 1,551 per 40ft. Air capacity into the Middle East tightened at the same time, with China to Tel Aviv rates up 20.3 percent on October. For shippers moving cargo from China to Israel, East Africa, the Mediterranean and Bangladesh, the gap between the published spot index and the all-in invoice has rarely been wider.',
+    date: 'November 28, 2026',
+    category: 'Industry Insights',
+    readTime: '6-8 min read',
+    coverImage: '',
+    content: `The spot rate on the board is falling. The invoice at the end of the month is not. As November closes, the Drewry composite has slipped for a third straight week, yet four of the largest carriers have stacked fresh peak season surcharges onto December sailings, and air capacity into the Middle East is tightly held. For shippers moving cargo from China to Israel, East Africa, the Mediterranean or Bangladesh, the gap between the published index and the all-in cost has rarely been wider. This update separates the two.
+
+## Market Snapshot
+
+| Indicator, 19 to 23 November 2026 | Reading | Change | Source |
+|---|---|---|---|
+| Drewry WCI composite, 19 Nov | USD 4,176 per 40ft | -3 percent weekly, +126 percent yearly | Drewry |
+| Shanghai to Genoa, 19 Nov | USD 4,436 per 40ft | +6 percent | Drewry |
+| Shanghai to Los Angeles, 19 Nov | USD 7,026 per 40ft | -5 percent | Drewry |
+| Shanghai to New York, 19 Nov | USD 8,194 per 40ft | -9 percent | Drewry |
+| Xeneta Far East to North Europe, 19 Nov | USD 3,438 per 40ft | -2.3 percent weekly | Xeneta |
+| Xeneta Far East to Mediterranean, 19 Nov | USD 4,989 per 40ft | +6.8 percent weekly, +68.7 percent yearly | Xeneta |
+| Baltic Air Freight Index, 23 Nov | 2,944 | +2.2 percent weekly, +25.3 percent yearly | TAC Index |
+
+The direction is not uniform. Transpacific and North Europe legs drift lower, the Mediterranean moves the other way, and air stays firm. Drewry counts seven straight weeks of transpacific decline, with Shanghai to New York at its lowest in 15 weeks and Los Angeles at its lowest in 12. Ten blank sailings are listed on that trade for the week ahead. Xeneta puts the Mediterranean premium over North Europe at **USD 1,551 per 40ft** on 19 November, a spread that matters for any cargo priced to a Mediterranean discharge port.
+
+## December Surcharges Stack Up
+
+The surcharge notices are the part of the market that is not falling. Hapag-Lloyd confirmed a peak season surcharge from a tariffing date of **1 December 2026** on all container types, dry, reefer and special equipment, running until further notice. Maersk, CMA CGM and MSC have published overlapping increases for the same window. On a 40ft container the Hapag-Lloyd Mediterranean charge alone reaches **USD 1,500**, and Drewry puts the December PSS range on Asia to Europe and the Mediterranean at **USD 1,000 to 1,600 per 40ft**.
+
+| Carrier | Trade | Peak season surcharge | Effective date |
+|---|---|---|---|
+| Hapag-Lloyd | Far East to North Europe | USD 500 per TEU | 1 December 2026 |
+| Hapag-Lloyd | Far East to Mediterranean | USD 750 per TEU | 1 December 2026 |
+| Hapag-Lloyd | Asia and Oceania to Dar es Salaam | USD 400 per TEU | 22 November 2026 |
+| Maersk | Far East to North Europe | USD 500 per TEU | 1 December 2026 |
+| CMA CGM | Asia to Mediterranean and North Africa | USD 800 per TEU | 25 November 2026 |
+
+Each sits on top of the ocean tariff, bunker and security surcharges, terminal handling and any local or contingency charge. A notice is not the same as a collected fee: what sticks depends on how tightly a carrier controls space. The triggering date also differs, as some carriers use the pricing calculation date and others the loading date. A container that straddles 1 December can be priced either way, so confirm the trigger in writing before the booking is cut.
+
+## Air Freight Into the Middle East Is the Other Squeeze
+
+On the Israel lane the two modes tell different stories. Ocean quotes into Haifa and Ashdod are broadly flat: a 40ft container runs **USD 2,415 to 2,932**, a 20ft unit **USD 1,868 to 2,292**, and less than container load about **USD 84.51 per cubic metre**. Air is where the pressure sits. China to Tel Aviv has risen to **USD 6.39 per kg** for lots above 1,000 kg, up **20.3 percent** on October, with express near USD 15.94 per kg.
+
+IATA reported September air cargo demand up **7.7 percent** against capacity growth of **2.7 percent**, lifting the load factor to 47.9 percent. WorldACD put the week 44 spot rate at **USD 3.93 per kg**, up 4 percent weekly and 40 percent yearly, and Freightos reported China to North Europe air up 11 percent to USD 4.87 per kg on 10 November. The Baltic Air Freight Index stood at 2,944 on 23 November, up 25.3 percent year on year, with Shanghai Pudong outbound at 6,637, up 19.1 percent. Industry estimates place Gulf air capacity roughly **18 percent below** its pre-conflict level, as carriers route around restricted airspace with more fuel burn and longer flight time.
+
+## The Red Sea Return Is Not Linear
+
+One more number explains why a falling index does not translate into a cheap landed cost. Xeneta recorded daily Bab el-Mandeb transits falling from **16.6 on 25 October to 11.9 on 19 November**, about 28 percent. The return toward the Red Sea has stalled, and many strings still carry the longer Cape routing, war risk premium and extra fuel. That is why the composite can soften while transit time and destination charges stay stubborn.
+
+## What Shippers Should Do
+
+- **Price the all-in cost, not the headline index.** Ask for peak season surcharge as a separate line and confirm whether the tariffing date or the loading date triggers it.
+- **Book December space early.** With PSS running until further notice and blank sailings concentrated on the transpacific, confirmed space is worth more than a speculative lower quote.
+- **Use the air and sea gap on the Israel lane.** Put non-urgent cargo on the flat ocean service and reserve air capacity, at a locked rate, for time critical stock.
+- **Budget the Mediterranean premium.** The Xeneta spread of USD 1,551 per 40ft over North Europe, plus a higher PSS, means a Mediterranean discharge is not a cheap alternative by default.
+
+A falling index and a rising invoice can both be true at once. Spider Logistics helps shippers moving cargo from China to Israel, East Africa and Bangladesh see the full landed cost, with surcharges itemised and space secured before the December window tightens.`,
+  },
+  {
     slug: 'unctad-zero-growth-four-chokepoints-nov-27-2026',
     title: 'UNCTAD Calls 2026 a Zero Growth Year for Seaborne Trade',
     excerpt: 'The UNCTAD Review of Maritime Transport 2026, launched in Geneva on 26 November, forecasts zero growth in global seaborne trade this year after 1.9 percent in 2025, with the Strait of Hormuz, the Red Sea, the Black Sea and the Panama Canal under pressure at once. UNCTAD warns that if high fuel costs persist into 2027, shipping costs alone could push consumer price inflation in the least developed countries to almost twice the global average, while Drewry November signals show schedule reliability stuck at 40 percent and offered capacity 10 percent above last year.',
